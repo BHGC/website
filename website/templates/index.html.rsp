@@ -56,10 +56,10 @@
 <div class="container">
 <%@ifeq page=""%>
   <div class="jumbotron">
-  <%@include file="${body}"%>
+  <%@include content="${content}"%>
   </div>
 <%@else%>
-  <%@include file="${body}"%>
+  <%@include content="${content}"%>
 <%@endif%>
 </div>
 
