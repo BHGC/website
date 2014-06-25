@@ -2,6 +2,7 @@
 <%@meta author="Henrik Bengtsson"%>
 <%@string bootstrap_url="http://netdna.bootstrapcdn.com/bootstrap/3.1.1"%>
 <%@string jquery_url="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0"%>
+<%@include file="utils.rsp"%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
