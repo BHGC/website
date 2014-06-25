@@ -1,19 +1,23 @@
 Name: Dunlap
 State: CA
 LaunchGPS: (36.76543, -119.097636)
-Requirements: H3, H2 w/ instructor (private launch/LZ)
+Requirements: H3, H2 w/ instructor
+SiteSticker: yes (private launch/LZ)
 SiteURL: [FlyDunlap.com](http://flydunlap.com/)
 Info:
 ParaglidingEarthSite: 7007
+Notes: A good first mountain site.
+
 
 Name: Ed Levin
 Nickname: Sled Heaven
 State: CA
 LaunchGPS: (37.46532, -121.85366)
-Requirements: H0-H3 (need [WOR] sticker)
+Requirements: H0-H3
+SiteSticker: [WOR]
 SiteURL: [Ed Levin Quick Reference](http://www.wingsofrogallo.org/sites/ed_levin/Ed_Levin_Quick_Ref_1-3.01.pdf) [pdf]
-WeatherLinks: [Mission Soaring Live Weather](http://router.hang-gliding.com/WindSlammer/), [Benlo.com](http://www.benlo.com/pg/edlevin.html), WindTalker 408-946-9516
-Info: 
+WeatherLive: [Mission Soaring Live Weather](http://router.hang-gliding.com/WindSlammer/), [Benlo.com](http://www.benlo.com/pg/edlevin.html), WindTalker 408-946-9516
+Info:
 
 
 Name: Elk
@@ -42,13 +46,14 @@ Info: [The Oz Report](http://ozreport.com/1328031387)
 Name: Hat Creek Rim
 State: CA
 LaunchGPS: (40.8422, -121.427)
-Requirements: H3 (need sticker), H2 w/ mentor (need sticker)
+Requirements: H3, H2 w/ mentor
+SiteSticker: yes
 SiteURL: [Hat Creek Rim](http://hatcreek.info/)
 ParaglidingEarthSite: 7005
+Notes: A good first mountain site.
 
 
-
-Name: Horseshoe, Owens Valley, NV
+Name: Horseshoe
 Nickname: Walt's Point
 State: Owens Valley, NV
 LaunchGPS: (NA, NA)
@@ -56,16 +61,18 @@ Requirements: H4
 Info: [KariCastle](http://karicastle.com/owens-valley/)
 ParaglidingEarthSite: 7387
 
-Name: Hotsprings Mountain, NV
+
+Name: Hotsprings Mountain
 State: NV
 LaunchGPS: (39.06504800388501, -119.72282409667969)
 Requirements: Unregulated
 
-Name: Hull
+
+Name: Hull Mt
 State: CA
 LaunchGPS: (39.52311, -122.93756)
 Requirements: Unregulated
-Notes: Long glide from launch to LZ, so it's inappropriate without mountain experience.
+Notes: Long glide from launch to LZ.  Not appropriate without mountain experience.
 Info: [Sonoma Wings]
 
 
@@ -75,6 +82,7 @@ LaunchGPS: (NA, NA)
 Requirements: H3 (H2 w/ instructor)
 Notes: Don't miss the LZ. Watch the venturi effect. Get a site intro.
 Info: <http://www.mlsr.net/>
+
 
 Name: Lee Vining
 State: CA
@@ -90,10 +98,11 @@ LaunchGPS: (NA, NA)
 Requirements: Unregulated
 Info: [Penguin's PG info](http://www.humboldt.net/~penguin/mattole.htm)
 
-Name: McClellan, NV
+
+Name: McClellan
 State: NV
 LaunchGPS: (39.27160031783707, -119.7125244140625)
-Requirements: Unregulated 
+Requirements: Unregulated
 Notes: Very easy in the right conditions, and can be scary in the wrong conditions.
 Info:
 
@@ -114,10 +123,11 @@ Info: [Wings of Rogallo (WOR)]
 
 Name: Mt Shasta
 Nickname: Whaleback Site
+State: CA
 LaunchGPS: (41.534, -122.153)
 Requirements: H3 recommended (H2 under appropriate conditions).
 SiteURL: [Whaleback Site Guide (RVHPA)](http://rvhpa.org/site-guide/whaleback/)
-Info: 
+Info:
 
 
 Name: Mt Tamalpais
@@ -125,7 +135,8 @@ Nickname: Mt Tam
 State: CA
 LaunchGPS: (37.9095, -122.629)
 Requirements: H3
-SiteURL: [Marin County Hang Gliding Association (MCHGA)](http://www.mchga.org/)
+SiteSticker: [MCHGA]
+SiteURL: [Marin County Hang Gliding Association (MCHGA)]
 Info: [BHGC's Tam page](/tam)
 
 
@@ -137,13 +148,14 @@ Requirements: H2
 Info: <%-- BROKEN: [Nevada Wings](http://www.nvwings.com/site_guide.html) --%>
 
 
-Name: Slide Mountain, NV
+Name: Slide Mountain
+State: NV
 LaunchGPS: (39.2705371709551, -119.8883056640625)
-Requirements: H3-H4.
+Requirements: H3-H4
 Info: [HangGliding.org](http://www.hanggliding.org/wiki/Slide_Mountain)
 
 
-Name: Sweetwater, NV
+Name: Sweetwater
 State: NV
 LaunchGPS: (NA, NA)
 Requirements: Unregulated
@@ -154,13 +166,13 @@ Info:
 Name: St Johns
 State: CA
 LaunchGPS: (NA, NA)
-Requirements: ?
+Requirements:
 Info: [Sonoma Wings]
 
 
 Name: Whaleback
 LaunchGPS: (NA, NA)
-Requirements: H3 (H2 w/ instructor under appropriate conditions).
+Requirements: H3 (H2 w/ instructor under appropriate conditions)
 SiteURL: [Rogue Valley Hang Gliding & Paragliding Association](http://rvhpa.org/site-guide/whaleback/)
 Notes:
 
