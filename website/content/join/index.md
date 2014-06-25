@@ -9,7 +9,7 @@ system. Students who were selected have already been informed/emailed.
 Those who where not lucky at the lottery had the option to sign up to
 be on a wait list in case any students drop. There is usually some
 turnover early on. To get in from this wait list, make sure to attend
-the ground school (see [front page](/)).
+the ground school (see [Home]).
 
 Next chance is in Sept 2014
 ---------------------------
@@ -17,7 +17,7 @@ Next chance is in Sept 2014
 When the next round of sign ups for new pilot students will be announced
 on this website in Aug/Sept 2014. Signup typically happens once a year
 in early September. As a rough guide, see previous years below. See also
-the [About](\) page.
+the [About] page.
 
 Previous years
 --------------
@@ -57,3 +57,7 @@ year this is your chance. Come to our introduction, talk to pilots and
 flying students, watch some flying videos, andsign up(due to
 popularity there is likely going to be a lottery - you'll know when you
 walk home). Where:102 Wurster, UC Berkeley campus.
+
+
+[Home]: <%=pathToRoot%>/
+[About]: <%=pathToRoot%>/about/
