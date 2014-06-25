@@ -78,5 +78,16 @@
   <%--- Placed at the end of the document so the pages load faster ---%>
   <script src="<%@string name="jquery_url"%>/jquery.min.js"></script>
   <script src="<%@string name="bootstrap_url"%>/js/bootstrap.min.js"></script>
+  <script>
+    <%-- Add favicons to external links --%>
+    $("a[href^='http']:not([href*='bhgc.org'])").each(function() {
+      $(this).css({
+        "background": "url(http://g.etfv.co/" + 
+                       this.href + ") left center no-repeat",
+        "background-size": "16px",
+        "padding-left": "20px"
+      });    
+    });
+  </script>
 </body>
 </html>
