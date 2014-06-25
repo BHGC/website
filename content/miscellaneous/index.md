@@ -4,7 +4,7 @@ Miscellaneous
 Documents
 ---------
 
-- [Smitty Sauce Recipe] ~[N/A]
+- [Smitty Sauce Recipe](<%=pathToRoot%>miscellaneous/recipe-smittysauce)
 - [Goat Recipe](<%=pathToRoot%>miscellaneous/recipe-goat)
 - [Various Docs] in PostScript [N/A]
 - [Driving directions] to various local sites [N/A]
