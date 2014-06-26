@@ -36,12 +36,12 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="<%=pathToRoot%>">BHGC</a>
+      <a class="navbar-brand" href="<%=pathToRoot%>index.html">BHGC</a>
     </div>
 
     <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        <li><a href="<%=pathToRoot%>index.html">Home</a></li>
+<%--    <li><a href="<%=pathToRoot%>index.html">Home</a></li> --%>
         <li><a href="<%=pathToRoot%>sites/index.html">Sites</a></li>
         <li><a href="<%=pathToRoot%>join/index.html">Join</a></li>
         <li><a href="<%=pathToRoot%>forums/index.html">Forums</a></li>
@@ -64,9 +64,10 @@
   <div class="jumbotron">
     <div class="media">
       <a class="pull-left" href="#">
-        <img src="assets/images/LZ&GliderFortIndep.JPG" 
+        <img src="assets/images/LZGliderFortIndep.JPG" 
              class="img-rounded"
-             style="height: 200px; margin-right: 40px; margin-bottom: 20px">
+             style="height: 200px; margin-right: 40px; margin-bottom: 20px"
+             alt="Hang glider in LZ">
       </a>
       <h2>Berkeley Hang Gliding Club (BHGC)</h2>
       <%@include content="${body}"%>
@@ -75,27 +76,27 @@
 
   <%-- GRID NAVIGATION --%>
   <div style="text-align: center;">
-    <a href="<%=pathToRoot%>sites/index.html" type="button" class="btn btn-default btn-lg" style="width: 8em;  margin: 0.3ex; padding: 0.6ex 0.2ex 0.6ex 0.2ex; text-align: center;">
+    <a href="<%=pathToRoot%>sites/index.html" class="btn btn-default btn-lg" style="width: 8em;  margin: 0.3ex; padding: 0.6ex 0.2ex 0.6ex 0.2ex; text-align: center;">
       <span class="glyphicon glyphicon-map-marker"></span>
       <div>Flying sites</div>
     </a>
-    <a href="<%=pathToRoot%>join/index.html" type="button" class="btn btn-default btn-lg" style="width: 8em; margin: 0.3ex; padding: 0.6ex 0.2ex 0.6ex 0.2ex; text-align: center;">
+    <a href="<%=pathToRoot%>join/index.html" class="btn btn-default btn-lg" style="width: 8em; margin: 0.3ex; padding: 0.6ex 0.2ex 0.6ex 0.2ex; text-align: center;">
       <span class="glyphicon glyphicon-heart-empty"></span>
       <div>Join</div>
     </a>
-    <a href="<%=pathToRoot%>forums/index.html" type="button" class="btn btn-default btn-lg" style="width: 8em; margin: 0.3ex; padding: 0.6ex 0.2ex 0.6ex 0.2ex; text-align: center;">
+    <a href="<%=pathToRoot%>forums/index.html" class="btn btn-default btn-lg" style="width: 8em; margin: 0.3ex; padding: 0.6ex 0.2ex 0.6ex 0.2ex; text-align: center;">
       <span class="glyphicon glyphicon-comment"></span>
       <div>Forums</div>
     </a>
-    <a href="<%=pathToRoot%>db/index.html" type="button" class="btn btn-default btn-lg" style="width: 8em; margin: 0.3ex; padding: 0.6ex 0.2ex 0.6ex 0.2ex; text-align: center;">
+    <a href="<%=pathToRoot%>db/index.html" class="btn btn-default btn-lg" style="width: 8em; margin: 0.3ex; padding: 0.6ex 0.2ex 0.6ex 0.2ex; text-align: center;">
       <span class="glyphicon glyphicon-wrench"></span>
       <div>Databases</div>
     </a>
-    <a href="<%=pathToRoot%>miscellaneous/index.html" type="button" class="btn btn-default btn-lg" style="width: 8em; margin: 0.3ex; padding: 0.6ex 0.2ex 0.6ex 0.2ex; text-align: center;">
+    <a href="<%=pathToRoot%>miscellaneous/index.html" class="btn btn-default btn-lg" style="width: 8em; margin: 0.3ex; padding: 0.6ex 0.2ex 0.6ex 0.2ex; text-align: center;">
       <span class="glyphicon glyphicon-paperclip"></span>
       <div>Miscellaneous</div>
     </a>
-    <a href="<%=pathToRoot%>about/index.html" type="button" class="btn btn-default btn-lg" style="width: 8em; margin: 0.3ex; padding: 0.6ex 0.2ex 0.6ex 0.2ex; text-align: center;">
+    <a href="<%=pathToRoot%>about/index.html" class="btn btn-default btn-lg" style="width: 8em; margin: 0.3ex; padding: 0.6ex 0.2ex 0.6ex 0.2ex; text-align: center;">
       <span class="glyphicon glyphicon-info-sign"></span>
       <div>About</div>
     </a>
