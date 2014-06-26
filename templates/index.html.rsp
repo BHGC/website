@@ -36,16 +36,16 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="http://bhgc.org/">BHGC</a>
+      <a class="navbar-brand" href="<%=pathToRoot%>">BHGC</a>
     </div>
 
     <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li><a href="<%=pathToRoot%>index.html">Home</a></li>
         <li><a href="<%=pathToRoot%>sites/index.html">Sites</a></li>
-        <li><a href="<%=pathToRoot%>forums/index.html">Forums</a></li>
         <li><a href="<%=pathToRoot%>join/index.html">Join</a></li>
-        <li><a href="<%=pathToRoot%>members/index.html">Members</a></li>
+        <li><a href="<%=pathToRoot%>forums/index.html">Forums</a></li>
+<%--    <li><a href="<%=pathToRoot%>members/index.html">Members</a></li> --%>
         <li><a href="<%=pathToRoot%>db/index.html">Databases</a></li>
         <li><a href="<%=pathToRoot%>miscellaneous/index.html">Miscellaneous</a></li>
         <li><a href="<%=pathToRoot%>about/index.html">About</a></li>
@@ -90,7 +90,9 @@
     <p class="muted credit" style="font-size: small;">
      &#169; Berkeley Hang Gliding Club, Berkeley, CA
      <%-- Edit link --%>
-     <a href="<%=editURL%>" id="edit" target="_blank"><span class="glyphicon glyphicon-edit" style="float: right;" title="Edit"></span></a>
+     <a href="<%=editURL%>" id="edit"
+     target="_blank"><span class="glyphicon glyphicon-edit"
+     style="float: right;" title="Contribute / Edit"></span></a>
     </p>
   </div>
 </div>
