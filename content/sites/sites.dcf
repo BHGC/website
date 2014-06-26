@@ -114,9 +114,9 @@ SeeAlso:
 
 Name: Mission Ridge
 State: CA
-LaunchGPS: (NA, NA)
+LaunchGPS: (37.517534, -121.89175)
 Requirements: H4
-SeeAlso: [Wings of Rogallo (WOR)]
+SeeAlso: [WOR](http://www.wingsofrogallo.org/sites/mission/)
 
 
 Name: Mt Diablo
