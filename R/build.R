@@ -42,18 +42,22 @@ use <- function(...) {
 } # use()
 
 
-buildPage <- function(src, path=NULL, skip=TRUE) {
+buildPage <- function(src, path=".", skip=TRUE) {
   use("R.utils, R.rsp, markdown")
 
   if (is.na(src)) throw("Unknown page source: ", src)
 
   # Prepend path?
-  if (!is.null(path)) src <- file.path(path, src)
+  if (is.null(path)) path <- "."
+
+  # Page files
+  src <- file.path(path, "content", src)
+  stopifnot(length(src) > 0L)
 
   # RSP files
-  pathR <- "templates"
-  pathnamesR <- findTemplates(path=gsub("content", pathR, path))
-  pathnamesR <- file.path(pathR, pathnamesR)
+  pathnamesR <- findTemplates(path=path)
+  pathnamesR <- file.path("templates", pathnamesR)
+  stopifnot(length(pathnamesR) > 0L)
 
   # Download?
   if (isUrl(src)) {
@@ -64,8 +68,8 @@ buildPage <- function(src, path=NULL, skip=TRUE) {
     src <- gsub(pattern, "\\2", url)
     src <- downloadFile(url, src, path=".download")
 
-    urlsR <- file.path(path, pathnamesR, fsep="/")
     pathnamesR <- sapply(pathnamesR, FUN=function(pathnameR) {
+      url <- file.path(path, pathnameR, fsep="/")
       downloadFile(url, pathnameR, path=".download")
     })
   }
@@ -74,7 +78,6 @@ buildPage <- function(src, path=NULL, skip=TRUE) {
   pathnameS <- Arguments$getReadablePathname(src)
   mprintf("Input pathname: %s\n", pathnameS)
   mprintf("RSP templates: %s\n", hpaste(pathnamesR))
-  stopifnot(length(pathnamesR) > 0L)
 
   # Output file
   pathD <- dirname(pathnameS)
@@ -142,7 +145,7 @@ buildPage <- function(src, path=NULL, skip=TRUE) {
 
 
 
-findFiles <- function(path="content", pattern=NULL, recursive=TRUE) {
+findFiles <- function(path, pattern=NULL, recursive=TRUE) {
   use("R.utils")
 
   # Download list of files?
@@ -165,16 +168,46 @@ findFiles <- function(path="content", pattern=NULL, recursive=TRUE) {
 } # findFiles()
 
 
-findPages <- function(path="content") {
-  findFiles(path=path, pattern="[.]md$")
+findPages <- function(path=".") {
+  findFiles(path=file.path(path, "content"), pattern="[.]md$")
 }
 
-findTemplates <- function(path="templates") {
-  findFiles(path=path, pattern="[.]rsp$")
+findTemplates <- function(path=".") {
+  findFiles(path=file.path(path, "templates"), pattern="[.]rsp$")
 }
 
-buildPages <- function(srcs=NULL, path=NULL) {
+findAssets <- function(path=".") {
+  findFiles(path=file.path(path, "assets"), pattern="[^~]$")
+}
+
+buildAssets <- function(path=".") {
+  use("R.utils, R.rsp, markdown")
+
+  # List of assets
+  pathnamesA <- file.path("assets", findAssets(path))
+
+  # Nothing todo?
+  if (length(pathnamesA) == 0) return()
+
+  # Download?
+  if (isUrl(path)) {
+    pathnamesA <- sapply(pathnamesA, FUN=function(pathnameA) {
+      url <- file.path(path, pathnameA)
+      downloadFile(url, pathnameA, path="html")
+    })
+  } else {
+    pathnamesA <- sapply(pathnamesA, FUN=function(pathnameA) {
+      pathnameD <- file.path("html", pathnameA)
+      file.copy(pathnameA, pathnameD, overwrite=TRUE, copy.date=TRUE)
+    })
+  }
+} # buildAssets()
+
+buildPages <- function(srcs=NULL, path=".") {
   use("R.utils")
+
+  # Build assets
+  buildAssets(path)
 
   # Find pages?
   if (is.null(srcs)) {
@@ -183,15 +216,12 @@ buildPages <- function(srcs=NULL, path=NULL) {
 
   # Build pages
   for (page in pages) {
-    html <- buildPage(page, path="content")
+    html <- buildPage(page, path=path)
     mprint(html)
   } # for (ii ...)
-
-  # Copy assets
-  copyDirectory("assets", "html/assets", recursive=TRUE)
 } # buildPages()
 
 
-path <- "content"
-#path <- "https://raw.githubusercontent.com/BHGC/website/master/content"
+path <- "."
+path <- "https://raw.githubusercontent.com/BHGC/website/master"
 buildPages(path=path)
