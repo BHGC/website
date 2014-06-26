@@ -3,11 +3,6 @@
 <%@string bootstrap_url="http://netdna.bootstrapcdn.com/bootstrap/3.1.1"%>
 <%@string jquery_url="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0"%>
 <%@include file="utils.rsp"%>
-<%
-# Relative path to root/home page
-pathToRoot <- paste(c(rep("..", times=depth), ""), collapse="/")
-%>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>

@@ -12,6 +12,8 @@ Temporary Flight Restrictions:
 <%-------------------------------------------------------------------
  SITES
  -------------------------------------------------------------------%>
+<%-- Import weather() --%>
+<%@include file="templates/utils.rsp"%>
 <%
 data <- read.dcf("content/flyingSites/sites.dcf")
 data[is.na(data)] <- ""

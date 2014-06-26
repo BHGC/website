@@ -51,7 +51,9 @@ buildPage <- function(src, path=NULL, skip=TRUE) {
   if (!is.null(path)) src <- file.path(path, src)
 
   # RSP files
-  pathnamesR <- c("templates/index.html.rsp", "templates/utils.rsp")
+  pathR <- "templates"
+  pathnamesR <- findTemplates(path=gsub("content", pathR, path))
+  pathnamesR <- file.path(pathR, pathnamesR)
 
   # Download?
   if (isUrl(src)) {
@@ -72,6 +74,7 @@ buildPage <- function(src, path=NULL, skip=TRUE) {
   pathnameS <- Arguments$getReadablePathname(src)
   mprintf("Input pathname: %s\n", pathnameS)
   mprintf("RSP templates: %s\n", hpaste(pathnamesR))
+  stopifnot(length(pathnamesR) > 0L)
 
   # Output file
   pathD <- dirname(pathnameS)
@@ -84,7 +87,7 @@ buildPage <- function(src, path=NULL, skip=TRUE) {
   mprintf("Output pathname: %s\n", pathnameD)
 
   # Already done?
-  if (skip) {
+  if (skip && isFile(pathnameD)) {
     # Time stamp for *all* source files
     pathnamesS <- c(pathnameS, pathnamesR)
     mtimeS <- file.info(pathnamesS)$mtime
@@ -104,20 +107,35 @@ buildPage <- function(src, path=NULL, skip=TRUE) {
   title <- trim(body[idx])
   mprintf("Page title: %s\n", title)
 
+  # Relative path to root/home page
+  pathToRoot <- paste(c(rep("..", times=depth), ""), collapse="/")
+
   # Setup RSP arguments
   args <- list()
   args$page <- title
   args$depth <- depth
+  mcat("RSP arguments:\n")
+  mstr(args)
 
   # Compile RSP Markdown to Markdown
+  mcat("RSP Markdown -> Markdown...\n")
   body <- rstring(body, type="application/x-rsp", args=args, workdir=pathD)
+  mcat("RSP Markdown -> Markdown...done\n")
 
   # Compile Markdown to HTML
+  mcat("Markdown -> HTML...\n")
   body <- markdownToHTML(text=body, options="fragment_only")
+  mcat("Markdown -> HTML...done\n")
 
   # Compile RSP HTML with content
+  mcat("HTML + template -> HTML...\n")
+  pathnameR <- grep("index.html.rsp$", pathnamesR, value=TRUE)
+  stopifnot(length(pathnameR) == 1L)
   args$body <- body
-  html <- rfile(pathnameT, args=args, workdir=pathD)
+  mcat("RSP arguments:\n")
+  mstr(args)
+  html <- rfile(pathnameR, args=args, workdir=pathD)
+  mcat("HTML + template -> HTML...done\n")
 
   html
 } # buildPage()
@@ -145,7 +163,6 @@ findFiles <- function(path="content", pattern=NULL, recursive=TRUE) {
   }
   files
 } # findFiles()
-
 
 
 findPages <- function(path="content") {
