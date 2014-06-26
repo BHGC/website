@@ -13,10 +13,10 @@ the ground school (see [Home]).
 
 ## Next chance is in Sept 2014
 
-When the next round of sign ups for new pilot students will be announced
+The next round of sign ups for new pilot students will be announced
 on this website in Aug/Sept 2014. Signup typically happens once a year
-in early September. As a rough guide, see previous years below. See also
-the [About] page.
+in early September and only in person.
+As a rough guide, see previous years below. See also the [About] page.
 
 ## Previous years
 
