@@ -68,11 +68,37 @@
              class="img-rounded"
              style="height: 200px; margin-right: 40px; margin-bottom: 20px">
       </a>
-<%--      <div class="media-body">  --%>
-        <h3>Berkeley Hang Gliding Club (BHGC)</h3>
-        <%@include content="${body}"%>
-<%--      </div>  --%>
+      <h2>Berkeley Hang Gliding Club (BHGC)</h2>
+      <%@include content="${body}"%>
     </div>
+  </div>
+
+  <%-- GRID NAVIGATION --%>
+  <div style="text-align: center;">
+    <a href="<%=pathToRoot%>sites/index.html" type="button" class="btn btn-default btn-lg" style="width: 8em;  margin: 0.3ex; padding: 0.6ex 0.2ex 0.6ex 0.2ex; text-align: center;">
+      <span class="glyphicon glyphicon-map-marker"></span>
+      <div>Flying sites</div>
+    </a>
+    <a href="<%=pathToRoot%>join/index.html" type="button" class="btn btn-default btn-lg" style="width: 8em; margin: 0.3ex; padding: 0.6ex 0.2ex 0.6ex 0.2ex; text-align: center;">
+      <span class="glyphicon glyphicon-heart-empty"></span>
+      <div>Join</div>
+    </a>
+    <a href="<%=pathToRoot%>forums/index.html" type="button" class="btn btn-default btn-lg" style="width: 8em; margin: 0.3ex; padding: 0.6ex 0.2ex 0.6ex 0.2ex; text-align: center;">
+      <span class="glyphicon glyphicon-comment"></span>
+      <div>Forums</div>
+    </a>
+    <a href="<%=pathToRoot%>db/index.html" type="button" class="btn btn-default btn-lg" style="width: 8em; margin: 0.3ex; padding: 0.6ex 0.2ex 0.6ex 0.2ex; text-align: center;">
+      <span class="glyphicon glyphicon-wrench"></span>
+      <div>Databases</div>
+    </a>
+    <a href="<%=pathToRoot%>miscellaneous/index.html" type="button" class="btn btn-default btn-lg" style="width: 8em; margin: 0.3ex; padding: 0.6ex 0.2ex 0.6ex 0.2ex; text-align: center;">
+      <span class="glyphicon glyphicon-paperclip"></span>
+      <div>Miscellaneous</div>
+    </a>
+    <a href="<%=pathToRoot%>about/index.html" type="button" class="btn btn-default btn-lg" style="width: 8em; margin: 0.3ex; padding: 0.6ex 0.2ex 0.6ex 0.2ex; text-align: center;">
+      <span class="glyphicon glyphicon-info-sign"></span>
+      <div>About</div>
+    </a>
   </div>
 <%@else%>
   <%@include content="${body}"%>
