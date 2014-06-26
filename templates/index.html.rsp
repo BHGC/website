@@ -1,4 +1,9 @@
-<%@meta title="BHGC: ${page}"%>
+<%@ifeq page=""%>
+<%@string label="BHGC"%>
+<%@else%>
+<%@string label="BHGC: ${page}"%>
+<%@endif%>
+<%@meta title="${label}"%>
 <%@meta author="Henrik Bengtsson"%>
 <%@string bootstrap_url="http://netdna.bootstrapcdn.com/bootstrap/3.1.1"%>
 <%@string jquery_url="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0"%>
@@ -72,7 +77,11 @@
  ----------------------------------------------------------------------------%>
 <div id="footer">
   <div class="container">
-    <p class="muted credit">&#169; Berkeley Hang Gliding Club, Berkeley, CA</p>
+    <p class="muted credit">
+     &#169; Berkeley Hang Gliding Club, Berkeley, CA
+     <%-- Edit link --%>
+     <a href="<%=editURL%>" id="edit" target="_blank"><span class="glyphicon glyphicon-pencil" style="float: right;"></span></a>
+    </p>
   </div>
 </div>
   <%--- Bootstrap core JavaScript ---%>
@@ -81,7 +90,7 @@
   <script src="<%@string name="bootstrap_url"%>/js/bootstrap.min.js"></script>
   <script>
     <%-- Add favicons to external links --%>
-    $("a[href^='http']:not([href*='bhgc.org'])").each(function() {
+    $("a[href^='http']:not([href*='bhgc.org']):not([id*='edit'])").each(function() {
       $(this).css({
         "background": "url(http://g.etfv.co/" +
                        this.href + ") left center no-repeat",

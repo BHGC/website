@@ -127,6 +127,7 @@ buildPage <- function(src, path=".", skip=TRUE) {
   if (is.null(path)) path <- "."
 
   # Page file
+  src0 <- src
   src <- file.path(path, "content", src)
   stopifnot(length(src) == 1L)
 
@@ -184,16 +185,22 @@ buildPage <- function(src, path=".", skip=TRUE) {
   # Extract page title
   title <- grep("^#[ ]*", body, value=TRUE)[1L]
   title <- trim(gsub("^#[ ]*", "", title))
+  if (is.na(title)) title <- ""
   mprintf("Page title: %s\n", title)
 
   # Relative path to root/home page
   pathToRoot <- paste(c(rep("..", times=depth), ""), collapse="/")
+
+  # Edit source
+  editsrc <- src0
+  if (editsrc == "sites/index.md") editsrc <- "sites/sites.dcf"
 
   # Setup RSP arguments
   args <- list()
   args$page <- title
   args$depth <- depth
   args$pageSource <- path
+  args$editURL <- file.path("https://github.com/BHGC/website/tree/master/content", editsrc, fsep="/")
   mcat("RSP arguments:\n")
   mstr(args)
 
