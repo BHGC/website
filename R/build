@@ -1,9 +1,9 @@
 ############################################################################
 # Usage:
-#  source('http://bhgc.org/alpha/R/build')
+#  source('http://bhgc.org/alpha/build#BHGC')
 ############################################################################
 
-local({
+##local({
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 # Debug
@@ -126,9 +126,14 @@ buildPage <- function(src, path=".", skip=TRUE) {
   # Prepend path?
   if (is.null(path)) path <- "."
 
-  # Page files
+  # Misc. include files in the same directory
+  pathnamesM <- setdiff(findContent(path=path), src)
+  pattern <- sprintf("^%s", dirname(src))
+  pathnamesM <- grep(pattern, pathnamesM, value=TRUE)
+  
+  # Page file
   src <- file.path(path, "content", src)
-  stopifnot(length(src) > 0L)
+  stopifnot(length(src) == 1L)
 
   # RSP files
   pathnamesR <- findTemplates(path=path)
@@ -142,11 +147,16 @@ buildPage <- function(src, path=".", skip=TRUE) {
     if (regexpr(pattern, url) == -1) throw("Unsupported URL: ", url)
     path <- gsub(pattern, "\\1", url)
     src <- gsub(pattern, "\\2", url)
-    src <- downloadFile(url, src, path=".download")
+    src <- downloadFile(url, src, path=".download", overwrite=TRUE)
 
-    pathnamesR <- sapply(pathnamesR, FUN=function(pathnameR) {
-      url <- file.path(path, pathnameR, fsep="/")
-      downloadFile(url, pathnameR, path=".download")
+    pathnamesM <- sapply(pathnamesM, FUN=function(pathname) {
+      url <- file.path(path, pathname, fsep="/")
+      downloadFile(url, pathname, path=".", overwrite=TRUE)
+    })
+
+    pathnamesR <- sapply(pathnamesR, FUN=function(pathname) {
+      url <- file.path(path, pathname, fsep="/")
+      downloadFile(url, pathname, path=".", overwrite=TRUE)
     })
   }
 
@@ -193,6 +203,7 @@ buildPage <- function(src, path=".", skip=TRUE) {
   args <- list()
   args$page <- title
   args$depth <- depth
+  args$pageSource <- path
   mcat("RSP arguments:\n")
   mstr(args)
 
@@ -228,7 +239,7 @@ findFiles <- function(path, pattern=NULL, recursive=TRUE) {
   if (isUrl(path)) {
     url <- file.path(path, ".files")
     pathname <- file.path(basename(path), basename(url))
-    pathname <- downloadFile(url, pathname, path=".download")
+    pathname <- downloadFile(url, pathname, path=".download", overwrite=TRUE)
     files <- readLines(pathname, warn=FALSE)
     files <- trim(files)
     files <- files[nzchar(files)]
@@ -236,7 +247,7 @@ findFiles <- function(path, pattern=NULL, recursive=TRUE) {
   } else {
     # Scan for files?
     path <- Arguments$getReadablePath(path)
-    files <- list.files(path, pattern=pattern, recursive=recursive)
+    files <- list.files(path, pattern=pattern, all.files=FALSE, recursive=recursive)
     # Update content/.files file
     writeLines(files, con=file.path(path, ".files"))
   }
@@ -246,6 +257,10 @@ findFiles <- function(path, pattern=NULL, recursive=TRUE) {
 
 findPages <- function(path=".") {
   findFiles(path=file.path(path, "content"), pattern="[.]md$")
+}
+
+findContent <- function(path=".") {
+  findFiles(path=file.path(path, "content"), pattern="[^~]$")
 }
 
 findTemplates <- function(path=".") {
@@ -269,7 +284,7 @@ buildAssets <- function(path=".") {
   if (isUrl(path)) {
     pathnamesA <- sapply(pathnamesA, FUN=function(pathnameA) {
       url <- file.path(path, pathnameA)
-      downloadFile(url, pathnameA, path="html")
+      downloadFile(url, pathnameA, path="html", overwrite=TRUE)
     })
   } else {
     pathnamesA <- sapply(pathnamesA, FUN=function(pathnameA) {
@@ -313,7 +328,7 @@ if (nuris == 0L) {
 mprintf("Source: %s\n", path)
 buildPages(path=path)
 
-}) # local()
+##}) # local()
 
 
 ############################################################################

@@ -15,7 +15,14 @@ Temporary Flight Restrictions:
 <%-- Import weather() --%>
 <%@include file="templates/utils.rsp"%>
 <%
-data <- read.dcf("content/flyingSites/sites.dcf")
+pathname <- "content/flyingSites/sites.dcf"
+if (isUrl(pageSource)) {
+  url <- file.path(pageSource, pathname)
+  message("Downloading: ", url)
+  pathname <- downloadFile(url, pathname, path=".download", overwrite=TRUE)
+  message("Downloaded: ", pathname)
+}
+data <- read.dcf(pathname)
 data[is.na(data)] <- ""
 data <- as.data.frame(data, stringsAsFactors=FALSE)
 data <- data[order(data$Name),]
