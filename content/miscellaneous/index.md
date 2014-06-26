@@ -2,8 +2,8 @@
 
 ## Documents
 
-* [Smitty Sauce Recipe](<%=pathToRoot%>miscellaneous/recipe-smittysauce)
-* [Goat Recipe](<%=pathToRoot%>miscellaneous/recipe-goat)
+* [Smitty Sauce Recipe](<%=pathToRoot%>miscellaneous/recipe-smittysauce/index.html)
+* [Goat Recipe](<%=pathToRoot%>miscellaneous/recipe-goat/index.html)
 * [Various Docs] in PostScript [N/A]
 * [Driving directions] to various local sites [N/A]
 
