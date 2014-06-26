@@ -21,7 +21,7 @@ This repository is such that it is possible to build the site on the fly based o
 ```s
 source('http://bhgc.org/build#BHGC')
 ```
-This will build a local copy of the site in local directory html/.  If
+This will build a copy of the site in local directory html/.  If
 you clone this repository, then you can call:
 ```s
 source('http://bhgc.org/build')
