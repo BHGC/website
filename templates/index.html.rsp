@@ -3,6 +3,11 @@
 <%@string bootstrap_url="http://netdna.bootstrapcdn.com/bootstrap/3.1.1"%>
 <%@string jquery_url="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0"%>
 <%@include file="utils.rsp"%>
+<%
+# Relative path to root/home page
+pathToRoot <- paste(c(rep("..", times=depth), ""), collapse="/")
+%>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -57,10 +62,10 @@
 <div class="container">
 <%@ifeq page=""%>
   <div class="jumbotron">
-  <%@include content="${content}"%>
+  <%@include content="${body}"%>
   </div>
 <%@else%>
-  <%@include content="${content}"%>
+  <%@include content="${body}"%>
 <%@endif%>
 </div>
 
@@ -83,11 +88,11 @@
     <%-- Add favicons to external links --%>
     $("a[href^='http']:not([href*='bhgc.org'])").each(function() {
       $(this).css({
-        "background": "url(http://g.etfv.co/" + 
+        "background": "url(http://g.etfv.co/" +
                        this.href + ") left center no-repeat",
         "background-size": "16px",
         "padding-left": "20px"
-      });    
+      });
     });
   </script>
 </body>

@@ -1,55 +1,156 @@
+############################################################################
+# Usage:
+#  source('http://bhgc.org/alpha/R/build')
+############################################################################
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# Debug
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+mout <- function(..., sep="", collapse="\n", appendLF=FALSE) {
+  msg <- paste(..., sep=sep, collapse=collapse)
+  message(msg, appendLF=appendLF)
+}
+
+mprintf <- function(...) {
+  mout(sprintf(...))
+}
+
+mcat <- function(...) {
+  mout(capture.output(cat(...)), appendLF=TRUE)
+}
+
+mprint <- function(...) {
+  mout(capture.output(print(...)), appendLF=TRUE)
+}
+
+mstr <- function(...) {
+  mout(capture.output(str(...)), appendLF=TRUE)
+}
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# Local functions
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+isInstalled <- function(pkgs) {
+   unlist(sapply(pkgs, FUN=function(pkg) {
+     nzchar(suppressWarnings(system.file(package=pkg)))
+   }))
+}
+
+buildPage <- function(src, path=NULL, skip=TRUE) {
+  use("R.utils, R.rsp, markdown")
+
+  if (is.na(src)) throw("Unknown page source: ", src)
+
+  # Prepend path?
+  if (!is.null(path)) src <- file.path(path, src)
+
+  # RSP files
+  pathnamesR <- c("templates/index.html.rsp", "templates/utils.rsp")
+
+  # Download?
+  if (isUrl(src)) {
+    url <- src
+    pattern <- "^(http.?://.*)/(content/.*)$"
+    if (regexpr(pattern, url) == -1) throw("Unsupported URL: ", url)
+    path <- gsub(pattern, "\\1", url)
+    src <- gsub(pattern, "\\2", url)
+    src <- downloadFile(url, src, path=".download")
+
+    urlsR <- file.path(path, pathnamesR, fsep="/")
+    pathnamesR <- sapply(pathnamesR, FUN=function(pathnameR) {
+      downloadFile(url, pathnameR, path=".download")
+    })
+  }
+
+  # Input file
+  pathnameS <- Arguments$getReadablePathname(src)
+  mprintf("Input pathname: %s\n", pathnameS)
+  mprintf("RSP templates: %s\n", hpaste(pathnamesR))
+
+  # Output file
+  pathD <- dirname(pathnameS)
+  pathD <- strsplit(pathD, split="/", fixed=TRUE)[[1]]
+  pathD <- pathD[which(pathD == "content"):length(pathD)]
+  pathD[1] <- "html"
+  depth <- length(pathD) - 1
+  pathD <- do.call(file.path, as.list(pathD))
+  pathnameD <- file.path(pathD, "index.html")
+  mprintf("Output pathname: %s\n", pathnameD)
+
+  # Already done?
+  if (skip) {
+    # Time stamp for *all* source files
+    pathnamesS <- c(pathnameS, pathnamesR)
+    mtimeS <- file.info(pathnamesS)$mtime
+    mtimeD <- file.info(pathnameD)$mtime
+    if (all(mtimeD > mtimeS)) {
+      mcat("Already processed. Skipping.")
+      html <- RspFileProduct(pathnameD)
+      return(html)
+    }
+  }
+
+  # Read RSP Markdown content
+  body <- readLines(pathnameS)
+
+  # Extract page title
+  idx <- which(nzchar(body))[1L]
+  title <- trim(body[idx])
+  mprintf("Page title: %s\n", title)
+
+  # Setup RSP arguments
+  args <- list()
+  args$page <- title
+  args$depth <- depth
+
+  # Compile RSP Markdown to Markdown
+  body <- rstring(body, type="application/x-rsp", args=args, workdir=pathD)
+
+  # Compile Markdown to HTML
+  body <- markdownToHTML(text=body, options="fragment_only")
+
+  # Compile RSP HTML with content
+  args$body <- body
+  html <- rfile(pathnameT, args=args, workdir=pathD)
+
+  html
+} # buildPage()
+
+
+
+findPages <- function(path="content") {
+  if (isDirectory(path)) {
+    pages <- list.files(path, pattern="[.]md$", recursive=TRUE)
+    writeLines(pages, con=file.path(path, ".pages"))
+  } else {
+    throw("Not yet supported: ", path)
+  }
+  pages
+} # findPages()
+
+
+buildPages <- function(srcs=NULL, path=NULL) {
+  # Find pages?
+  if (is.null(srcs)) {
+    pages <- findPages(path)
+  }
+
+  # Build pages
+  for (page in pages) {
+    html <- buildPage(page, path="content")
+    mprint(html)
+  } # for (ii ...)
+
+  # Copy assets
+  copyDirectory("assets", "html/assets", recursive=TRUE)
+} # buildPages()
+
+
+if (!isInstalled("R.utils")) install.packages("R.utils")
 R.utils::use("R.utils")
 use("R.rsp")
 use("markdown")
 
-pathD <- "html"
-pathD <- Arguments$getWritablePath(pathD)
-
-pathS <- "content"
-pages <- list.files(pathS, pattern="[.]md$", recursive=TRUE)
-for (ii in seq_along(pages)) {
-  page <- pages[ii]
-
-  # Markdown content
-  content <- readLines(file.path(pathS, page))
-
-  # Find page title
-  idx <- which(nzchar(content))[1L]
-  title <- trim(content[idx])
-  message(sprintf("Page title: %s", title))
-
-  # Output directory
-  dir <- dirname(page)
-
-  # Find depth
-  if (dir == ".") {
-    pathToRoot <- ""
-  } else {
-    depth <- length(unlist(strsplit(dir, split="/")))
-    pathToRoot <- paste(c(rep("..", times=depth), ""), collapse="/")
-  }
-
-  # Setup RSP arguments
-  args <- list()
-  args$pathToRoot <- pathToRoot
-  args$content <- content
-  args$page <- title
-
-  workdir <- file.path(pathD, dir)
-
-  # Compile RSP Markdown to Markdown
-  content <- rstring(content, type="application/x-rsp", args=args, workdir=workdir)
-
-  # Compile Markdown to HTML
-  content <- markdownToHTML(text=content, options="fragment_only")
-
-  # Compile RSP HTML with content
-  args$content <- content
-  html <- rfile("templates/index.html.rsp", args=args, workdir=workdir)
-  print(html)
-} # for (ii ...)
-
-# Copy assets
-pathS <- "assets"
-copyDirectory(pathS, file.path(pathD, pathS), recursive=TRUE)
-
+path <- "content"
+#path <- "https://raw.githubusercontent.com/BHGC/website/master/content"
+buildPages(path=path)
