@@ -80,7 +80,7 @@
     <p class="muted credit" style="font-size: small;">
      &#169; Berkeley Hang Gliding Club, Berkeley, CA
      <%-- Edit link --%>
-     <a href="<%=editURL%>" id="edit" target="_blank"><span class="glyphicon glyphicon-pencil" style="float: right;"></span></a>
+     <a href="<%=editURL%>" id="edit" target="_blank"><span class="glyphicon glyphicon-pencil" style="float: right;" title="Edit"></span></a>
     </p>
   </div>
 </div>
