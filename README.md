@@ -1,12 +1,18 @@
 BHGC Website
 ============
 
-This repository contains the framework for building the (future) [BHGC website](http://bhgc.org/alpha/).  This new website is mobile friendly.
+This repository contains the framework for building the (future) [BHGC website].  This new website is mobile friendly.
 
 
 ### Contribute
 
-In order to contribute to the content, signup for a GitHub account, send your username to admin[at]bhgc.org and we'll give you permissions to edit the [contents](content/).  All editing is done in plain-text files with [Markdown](http://www.wikipedia.org/wiki/Markdown) markup for specifying headers, subheaders, links, images, lists etc.
+In order to contribute to the content, signup for a GitHub account,
+send your username to admin[at]bhgc.org and we'll give you permissions
+to edit the [contents](content/).  To edit a page, just click on the
+edit icon in the footer of every page on [BHGC website] to get to the
+source file here on GitHub.  All editing is done in plain-text files
+with [Markdown](http://www.wikipedia.org/wiki/Markdown) markup for
+specifying headers, subheaders, links, images, lists etc.
 
 
 ### Build site on the fly
@@ -16,3 +22,6 @@ This repository is such that it is possible to build the site on the fly based o
 source('http://bhgc.org/alpha/build#BHGC')
 ```
 This will build a local copy of the site in local directory html/.
+
+
+[BHGC website]: http://bhgc.org/alpha/
