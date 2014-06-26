@@ -1,7 +1,7 @@
 BHGC Website
 ============
 
-This repository contains the framework for building the (future) [BHGC website].  This new website is mobile friendly.
+This repository contains the framework for building the [BHGC website].  This website is mobile friendly.
 
 
 ### Contribute
@@ -19,15 +19,15 @@ specifying headers, subheaders, links, images, lists etc.
 
 This repository is such that it is possible to build the site on the fly based on what is available in this GitHub repository.  In order to do this, just run [R](http://www.r-project.org/) (available on Windows, OSX and Linux) and call:
 ```s
-source('http://bhgc.org/alpha/build#BHGC')
+source('http://bhgc.org/build#BHGC')
 ```
 This will build a local copy of the site in local directory html/.  If
 you clone this repository, then you can call:
 ```s
-source('http://bhgc.org/alpha/build')
+source('http://bhgc.org/build')
 ```
 to build from the local files (which you can also edit).
 
 
 
-[BHGC website]: http://bhgc.org/alpha/
+[BHGC website]: http://bhgc.org/
