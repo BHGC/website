@@ -1,6 +1,6 @@
 Name: Dunlap
 State: CA
-LaunchGPS: (36.76543, -119.097636)
+LaunchGPS: (36.764134, -119.097631)
 Requirements: H3, H2 w/ instructor
 SiteSticker: yes (private launch/LZ)
 OfficialURL: [FlyDunlap.com](http://flydunlap.com/)
@@ -12,7 +12,7 @@ SeeAlso:
 Name: Ed Levin
 Nickname: Sled Heaven
 State: CA
-LaunchGPS: (37.46532, -121.85366)
+LaunchGPS: '300ft'=(37.461130, -121.864641, 300ft), '600ft'=(37.461324, -121.859979, 600ft), 'top/1750ft'=(37.475389, -121.861305, 1750ft)
 Requirements: H0-H3
 SiteSticker: [WOR]
 OfficialURL: [Ed Levin Quick Reference](http://www.wingsofrogallo.org/sites/ed_levin/Ed_Levin_Quick_Ref_1-3.01.pdf) [pdf]
@@ -45,7 +45,7 @@ SeeAlso: [The Oz Report](http://ozreport.com/1328031387)
 
 Name: Hat Creek Rim
 State: CA
-LaunchGPS: (40.8422, -121.427)
+LaunchGPS: (40.843055, -121.427468)
 Requirements: H3, H2 w/ mentor
 SiteSticker: yes
 OfficialURL: [Hat Creek Rim](http://hatcreek.info/)
@@ -70,7 +70,7 @@ Requirements: Unregulated
 
 Name: Hull Mt
 State: CA
-LaunchGPS: (39.52311, -122.93756)
+LaunchGPS: (39.509387, -122.937847)
 Requirements: Unregulated
 Notes: Long glide from launch to LZ.  Not appropriate without mountain experience.
 SeeAlso: [Sonoma Wings]
@@ -133,7 +133,7 @@ SeeAlso:
 Name: Mt Tamalpais
 Nickname: Mt Tam
 State: CA
-LaunchGPS: (37.9095, -122.629)
+LaunchGPS: A=(37.907607, -122.619097, 2050'MSL), B=(37.911167, -122.624422, 1950'MSL), C=(37.920857, -122.632657, 2500'MSL)
 Requirements: H3
 SiteSticker: [MCHGA]
 OfficialURL: [Marin County Hang Gliding Association (MCHGA)]
@@ -150,7 +150,7 @@ SeeAlso: <%-- BROKEN: [Nevada Wings](http://www.nvwings.com/site_guide.html) --%
 
 Name: Slide Mountain
 State: NV
-LaunchGPS: (39.2705371709551, -119.8883056640625)
+LaunchGPS: (39.319914, -119.867355)
 Requirements: H3-H4
 SeeAlso: [HangGliding.org](http://www.hanggliding.org/wiki/Slide_Mountain)
 

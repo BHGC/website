@@ -21,7 +21,13 @@ This repository is such that it is possible to build the site on the fly based o
 ```s
 source('http://bhgc.org/alpha/build#BHGC')
 ```
-This will build a local copy of the site in local directory html/.
+This will build a local copy of the site in local directory html/.  If
+you clone this repository, then you can call:
+```s
+source('http://bhgc.org/alpha/build')
+```
+to build from the local files (which you can also edit).
+
 
 
 [BHGC website]: http://bhgc.org/alpha/

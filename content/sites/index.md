@@ -11,9 +11,47 @@ Temporary Flight Restrictions:
 <%-------------------------------------------------------------------
  SITES
  -------------------------------------------------------------------%>
-<%-- Import weather() --%>
-<%@include file="templates/utils.rsp"%>
 <%
+weather <- function(gps, when=c("now"=0, "12h"=12,"24h"=24, "48h"=48, "72h"=72)) {
+  gps <- gps[1:2]
+  if (any(is.na(gps))) return()
+  url <-
+  sprintf("http://forecast.weather.gov/MapClick.php?w0=t&w1=td&w2=wc&w3=sfcwind&w3u=1&w4=sky&w5=pop&w6=rh&w7=thunder&w8=rain&w9=snow&w10=fzg&w11=sleet&Submit=Submit&FcstType=digital&site=mtr&unit=0&dd=0&bw=0&textField1=%f&textField2=%f&AheadHour=%d",
+  gps[1], gps[2], when)
+  url <-
+  c(sprintf("http://forecast.weather.gov/MapClick.php?lat=%f&lon=%f&site=rev&unit=0&lg=en&FcstType=text",
+  gps[1], gps[2]), url)
+  names(url) <- c("current conditions", names(when))
+  md <- sprintf("[%s](%s)", names(url), url)
+  paste(md, collapse=",\n")
+} # weather()
+
+# "This is current accepted way to link to a specific lat lon
+#  (rather than search for the nearest object).
+#  http://maps.google.com/maps?z=12&t=m&q=loc:38.9419+-78.3020
+#  - z is the zoom level (1-20)
+#  - t is the map type ("m" map, "k" satellite, "h" hybrid,
+#      "p" terrain, "e" GoogleEarth)
+#  - q is the search query, if it is prefixed by loc:
+#      then google assumes it is a lat lon separated by a +"
+#  Source: http://goo.gl/2DD2yP
+gmap <- function(gps) {
+  if (length(gps) == 0) return("")
+  if (is.list(gps)) {
+    md <- sapply(gps, FUN=gmap)
+	if (!is.null(names(gps))) {
+      md <- sprintf("%s: %s", names(gps), md);
+	}
+	md <- paste(md, collapse=", ")
+    return(md)
+  }
+  gps <- gps[1:2]
+  if (any(is.na(gps))) return("")
+  url <- sprintf("http://maps.google.com/maps/preview?t=h&q=%f,%f", gps[1], gps[2])
+  md <- sprintf("[(%f,%f)](%s)", gps[1], gps[2], url)
+  paste(md, collapse=",\n")
+} # gmap()
+
 pathname <- "content/sites/sites.dcf"
 if (isUrl(pageSource)) {
   url <- file.path(pageSource, pathname)
@@ -38,7 +76,7 @@ rownames(data) <- data$Name
   # GPS coordinates
   gps <- gsub("(", "c(", LaunchGPS, fixed=TRUE)
   gps <- sprintf("list(%s)", gps)
-  gps <- gsub("ft", "", gps, fixed=TRUE)
+  gps <- gsub("([0-9])(ft|'|'MSL)", "\\1", gps)
   gps <- eval(parse(text=gps))
 
   seealso <- list()
@@ -59,13 +97,14 @@ rownames(data) <- data$Name
 %>
 ## <%=label%>
 
-* Requirements: <%= Requirements %>
+* Launch: <%= gmap(gps) %>
+* Requirements: <%= rstring(Requirements) %>
 * Weather: <%= weather(gps[[1]]) %>
-* Live weather: <%= WeatherLive %>
-* Site page: <%= OfficialURL %>
-* Sticker: <%= SiteSticker %>
-* See also: <%= seealso %>
-* Notes: <%= Notes %>
+* Live weather: <%= rstring(WeatherLive) %>
+* Official page: <%= rstring(OfficialURL) %>
+* Sticker: <%= rstring(SiteSticker) %>
+* See also: <%= rstring(seealso) %>
+* Notes: <%= rstring(Notes) %>
 
 <% }) # with(data[name,], ...) %>
 <% } # for (name ...) %>
