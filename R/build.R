@@ -30,11 +30,17 @@ mstr <- function(...) {
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 # Local functions
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-isInstalled <- function(pkgs) {
-   unlist(sapply(pkgs, FUN=function(pkg) {
-     nzchar(suppressWarnings(system.file(package=pkg)))
-   }))
-}
+use <- function(...) {
+  isInstalled <- function(pkgs) {
+    unlist(sapply(pkgs, FUN=function(pkg) {
+      nzchar(suppressWarnings(system.file(package=pkg)))
+    }))
+  } # isInstalled()
+
+  if (!isInstalled("R.utils")) install.packages("R.utils")
+  R.utils::use(...)
+} # use()
+
 
 buildPage <- function(src, path=NULL, skip=TRUE) {
   use("R.utils, R.rsp, markdown")
@@ -118,18 +124,41 @@ buildPage <- function(src, path=NULL, skip=TRUE) {
 
 
 
-findPages <- function(path="content") {
-  if (isDirectory(path)) {
-    pages <- list.files(path, pattern="[.]md$", recursive=TRUE)
-    writeLines(pages, con=file.path(path, ".pages"))
-  } else {
-    throw("Not yet supported: ", path)
-  }
-  pages
-} # findPages()
+findFiles <- function(path="content", pattern=NULL, recursive=TRUE) {
+  use("R.utils")
 
+  # Download list of files?
+  if (isUrl(path)) {
+    url <- file.path(path, ".files")
+    pathname <- file.path(basename(path), basename(url))
+    pathname <- downloadFile(url, pathname, path=".download")
+    files <- readLines(pathname, warn=FALSE)
+    files <- trim(files)
+    files <- files[nzchar(files)]
+    files <- unique(files)
+  } else {
+    # Scan for files?
+    path <- Arguments$getReadablePath(path)
+    files <- list.files(path, pattern=pattern, recursive=recursive)
+    # Update content/.files file
+    writeLines(files, con=file.path(path, ".files"))
+  }
+  files
+} # findFiles()
+
+
+
+findPages <- function(path="content") {
+  findFiles(path=path, pattern="[.]md$")
+}
+
+findTemplates <- function(path="templates") {
+  findFiles(path=path, pattern="[.]rsp$")
+}
 
 buildPages <- function(srcs=NULL, path=NULL) {
+  use("R.utils")
+
   # Find pages?
   if (is.null(srcs)) {
     pages <- findPages(path)
@@ -145,11 +174,6 @@ buildPages <- function(srcs=NULL, path=NULL) {
   copyDirectory("assets", "html/assets", recursive=TRUE)
 } # buildPages()
 
-
-if (!isInstalled("R.utils")) install.packages("R.utils")
-R.utils::use("R.utils")
-use("R.rsp")
-use("markdown")
 
 path <- "content"
 #path <- "https://raw.githubusercontent.com/BHGC/website/master/content"
