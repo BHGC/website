@@ -42,12 +42,19 @@ rownames(data) <- data$Name
   gps <- eval(parse(text=gps))
 
   seealso <- list()
+
   # ParaglidingEarth link
   if (nzchar(ParaglidingEarthSite)) {
     seealso$`Paragliding Earth` <- sprintf("http://www.paraglidingearth.com/pgearth/index.php?site=%s", ParaglidingEarthSite)
   }
 
   seealso <- sprintf("[%s](%s)", names(seealso), unlist(seealso))
+  
+  # "See also" text
+  if (nzchar(SeeAlso)) {
+    seealso <- c(SeeAlso, seealso)
+  }
+  
   seealso <- paste(seealso, collapse=", ")
 %>
 ## <%=label%>
@@ -55,7 +62,7 @@ rownames(data) <- data$Name
 * Requirements: <%= Requirements %>
 * Weather: <%= weather(gps[[1]]) %>
 * Live weather: <%= WeatherLive %>
-* Site page: <%= SiteURL %>
+* Site page: <%= OfficialURL %>
 * Sticker: <%= SiteSticker %>
 * See also: <%= seealso %>
 * Notes: <%= Notes %>
