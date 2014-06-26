@@ -1,7 +1,7 @@
 BHGC Website
 ============
 
-This repository contains the framework for building the (future) [BHGC website](http://bhgc.org/).
+This repository contains the framework for building the (future) [BHGC website](http://bhgc.org/alpha/).  This new website is mobile friendly.
 
 To build the site, you need to run [R](http://www.r-project.org/) and call:
 ```s
