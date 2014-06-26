@@ -30,7 +30,7 @@ weather <- function(gps, when=c("now"=0, "12h"=12,"24h"=24, "48h"=48, "72h"=72))
   url <-
   c(sprintf("http://forecast.weather.gov/MapClick.php?lat=%f&lon=%f&site=rev&unit=0&lg=en&FcstType=text",
   gps[1], gps[2]), url)
-  names(url) <- c("current conditions", names(when))
+  names(url) <- c("current conditions + 5-day forecast", names(when))
   md <- sprintf("[%s](%s)", names(url), url)
   paste(md, collapse=",\n")
 } # weather()

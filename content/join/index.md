@@ -38,7 +38,7 @@ Tue Sept 11 @ 11am-2pm: Meet us at the Sather Gate on UC Berkeley campus
 (south side).  
 Wed Sept 12 @ 11am-2pm: Meet us at the Sather Gate on UC Berkeley
 campus(south side).  
-Wed Sept 12 @ 7pm in 126 Barrows Hall: DON'T MISS THESIGNUP MEETING!
+Wed Sept 12 @ 7pm in 126 Barrows Hall: DON'T MISS THE SIGNUP MEETING!
 If you want to learn to hang glide this year this isyour chance. Come
 to our introduction, talk to pilots and flying students, watch some
 flying videos, and sign up (due to popularity there is likely going to
@@ -50,9 +50,9 @@ Tue Sept 6 @ 11am-1:30pm: Meet us at the Sather Gate on UC Berkeley
 campus.  
 Wed Sept 7 @ 11am-1:30pm: Meet us at the North Gate on UC Berkeley
 campus.  
-Wed Sept 7 @ 7pm:DON'T MISS!If you want to learn to hang glide this
+Wed Sept 7 @ 7pm: DON'T MISS! If you want to learn to hang glide this
 year this is your chance. Come to our introduction, talk to pilots and
-flying students, watch some flying videos, andsign up(due to
+flying students, watch some flying videos, andsign up (due to
 popularity there is likely going to be a lottery - you'll know when you
 walk home). Where:102 Wurster, UC Berkeley campus.
 
