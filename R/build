@@ -3,6 +3,8 @@
 #  source('http://bhgc.org/alpha/R/build')
 ############################################################################
 
+local({
+
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 # Debug
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -90,16 +92,12 @@ findURIs <- function(url=NULL) {
   if (is.na(url)) {
     # Local testing?
     url <- getOption("build#")
-    if (is.null(url)) return(data.frame(name=character(0L), flags=c()))
-    print(url)
+    if (is.null(url)) return(character(0L))
+    mprintf("URL: %s\n", url)
   }
 
   url <- URLdecode(url)
-
   uris <- unlist(strsplit(url, split=",", fixed=TRUE))
-
-  # Translater gist:// URIs
-  uris <- sapply(uris, FUN=gist_to_url)
 
   uris
 } # findURIs()
@@ -300,6 +298,26 @@ buildPages <- function(srcs=NULL, path=".") {
 } # buildPages()
 
 
-path <- "."
-path <- "https://raw.githubusercontent.com/BHGC/website/master"
+mcat("BHGC.org compiler v1.0 by Henrik Bengtsson\n\n")
+
+uris <- findURIs()
+nuris <- length(uris)
+if (nuris == 0L) {
+  path <- "."
+} else if (nuris == 1L) {
+  path <- sprintf("https://raw.githubusercontent.com/%s/website/master", uris)
+} else {
+  throw("To many URIs: ", hpaste(uris))
+}
+
+mprintf("Source: %s\n", path)
 buildPages(path=path)
+
+}) # local()
+
+
+############################################################################
+# HISTORY:
+# 2014-06-25
+# o Created.
+############################################################################
