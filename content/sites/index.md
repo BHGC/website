@@ -12,6 +12,15 @@ Temporary Flight Restrictions:
  SITES
  -------------------------------------------------------------------%>
 <%
+gps <- function(s) {
+  s <- gsub("(", "c(", s, fixed=TRUE)
+  s <- sprintf("list(%s)", s)
+  s <- gsub("([0-9])(ft|'|'MSL)", "\\1", s)
+  s <- eval(parse(text=s))
+	s
+} # gps()
+
+
 weather <- function(gps, when=c("now"=0, "12h"=12,"24h"=24, "48h"=48, "72h"=72)) {
   gps <- gps[1:2]
   if (any(is.na(gps))) return()
@@ -26,6 +35,7 @@ weather <- function(gps, when=c("now"=0, "12h"=12,"24h"=24, "48h"=48, "72h"=72))
   paste(md, collapse=",\n")
 } # weather()
 
+
 # "This is current accepted way to link to a specific lat lon
 #  (rather than search for the nearest object).
 #  http://maps.google.com/maps?z=12&t=m&q=loc:38.9419+-78.3020
@@ -37,6 +47,7 @@ weather <- function(gps, when=c("now"=0, "12h"=12,"24h"=24, "48h"=48, "72h"=72))
 #  Source: http://goo.gl/2DD2yP
 gmap <- function(gps) {
   if (length(gps) == 0) return("")
+  if (is.character(gps)) gps <- gps(gps)
   if (is.list(gps)) {
     md <- sapply(gps, FUN=gmap)
 	if (!is.null(names(gps))) {
@@ -73,12 +84,6 @@ rownames(data) <- data$Name
   if (nzchar(Nickname)) label <- sprintf("%s (%s)", label, Nickname)
   if (nzchar(State)) label <- sprintf("%s, %s", label, State)
 
-  # GPS coordinates
-  gps <- gsub("(", "c(", LaunchGPS, fixed=TRUE)
-  gps <- sprintf("list(%s)", gps)
-  gps <- gsub("([0-9])(ft|'|'MSL)", "\\1", gps)
-  gps <- eval(parse(text=gps))
-
   seealso <- list()
 
   # ParaglidingEarth link
@@ -97,9 +102,10 @@ rownames(data) <- data$Name
 %>
 ## <%=label%>
 
-* Launch: <%= gmap(gps) %>
+* Launch: <%= gmap(LaunchGPS) %>
+* LZ: <%= gmap(LZGPS) %>
 * Requirements: <%= rstring(Requirements) %>
-* Weather: <%= weather(gps[[1]]) %>
+* Weather: <%= weather(gps(LaunchGPS)[[1]]) %>
 * Live weather: <%= rstring(WeatherLive) %>
 * Official page: <%= rstring(OfficialURL) %>
 * Sticker: <%= rstring(SiteSticker) %>

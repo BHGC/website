@@ -1,6 +1,7 @@
 Name: Dunlap
 State: CA
-LaunchGPS: (36.764134, -119.097631)
+LaunchGPS: 'ramp'=(36.764134, -119.097631)
+LZGPS: (36.736126, -119.104683)
 Requirements: H3, H2 w/ instructor
 SiteSticker: yes (private launch/LZ)
 OfficialURL: [FlyDunlap.com](http://flydunlap.com/)
@@ -13,6 +14,7 @@ Name: Ed Levin
 Nickname: Sled Heaven
 State: CA
 LaunchGPS: '300ft'=(37.461130, -121.864641, 300ft), '600ft'=(37.461324, -121.859979, 600ft), 'top/1750ft'=(37.475389, -121.861305, 1750ft)
+LZGPS: (37.458137, -121.867135)
 Requirements: H0-H3
 SiteSticker: [WOR]
 OfficialURL: [Ed Levin Quick Reference](http://www.wingsofrogallo.org/sites/ed_levin/Ed_Levin_Quick_Ref_1-3.01.pdf) [pdf]
@@ -30,6 +32,7 @@ ParaglidingEarthSite: 6695
 Name: Fort Funston
 State: CA
 LaunchGPS: (37.7139, -122.503)
+LZGPS: (37.7139, -122.503)
 Requirements: H3
 SeeAlso: [Web cam & winds](http://www.flyfunston.org/newwebcam/)
 ParaglidingEarthSite: 9302
@@ -46,6 +49,7 @@ SeeAlso: [The Oz Report](http://ozreport.com/1328031387)
 Name: Hat Creek Rim
 State: CA
 LaunchGPS: (40.843055, -121.427468)
+LZGPS: '#1/bailout'=(40.838544, -121.438413), '#2/main'=(40.840963, -121.449369)
 Requirements: H3, H2 w/ mentor
 SiteSticker: yes
 OfficialURL: [Hat Creek Rim](http://hatcreek.info/)
@@ -71,6 +75,7 @@ Requirements: Unregulated
 Name: Hull Mt
 State: CA
 LaunchGPS: (39.509387, -122.937847)
+LZGPS: 'lake/main'=(39.442038, -122.946644), 'airstrip/bailout'=(39.452802, -122.953110)
 Requirements: Unregulated
 Notes: Long glide from launch to LZ.  Not appropriate without mountain experience.
 SeeAlso: [Sonoma Wings]
@@ -134,6 +139,7 @@ Name: Mt Tamalpais
 Nickname: Mt Tam
 State: CA
 LaunchGPS: A=(37.907607, -122.619097, 2050'MSL), B=(37.911167, -122.624422, 1950'MSL), C=(37.920857, -122.632657, 2500'MSL)
+LZGPS: 'public beach'=(37.902664, -122.653185)
 Requirements: H3
 SiteSticker: [MCHGA]
 OfficialURL: [Marin County Hang Gliding Association (MCHGA)]
@@ -151,6 +157,7 @@ SeeAlso: <%-- BROKEN: [Nevada Wings](http://www.nvwings.com/site_guide.html) --%
 Name: Slide Mountain
 State: NV
 LaunchGPS: (39.319914, -119.867355)
+LZGPS: (39.308908, -119.822940)
 Requirements: H3-H4
 SeeAlso: [HangGliding.org](http://www.hanggliding.org/wiki/Slide_Mountain)
 
