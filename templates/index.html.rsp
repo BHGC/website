@@ -62,7 +62,17 @@
 <div class="container">
 <%@ifeq page=""%>
   <div class="jumbotron">
-  <%@include content="${body}"%>
+    <div class="media">
+      <a class="pull-left" href="#">
+        <img src="assets/images/IMG_0548_x0.1.JPG" 
+             class="img-rounded"
+             style="height: 200px; margin-right: 40px; margin-bottom: 20px">
+      </a>
+<%--      <div class="media-body">  --%>
+        <h3>Berkeley Hang Gliding Club (BHGC)</h3>
+        <%@include content="${body}"%>
+<%--      </div>  --%>
+    </div>
   </div>
 <%@else%>
   <%@include content="${body}"%>
