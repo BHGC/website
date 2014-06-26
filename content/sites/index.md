@@ -17,7 +17,7 @@ gps <- function(s) {
   s <- sprintf("list(%s)", s)
   s <- gsub("([0-9])(ft|'|'MSL)", "\\1", s)
   s <- eval(parse(text=s))
-	s
+  s
 } # gps()
 
 
