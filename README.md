@@ -6,7 +6,7 @@ This repository contains the framework for building the (future) [BHGC website](
 
 ### Contribute
 
-In order to contribute to the content, signup for a GitHub account, send your username to admin[at]bhgc.org and we'll give you permissions to edit the [contents](content/).
+In order to contribute to the content, signup for a GitHub account, send your username to admin[at]bhgc.org and we'll give you permissions to edit the [contents](content/).  All editing is done in plain-text files with [Markdown](http://www.wikipedia.org/wiki/Markdown) markup for specifying headers, subheaders, links, images, lists etc.
 
 
 ### Build site on the fly
