@@ -1,5 +1,6 @@
 # Join the club
 
+<%--- HIDE UNTIL NEXT SIGNUP ----------------------------------------
 ## To the unlucky ones
 
 As of Sept 18, we have selected new 2013 students using a lottery
@@ -8,6 +9,7 @@ Those who where not lucky at the lottery had the option to sign up to
 be on a wait list in case any students drop. There is usually some
 turnover early on. To get in from this wait list, make sure to attend
 the ground school (see [Home]).
+--------------------------------------------------------------- ---%>
 
 ## Next chance is in Sept 2014
 
