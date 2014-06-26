@@ -37,7 +37,7 @@
     <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li><a href="<%=pathToRoot%>index.html">Home</a></li>
-        <li><a href="<%=pathToRoot%>flyingSites/index.html">Sites</a></li>
+        <li><a href="<%=pathToRoot%>sites/index.html">Sites</a></li>
         <li><a href="<%=pathToRoot%>forums/index.html">Forums</a></li>
         <li><a href="<%=pathToRoot%>join/index.html">Join</a></li>
         <li><a href="<%=pathToRoot%>members/index.html">Members</a></li>

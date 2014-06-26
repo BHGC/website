@@ -1,8 +1,6 @@
-Join the club
--------------
+# Join the club
 
-To the unlucky ones
--------------------
+## To the unlucky ones
 
 As of Sept 18, we have selected new 2013 students using a lottery
 system. Students who were selected have already been informed/emailed.
@@ -11,16 +9,14 @@ be on a wait list in case any students drop. There is usually some
 turnover early on. To get in from this wait list, make sure to attend
 the ground school (see [Home]).
 
-Next chance is in Sept 2014
----------------------------
+## Next chance is in Sept 2014
 
 When the next round of sign ups for new pilot students will be announced
 on this website in Aug/Sept 2014. Signup typically happens once a year
 in early September. As a rough guide, see previous years below. See also
 the [About] page.
 
-Previous years
---------------
+## Previous years
 
 ### Signup for 2013
 

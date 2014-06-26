@@ -1,7 +1,6 @@
-Flying Sites
-------------
+# Flying Sites
 
-### FAA related
+## FAA related
 
 Temporary Flight Restrictions:
 * [CA](http://tfr.faa.gov/tfr_map/states.jsp?select2=CA),
@@ -15,7 +14,7 @@ Temporary Flight Restrictions:
 <%-- Import weather() --%>
 <%@include file="templates/utils.rsp"%>
 <%
-pathname <- "content/flyingSites/sites.dcf"
+pathname <- "content/sites/sites.dcf"
 if (isUrl(pageSource)) {
   url <- file.path(pageSource, pathname)
   message("Downloading: ", url)
@@ -51,7 +50,7 @@ rownames(data) <- data$Name
   seealso <- sprintf("[%s](%s)", names(seealso), unlist(seealso))
   seealso <- paste(seealso, collapse=", ")
 %>
-### <%=label%>
+## <%=label%>
 
 * Requirements: <%= Requirements %>
 * Weather: <%= weather(gps[[1]]) %>

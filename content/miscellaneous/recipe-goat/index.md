@@ -1,7 +1,6 @@
-Goat recipes
-------------
+# Goat recipes
 
-### Goat w/ Barney McBe's Texas Goat Sauce
+## Goat w/ Barney McBe's Texas Goat Sauce
 
 For about 25 people:
 
@@ -60,8 +59,7 @@ cooked, still steaming and juicy. They were served on hot tortilla with
 grilled scallions and Scott's Goat Sauce.
 
 
-
-### Barney McBe's Texas Goat Sauce
+## Barney McBe's Texas Goat Sauce
 
 Makes about 7 cups:
 

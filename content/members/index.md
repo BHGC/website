@@ -1,12 +1,11 @@
-Members
--------
+# Members
 
-Club Database
+## Club Database
 
-- [Phone List] for active members [N/A]
-- [Search, update, or print] the address list [N/A]
-- Other important [flying-related phone numbers] [N/A]
-- [Table] showing all the entries in the database [N/A]
+* [Phone List] for active members [N/A]
+* [Search, update, or print] the address list [N/A]
+* Other important [flying-related phone numbers] [N/A]
+* [Table] showing all the entries in the database [N/A]
 
 
 [Phone List]: http://guest.xinet.com/cgi-bin/ucbhgcSelectTextQuery?SearchValue=active&TextFormat=template2&BuildAction=HTML+table

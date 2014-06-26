@@ -1,8 +1,6 @@
-Forums
-------
+# Forums
 
-Mailing lists
--------------
+## Mailing lists
 
 The club has four mailing lists that are for club members only:
 
@@ -22,8 +20,7 @@ the members mailing list). Very low frequency mailing list used
 occassionally for such things as long-term club matters and social
 events.
 
-Subscribe/unsubscribe
----------------------
+## Subscribe/unsubscribe
 
 Click on the correspond link above and follow the instructions to
 subscribe to/unsubscribe from a mailing list. FYI, these mailing lists

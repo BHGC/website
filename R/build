@@ -3,7 +3,7 @@
 #  source('http://bhgc.org/alpha/build#BHGC')
 ############################################################################
 
-local({
+##local({
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 # Debug
@@ -182,8 +182,8 @@ buildPage <- function(src, path=".", skip=TRUE) {
   body <- readLines(pathnameS)
 
   # Extract page title
-  idx <- which(nzchar(body))[1L]
-  title <- trim(body[idx])
+  title <- grep("^#[ ]*", body, value=TRUE)[1L]
+  title <- trim(gsub("^#[ ]*", "", title))
   mprintf("Page title: %s\n", title)
 
   # Relative path to root/home page
@@ -279,6 +279,7 @@ buildAssets <- function(path=".") {
   } else {
     pathnamesA <- sapply(pathnamesA, FUN=function(pathnameA) {
       pathnameD <- file.path("html", pathnameA)
+      mkdirs(dirname(pathnameD))
       file.copy(pathnameA, pathnameD, overwrite=TRUE, copy.date=TRUE)
     })
   }
@@ -318,7 +319,7 @@ if (nuris == 0L) {
 mprintf("Source: %s\n", path)
 buildPages(path=path)
 
-}) # local()
+##}) # local()
 
 
 ############################################################################

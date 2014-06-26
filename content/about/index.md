@@ -1,8 +1,6 @@
-About / Contact
----------------
+# About / Contact
 
-Who are we?
------------
+## Who are we?
 
 The Berkeley Hang Gliding and Paragliding Club is a non-profit group
 comprised of pilots ranging in experience from true beginners to
@@ -18,8 +16,7 @@ active pilots, the club plans weekly trips to the mountains during
 flying season, has weekly meetings, and organizes lessons for new pilots
 annually.
 
-More about lessons
-------------------
+## More about lessons
 
 Once a year each fall (starting in September), the club organizes lesson
 sets for new pilots. The lessons include both ground school, where the
@@ -34,8 +31,7 @@ the end of formal lessons; hang gliding involves continual learning, and
 instructors are always willing to help. Soon you will be heading to the
 mountains.
 
-The Mountain Experience
------------------------
+## The Mountain Experience
 
 Pilots in the club enjoy flying at some of the best sites in the world.
 The Bay Area is conveniently located in California, the Mecca of hang
@@ -46,8 +42,7 @@ Francisco and the Pacific. For further excitement, club pilots have
 recently traveled as far as South Africa and Europe in the search for
 big air.
 
-Contact information
--------------------
+## Contact information
 
 The Berkeley Hang Gliding Club (BHGC) is located in Berkeley, CA. You
 can reach us at info[at]bhgc.org.

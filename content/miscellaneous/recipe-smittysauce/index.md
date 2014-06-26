@@ -1,5 +1,4 @@
-Smitty's Sauce 
---------------
+# Smitty's Sauce 
 
 * 1/2 bottle (16oz) apple cider vinegar (so 8oz for chemists) 
 * (1) bottle beer (Sierra?) 
