@@ -1,5 +1,17 @@
 # Flying Sites
 
+<%-- ALERT (CALL FOR HELP) --%>
+<div class="alert alert-warning" role="alert">
+Several of the below sites lack information on for instance launch
+coordinates, which in turn are used to generate the weather links.
+Your can help out by finding such information and reporting them back.
+If you get a GitHub account, you can even 
+<span style="white-space: nowrap;"><a class="alert-link" id="edit"
+href="https://github.com/BHGC/website/tree/master/content/sites/sites.dcf"
+>edit</a> <span class="glyphicon glyphicon-edit"></span></span>
+the underlying database directly in the browser.
+</div>
+
 ## FAA related
 
 Temporary Flight Restrictions:
@@ -114,6 +126,15 @@ rownames(data) <- data$Name
 
 <% }) # with(data[name,], ...) %>
 <% } # for (name ...) %>
+
+
+
+<div class="alert alert-info" role="alert" style="margin-top: 5ex;">
+The weather links for each site are based on the location of the
+launch (based on the longitudinal and latitudinal coordinates of the
+first launch per site).
+</div>
+
 
 <%-------------------------------------------------------------------
  REFERENCES
