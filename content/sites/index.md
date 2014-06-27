@@ -4,12 +4,13 @@
 <div class="alert alert-warning" role="alert">
 Several of the below sites lack information on for instance launch
 coordinates, which in turn are used to generate the weather links.
-Your can help out by finding such information and reporting them back.
-If you get a GitHub account, you can even 
+You can help out by finding such information and reporting them back.
+If you <a class="alert-link" id="edit"
+href="https://github.com/join">get a GitHub account</a>, you can even
 <span style="white-space: nowrap;"><a class="alert-link" id="edit"
-href="https://github.com/BHGC/website/tree/master/content/sites/sites.dcf"
->edit</a> <span class="glyphicon glyphicon-edit"></span></span>
-the underlying database directly in the browser.
+href="https://github.com/BHGC/website/tree/master/content/sites/sites.dcf">edit</a>
+<span class="glyphicon glyphicon-edit"></span></span> 
+the underlying database (and all other pages) directly in the browser.
 </div>
 
 ## FAA related
