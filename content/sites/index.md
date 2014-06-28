@@ -76,6 +76,26 @@ gmap <- function(gps) {
   paste(md, collapse=",\n")
 } # gmap()
 
+phone <- function(numbers) {
+  if (length(numbers) == 0) return(NULL)
+  if (any(is.na(numbers))) return(NULL)
+  numbers <- unlist(strsplit(numbers, split=",", fixed=TRUE))
+  if (length(numbers) == 0) return(NULL)
+  links <- sapply(numbers, FUN=function(s) {
+    s <- unlist(strsplit(s, split="=", fixed=TRUE))
+	s <- trim(s)
+    number <- s[length(s)]
+	label <- gsub("^[+]1[-]?", "", number)
+    link <- sprintf('<a href="tel:%s">%s</a>', number, label)
+    name <- s[-length(s)]
+    if (length(name) == 1L) {
+	  link <- sprintf('%s: %s', name, link)
+	}
+	link
+  })
+  links
+} # phone()
+
 pathname <- "content/sites/sites.dcf"
 if (isUrl(pageSource)) {
   url <- file.path(pageSource, pathname)
@@ -120,6 +140,7 @@ rownames(data) <- data$Name
 * Requirements: <%= rstring(Requirements) %>
 * Weather: <%= weather(gps(LaunchGPS)[[1]]) %>
 * Live weather: <%= rstring(WeatherLive) %>
+* WindTalker: <%= paste(phone(WindTalker), collapse=", ") %>
 * Official page: <%= rstring(OfficialURL) %>
 * Sticker: <%= rstring(SiteSticker) %>
 * See also: <%= rstring(seealso) %>

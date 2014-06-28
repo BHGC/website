@@ -18,7 +18,8 @@ LZGPS: (37.458137, -121.867135)
 Requirements: H0-H3
 SiteSticker: [WOR]
 OfficialURL: [Ed Levin Quick Reference](http://www.wingsofrogallo.org/sites/ed_levin/Ed_Levin_Quick_Ref_1-3.01.pdf) [pdf]
-WeatherLive: [Mission Soaring Live Weather](http://router.hang-gliding.com/WindSlammer/), [Benlo.com](http://www.benlo.com/pg/edlevin.html), WindTalker 408-946-9516
+WindTalker: +1-408-946-9516
+WeatherLive: [Mission Soaring Live Weather](http://router.hang-gliding.com/WindSlammer/), [Benlo.com](http://www.benlo.com/pg/edlevin.html)
 SeeAlso:
 
 
@@ -35,6 +36,7 @@ LaunchGPS: (37.7139, -122.503)
 LZGPS: (37.7139, -122.503)
 Requirements: H3
 SeeAlso: [Web cam & winds](http://www.flyfunston.org/newwebcam/)
+WindTalker: +1-415-333-0100
 ParaglidingEarthSite: 9302
 
 
@@ -143,6 +145,7 @@ LZGPS: 'public beach'=(37.902664, -122.653185)
 Requirements: H3
 SiteSticker: [MCHGA]
 OfficialURL: [Marin County Hang Gliding Association (MCHGA)]
+WindTalker: Mt. Tamalpais=+1-415-381-9463, Stinson Beach=+1-415-868-1922
 SeeAlso: [BHGC's Tam page](tam/index.html)
 
 
