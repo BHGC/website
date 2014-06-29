@@ -28,7 +28,7 @@ Temporary Flight Restrictions:
 gps <- function(s) {
   s <- gsub("(", "c(", s, fixed=TRUE)
   s <- sprintf("list(%s)", s)
-  s <- gsub("([0-9])(ft|'|'MSL)", "\\1", s)
+#  s <- gsub("([0-9])(ft|'|'MSL)", "\\1", s)
   s <- eval(parse(text=s))
   s
 } # gps()
@@ -66,14 +66,25 @@ gmap <- function(gps) {
 	if (!is.null(names(gps))) {
       md <- sprintf("%s: %s", names(gps), md);
 	}
-	md <- paste(md, collapse=", ")
+    if (length(md) > 1L) {
+      md <- sprintf("  - %s", md);
+      md <- paste(c("", md), collapse="\n")
+    }
     return(md)
   }
+  msl <- gps[3]
   gps <- gps[1:2]
   if (any(is.na(gps))) return("")
   url <- sprintf("http://maps.google.com/maps/preview?t=h&q=%f,%f", gps[1], gps[2])
   md <- sprintf("[(%f,%f)](%s)", gps[1], gps[2], url)
-  paste(md, collapse=",\n")
+  if (!is.na(msl)) {
+    md <- sprintf("%s @ %d' MSL", md, msl);
+  }
+  if (length(md) > 1L) {
+    md <- sprintf("  - %s", md);
+    md <- paste(md, collapse="\n")
+  }
+  md 
 } # gmap()
 
 phone <- function(numbers) {

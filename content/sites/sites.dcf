@@ -1,10 +1,10 @@
 Name: Dunlap
 State: CA
-LaunchGPS: 'ramp'=(36.764134, -119.097631)
-LZGPS: (36.736126, -119.104683)
+LaunchGPS: 'ramp'=(36.764134, -119.097631, 4600)
+LZGPS: (36.736126, -119.104683, 2000)
 Requirements: H3, H2 w/ instructor
 SiteSticker: yes (private launch/LZ)
-OfficialURL: [FlyDunlap.com](http://flydunlap.com/)
+OfficialURL: [FlyDunlap.org](http://flydunlap.org/)
 ParaglidingEarthSite: 7007
 Notes: A good first mountain site.
 SeeAlso:
@@ -13,8 +13,8 @@ SeeAlso:
 Name: Ed Levin
 Nickname: Sled Heaven
 State: CA
-LaunchGPS: '300ft'=(37.461130, -121.864641, 300ft), '600ft'=(37.461324, -121.859979, 600ft), 'top/1750ft'=(37.475389, -121.861305, 1750ft)
-LZGPS: (37.458137, -121.867135)
+LaunchGPS: '300ft'=(37.461130, -121.864641, 700), '600ft'=(37.461324, -121.859979, 1000), 'top/1750ft'=(37.475389, -121.861305, 2150)
+LZGPS: (37.458137, -121.867135, 400)
 Requirements: H0-H3
 SiteSticker: [WOR]
 OfficialURL: [Ed Levin Quick Reference](http://www.wingsofrogallo.org/sites/ed_levin/Ed_Levin_Quick_Ref_1-3.01.pdf) [pdf]
@@ -23,7 +23,7 @@ WeatherLive: [Mission Soaring Live Weather](http://router.hang-gliding.com/WindS
 SeeAlso:
 
 
-Name: Elk
+Name: Elk Mountain
 State: CA
 LaunchGPS: (39.277, -122.941)
 SeeAlso: [Sonoma Wings]
@@ -33,8 +33,9 @@ ParaglidingEarthSite: 6695
 Name: Fort Funston
 State: CA
 LaunchGPS: (37.7139, -122.503)
-LZGPS: (37.7139, -122.503)
+LZGPS: main=(37.7139, -122.503), beach=(NA, NA)
 Requirements: H3
+OfficialURL: [FlyFunston.org](http://flyfunston.org)
 SeeAlso: [Web cam & winds](http://www.flyfunston.org/newwebcam/)
 WindTalker: +1-415-333-0100
 ParaglidingEarthSite: 9302
@@ -42,7 +43,7 @@ ParaglidingEarthSite: 9302
 
 Name: Herd Peak
 State: CA
-LaunchGPS: (41.6166, -122.229)
+LaunchGPS: (41.6166, -122.229, 5680)
 Requirements: H3. H2 w/ instructor or mentor sign off.  Site intro required for all pilots.
 OfficialURL: [Rogue Valley Hang Gliding & Paragliding Association](http://rvhpa.org/site-guide/herdpeak/)
 SeeAlso: [The Oz Report](http://ozreport.com/1328031387)
@@ -50,8 +51,8 @@ SeeAlso: [The Oz Report](http://ozreport.com/1328031387)
 
 Name: Hat Creek Rim
 State: CA
-LaunchGPS: (40.843055, -121.427468)
-LZGPS: '#1/bailout'=(40.838544, -121.438413), '#2/main'=(40.840963, -121.449369)
+LaunchGPS: (40.843055, -121.427468, 4500)
+LZGPS: '#1/bailout'=(40.838544, -121.438413, 3484), '#2/main'=(40.840963, -121.449369, 3576)
 Requirements: H3, H2 w/ mentor
 SiteSticker: yes
 OfficialURL: [Hat Creek Rim](http://hatcreek.info/)
@@ -74,13 +75,13 @@ LaunchGPS: (39.06504800388501, -119.72282409667969)
 Requirements: Unregulated
 
 
-Name: Hull Mt
+Name: Hull Mountain
 State: CA
-LaunchGPS: (39.509387, -122.937847)
-LZGPS: 'lake/main'=(39.442038, -122.946644), 'airstrip/bailout'=(39.452802, -122.953110)
-Requirements: Unregulated
+LaunchGPS: 'Timberline/main'=(39.509387, -122.937847, 5800)
+LZGPS: 'lake/main'=(39.442038, -122.946644, 1800), 'airstrip/bailout'=(39.452802, -122.953110, 1800)
+Requirements: Unregulated (H3 recommended, experienced H2 w/ instructor)
 Notes: Long glide from launch to LZ.  Not appropriate without mountain experience.
-SeeAlso: [Sonoma Wings]
+SeeAlso: [Sonoma Wings](http://sonomawings.com/site-guides/hull-mountain/)
 
 
 Name: Lake McClure
@@ -108,10 +109,11 @@ SeeAlso: [Penguin's PG info](http://www.humboldt.net/~penguin/mattole.htm)
 
 Name: McClellan
 State: NV
-LaunchGPS: (39.27160031783707, -119.7125244140625)
+LaunchGPS: (39.27160031783707, -119.7125244140625, 7200)
+LZGPS: (NA, NA, 5050)
 Requirements: Unregulated
 Notes: Very easy in the right conditions, and can be scary in the wrong conditions.
-SeeAlso:
+SeeAlso: [HangGliding.org](http://www.hanggliding.org/wiki/McClellan)
 
 
 Name: Mission Ridge
@@ -121,14 +123,14 @@ Requirements: H4
 SeeAlso: [WOR](http://www.wingsofrogallo.org/sites/mission/)
 
 
-Name: Mt Diablo
+Name: Mount Diablo
 State: CA
 LaunchGPS: (NA, NA)
 Requirements: H4
 SeeAlso: [Wings of Rogallo (WOR)]
 
 
-Name: Mt Shasta
+Name: Mount Shasta
 Nickname: Whaleback Site
 State: CA
 LaunchGPS: (41.534, -122.153)
@@ -137,11 +139,11 @@ OfficialURL: [Whaleback Site Guide (RVHPA)](http://rvhpa.org/site-guide/whalebac
 SeeAlso:
 
 
-Name: Mt Tamalpais
+Name: Mount Tamalpais
 Nickname: Mt Tam
 State: CA
-LaunchGPS: A=(37.907607, -122.619097, 2050'MSL), B=(37.911167, -122.624422, 1950'MSL), C=(37.920857, -122.632657, 2500'MSL)
-LZGPS: 'public beach'=(37.902664, -122.653185)
+LaunchGPS: A=(37.907607, -122.619097, 2050), B=(37.911167, -122.624422, 1950), C=(37.920857, -122.632657, 2500)
+LZGPS: 'public beach'=(37.902664, -122.653185, 0)
 Requirements: H3
 SiteSticker: [MCHGA]
 OfficialURL: [Marin County Hang Gliding Association (MCHGA)]
@@ -149,7 +151,7 @@ WindTalker: Mt. Tamalpais=+1-415-381-9463, Stinson Beach=+1-415-868-1922
 SeeAlso: [BHGC's Tam page](tam/index.html)
 
 
-Name: Petersen Mt
+Name: Petersen Mountain
 Nickname: Rainbow
 State: NV
 LaunchGPS: (NA, NA)
@@ -159,8 +161,8 @@ SeeAlso: <%-- BROKEN: [Nevada Wings](http://www.nvwings.com/site_guide.html) --%
 
 Name: Slide Mountain
 State: NV
-LaunchGPS: (39.319914, -119.867355)
-LZGPS: (39.308908, -119.822940)
+LaunchGPS: (39.319914, -119.867355, 8200)
+LZGPS: (39.308908, -119.822940, 5100)
 Requirements: H3-H4
 SeeAlso: [HangGliding.org](http://www.hanggliding.org/wiki/Slide_Mountain)
 
