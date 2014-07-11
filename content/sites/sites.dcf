@@ -94,8 +94,8 @@ SeeAlso: <http://www.mlsr.net/>
 
 Name: Copper Mountain
 State: CA
-LaunchGPS: (38.048668, -119.195615)
-LZGPS: 'main'=(NA,NA), 'foothill'=(38.045164, -119.174000)
+LaunchGPS: (38.048668, -119.195615, 9100)
+LZGPS: 'main'=(NA,NA), 'foothill'=(38.045164, -119.174000, 7000)
 Requirements: 
 SeeAlso: 
 ParaglidingEarthSite: 15072
