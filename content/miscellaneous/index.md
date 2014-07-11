@@ -4,7 +4,7 @@
 
 * [Smitty Sauce Recipe](<%=pathToRoot%>miscellaneous/recipe-smittysauce/index.html)
 * [Goat Recipe](<%=pathToRoot%>miscellaneous/recipe-goat/index.html)
-
+* [Cocktails](<%=pathToRoot%>miscellaneous/recipe-cocktails/index.html)
 
 ## Offline references
 
