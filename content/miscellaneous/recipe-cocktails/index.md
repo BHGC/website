@@ -13,6 +13,8 @@
 * Ginger Beer (Bundaberg, Reed's, or Cock & Bull)
 * (optional) Tea bag (black, chai, or Bengal Spice)
 
+(1 oz = 30 ml)
+
 **Directions:**
 
 1. Juice lemon into ice-filled shaker.
