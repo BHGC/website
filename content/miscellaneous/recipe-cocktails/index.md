@@ -5,13 +5,15 @@
 **Ingredients:**
 
 * 1 oz vodka
-* 0.5 oz Pimm's No. 1 Cup
+* 0.5 oz Pimm's Cup No. 1
 * 0.5 oz Cointreau
 * 1 lemon
 * 4 shakes Angostura Bitters
-* 3 shakes Fee's West Indies Orange Bitters
+* 3 shakes Fee Brothers West Indies Orange Bitters
 * Ginger Beer (Bundaberg, Reed's, or Cock & Bull)
 * (optional) Tea bag (black, chai, or Bengal Spice)
+
+(1 oz = 30 ml)
 
 **Directions:**
 
@@ -34,4 +36,4 @@ especially good in this case.  However, DO NOT try to make this drink
 without either tea or bitters, it's nasty!  (Cathy calls it Mr. Pimm's
 Breakup when I forget the bitters.)
 
-/Brian Karlak
+/Brian Karlak (July 2014)
