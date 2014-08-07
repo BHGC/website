@@ -15,7 +15,7 @@ the ground school (see [Home]).
 
 The next round of sign ups for new pilot students will be announced
 on this website in Aug/Sept 2014. Signup typically happens once a year
-in early September and only in person.
+in early September (after the Labor Day weekend) and only in person.
 As a rough guide, see previous years below. See also the [About] page.
 
 ## Previous years
