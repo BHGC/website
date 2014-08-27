@@ -7,7 +7,7 @@
 <%@meta author="Henrik Bengtsson"%>
 <%@string bootstrap_url="http://netdna.bootstrapcdn.com/bootstrap/3.2.0"%>
 <%@string jquery_url="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1"%>
-<%@string google_tracking_id="UA-54228632-1"%>
+<%@string google_analytics_id="UA-54228632-1"%>
 <%@include file="utils.rsp"%>
 <!DOCTYPE html>
 <html lang="en">
@@ -146,7 +146,7 @@
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
   
-    ga('create', '<%@string name="google_tracking_id"%>', 'auto');
+    ga('create', '<%@string name="google_analytics_id"%>', 'auto');
     ga('send', 'pageview');
   
   </script>
