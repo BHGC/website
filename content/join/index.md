@@ -1,5 +1,22 @@
 # Join the club
 
+### Signup for 2014
+
+Tue Sept 9 @ probably 11am-2pm:
+  Meet us on UC Berkeley campus (exact location to be announced).  
+Wed Sept 10 @ probably 11am-2pm:
+  Meet us on UC Berkeley campus (exact location to be announced).
+
+**Wed Sept 10 @ 7pm** on UC Berkeley campus (exact location to be announced):
+**SIGNUP MEETING** - DON'T MISS IT! If you want to learn to hang glide
+**this year this is your chance**. Come to our introduction, talk to
+pilots and flying students, watch some flying videos, get all your
+questions answered and sign up (due to popularity it likely there is
+a lottery, but you'll know when you walk home).  
+
+_Last updated: August 27, 2014._  
+
+
 <%--- HIDE UNTIL NEXT SIGNUP ----------------------------------------
 ## To the unlucky ones
 
@@ -9,7 +26,6 @@ Those who where not lucky at the lottery had the option to sign up to
 be on a wait list in case any students drop. There is usually some
 turnover early on. To get in from this wait list, make sure to attend
 the ground school (see [Home]).
---------------------------------------------------------------- ---%>
 
 ## Next chance is in Sept 2014
 
@@ -17,10 +33,13 @@ The next round of sign ups for new pilot students will be announced
 on this website in Aug/Sept 2014. Signup typically happens once a year
 in early September (after the Labor Day weekend) and only in person.
 As a rough guide, see previous years below. See also the [About] page.
+--------------------------------------------------------------- ---%>
 
+
+<%--- HIDE UNTIL NEXT SIGNUP ----------------------------------------
 ## Previous years
 
-### Signup for 2013
+### Signup dates 2013
 
 Tue Sept 17 @ 11am-2pm: Meet us at the Sather Gate on UC Berkeley campus
 (south side).  
@@ -55,6 +74,7 @@ year this is your chance. Come to our introduction, talk to pilots and
 flying students, watch some flying videos, andsign up (due to
 popularity there is likely going to be a lottery - you'll know when you
 walk home). Where:102 Wurster, UC Berkeley campus.
+--------------------------------------------------------------- ---%>
 
 
 [Home]: <%=pathToRoot%>/
