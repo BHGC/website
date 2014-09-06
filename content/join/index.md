@@ -7,14 +7,14 @@ Tue Sept 9 @ probably 11am-2pm:
 Wed Sept 10 @ probably 11am-2pm:
   Meet us on UC Berkeley campus (exact location to be announced).
 
-**Wed Sept 10 @ 7pm** on UC Berkeley campus (exact location to be announced):
+**Wed Sept 10 @ 8pm** (new time!) in [240 Mulford Hall, UC Berkeley]:
 **SIGNUP MEETING** - DON'T MISS IT! If you want to learn to hang glide
 **this year this is your chance**. Come to our introduction, talk to
 pilots and flying students, watch some flying videos, get all your
 questions answered and sign up (due to popularity it likely there is
 a lottery, but you'll know when you walk home).  
 
-_Last updated: August 27, 2014._  
+_Last updated: September 5, 2014._  
 
 
 <%--- HIDE UNTIL NEXT SIGNUP ----------------------------------------
@@ -79,3 +79,4 @@ walk home). Where:102 Wurster, UC Berkeley campus.
 
 [Home]: <%=pathToRoot%>/
 [About]: <%=pathToRoot%>/about/
+[240 Mulford Hall, UC Berkeley]: http://goo.gl/X5KhpN
