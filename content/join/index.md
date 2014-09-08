@@ -2,10 +2,10 @@
 
 ### Signup for 2014
 
-Tue Sept 9 @ probably 11am-2pm:
-  Meet us on UC Berkeley campus (exact location to be announced).  
-Wed Sept 10 @ probably 11am-2pm:
-  Meet us on UC Berkeley campus (exact location to be announced).
+Tue Sept 9 @ 11am-2:30pm: Meet us at the [Sather Gate] on UC Berkeley campus
+(south side) and chat with active hangliding students/pilots.  
+Wed Sept 10 @ 11am-2:30pm: Meet us at the [Sather Gate] on UC Berkeley campus
+(south side) and chat with active hangliding students/pilots.  
 
 **Wed Sept 10 @ 8pm** (new time!) in [240 Mulford Hall, UC Berkeley]:
 **SIGNUP MEETING** - DON'T MISS IT! If you want to learn to hang glide
@@ -14,7 +14,7 @@ pilots and flying students, watch some flying videos, get all your
 questions answered and sign up (due to popularity it likely there is
 a lottery, but you'll know when you walk home).  
 
-_Last updated: September 5, 2014._  
+_Last updated: September 7, 2014._  
 
 
 <%--- HIDE UNTIL NEXT SIGNUP ----------------------------------------
@@ -80,3 +80,7 @@ walk home). Where:102 Wurster, UC Berkeley campus.
 [Home]: <%=pathToRoot%>/
 [About]: <%=pathToRoot%>/about/
 [240 Mulford Hall, UC Berkeley]: http://goo.gl/X5KhpN
+[Sather Gate]: http://goo.gl/tzjrd3
+
+<%-- Don't add favicons to link on this page --%>
+<%@logical favicons="false"%>
