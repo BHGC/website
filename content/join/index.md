@@ -1,43 +1,62 @@
 # Join the club
 
-### Signup for 2014
+## To the unlucky ones
 
-Tue Sept 9 @ 11am-2:30pm: Meet us at the [Sather Gate] on UC Berkeley campus
-(south side) and chat with active hangliding students/pilots.  
-Wed Sept 10 @ 11am-2:30pm: Meet us at the [Sather Gate] on UC Berkeley campus
-(south side) and chat with active hangliding students/pilots.  
+We thank everyone who came to the signup meeting for their interest.
+As of Sept 18, 2014, we have selected new 2014 students using a lottery
+system. Students who were selected have already been informed/emailed.
+Those who where not lucky at the lottery had the option to sign up to
+be on a wait list in case any students drop.
+<%--
+There is usually some turnover early on. the ground school (see [Home]).
+To get in from this wait list, make sure to attend the ground school
+(see [Home]).
+--%>
+As usual there was some turnover early on and a few people on the wait
+list got in this way.  Unfortunately, no more people will be able to
+join from now on.
 
-**Wed Sept 10 @ 8pm** (new time!) in [240 Mulford Hall, UC Berkeley]:
+
+## Next chance is in September 2015
+
+The next round of sign ups for new pilot students will be announced
+on this website in Aug/Sept 2015. Signup typically happens once a year
+in early September (after the Labor Day weekend) and only in person.
+As a rough guide, see previous years below. See also the [About] page.
+
+
+<%--- HIDE UNTIL NEXT SIGNUP ----------------------------------------
+### Signup for 2015
+
+??? Sept ?? @ ??am-?:??pm: Meet us at ??? on UC Berkeley campus
+(south side) and chat with active hangliding students/pilots.  
+??? Sept ?? @ >>am-?:??pm: Meet us at ??? on UC Berkeley campus
+(south side) and chat with active hangliding students/pilots.  
+**?? Sept ?? @ ?pm** in ???, UC Berkeley:
 **SIGNUP MEETING** - DON'T MISS IT! If you want to learn to hang glide
 **this year this is your chance**. Come to our introduction, talk to
 pilots and flying students, watch some flying videos, get all your
 questions answered and sign up (due to popularity it likely there is
 a lottery, but you'll know when you walk home).  
 
-_Last updated: September 7, 2014._  
-
-
-<%--- HIDE UNTIL NEXT SIGNUP ----------------------------------------
-## To the unlucky ones
-
-As of Sept 18, we have selected new 2013 students using a lottery
-system. Students who were selected have already been informed/emailed.
-Those who where not lucky at the lottery had the option to sign up to
-be on a wait list in case any students drop. There is usually some
-turnover early on. To get in from this wait list, make sure to attend
-the ground school (see [Home]).
-
-## Next chance is in Sept 2014
-
-The next round of sign ups for new pilot students will be announced
-on this website in Aug/Sept 2014. Signup typically happens once a year
-in early September (after the Labor Day weekend) and only in person.
-As a rough guide, see previous years below. See also the [About] page.
+_Last updated: September ?, 2015._  
 --------------------------------------------------------------- ---%>
 
 
-<%--- HIDE UNTIL NEXT SIGNUP ----------------------------------------
 ## Previous years
+
+### Signup dates 2014
+
+Tue Sept 9 @ 11am-2:30pm: Meet us at the Sather Gate on UC Berkeley campus
+(south side) and chat with active hangliding students/pilots.  
+Wed Sept 10 @ 11am-2:30pm: Meet us at the Sather Gate on UC Berkeley campus
+(south side) and chat with active hangliding students/pilots.  
+Wed Sept 10 @ 8pm in 240 Mulford Hall, UC Berkeley:
+SIGNUP MEETING - DON'T MISS IT! If you want to learn to hang glide
+this year this is your chance. Come to our introduction, talk to
+pilots and flying students, watch some flying videos, get all your
+questions answered and sign up (due to popularity it likely there is
+a lottery, but you'll know when you walk home).
 
 ### Signup dates 2013
 
@@ -74,6 +93,9 @@ year this is your chance. Come to our introduction, talk to pilots and
 flying students, watch some flying videos, andsign up (due to
 popularity there is likely going to be a lottery - you'll know when you
 walk home). Where:102 Wurster, UC Berkeley campus.
+
+<%--- HIDE UNTIL NEXT SIGNUP ----------------------------------------
+
 --------------------------------------------------------------- ---%>
 
 
