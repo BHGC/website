@@ -1,9 +1,12 @@
-<%@ifeq page=""%>
-<%@string label="BHGC"%>
-<%@else%>
-<%@string label="BHGC: ${page}"%>
+<%@string site_name="Berkeley Hang Gliding Club"%>
+<%@string site_acronym="BHGC"%>
+<%@string short_title="${site_acronym}"%>
+<%@string full_title="${site_name}"%>
+<%@ifneq page=""%>
+  <%@string short_title="${short_title}: ${page}"%>
+  <%@string full_title="${full_title}: ${page}"%>
 <%@endif%>
-<%@meta title="${label}"%>
+<%@meta title="${short_title}"%> 
 <%@meta author="Henrik Bengtsson"%>
 <%@string bootstrap_url="http://netdna.bootstrapcdn.com/bootstrap/3.2.0"%>
 <%@string jquery_url="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1"%>
@@ -18,7 +21,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="<%@meta name="author"%>">
   <link rel="shortcut icon" href="<%=pathToRoot%>assets/ico/favicon.ico">
-  <title><%@meta name="title"%></title>
+  <title title="<%@string name="full_title"%>"><%@meta name="title"%></title>
   <%-- Include the Bootstrap stylesheets --%>
   <link href="<%@string name="bootstrap_url"%>/css/bootstrap.min.css" rel="stylesheet">
   <%-- Custom styles for this template --%>
