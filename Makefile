@@ -51,6 +51,16 @@ publish:
 
 
 #=====================================================================
+# Archive data bases
+#=====================================================================
+db_save:
+	wget --no-check-certificate https://bhgc.glidelink.net/hangglider_report -O db/hangglider_report.html
+	wget --no-check-certificate https://bhgc.glidelink.net/harness_report -O db/harness_report.html
+	wget --no-check-certificate https://bhgc.glidelink.net/parachute_report -O db/parachute_report.html
+	wget --no-check-certificate https://bhgc.glidelink.net/pilot_report -O db/pilot_report.html
+
+
+#=====================================================================
 # Cleanups
 #=====================================================================
 clean:
