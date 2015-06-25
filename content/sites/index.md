@@ -49,6 +49,17 @@ weather <- function(gps, when=c("now"=0, "12h"=12,"24h"=24, "48h"=48, "72h"=72))
 } # weather()
 
 
+aerochart <- function(gps, chart=301, zoom=3) {
+  gps <- gps[1:2]
+  if (any(is.na(gps))) return()
+  url <- sprintf("http://skyvector.com/?ll=%f,%f&chart=%d&zoom=%d",
+                 gps[1], gps[2], chart, zoom)
+  names(url) <- c("SkyVector")
+  md <- sprintf("[%s](%s)", names(url), url)
+  paste(md, collapse=",\n")
+} # aerochart()
+
+
 # "This is current accepted way to link to a specific lat lon
 #  (rather than search for the nearest object).
 #  http://maps.google.com/maps?z=12&t=m&q=loc:38.9419+-78.3020
@@ -148,11 +159,12 @@ rownames(data) <- data$Name
 
 * Launch: <%= gmap(LaunchGPS) %>
 * LZ: <%= gmap(LZGPS) %>
-* Requirements: <%= rstring(Requirements) %>
+* Aeronautical charts: <%= aerochart(gps(LaunchGPS)[[1]]) %>
 * Weather: <%= weather(gps(LaunchGPS)[[1]]) %>
 * Live weather: <%= rstring(WeatherLive) %>
 * WindTalker: <%= paste(phone(WindTalker), collapse=", ") %>
 * Official page: <%= rstring(OfficialURL) %>
+* Requirements: <%= rstring(Requirements) %>
 * Sticker: <%= rstring(SiteSticker) %>
 * See also: <%= rstring(seealso) %>
 * Notes: <%= rstring(Notes) %>
