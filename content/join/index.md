@@ -20,8 +20,8 @@ join from now on.
 ## Next chance is in September 2015
 
 The next round of sign ups for new pilot students will be announced
-on this website in Aug/Sept 2015. Signup typically happens once a year
-in early September (after the Labor Day weekend) and only in person.
+on this website in Aug/Sept 2015. Signup happens once a year, typically
+in early September (after the Labor Day weekend), and only in person.
 As a rough guide, see previous years below. See also the [About] page.
 
 
