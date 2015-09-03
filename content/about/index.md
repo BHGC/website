@@ -31,6 +31,11 @@ the end of formal lessons; hang gliding involves continual learning, and
 instructors are always willing to help. Soon you will be heading to the
 mountains.
 
+Although a few of the club members do also fly paragliders, the club
+does not have instructors for teaching paragliding - only for hang
+gliding.
+
+
 ## The Mountain Experience
 
 Pilots in the club enjoy flying at some of the best sites in the world.
@@ -41,6 +46,7 @@ Area, Mt. Tamalpais entices pilots with beautiful vistas of San
 Francisco and the Pacific. For further excitement, club pilots have
 recently traveled as far as South Africa and Europe in the search for
 big air.
+
 
 ## Contact information
 
