@@ -1,5 +1,6 @@
 # Join the club
 
+<%---
 ## To the unlucky ones
 
 We thank everyone who came to the signup meeting for their interest.
@@ -16,31 +17,31 @@ As usual there was some turnover early on and a few people on the wait
 list got in this way.  Unfortunately, no more people will be able to
 join from now on.
 
-
 ## Next chance is in September 2015
 
 The next round of sign ups for new pilot students will be announced
 on this website in Aug/Sept 2015. Signup happens once a year, typically
 in early September (after the Labor Day weekend), and only in person.
 As a rough guide, see previous years below. See also the [About] page.
+---%>
 
 
 <%--- HIDE UNTIL NEXT SIGNUP ----------------------------------------
+--------------------------------------------------------------- ---%>
 ### Signup for 2015
 
-??? Sept ?? @ ??am-?:??pm: Meet us at ??? on UC Berkeley campus
-(south side) and chat with active hangliding students/pilots.  
-??? Sept ?? @ >>am-?:??pm: Meet us at ??? on UC Berkeley campus
-(south side) and chat with active hangliding students/pilots.  
-**?? Sept ?? @ ?pm** in ???, UC Berkeley:
-**SIGNUP MEETING** - DON'T MISS IT! If you want to learn to hang glide
-**this year this is your chance**. Come to our introduction, talk to
+Tue Sept 15 @ 11am-3pm: Meet us at Sproul Plaza/Sather Gate on UC Berkeley
+campus (south side) and chat with active hangliding students/pilots.  
+Wed Sept 16 @ 11am-3pm: Meet us at Sproul Plaza/Sather Gate on UC Berkeley
+campus (south side) and chat with active hangliding students/pilots.  
+**Wed Sept 16 @ 8pm**: [EXACT TIME AND LOCATION TO BE ANNOUNCED], UC Berkeley:
+**SIGNUP MEETING** - DON'T MISS IT! If you want to **learn to hang glide
+this year, this is your chance**. Come to our introduction, talk to
 pilots and flying students, watch some flying videos, get all your
 questions answered and sign up (due to popularity it likely there is
 a lottery, but you'll know when you walk home).  
 
-_Last updated: September ?, 2015._  
---------------------------------------------------------------- ---%>
+_Last updated: September 3, 2015._  
 
 
 ## Previous years
