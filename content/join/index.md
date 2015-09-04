@@ -30,11 +30,11 @@ As a rough guide, see previous years below. See also the [About] page.
 --------------------------------------------------------------- ---%>
 ### Signup for 2015
 
-Tue Sept 15 @ 11am-3pm: Meet us at Sproul Plaza/Sather Gate on UC Berkeley
+* Tue Sept 15 @ 11am-3pm: Meet us at Sproul Plaza/Sather Gate on UC Berkeley
 campus (south side) and chat with active hangliding students/pilots.  
-Wed Sept 16 @ 11am-3pm: Meet us at Sproul Plaza/Sather Gate on UC Berkeley
+* Wed Sept 16 @ 11am-3pm: Meet us at Sproul Plaza/Sather Gate on UC Berkeley
 campus (south side) and chat with active hangliding students/pilots.  
-**Wed Sept 16 @ 8pm**: [EXACT TIME AND LOCATION TO BE ANNOUNCED], UC Berkeley:
+* **Wed Sept 16 @ 8pm**: [EXACT TIME AND LOCATION TO BE ANNOUNCED], UC Berkeley:
 **SIGNUP MEETING** - DON'T MISS IT! If you want to **learn to hang glide
 this year, this is your chance**. Come to our introduction, talk to
 pilots and flying students, watch some flying videos, get all your
@@ -48,11 +48,11 @@ _Last updated: September 3, 2015._
 
 ### Signup dates 2014
 
-Tue Sept 9 @ 11am-2:30pm: Meet us at the Sather Gate on UC Berkeley campus
+* Tue Sept 9 @ 11am-2:30pm: Meet us at the Sather Gate on UC Berkeley campus
 (south side) and chat with active hangliding students/pilots.  
-Wed Sept 10 @ 11am-2:30pm: Meet us at the Sather Gate on UC Berkeley campus
+* Wed Sept 10 @ 11am-2:30pm: Meet us at the Sather Gate on UC Berkeley campus
 (south side) and chat with active hangliding students/pilots.  
-Wed Sept 10 @ 8pm in 240 Mulford Hall, UC Berkeley:
+* Wed Sept 10 @ 8pm in 240 Mulford Hall, UC Berkeley:
 SIGNUP MEETING - DON'T MISS IT! If you want to learn to hang glide
 this year this is your chance. Come to our introduction, talk to
 pilots and flying students, watch some flying videos, get all your
@@ -61,11 +61,11 @@ a lottery, but you'll know when you walk home).
 
 ### Signup dates 2013
 
-Tue Sept 17 @ 11am-2pm: Meet us at the Sather Gate on UC Berkeley campus
+* Tue Sept 17 @ 11am-2pm: Meet us at the Sather Gate on UC Berkeley campus
 (south side).  
-Wed Sept 18 @ 11am-2pm: Meet us at the Sather Gate on UC Berkeley campus
+* Wed Sept 18 @ 11am-2pm: Meet us at the Sather Gate on UC Berkeley campus
 (south side).  
-Wed Sept 18 @ 7pm in 220 Wheeler Hall: DON'T MISS THE SIGNUP MEETING! If
+* Wed Sept 18 @ 7pm in 220 Wheeler Hall: DON'T MISS THE SIGNUP MEETING! If
 you want to learn to hang glide this year this is your chance. Come to
 our introduction, talk to pilots and flying students, watch some flying
 videos, and sign up (due to popularity there is likely going to be a
@@ -73,11 +73,11 @@ lottery - you'll know when you walk home).
 
 ### Signup dates 2012
 
-Tue Sept 11 @ 11am-2pm: Meet us at the Sather Gate on UC Berkeley campus
+* Tue Sept 11 @ 11am-2pm: Meet us at the Sather Gate on UC Berkeley campus
 (south side).  
-Wed Sept 12 @ 11am-2pm: Meet us at the Sather Gate on UC Berkeley
+* Wed Sept 12 @ 11am-2pm: Meet us at the Sather Gate on UC Berkeley
 campus(south side).  
-Wed Sept 12 @ 7pm in 126 Barrows Hall: DON'T MISS THE SIGNUP MEETING!
+* Wed Sept 12 @ 7pm in 126 Barrows Hall: DON'T MISS THE SIGNUP MEETING!
 If you want to learn to hang glide this year this isyour chance. Come
 to our introduction, talk to pilots and flying students, watch some
 flying videos, and sign up (due to popularity there is likely going to
@@ -85,11 +85,11 @@ be a lottery - you'll know when you walk home).
 
 ### Signup dates 2011
 
-Tue Sept 6 @ 11am-1:30pm: Meet us at the Sather Gate on UC Berkeley
+* Tue Sept 6 @ 11am-1:30pm: Meet us at the Sather Gate on UC Berkeley
 campus.  
-Wed Sept 7 @ 11am-1:30pm: Meet us at the North Gate on UC Berkeley
+* Wed Sept 7 @ 11am-1:30pm: Meet us at the North Gate on UC Berkeley
 campus.  
-Wed Sept 7 @ 7pm: DON'T MISS! If you want to learn to hang glide this
+* Wed Sept 7 @ 7pm: DON'T MISS! If you want to learn to hang glide this
 year this is your chance. Come to our introduction, talk to pilots and
 flying students, watch some flying videos, andsign up (due to
 popularity there is likely going to be a lottery - you'll know when you
