@@ -34,14 +34,14 @@ As a rough guide, see previous years below. See also the [About] page.
 campus (south side) and chat with active hangliding students/pilots.  
 * Wed Sept 16 @ 11am-3pm: Meet us at Sproul Plaza/Sather Gate on UC Berkeley
 campus (south side) and chat with active hangliding students/pilots.  
-* **Wed Sept 16 @ 8pm**: [EXACT TIME AND LOCATION TO BE ANNOUNCED], UC Berkeley:
+* **Wed Sept 16 @ 8pm** at 2040 Valley Life Science Building (VLSB), UC Berkeley:
 **SIGNUP MEETING** - DON'T MISS IT! If you want to **learn to hang glide
 this year, this is your chance**. Come to our introduction, talk to
 pilots and flying students, watch some flying videos, get all your
 questions answered and sign up (due to popularity it likely there is
 a lottery, but you'll know when you walk home).  
 
-_Last updated: September 3, 2015._  
+_Last updated: September 14, 2015._  
 
 
 ## Previous years
