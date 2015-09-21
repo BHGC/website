@@ -15,10 +15,13 @@ the underlying database (and all other pages) directly in the browser.
 
 ## FAA related
 
-Temporary Flight Restrictions:
-* [CA](http://tfr.faa.gov/tfr_map/states.jsp?select2=CA),
-* [NV](http://tfr.faa.gov/tfr_map/states.jsp?select2=NV),
-* [USA](http://www.aopa.org/tfr/faa-tfr-map.html)
+* Temporary Flight Restrictions:
+  [CA](http://tfr.faa.gov/tfr_map/states.jsp?select2=CA),
+  [NV](http://tfr.faa.gov/tfr_map/states.jsp?select2=NV),
+  [USA](http://tfr.faa.gov/tfr_map_ims/html/index.html)
+* California Fire Maps:
+  [CAL file](http://www.fire.ca.gov/general/firemaps.php)
+  [large view](http://maps.google.com/maps/d/viewer?ll=37.055177%2C-120.454102&spn=17.505593%2C18.720703&hl=en&msa=0&z=5&source=embed&ie=UTF8&mid=zp8nK_5H0MFQ.kzTmU5XK-qJQ)
 
 
 <%-------------------------------------------------------------------
