@@ -1,50 +1,48 @@
 # Join the club
 
-<%---
 ## To the unlucky ones
 
-We thank everyone who came to the signup meeting for their interest.
-As of Sept 18, 2014, we have selected new 2014 students using a lottery
-system. Students who were selected have already been informed/emailed.
+We thank everyone who came to the signup meeting.
+As of Sept 21, 2015, we have selected new students using a lottery
+system. Students who were selected have already been informed/emailed - **check your email inbox!**
+
 Those who where not lucky at the lottery had the option to sign up to
-be on a wait list in case any students drop.
+be on the wait list in case any students drop out (**you can expect an
+email too no later than Tue Sept 22 if you're on this list**).
+There is usually some turnover early on.  To get in from this wait
+list, make sure to attend the ground school (see [front page]).
+
 <%--
-There is usually some turnover early on. the ground school (see [Home]).
-To get in from this wait list, make sure to attend the ground school
-(see [Home]).
---%>
 As usual there was some turnover early on and a few people on the wait
 list got in this way.  Unfortunately, no more people will be able to
 join from now on.
+--%>
 
-## Next chance is in September 2015
+_Last updated: September 21, 2015._
+
+
+## Next chance is in September 2016
 
 The next round of sign ups for new pilot students will be announced
-on this website in Aug/Sept 2015. Signup happens once a year, typically
+on this website in Aug/Sept 2016. Signup happens once a year, typically
 in early September (after the Labor Day weekend), and only in person.
 As a rough guide, see previous years below. See also the [About] page.
----%>
 
 
-<%--- HIDE UNTIL NEXT SIGNUP ----------------------------------------
---------------------------------------------------------------- ---%>
-### Signup for 2015
+## Previous years
+
+### Signup dates 2015
 
 * Tue Sept 15 @ 11am-2:30pm: Meet us at Sproul Plaza/Sather Gate on UC Berkeley
 campus (south side) and chat with active hangliding students/pilots.  
 * Wed Sept 16 @ 11am-2:30pm: Meet us at Sproul Plaza/Sather Gate on UC Berkeley
 campus (south side) and chat with active hangliding students/pilots.  
-* **Wed Sept 16 @ 8pm** at 2040 Valley Life Science Building (VLSB), UC Berkeley:
-**SIGNUP MEETING** - DON'T MISS IT! If you want to **learn to hang glide
-this year, this is your chance**. Come to our introduction, talk to
+* Wed Sept 16 @ 8pm at 2040 Valley Life Science Building (VLSB), UC Berkeley:
+SIGNUP MEETING - DON'T MISS IT! If you want to learn to hang glide
+this year, this is your chance. Come to our introduction, talk to
 pilots and flying students, watch some flying videos, get all your
 questions answered and sign up (due to popularity it likely there is
 a lottery, but you'll know when you walk home).  
-
-_Last updated: September 14, 2015._  
-
-
-## Previous years
 
 ### Signup dates 2014
 
@@ -100,6 +98,7 @@ walk home). Where:102 Wurster, UC Berkeley campus.
 --------------------------------------------------------------- ---%>
 
 
+[front page]: <%=pathToRoot%>/
 [Home]: <%=pathToRoot%>/
 [About]: <%=pathToRoot%>/about/
 [240 Mulford Hall, UC Berkeley]: http://goo.gl/X5KhpN
