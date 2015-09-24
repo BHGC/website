@@ -98,9 +98,9 @@ walk home). Where:102 Wurster, UC Berkeley campus.
 --------------------------------------------------------------- ---%>
 
 
-[front page]: <%=pathToRoot%>/
-[Home]: <%=pathToRoot%>/
-[About]: <%=pathToRoot%>/about/
+[front page]: <%=pathToRoot%>
+[Home]: <%=pathToRoot%>
+[About]: <%=pathToRoot%>about/
 [240 Mulford Hall, UC Berkeley]: http://goo.gl/X5KhpN
 [Sather Gate]: http://goo.gl/tzjrd3
 
