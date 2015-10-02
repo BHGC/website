@@ -4,21 +4,19 @@
 
 We thank everyone who came to the signup meeting.
 As of Sept 21, 2015, we have selected new students using a lottery
-system. Students who were selected have already been informed - **check your email inbox!**
-
+system. Students who were selected have already been informed.
+As usual there was some turnover early on and a few people on the wait
+list got in this way.  Unfortunately, no more people will be able to
+join from now on.
+<%--
 Those who where not lucky at the lottery had the option to sign up to
 be on the wait list in case any students drop out.
 People on the wait list has also been informed - **check your email inbox!**
 There is usually some turnover early on.  To get in from this wait
 list, make sure to attend the ground school (see [front page]).
 
-<%--
-As usual there was some turnover early on and a few people on the wait
-list got in this way.  Unfortunately, no more people will be able to
-join from now on.
---%>
-
 _Last updated: September 22, 2015._
+--%>
 
 
 ## Next chance is in September 2016
