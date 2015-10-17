@@ -13,9 +13,9 @@ href="https://github.com/BHGC/website/tree/master/content/sites/sites.dcf">edit<
 the underlying database (and all other pages) directly in the browser.
 </div>
 
-## FAA related
+## Regional
 
-* Temporary Flight Restrictions:
+* FAA Temporary Flight Restrictions:
   [CA](http://tfr.faa.gov/tfr_map/states.jsp?select2=CA),
   [NV](http://tfr.faa.gov/tfr_map/states.jsp?select2=NV),
   [USA](http://tfr.faa.gov/tfr_map_ims/html/index.html)
