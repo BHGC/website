@@ -213,6 +213,6 @@ Name: Yosemite / Glacier Point
 State: CA
 LaunchGPS: 'Glacier Point'=(37.729047,-119.572754, 7200)
 LZGPS: 'Leidig Meadow'=(37.737710, -119.603902, 3900)
-Requirements: H4
+Requirements: H4, permit
 Notes:  May 1 to October 1 only. Launch 7-9:30am. Land 7-10:30am. Permit required.
 SeeAlso: https://parkplanning.nps.gov/projectHome.cfm?projectID=21599
