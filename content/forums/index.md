@@ -15,7 +15,7 @@ The club has four mailing lists that are for club members only:
   - all instructors. Used among instructors and by individual students
   to reach the instructors.
 4. ['alumni'](http://www.bhgc.org/mailman/listinfo/alumni_bhgc.org)
-  - all former and all activemembers of the club (including those on
+  - all former and all active members of the club (including those on
   the members mailing list). Very low frequency mailing list used
   occassionally for such things as long-term club matters and social
   events.
