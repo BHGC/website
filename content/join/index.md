@@ -9,7 +9,7 @@ As usual there was some turnover early on and a few people on the wait
 list got in this way.  Unfortunately, no more people will be able to
 join from now on.
 <%--
-Those who where not lucky at the lottery had the option to sign up to
+Those who were not lucky at the lottery had the option to sign up to
 be on the wait list in case any students drop out.
 People on the wait list has also been informed - **check your email inbox!**
 There is usually some turnover early on.  To get in from this wait
