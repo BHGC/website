@@ -185,6 +185,7 @@ buildPage <- function(src, path=".", skip=TRUE) {
   # Extract page title
   title <- grep("^#[ ]*", body, value=TRUE)[1L]
   title <- trim(gsub("^#[ ]*", "", title))
+  title <- trim(gsub("<[^>]*>", "", title))
   if (is.na(title)) title <- ""
   mprintf("Page title: %s\n", title)
 

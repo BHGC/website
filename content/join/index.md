@@ -1,5 +1,20 @@
-# Join the club
+# Join the club <span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
 
+If you want to **learn to hang glide this academic year, this is your chance**.
+
+* Tue Sept 20 @ 11am-2pm: Chat with active hangliding students and pilots.  
+  Meet us at Sproul Plaza / Sather Gate on UC Berkeley campus (south side).
+  Look for the hang glider.
+* Wed Sept 21 @ 11am-2pm: Chat with active hangliding students and pilots.  
+  Meet us at Sproul Plaza / Sather Gate on UC Berkeley campus (south side).
+  Look for the hang glider.
+* **Wed Sept 21 @ evening**: **SIGNUP MEETING.**  
+  Come to our introduction, talk to pilots and flying students, watch some flying videos, get all your questions answered and sign up.  **You have to sign up in person and at this event.**  Due to popularity it is likely there is a lottery, but you'll know when you walk home.   **DON'T MISS IT!**
+  (*) Exact time and location for the signup meeting is to be decided; please check back.
+
+_Last updated: September 16, 2016._  
+
+<%--- HIDE UNTIL NEXT SIGNUP ----------------------------------------
 ## To the unlucky ones
 
 We thank everyone who came to the signup meeting.
@@ -8,7 +23,7 @@ system. Students who were selected have already been informed.
 As usual there was some turnover early on and a few people on the wait
 list got in this way.  Unfortunately, no more people will be able to
 join from now on.
-<%--
+
 Those who were not lucky at the lottery had the option to sign up to
 be on the wait list in case any students drop out.
 People on the wait list has also been informed - **check your email inbox!**
@@ -16,15 +31,15 @@ There is usually some turnover early on.  To get in from this wait
 list, make sure to attend the ground school (see [front page]).
 
 _Last updated: September 22, 2015._
---%>
 
 
-## Next chance is in September 2016
+## Next chance is in September 2017
 
 The next round of sign ups for new pilot students will be announced
-on this website in Aug/Sept 2016. Signup happens once a year, typically
+on this website in Aug/Sept 2017. Signup happens once a year, typically
 in early September (after the Labor Day weekend), and only in person.
 As a rough guide, see previous years below. See also the [About] page.
+--------------------------------------------------------------- ---%>
 
 
 ## Previous years
@@ -39,7 +54,7 @@ campus (south side) and chat with active hangliding students/pilots.
 SIGNUP MEETING - DON'T MISS IT! If you want to learn to hang glide
 this year, this is your chance. Come to our introduction, talk to
 pilots and flying students, watch some flying videos, get all your
-questions answered and sign up (due to popularity it likely there is
+questions answered and sign up (due to popularity it is likely there is
 a lottery, but you'll know when you walk home).  
 
 ### Signup dates 2014
@@ -52,7 +67,7 @@ a lottery, but you'll know when you walk home).
 SIGNUP MEETING - DON'T MISS IT! If you want to learn to hang glide
 this year this is your chance. Come to our introduction, talk to
 pilots and flying students, watch some flying videos, get all your
-questions answered and sign up (due to popularity it likely there is
+questions answered and sign up (due to popularity it is likely there is
 a lottery, but you'll know when you walk home).
 
 ### Signup dates 2013
@@ -90,10 +105,6 @@ year this is your chance. Come to our introduction, talk to pilots and
 flying students, watch some flying videos, andsign up (due to
 popularity there is likely going to be a lottery - you'll know when you
 walk home). Where:102 Wurster, UC Berkeley campus.
-
-<%--- HIDE UNTIL NEXT SIGNUP ----------------------------------------
-
---------------------------------------------------------------- ---%>
 
 
 [front page]: <%=pathToRoot%>
