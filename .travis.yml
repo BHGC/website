@@ -29,7 +29,8 @@ script:
   - $PKGR run_script R/build
 
 ##after_success:
-##   - rsync -avz --exclude '*~' --perms --chmod=ugo+rx --progress html/ bhgc.org:~/public_html/bhgc.org/
+  - ls -laR html/
+  - rsync -avz --exclude '*~' --perms --chmod=ugo+rx --progress html/ bhgc.org:~/public_html/bhgc.org/
  
 notifications:
   email:
