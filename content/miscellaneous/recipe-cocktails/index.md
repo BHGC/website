@@ -25,7 +25,7 @@
 
 You can adjust the strength of the drink by varying the amount of
 vodka (0x - 2x works).  You can adjust sweetness by varying the ratio
-of Pimm's to Cointreau, as long as total volume of the two is 1 oz
+of Pimm's to Cointreau, as long as the total volume of the two is 1 oz
 (personally, I prefer 0.33 Cointreau and 0.66 Pimm's).  Also, be
 careful about the amount of ginger beer you top with, it's easy to get
 too sweet.
