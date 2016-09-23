@@ -38,5 +38,5 @@ notifications:
     on_failure: change
 
 branches:
-  except:
-   - /-expt$/
+  only:
+   - master
