@@ -17,7 +17,7 @@ specifying headers, subheaders, links, images, lists etc.
 
 ### Site is updated momentarily
 
-Any updates made online / to this repository triggers an automatic rebuild of the website and its content.  You can follow the progess over at [Travis CI](travis-ci.org/BHGC/website/builds).  You can expect any edits to be live in ~2 minutes.
+Any updates made online / to this repository triggers an automatic rebuild of the website and its content.  You can follow the progess over at [Travis CI](https://travis-ci.org/BHGC/website/builds).  You can expect any edits to be live in ~2 minutes.
 
 
 [BHGC website]: http://bhgc.org/
