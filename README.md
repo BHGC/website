@@ -15,19 +15,9 @@ with [Markdown](http://www.wikipedia.org/wiki/Markdown) markup for
 specifying headers, subheaders, links, images, lists etc.
 
 
-### Build site on the fly
+### Site is updated momentarily
 
-This repository is such that it is possible to build the site on the fly based on what is available in this GitHub repository.  In order to do this, just run [R](http://www.r-project.org/) (available on Windows, OSX and Linux) and call:
-```s
-source('http://bhgc.org/build#BHGC')
-```
-This will build a copy of the site in local directory html/.  If
-you clone this repository, then you can call:
-```s
-source('http://bhgc.org/build')
-```
-to build from the local files (which you can also edit).
-
+Any updates made online / to this repository triggers an automatic rebuild of the website and its content.  You can follow the progess over at [Travis CI](travis-ci.org/BHGC/website/builds).  You can expect any edits to be live in ~2 minutes.
 
 
 [BHGC website]: http://bhgc.org/
