@@ -10,7 +10,7 @@ _UPDATE: Sorry folks, we had to move these events forward one week; these are th
 * Wed Sept 28 @ 11am-2pm: Chat with active hangliding students and pilots.  
   Meet us at Sproul Plaza / Sather Gate on UC Berkeley campus (south side).
   Look for the hang glider.
-* **Wed Sept 28 @ 8:00 pm** at 101 Moffitt Library, UC Berkeley: **SIGNUP MEETING.**  
+* **Wed Sept 28 @ 8:00 pm** in 101 Moffitt Library, UC Berkeley: **SIGNUP MEETING.**  
   Come to our introduction, talk to pilots and flying students, watch some flying videos, get all your questions answered and sign up.  **You have to sign up in person and at this event.**  Due to popularity it is likely there is a lottery, but you'll know when you walk home.   **DON'T MISS IT!**
 
 _Last updated: September 28, 2016 @ 6:10 pm (added location and time for signup meeting)._  
