@@ -128,7 +128,13 @@ if (isUrl(pageSource)) {
   pathname <- downloadFile(url, pathname, path=".download", overwrite=TRUE)
   message("Downloaded: ", pathname)
 }
-data <- read.dcf(pathname)
+bfr <- readLines(pathname)
+bfr <- grep("^#.*", bfr, value=TRUE, invert=TRUE)
+data <- local({
+  con <- textConnection(bfr, open="r")
+  on.exit(close(con))
+  read.dcf(con)
+})
 data[is.na(data)] <- ""
 data <- as.data.frame(data, stringsAsFactors=FALSE)
 data <- data[order(data$Name),]
