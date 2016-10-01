@@ -103,6 +103,21 @@ ParaglidingEarthSite: 15072
 Notes: Shallow launch at high altitude. Watch out for rotors from behind.
 
 
+Name: Peavine Mt
+State: NV
+LaunchGPS: (NA, NA)
+Requirements: 
+Notes: 
+SeeAlso: 
+
+
+Name: Lakeview
+State: OR
+LaunchGPS: (NA, NA)
+Requirements: 
+Notes: 
+SeeAlso: 
+
 
 Name: Lee Vining
 State: CA
@@ -207,14 +222,6 @@ LaunchGPS: (NA, NA)
 Requirements: Unregulated
 Notes: "Certainly not H2 friendly"
 SeeAlso:
-
-
-Name: Lakeview
-State: OR
-LaunchGPS: (NA, NA)
-Requirements: 
-Notes: 
-SeeAlso: 
 
 
 Name: Yosemite / Glacier Point
