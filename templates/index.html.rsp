@@ -8,7 +8,7 @@
 <%@endif%>
 <%@meta title="${short_title}"%> 
 <%@meta author="Henrik Bengtsson"%>
-<%@string bootstrap_url="http://netdna.bootstrapcdn.com/bootstrap/3.3.6"%>
+<%@string bootstrap_url="http://netdna.bootstrapcdn.com/bootstrap/3.3.7"%>
 <%@string jquery_url="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4"%>
 <%@string google_analytics_id="UA-15596268-1"%>
 <%@logical favicons="${favicons}" default="true"%>
