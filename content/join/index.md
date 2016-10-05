@@ -10,9 +10,13 @@ If you want to **learn to hang glide this academic year, this is your chance**.
   Look for the hang glider.
 * **Wed Sept 28 @ 8:00 pm** in 101 Moffitt Library, UC Berkeley: **SIGNUP MEETING.**  
   Come to our introduction, talk to pilots and flying students, watch some flying videos, get all your questions answered and sign up.  **You have to sign up in person and at this event.**  Due to popularity it is likely there is a lottery, but you'll know when you walk home.   **DON'T MISS IT!**
+  
+ * GROUND SCHOOL: For students who have a spot or are on the waitlist
+ 80 Barrows Hall
+ 7-8 PM
 
 <small>
-_Last updated: September 28, 2016 @ 6:10 pm (added location and time for signup meeting)._  
+_Last updated: October 5, 2016 @ 10:40am (added location and time for ground school)._  
 </small>
 
 <%--- HIDE UNTIL NEXT SIGNUP ----------------------------------------
