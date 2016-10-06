@@ -2,6 +2,12 @@
 
 ## Mailing lists
 
+<%-- ALERT (CALL FOR HELP) --%>
+<div class="alert alert-warning" role="alert">
+1. Sorry, these mailing lists are for <strong>club members only</strong>.</br>
+2. <strong>New students, please don't subscribe yourself</strong> - we will add you to the lists.</br>
+</div>
+
 The club has four mailing lists that are for club members only:
 
 1. ['members'](http://www.bhgc.org/mailman/listinfo/members_bhgc.org)
