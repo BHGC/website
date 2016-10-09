@@ -1,6 +1,6 @@
-# Student mailing list for 2015/2016
+# Student mailing list for 2016 / 2017
 
-New hang gliding students are joining the club for our 2015/2016
+New hang gliding students are joining the club for our 2016 / 2017
 training session.  The club uses a 'students' mailing list to reach
 out to everyone part of the training, but also to anyone else in the
 club who is interested in going down to Ed Levin (our training site).
