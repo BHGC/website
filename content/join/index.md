@@ -1,6 +1,6 @@
-<%--- HIDE UNTIL NEXT SIGNUP ----------------------------------------
 # Join the club <span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
 
+<%--- HIDE UNTIL NEXT SIGNUP ----------------------------------------
 If you want to **learn to hang glide this academic year, this is your chance**.
 
 * Tue Sept 27 @ 11am-2pm: Chat with active hangliding students and pilots.  
