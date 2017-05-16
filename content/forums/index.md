@@ -28,8 +28,12 @@ The club has four mailing lists that are for club members only:
 
 ## Subscribe/unsubscribe
 
-Click on the correspond link above and follow the instructions to
-subscribe to/unsubscribe from a mailing list. FYI, these mailing lists
-are for club members only - all subscription requests will be moderated.
-However, even without being a BHGC member, you may still send a message
-to one of these list - such messages will be moderated.
+Click on the correspond link above and make sure to **carefully** follow the
+instructions to subscribe to/unsubscribe from a mailing list.
+**You will receive an automatically generated email (check your spam folder)
+which you have to confirm** in order for you request to be processed.
+
+FYI, these mailing lists are for club members only - all subscription
+requests will be moderated. However, even without being a BHGC member,
+you may still send a message to one of these list - such messages will
+be moderated.
