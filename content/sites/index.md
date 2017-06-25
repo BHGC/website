@@ -29,24 +29,32 @@ the underlying database (and all other pages) directly in the browser.
  SITES
  -------------------------------------------------------------------%>
 <%
-gps <- function(s) {
+parse_gps <- function(s) {
+  stopifnot(is.character(s))
+  s <- gsub("NA", "NA_real_", s, fixed = TRUE)
   s <- gsub("(", "c(", s, fixed=TRUE)
   s <- sprintf("list(%s)", s)
 #  s <- gsub("([0-9])(ft|'|'MSL)", "\\1", s)
-  s <- eval(parse(text=s))
+  s <- eval(parse(text = s))
   s
-} # gps()
+} # parse_gps()
 
 
 weather <- function(gps, when=c("now"=0, "12h"=12,"24h"=24, "48h"=48, "72h"=72)) {
-  gps <- gps[1:2]
-  if (any(is.na(gps))) return()
+  stopifnot(is.list(gps))
+  if (length(gps) == 0) return("")
+  gps <- gps[[1]] ## First launch site (FIXME)
+  gps <- unlist(gps)
+
+  lat <- gps[1]
+  long <- gps[2]
+  if (is.na(lat) || is.na(long)) return("")
   url <-
   sprintf("http://forecast.weather.gov/MapClick.php?w0=t&w1=td&w2=wc&w3=sfcwind&w3u=1&w4=sky&w5=pop&w6=rh&w7=thunder&w8=rain&w9=snow&w10=fzg&w11=sleet&Submit=Submit&FcstType=digital&site=mtr&unit=0&dd=0&bw=0&textField1=%f&textField2=%f&AheadHour=%d",
-  gps[1], gps[2], when)
+  lat, long, when)
   url <-
   c(sprintf("http://forecast.weather.gov/MapClick.php?lat=%f&lon=%f&site=rev&unit=0&lg=en&FcstType=text",
-  gps[1], gps[2]), url)
+  lat, long), url)
   names(url) <- c("current conditions + 5-day forecast", names(when))
   md <- sprintf("[%s](%s)", names(url), url)
   paste(md, collapse=",\n")
@@ -54,10 +62,18 @@ weather <- function(gps, when=c("now"=0, "12h"=12,"24h"=24, "48h"=48, "72h"=72))
 
 
 aerochart <- function(gps, chart=301, zoom=3) {
-  gps <- gps[1:2]
-  if (any(is.na(gps))) return()
+  stopifnot(is.list(gps))
+  if (length(gps) == 0) return("")
+
+  gps <- gps[[1]] ## First launch site
+  gps <- unlist(gps, use.names = FALSE)
+  
+  lat <- gps[1]
+  long <- gps[2]
+  if (is.na(lat) || is.na(long)) return("")
+  
   url <- sprintf("http://skyvector.com/?ll=%f,%f&chart=%d&zoom=%d",
-                 gps[1], gps[2], chart, zoom)
+                 lat, long, chart, zoom)
   names(url) <- c("SkyVector")
   md <- sprintf("[%s](%s)", names(url), url)
   paste(md, collapse=",\n")
@@ -74,30 +90,33 @@ aerochart <- function(gps, chart=301, zoom=3) {
 #      then google assumes it is a lat lon separated by a +"
 #  Source: http://goo.gl/2DD2yP
 gmap <- function(gps) {
+  stopifnot(is.list(gps) || (is.numeric(gps) && length(gps) <= 3))
   if (length(gps) == 0) return("")
-  if (is.character(gps)) gps <- gps(gps)
+  
   if (is.list(gps)) {
-    md <- sapply(gps, FUN=gmap)
+    md <- sapply(gps, FUN = gmap)
 	if (!is.null(names(gps))) {
       md <- sprintf("%s: %s", names(gps), md);
 	}
     if (length(md) > 1L) {
       md <- sprintf("  - %s", md);
-      md <- paste(c("", md), collapse="\n")
+      md <- paste(c("", md), collapse = "\n")
     }
     return(md)
   }
+	
+  lat <- gps[1]
+  long <- gps[2]
   msl <- gps[3]
-  gps <- gps[1:2]
-  if (any(is.na(gps))) return("")
-  url <- sprintf("http://maps.google.com/maps/preview?t=h&q=%f,%f", gps[1], gps[2])
-  md <- sprintf("[(%f,%f)](%s)", gps[1], gps[2], url)
+  if (is.na(lat) || is.na(long)) return("")
+  url <- sprintf("http://maps.google.com/maps/preview?t=h&q=%f,%f", lat, long)
+  md <- sprintf("[(%f,%f)](%s)", lat, long, url)
   if (!is.na(msl)) {
     md <- sprintf("%s @ %d' MSL", md, msl);
   }
   if (length(md) > 1L) {
     md <- sprintf("  - %s", md);
-    md <- paste(md, collapse="\n")
+    md <- paste(md, collapse = "\n")
   }
   md 
 } # gmap()
@@ -140,6 +159,8 @@ data[is.na(data)] <- ""
 data <- as.data.frame(data, stringsAsFactors=FALSE)
 data <- data[order(data$Name),]
 rownames(data) <- data$Name
+data[["LaunchGPS"]] <- lapply(data[["LaunchGPS"]], FUN = parse_gps)
+data[["LZGPS"]] <- lapply(data[["LZGPS"]], FUN = parse_gps)
 %>
 <% for (name in rownames(data)) { %>
 <% with(data[name,], {
@@ -169,10 +190,10 @@ rownames(data) <- data$Name
 
 * Launch: <%= gmap(LaunchGPS) %>
 * LZ: <%= gmap(LZGPS) %>
-* Weather at launch: <%= weather(gps(LaunchGPS)[[1]]) %>
+* Weather at launch: <%= weather(LaunchGPS) %>
 * Live weather: <%= rstring(WeatherLive) %>
 * WindTalker: <%= paste(phone(WindTalker), collapse=", ") %>
-* Aeronautical chart: <%= aerochart(gps(LaunchGPS)[[1]]) %>
+* Aeronautical chart: <%= aerochart(LaunchGPS) %>
 * Official page: <%= rstring(OfficialURL) %>
 * Requirements: <%= rstring(Requirements) %>
 * Sticker: <%= rstring(SiteSticker) %>
@@ -185,7 +206,7 @@ rownames(data) <- data$Name
 
 <div class="alert alert-info" role="alert" style="margin-top: 5ex;">
 The "Weather:" links for each site are based on the location of the
-launch (based on the longitudinal and latitudinal coordinates).
+launch (based on the latitudinal and longitudinal coordinates).
 If there are more than one launch at a site, then the weather for the
 <em>first</em> launch is used.
 </div>
