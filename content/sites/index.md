@@ -169,10 +169,10 @@ rownames(data) <- data$Name
 
 * Launch: <%= gmap(LaunchGPS) %>
 * LZ: <%= gmap(LZGPS) %>
-* Aeronautical charts: <%= aerochart(gps(LaunchGPS)[[1]]) %>
-* Weather: <%= weather(gps(LaunchGPS)[[1]]) %>
+* Weather at launch: <%= weather(gps(LaunchGPS)[[1]]) %>
 * Live weather: <%= rstring(WeatherLive) %>
 * WindTalker: <%= paste(phone(WindTalker), collapse=", ") %>
+* Aeronautical chart: <%= aerochart(gps(LaunchGPS)[[1]]) %>
 * Official page: <%= rstring(OfficialURL) %>
 * Requirements: <%= rstring(Requirements) %>
 * Sticker: <%= rstring(SiteSticker) %>
