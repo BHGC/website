@@ -92,7 +92,8 @@ aerochart <- function(gps, chart=301, zoom=3) {
 gmap <- function(gps) {
   stopifnot(is.list(gps) || (is.numeric(gps) && length(gps) <= 3))
   if (length(gps) == 0) return("")
-  
+
+  ## A list?
   if (is.list(gps)) {
     md <- sapply(gps, FUN = gmap)
 	if (!is.null(names(gps))) {
@@ -109,14 +110,11 @@ gmap <- function(gps) {
   long <- gps[2]
   msl <- gps[3]
   if (is.na(lat) || is.na(long)) return("")
+  
   url <- sprintf("http://maps.google.com/maps/preview?t=h&q=%f,%f", lat, long)
   md <- sprintf("[(%f,%f)](%s)", lat, long, url)
   if (!is.na(msl)) {
     md <- sprintf("%s @ %d' MSL", md, msl);
-  }
-  if (length(md) > 1L) {
-    md <- sprintf("  - %s", md);
-    md <- paste(md, collapse = "\n")
   }
   md 
 } # gmap()
