@@ -3,7 +3,7 @@
 <%-- ALERT (CALL FOR HELP) --%>
 <div class="alert alert-warning" role="alert">
 Several of the below sites lack information on for instance launch
-coordinates, which in turn are used to generate the weather links.
+coordinates, which in turn are used to generate the "Weather:" links.
 You can help out by finding such information and reporting them back.
 If you <a class="alert-link" id="edit"
 href="https://github.com/join">get a GitHub account</a>, you can even
@@ -12,6 +12,7 @@ href="https://github.com/BHGC/website/tree/master/content/sites/sites.dcf">edit<
 <span class="glyphicon glyphicon-edit"></span></span> 
 the underlying database (and all other pages) directly in the browser.
 </div>
+
 
 ## Regional
 
@@ -182,11 +183,11 @@ rownames(data) <- data$Name
 <% } # for (name ...) %>
 
 
-
 <div class="alert alert-info" role="alert" style="margin-top: 5ex;">
-The weather links for each site are based on the location of the
-launch (based on the longitudinal and latitudinal coordinates of the
-first launch per site).
+The "Weather:" links for each site are based on the location of the
+launch (based on the longitudinal and latitudinal coordinates).
+If there are more than one launch at a site, then the weather for the
+<em>first</em> launch is used.
 </div>
 
 
