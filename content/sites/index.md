@@ -105,18 +105,22 @@ gmap <- function(gps) {
     }
     return(md)
   }
-	
-  lat <- gps[1]
-  long <- gps[2]
-  msl <- gps[3]
-  if (is.na(lat) || is.na(long)) return("")
-  
-  url <- sprintf("http://maps.google.com/maps/preview?t=h&q=%f,%f", lat, long)
-  md <- sprintf("[(%f,%f)](%s)", lat, long, url)
-  if (!is.na(msl)) {
-    md <- sprintf("%s @ %d' MSL", md, msl);
+
+
+  gmap_url <- function(gps) {
+    lat <- gps[1]
+    long <- gps[2]
+    msl <- gps[3]
+    if (is.na(lat) || is.na(long)) return("")
+    url <- sprintf("http://maps.google.com/maps/preview?t=h&q=%f,%f", lat, long)
+    md <- sprintf("[(%f,%f)](%s)", lat, long, url)
+    if (!is.na(msl)) {
+      md <- sprintf("%s @ %d' MSL", md, msl);
+    }
+    md
   }
-  md 
+	
+  gmap_url(gps)
 } # gmap()
 
 phone <- function(numbers) {
