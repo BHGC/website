@@ -74,17 +74,14 @@ weather_url_md <- function(gps, when = c("now" = 0, "12h" = 12, "24h" = 24, "48h
   if (is.na(lat) || is.na(long)) return("")
   url <- sprintf("http://forecast.weather.gov/MapClick.php?w0=t&w1=td&w2=wc&w3=sfcwind&w3u=1&w4=sky&w5=pop&w6=rh&w7=thunder&w8=rain&w9=snow&w10=fzg&w11=sleet&Submit=Submit&FcstType=digital&site=mtr&unit=0&dd=0&bw=0&textField1=%f&textField2=%f&AheadHour=%d", lat, long, when)
   url <- c(sprintf("http://forecast.weather.gov/MapClick.php?lat=%f&lon=%f&site=rev&unit=0&lg=en&FcstType=text", lat, long), url)
-  names(url) <- c("current conditions + 5-day forecast", names(when))
+  url <- c(url, sprintf("http://forecast.weather.gov/MapClick.php?lat=%s&lon=%s", lat, long))
+  names(url) <- c("current conditions + 5-day forecast", names(when), "forecast area")
   md <- sprintf("[%s](%s)", names(url), url)
   paste(md, collapse = ",\n")
 }
 
 weather <- function(gps, ...) {
   gps <- gps[[1]]
-
-  ## First launch site only (FIXME)
-  gps <- gps[[1]]
-
   gps_md(gps, url_md = weather_url_md, ...)
 }
 
@@ -221,10 +218,11 @@ data[["LZGPS"]] <- lapply(data[["LZGPS"]], FUN = parse_gps)
 
 
 <div class="alert alert-info" role="alert" style="margin-top: 5ex;">
-The "Weather:" links for each site are based on the location of the
-launch (based on the latitudinal and longitudinal coordinates).
-If there are more than one launch at a site, then the weather for the
-<em>first</em> launch is used.
+The "Weather:" links for each site are based on latitudinal and
+longitudinal coordinates of the launch.
+The National Weather Service generates forcasts for a large number of
+retangular-shaped "forecast areas" place in a grid all over the US.
+The size of these areas is 2.5-by-2.5 km.
 </div>
 
 
