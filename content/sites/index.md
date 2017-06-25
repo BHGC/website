@@ -39,14 +39,34 @@ parse_gps <- function(s) {
   s
 } # parse_gps()
 
-
-weather <- function(gps, ...) {
-  stopifnot(is.list(gps))
+gps_md <- function(gps, url_md, ...) {
+  stopifnot(is.list(gps) || (is.numeric(gps) && length(gps) <= 3))
+  stopifnot(is.function(url_md))
   if (length(gps) == 0) return("")
-  gps <- gps[[1]] ## First launch site (FIXME)
-  gps <- unlist(gps)
-  weather_url_md(gps, ...)
-}
+
+  ## A list?
+  if (is.list(gps)) {
+    n <- length(gps)
+    md <- character(length = n)
+    for (kk in seq_len(n)) {
+	  md[[kk]] <- Recall(gps[[kk]], url_md = url_md, ...)
+    }
+	if (!is.null(names(gps))) {
+      md <- sprintf("%s: %s", names(gps), md);
+	}
+	  
+	## Turn into a Markdown sublist?
+    if (n > 1L) {
+      md <- sprintf("  - %s", md);
+      md <- paste(c("", md), collapse = "\n")
+    }
+	  
+    return(md)
+  }
+
+  url_md(gps, ...)
+} ## gps_md()
+
   
 weather_url_md <- function(gps, when = c("now" = 0, "12h" = 12, "24h" = 24, "48h" = 48, "72h" = 72)) {
   lat <- gps[1]
@@ -58,6 +78,16 @@ weather_url_md <- function(gps, when = c("now" = 0, "12h" = 12, "24h" = 24, "48h
   md <- sprintf("[%s](%s)", names(url), url)
   paste(md, collapse = ",\n")
 }
+
+weather <- function(gps, ...) {
+  gps <- gps[[1]]
+
+  ## First launch site only (FIXME)
+  gps <- gps[[1]]
+
+  gps_md(gps, url_md = weather_url_md, ...)
+}
+
 
 aerochart_url_md <- function(gps, chart = 301, zoom = 3) {
   lat <- gps[1]
@@ -72,13 +102,12 @@ aerochart_url_md <- function(gps, chart = 301, zoom = 3) {
 }
   
 aerochart <- function(gps, ...) {
-  stopifnot(is.list(gps))
-  if (length(gps) == 0) return("")
+  gps <- gps[[1]]
 
-  gps <- gps[[1]] ## First launch site
-  gps <- unlist(gps, use.names = FALSE)
+  ## First launch site only
+  gps <- gps[[1]]
 
-  aerochart_url_md(gps, ...)
+  gps_md(gps, url_md = aerochart_url_md, ...)
 }
 
 
@@ -103,27 +132,10 @@ gmap_url_md <- function(gps, ...) {
   }
   md
 }
-	
+
 gmap <- function(gps, ...) {
-  stopifnot(is.list(gps) || (is.numeric(gps) && length(gps) <= 3))
-  if (length(gps) == 0) return("")
-
-  ## A list?
-  if (is.list(gps)) {
-    md <- sapply(gps, FUN = gmap)
-	if (!is.null(names(gps))) {
-      md <- sprintf("%s: %s", names(gps), md);
-	}
-    if (length(md) > 1L) {
-      md <- sprintf("  - %s", md);
-      md <- paste(c("", md), collapse = "\n")
-    }
-    return(md)
-  }
-
-  gmap_url_md(gps, ...)
-} # gmap()
-
+  gps_md(gps, url_md = gmap_url_md, ...)
+}
 
 phone <- function(numbers) {
   if (length(numbers) == 0) return(NULL)
