@@ -40,34 +40,26 @@ parse_gps <- function(s) {
 } # parse_gps()
 
 
-weather <- function(gps, when=c("now"=0, "12h"=12,"24h"=24, "48h"=48, "72h"=72)) {
+weather <- function(gps, ...) {
   stopifnot(is.list(gps))
   if (length(gps) == 0) return("")
   gps <- gps[[1]] ## First launch site (FIXME)
   gps <- unlist(gps)
-
+  weather_url_md(gps, ...)
+}
+  
+weather_url_md <- function(gps, when = c("now" = 0, "12h" = 12, "24h" = 24, "48h" = 48, "72h" = 72)) {
   lat <- gps[1]
   long <- gps[2]
   if (is.na(lat) || is.na(long)) return("")
-  url <-
-  sprintf("http://forecast.weather.gov/MapClick.php?w0=t&w1=td&w2=wc&w3=sfcwind&w3u=1&w4=sky&w5=pop&w6=rh&w7=thunder&w8=rain&w9=snow&w10=fzg&w11=sleet&Submit=Submit&FcstType=digital&site=mtr&unit=0&dd=0&bw=0&textField1=%f&textField2=%f&AheadHour=%d",
-  lat, long, when)
-  url <-
-  c(sprintf("http://forecast.weather.gov/MapClick.php?lat=%f&lon=%f&site=rev&unit=0&lg=en&FcstType=text",
-  lat, long), url)
+  url <- sprintf("http://forecast.weather.gov/MapClick.php?w0=t&w1=td&w2=wc&w3=sfcwind&w3u=1&w4=sky&w5=pop&w6=rh&w7=thunder&w8=rain&w9=snow&w10=fzg&w11=sleet&Submit=Submit&FcstType=digital&site=mtr&unit=0&dd=0&bw=0&textField1=%f&textField2=%f&AheadHour=%d", lat, long, when)
+  url <- c(sprintf("http://forecast.weather.gov/MapClick.php?lat=%f&lon=%f&site=rev&unit=0&lg=en&FcstType=text", lat, long), url)
   names(url) <- c("current conditions + 5-day forecast", names(when))
   md <- sprintf("[%s](%s)", names(url), url)
-  paste(md, collapse=",\n")
-} # weather()
+  paste(md, collapse = ",\n")
+}
 
-
-aerochart <- function(gps, chart=301, zoom=3) {
-  stopifnot(is.list(gps))
-  if (length(gps) == 0) return("")
-
-  gps <- gps[[1]] ## First launch site
-  gps <- unlist(gps, use.names = FALSE)
-  
+aerochart_url_md <- function(gps, chart = 301, zoom = 3) {
   lat <- gps[1]
   long <- gps[2]
   if (is.na(lat) || is.na(long)) return("")
@@ -76,8 +68,18 @@ aerochart <- function(gps, chart=301, zoom=3) {
                  lat, long, chart, zoom)
   names(url) <- c("SkyVector")
   md <- sprintf("[%s](%s)", names(url), url)
-  paste(md, collapse=",\n")
-} # aerochart()
+  paste(md, collapse = ",\n")
+}
+  
+aerochart <- function(gps, ...) {
+  stopifnot(is.list(gps))
+  if (length(gps) == 0) return("")
+
+  gps <- gps[[1]] ## First launch site
+  gps <- unlist(gps, use.names = FALSE)
+
+  aerochart_url_md(gps, ...)
+}
 
 
 # "This is current accepted way to link to a specific lat lon
@@ -89,7 +91,20 @@ aerochart <- function(gps, chart=301, zoom=3) {
 #  - q is the search query, if it is prefixed by loc:
 #      then google assumes it is a lat lon separated by a +"
 #  Source: http://goo.gl/2DD2yP
-gmap <- function(gps) {
+gmap_url_md <- function(gps, ...) {
+  lat <- gps[1]
+  long <- gps[2]
+  msl <- gps[3]
+  if (is.na(lat) || is.na(long)) return("")
+  url <- sprintf("http://maps.google.com/maps/preview?t=h&q=%f,%f", lat, long)
+  md <- sprintf("[(%f,%f)](%s)", lat, long, url)
+  if (!is.na(msl)) {
+    md <- sprintf("%s @ %d' MSL", md, msl);
+  }
+  md
+}
+	
+gmap <- function(gps, ...) {
   stopifnot(is.list(gps) || (is.numeric(gps) && length(gps) <= 3))
   if (length(gps) == 0) return("")
 
@@ -106,22 +121,9 @@ gmap <- function(gps) {
     return(md)
   }
 
-
-  gmap_url <- function(gps) {
-    lat <- gps[1]
-    long <- gps[2]
-    msl <- gps[3]
-    if (is.na(lat) || is.na(long)) return("")
-    url <- sprintf("http://maps.google.com/maps/preview?t=h&q=%f,%f", lat, long)
-    md <- sprintf("[(%f,%f)](%s)", lat, long, url)
-    if (!is.na(msl)) {
-      md <- sprintf("%s @ %d' MSL", md, msl);
-    }
-    md
-  }
-	
-  gmap_url(gps)
+  gmap_url_md(gps, ...)
 } # gmap()
+
 
 phone <- function(numbers) {
   if (length(numbers) == 0) return(NULL)
