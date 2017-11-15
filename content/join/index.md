@@ -45,20 +45,16 @@ in early September (after the Labor Day weekend), and only in person.
 As a rough guide, see previous years below. See also the [About] page.
 ---%>
 
-## Next chance to join the club _might be_ in January 2018
+## Next lesson set is currently planned for the 2018 Spring semester
 
-Unfortunately, for the first time in our club's history, we could not
-provides lessons during the fall semester (2017).  Instead, we hope
-to be able to take on new students for the spring semester.  Please
-check back on this website for updates as early as mid-January 2018.
+Unfortunately we had to postpone lessons scheduled for the 2017 fall semester.  Instead, we hope to be able to take on new students for the spring semester. Please check back on this website for updates as early as January 2018.
 
 
 ## Previous years
 
 ### Signup dates 2017
 
-Unfortunately, for the first time in our club's history, we could not
-provides lessons during the fall semester.  No students joined the club.
+Lessons scheduled for the 2017 fall semester were postponed.
 
 
 ### Signup dates 2016
