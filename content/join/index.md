@@ -36,16 +36,30 @@ list, make sure to attend the ground school (see [front page]).
 _Last updated: March 3, 2017._
 --------------------------------------------------------------- ---%>
 
-
+<%---
 ## Next chance to join the club is in September 2017
 
 The next round of sign ups for new pilot students will be announced
 on this website in Aug/Sept 2017. Signup happens once a year, typically
 in early September (after the Labor Day weekend), and only in person.
 As a rough guide, see previous years below. See also the [About] page.
+---%>
+
+## Next chance to join the club _might be_ in January 2018
+
+Unfortunately, for the first time in our club's history, we could not
+provides lessons during the fall semester (2017).  Instead, we hope
+to be able to take on new students for the spring semester.  Please
+check back on this website for updates as early as mid-January 2018.
 
 
 ## Previous years
+
+### Signup dates 2017
+
+Unfortunately, for the first time in our club's history, we could not
+provides lessons during the fall semester.  No students joined the club.
+
 
 ### Signup dates 2016
 
