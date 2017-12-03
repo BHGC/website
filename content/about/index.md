@@ -50,4 +50,4 @@ big air.
 ## Contact information
 
 The Berkeley Hang Gliding Club (BHGC) is located in Berkeley, CA. You
-can reach us at info[at]bhgc.org.
+can reach us at info [at] bhgc.org.
