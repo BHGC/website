@@ -42,6 +42,10 @@ all: build
 build:
 	$(R_SCRIPT) "R/build"
 
+sites:
+	touch content/sites/index.md
+	make build
+
 
 #=====================================================================
 # Publish (=go live!)
