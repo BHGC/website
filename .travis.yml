@@ -1,42 +1,32 @@
-language: c
+#----------------------------------------------------------------
+# Travis-CI configuration for R packages
+#
+# REFERENCES:
+# * Travis CI: https://docs.travis-ci.com/user/languages/r
+# * covr: https://github.com/jimhester/covr
+#
+# Validate your .travis.yml file at http://lint.travis-ci.org/
+#----------------------------------------------------------------
+language: r
+sudo: false
+cache: packages
+latex: false
 
-env:
-  global:
-    - PKGR="./pkg-build.sh"    # r-builder
-    - R_BUILD_ARGS="--no-manual"
-    # Need LaTeX? (very time consuming to install)
-    - BOOTSTRAP_LATEX=""
-    # Skip building vignettes, which iff LaTeX-based are very
-    # time consuming because LaTeX needs to be installed
-    - R_BUILD_ARGS="--no-build-vignettes ${R_BUILD_ARGS}"
-
-  matrix:
-    - RVERSION=release
+r_packages:
+  - markdown
+  - R.utils
+  - R.rsp
 
 before_install:
   - openssl aes-256-cbc -K $encrypted_cfeda4e73c2f_key -iv $encrypted_cfeda4e73c2f_iv -in secrets.tar.enc -out secrets.tar -d
   - tar xvf secrets.tar > /dev/null
   - cp -R .ssh ~/
-  - echo PKGR=$PKGR
-  - curl -OL https://raw.githubusercontent.com/metacran/r-builder/master/pkg-build.sh;
-  - chmod 755 $PKGR
-  - $PKGR bootstrap
-
-install:
-  - $PKGR install_r markdown R.utils R.rsp
 
 script:
-  - $PKGR run_script R/build
-
-##after_success:
-  - ls -laR html/
-  - rsync -avz --exclude '*~' --perms --chmod=ugo+rx --progress html/ bhgc.org:~/public_html/bhgc.org/
+  - Rscript R/build
  
+  
 notifications:
   email:
     on_success: change
     on_failure: change
-
-branches:
-  only:
-   - master
