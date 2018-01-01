@@ -24,14 +24,14 @@ SeeAlso:
 
 Name: Drake's Beach, Point Reyes
 State: CA
-LaunchGPS: (38.0309906,-122.9780638, 100)
-LZGPS: 
+LaunchGPS: 'cliff launch'=(38.0268347,-122.9626807, 100)
+LZGPS: 'beach'=(38.0274627,-122.9621008, 0)
 Requirements: H3/P3 + permit
-SiteSticker: Permit valid for one year available from Dispatcher's Office at [Bear Valley Visitor Center / Point Reyes Station, 1 Bear Valley Rd, CA 94956](https://goo.gl/SfdXxp)
+SiteSticker: Permit is valid for one year. Available from Dispatcher's Office at [Point Reyes Station, 1 Bear Valley Rd, CA 94956](https://www.google.com/maps/place/Administrative+Offices/@38.0439546,-122.7990009,18z). Proof of USHPA rating is required. If no one is at the Dispatcher's Office, check with the Visitors Center. Please call in advance to make sure a ranger is available to hand it out [415-464-5100](tel:+1-415-464-5100). For weekend flying, they prefer if you call ahead on a business day.
 OfficialURL: 
 ParaglidingEarthSite: 
-Notes: 
-SeeAlso: Dispatcher's Office [415-464-5100](tel:+1-415-464-5100), https://www.nps.gov/pore/planyourvisit/weather.htm
+Notes: This is cliff launch site with landing on the beach.
+SeeAlso: https://www.nps.gov/pore/planyourvisit/weather.htm
 
 
 Name: Ed Levin
