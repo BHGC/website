@@ -22,10 +22,13 @@ before_install:
   - tar xvf secrets.tar > /dev/null
   - cp -R .ssh ~/
 
+install:
+  - Rscript --version
+  
 script:
+  - Rscript --version
   - Rscript R/build
  
-  
 notifications:
   email:
     on_success: change
