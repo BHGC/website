@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/BHGC/website.svg?branch=master)](https://travis-ci.org/BHGC/website)
+
+
 BHGC Website
 ============
 
