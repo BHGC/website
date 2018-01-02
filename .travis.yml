@@ -28,7 +28,11 @@ install:
 script:
   - Rscript --version
   - Rscript R/build
- 
+
+after_success:
+  - ls -laR html/
+  - rsync -avz --exclude '*~' --perms --chmod=ugo+rx --progress html/ bhgc.org:~/public_html/bhgc.org/
+
 notifications:
   email:
     on_success: change
