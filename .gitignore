@@ -2,3 +2,5 @@
 .download
 html
 .Rhistory
+.ssh
+secrets.tar
