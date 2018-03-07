@@ -1,22 +1,21 @@
 # Join the club <span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
 
-<%--- HIDE UNTIL NEXT SIGNUP ----------------------------------------
-If you want to **learn to hang glide this academic year, this is your chance**.
+If you want to **learn to hang glide Spring 2018 (Fall 2018 TBD)**:
 
-* Tue Sept 27 @ 11am-2pm: Chat with active hangliding students and pilots.  
-  Meet us at Sproul Plaza / Sather Gate on UC Berkeley campus (south side).
-  Look for the hang glider.
-* Wed Sept 28 @ 11am-2pm: Chat with active hangliding students and pilots.  
-  Meet us at Sproul Plaza / Sather Gate on UC Berkeley campus (south side).
-  Look for the hang glider.
-* **Wed Sept 28 @ 8:00 pm** in 101 Moffitt Library, UC Berkeley: **SIGNUP MEETING.**  
-  Come to our introduction, talk to pilots and flying students, watch some flying videos, get all your questions answered and sign up.  **You have to sign up in person and at this event.**  Due to popularity it is likely there is a lottery, but you'll know when you walk home.   **DON'T MISS IT!**
-  
-* GROUND SCHOOL: For students who have a spot or are on the waitlist: 80 Barrows Hall, 7-8pm
+* **Wed March 14 @ 7:00pm** in 310 Soda Hall, UC Berkeley: **SIGNUP MEETING.**  
+  Come to our introduction, talk to pilots and flying students, watch some flying videos, get all your questions answered and sign up.  **You have to sign up in person and at this event.**  Due to popularity it is likely there is a lottery, but you'll know when you walk home. **DON'T MISS IT!**
+
+For students who get in:
+
+* Sat-Sun March 17-18 (early am-mid pm): The first training weekend with two subsequent training weekends to be scheduled (all weather dependent).
+
+* Every Wed @ 7:00pm starting March 21: Ground school (held at Free House, Bancroft & College Ave, Berkeley).
 
 <small>
-_Last updated: October 5, 2016 @ 10:40am (added location and time for ground school)._  
+_Last updated: March 6, 2018 @ 4:20pm_
 </small>
+
+<%--- HIDE UNTIL NEXT SIGNUP ----------------------------------------
 
 ## To the unlucky ones
 
@@ -33,28 +32,24 @@ People on the wait list has also been informed - **check your email inbox!**
 There is usually some turnover early on.  To get in from this wait
 list, make sure to attend the ground school (see [front page]).
 
-_Last updated: March 3, 2017._
+_Last updated: March 6, 2018._
 --------------------------------------------------------------- ---%>
 
 <%---
-## Next chance to join the club is in September 2017
+## Next chance to join the club is in September 2018
 
 The next round of sign ups for new pilot students will be announced
-on this website in Aug/Sept 2017. Signup happens once a year, typically
+on this website in Aug/Sept 2018. Signup happens once a year, typically
 in early September (after the Labor Day weekend), and only in person.
-As a rough guide, see previous years below. See also the [About] page.
+As a rough guide, see previous years below - the academic year 2017/2018 was an outlier. See also the [About] page.
 ---%>
-
-## Next lesson set is currently planned for the 2018 Spring semester
-
-Unfortunately we had to postpone lessons scheduled for the 2017 fall semester.  Instead, we hope to be able to take on new students for the spring semester. Please check back on this website for updates as early as January 2018.
 
 
 ## Previous years
 
 ### Signup dates 2017
 
-Lessons scheduled for the 2017 fall semester were postponed.
+Unfortunately we had to postpone lessons scheduled for the 2017 fall semester.  They were replaced with a smaller lesson set during Spring 2018.
 
 
 ### Signup dates 2016
@@ -65,7 +60,7 @@ Lessons scheduled for the 2017 fall semester were postponed.
 * Wed Sept 28 @ 11am-2pm: Chat with active hangliding students and pilots.  
   Meet us at Sproul Plaza / Sather Gate on UC Berkeley campus (south side).
   Look for the hang glider.
-* **Wed Sept 28 @ 8:00 pm** in 101 Moffitt Library, UC Berkeley: **SIGNUP MEETING.**  
+* **Wed Sept 28 @ 8:00pm** in 101 Moffitt Library, UC Berkeley: **SIGNUP MEETING.**  
   Come to our introduction, talk to pilots and flying students, watch some flying videos, get all your questions answered and sign up.  **You have to sign up in person and at this event.**  Due to popularity it is likely there is a lottery, but you'll know when you walk home.   **DON'T MISS IT!**
 
 ### Signup dates 2015
