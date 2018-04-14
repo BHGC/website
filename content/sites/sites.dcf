@@ -211,6 +211,18 @@ Requirements: H2
 SeeAlso: <%-- BROKEN: [Nevada Wings](http://www.nvwings.com/site_guide.html) --%>
 
 
+Name: Potato Hill
+State: CA
+LaunchGPS: (39.341, -122.685, 3400)
+LZGPS: (39.350, -122.662, 1720)
+Requirements: 
+SiteSticker: 
+OfficialURL: 
+ParaglidingEarthSite: 6694
+Notes: Mostly a PG site
+SeeAlso: 
+
+
 Name: Slide Mountain
 State: NV
 LaunchGPS: (39.319914, -119.867355, 8200)
