@@ -117,13 +117,13 @@ aerochart <- function(gps, ...) {
 #  - q is the search query, if it is prefixed by loc:
 #      then google assumes it is a lat lon separated by a +"
 #  Source: http://goo.gl/2DD2yP
-gmap_url_md <- function(gps, ...) {
-  lat <- gps[1]
-  long <- gps[2]
+gmap_url_md <- function(gps, digits = 4L, ...) {
+  lat <- round(gps[1], digits = digits)
+  long <- round(gps[2], digits = digits)
   msl <- gps[3]
   if (is.na(lat) || is.na(long)) return("")
-  url <- sprintf("http://maps.google.com/maps/preview?t=h&q=%f,%f", lat, long)
-  md <- sprintf("[(%f,%f)](%s)", lat, long, url)
+  url <- sprintf("http://maps.google.com/maps/preview?t=h&q=%s,%s", lat, long)
+  md <- sprintf("[(%s,%s)](%s)", lat, long, url)
   if (!is.na(msl)) {
     md <- sprintf("%s @ %d' MSL", md, msl);
   }
