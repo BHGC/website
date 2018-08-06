@@ -20,8 +20,8 @@ the underlying database (and all other pages) directly in the browser.
   [CA](http://tfr.faa.gov/tfr_map/states.jsp?select2=CA),
   [NV](http://tfr.faa.gov/tfr_map/states.jsp?select2=NV),
   [USA](http://tfr.faa.gov/tfr_map_ims/html/index.html)
-* California Fire Maps:
-  [CAL file](https://www.google.com/maps/d/u/0/viewer?mid=zp8nK_5H0MFQ.kzTmU5XK-qJQ)
+* California Fire Map 2018:
+  [Google Map](https://www.google.com/maps/d/viewer?mid=1HacmM5E2ueL-FT2c6QMVzoAmE5M19GAf&ll=37.526496569132675%2C-119.27200899999997&z=6)
   ([source](http://www.fire.ca.gov/general/firemaps.php))
 
 
