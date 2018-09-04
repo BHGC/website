@@ -1,18 +1,17 @@
 # Join the club <span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
 
-If you want to **learn to hang glide Spring 2018 (Fall 2018 TBD)**:
+If you want to **learn to hang glide this academic year**, this is the **preliminary** information for how to join the club.  Exact dates, times, and locations will be posted here as soon as we know details:
 
-* **Wed March 14 @ 7:00pm** in 310 Soda Hall, UC Berkeley: **SIGNUP MEETING.**  
+* **Tue Sept 25 @ afternoon** Chat with active hangliding students and pilots on one of UC Berkeley's campus plazas.
+
+* **Wed Sept 26 @ afternoon** Chat with active hangliding students and pilots on one of UC Berkeley's campus plazas.
+
+* **Wed Sept 26 @ evening** somewhere on campus, UC Berkeley: **SIGNUP MEETING.**
   Come to our introduction, talk to pilots and flying students, watch some flying videos, get all your questions answered and sign up.  **You have to sign up in person and at this event.**  Due to popularity it is likely there is a lottery, but you'll know when you walk home. **DON'T MISS IT!**
 
-For students who get in:
-
-* Sat-Sun March 17-18 (early am-mid pm): The first training weekend with two subsequent training weekends to be scheduled (all weather dependent).
-
-* Every Wed @ 7:00pm starting March 21: Ground school (held at Free House, Bancroft & College Ave, Berkeley).
 
 <small>
-_Last updated: March 6, 2018 @ 4:20pm_
+_Last updated: September 4, 2018 @ 10:50am_
 </small>
 
 <%--- HIDE UNTIL NEXT SIGNUP ----------------------------------------
@@ -46,6 +45,12 @@ As a rough guide, see previous years below - the academic year 2017/2018 was an 
 
 
 ## Previous years
+
+### Signup dates Spring 2018
+
+* **Wed March 14 @ 7:00pm** in 310 Soda Hall, UC Berkeley: **SIGNUP MEETING.**  
+  Come to our introduction, talk to pilots and flying students, watch some flying videos, get all your questions answered and sign up.  **You have to sign up in person and at this event.**  Due to popularity it is likely there is a lottery, but you'll know when you walk home. **DON'T MISS IT!**
+
 
 ### Signup dates 2017
 
