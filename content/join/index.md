@@ -1,17 +1,20 @@
 # Join the club <span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
 
-If you want to **learn to hang glide this academic year**, this is the **preliminary** information for how to join the club.  Exact dates, times, and locations will be posted here as soon as we know details:
+If you want to **learn to hang glide this academic year**, below is how to join the club:
 
-* **Tue Sept 25 @ afternoon** Chat with active hangliding students and pilots on one of UC Berkeley's campus plazas.
-
-* **Wed Sept 26 @ afternoon** Chat with active hangliding students and pilots on one of UC Berkeley's campus plazas.
-
-* **Wed Sept 26 @ evening** somewhere on campus, UC Berkeley: **SIGNUP MEETING.**
+* **Wed Sept 26 @ 8:00pm** 222 Wheeler Hall, UC Berkeley: **SIGNUP MEETING.**
   Come to our introduction, talk to pilots and flying students, watch some flying videos, get all your questions answered and sign up.  **You have to sign up in person and at this event.**  Due to popularity it is likely there is a lottery, but you'll know when you walk home. **DON'T MISS IT!**
 
 
+**Mandatory** for students who get in:
+
+* **Wed October 3, 10, ... @ evening** (~1.5 hours): Weekly Ground School (theory)
+
+* **Sat-Sun October 6-7 & 13-14 & 20-21 (early am-mid pm)**: The first three training weekends (all weather dependent)
+
+
 <small>
-_Last updated: September 4, 2018 @ 10:50am_
+_Last updated: September 12, 2018 @ 6:20pm_
 </small>
 
 <%--- HIDE UNTIL NEXT SIGNUP ----------------------------------------
