@@ -79,11 +79,11 @@
     </div>
   </div>
 
-  <%@include file="signup_button.html"%>
   <%---
+  <%@include file="signup_button.html"%>
   <%@include file="headsup_button.html"%>
-  <%@include file="groundschool.html"%>
   ---%>
+  <%@include file="groundschool.html"%>
 
   <br>
 

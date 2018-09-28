@@ -1,6 +1,10 @@
 # Join the club <span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
 
+<%--- HIDE UNTIL NEXT SIGNUP ----------------------------------------
+
 If you want to **learn to hang glide this academic year**, below is how to join the club:
+
+* Wed Sept 26 @ noon-2pm: Chat with active hangliding students and pilots.  Meet us at Sproul Plaza / Sather Gate on UC Berkeley campus (south side).  Look for the hang glider. **(Location is preliminary; we're waiting on approval as of Sept 19)**
 
 * **Wed Sept 26 @ 8:00pm** 222 Wheeler Hall, UC Berkeley: **SIGNUP MEETING.**
   Come to our introduction, talk to pilots and flying students, watch some flying videos, get all your questions answered and sign up.  **You have to sign up in person and at this event.**  Due to popularity it is likely there is a lottery, but you'll know when you walk home. **DON'T MISS IT!**
@@ -8,34 +12,41 @@ If you want to **learn to hang glide this academic year**, below is how to join 
 
 **Mandatory** for students who get in:
 
-* **Wed October 3, 10, ... @ evening** (~1.5 hours): Weekly Ground School (theory)
+* **Wed October 3, 10, ... @ 7:00-8:00pm**: 50 Barrows Hall, UC Berkeley, Weekly Ground School (theory)
 
 * **Sat-Sun October 6-7 & 13-14 & 20-21 (early am-mid pm)**: The first three training weekends (all weather dependent)
 
 
 <small>
-_Last updated: September 12, 2018 @ 6:20pm_
+_Last updated: September 27, 2018 @ 7:45pm_
 </small>
+--------------------------------------------------------------- ---%>
 
 <%--- HIDE UNTIL NEXT SIGNUP ----------------------------------------
+--------------------------------------------------------------- ---%>
 
 ## To the unlucky ones
 
 We thank everyone who came to the signup meeting.
-As of October 10, 2016, we have selected new students using a lottery
-system. Students who were selected have already been informed.
+As of September 26, 2018, we have selected new students using a lottery
+system.
+<%-- Students who were selected have already been informed.
 As usual there was some turnover early on and a few people on the wait
 list got in this way.  Unfortunately, no more people will be able to
-join from now on.
+join from now on. --%>
 
 Those who were not lucky at the lottery had the option to sign up to
 be on the wait list in case any students drop out.
+<%--
 People on the wait list has also been informed - **check your email inbox!**
-There is usually some turnover early on.  To get in from this wait
-list, make sure to attend the ground school (see [front page]).
+There is usually some turnover early on.
+--%>
+To get in from this wait list, make sure to attend the ground school
+(see [front page]).
 
-_Last updated: March 6, 2018._
---------------------------------------------------------------- ---%>
+<small>
+_Last updated: September 27, 2018 @ 7:45 pm_
+</small>
 
 <%---
 ## Next chance to join the club is in September 2018
@@ -48,6 +59,13 @@ As a rough guide, see previous years below - the academic year 2017/2018 was an 
 
 
 ## Previous years
+
+### Signup dates 2018
+
+* Wed Sept 26 @ noon-2pm: Chat with active hangliding students and pilots.  Meet us at Sproul Plaza / Sather Gate on UC Berkeley campus (south side).  Look for the hang glider.
+
+* **Wed Sept 26 @ 8:00pm** 222 Wheeler Hall, UC Berkeley: **SIGNUP MEETING.**  
+  Come to our introduction, talk to pilots and flying students, watch some flying videos, get all your questions answered and sign up.  **You have to sign up in person and at this event.**  Due to popularity it is likely there is a lottery, but you'll know when you walk home. **DON'T MISS IT!**
 
 ### Signup dates Spring 2018
 
