@@ -23,7 +23,6 @@ _Last updated: September 27, 2018 @ 7:45pm_
 --------------------------------------------------------------- ---%>
 
 <%--- HIDE UNTIL NEXT SIGNUP ----------------------------------------
---------------------------------------------------------------- ---%>
 
 ## To the unlucky ones
 
@@ -48,14 +47,16 @@ To get in from this waitlist, make sure to attend the ground school
 _Last updated: September 27, 2018 @ 7:45 pm_
 </small>
 
+--------------------------------------------------------------- ---%>
+
 <%---
-## Next chance to join the club is in September 2018
+---%>
+## Next chance to join the club is in September 2019
 
 The next round of sign ups for new pilot students will be announced
-on this website in Aug/Sept 2018. Signup happens once a year, typically
+on this website in Aug/Sept 2019. Signup happens once a year, typically
 in early September (after the Labor Day weekend), and only in person.
-As a rough guide, see previous years below - the academic year 2017/2018 was an outlier. See also the [About] page.
----%>
+As a rough guide, see previous years below (note that the Spring 2018 lesson set was an exception). See also the [About] page.
 
 
 ## Previous years
