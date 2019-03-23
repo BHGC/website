@@ -67,8 +67,8 @@ gps_md <- function(gps, url_md, ...) {
   url_md(gps, ...)
 } ## gps_md()
 
-  
-weather_url_md <- function(gps, when = c("now" = 0, "12h" = 12, "24h" = 24, "48h" = 48, "72h" = 72)) {
+
+noaa_weather_url <- function(gps, when = c("now" = 0, "12h" = 12, "24h" = 24, "48h" = 48, "72h" = 72)) {
   lat <- gps[1]
   long <- gps[2]
   if (is.na(lat) || is.na(long)) return("")
@@ -76,6 +76,20 @@ weather_url_md <- function(gps, when = c("now" = 0, "12h" = 12, "24h" = 24, "48h
   url <- c(sprintf("http://forecast.weather.gov/MapClick.php?lat=%f&lon=%f&site=rev&unit=0&lg=en&FcstType=text", lat, long), url)
   url <- c(url, sprintf("http://forecast.weather.gov/MapClick.php?lat=%s&lon=%s", lat, long))
   names(url) <- c("current conditions + 5-day forecast", names(when), "forecast area")
+  url
+}
+
+windy_weather_url <- function(gps, zoom=11L) {
+  lat <- gps[1]
+  long <- gps[2]
+  if (is.na(lat) || is.na(long)) return("")
+  url <- sprintf("https://www.windy.com/%f/%f?%f,%f,%d", lat, long, lat, long, zoom)
+  names(url) <- "Windy"
+  url
+}
+
+weather_url_md <- function(gps, ...) {
+  url <- c(noaa_weather_url(gps, ...), windy_weather_url(gps, ...))
   md <- sprintf("[%s](%s)", names(url), url)
   paste(md, collapse = ",\n")
 }
@@ -83,6 +97,11 @@ weather_url_md <- function(gps, when = c("now" = 0, "12h" = 12, "24h" = 24, "48h
 weather <- function(gps, ...) {
   gps <- gps[[1]]
   gps_md(gps, url_md = weather_url_md, ...)
+}
+
+windy_weather <- function(gps, ...) {
+  gps <- gps[[1]]
+  gps_md(gps, url_md = windy_weather_url_md, ...)
 }
 
 
