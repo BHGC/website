@@ -44,6 +44,7 @@ SiteSticker: [WOR]
 OfficialURL: [Ed Levin Quick Reference](http://www.wingsofrogallo.org/sites/ed_levin/Ed_Levin_Quick_Ref_1-3.01.pdf) [pdf]
 WindTalker: +1-408-946-9516
 WeatherLive: [Mission Soaring Live Weather](http://router.hang-gliding.com/WindSlammer/), [Benlo.com](http://www.benlo.com/pg/edlevin.html)
+Soundings: OAK
 SeeAlso: Road conditions: [Santa Clara County Parks](https://www.sccgov.org/sites/parks/Pages/Closures.aspx), [408-355-2200](tel:+1-408-355-2200) (menu 7 menu 6)
 Notes: [_Emergency_](http://www.wingsofrogallo.org/sites/ed_levin/EL_emergency.pdf) frequency: 147.495 MHz
 
@@ -63,6 +64,7 @@ Requirements: H3
 OfficialURL: [FlyFunston.org](http://flyfunston.org)
 SeeAlso: [Web cam & winds](http://www.flyfunston.org/newwebcam/)
 WindTalker: +1-415-333-0100
+Soundings: OAK
 ParaglidingEarthSite: 9302
 Notes: No paragliding
 
@@ -172,6 +174,7 @@ Name: Mission Ridge
 State: CA
 LaunchGPS: (37.517534, -121.89175)
 Requirements: H4
+Soundings: OAK
 SeeAlso: [WOR](http://www.wingsofrogallo.org/sites/mission/)
 
 
@@ -179,6 +182,7 @@ Name: Mount Diablo
 State: CA
 LaunchGPS: (NA, NA)
 Requirements: H4
+Soundings: OAK
 SeeAlso: [Wings of Rogallo (WOR)]
 
 
@@ -200,6 +204,7 @@ Requirements: H3
 SiteSticker: [MCHGA]
 OfficialURL: [Marin County Hang Gliding Association (MCHGA)]
 WindTalker: Mt. Tamalpais=+1-415-381-9463, Stinson Beach=+1-415-868-1922
+Soundings: OAK
 SeeAlso: [BHGC's Tam page](tam/index.html)
 
 
@@ -209,7 +214,7 @@ State: CA
 LaunchGPS: (37.6721641,-122.4939425, 100)
 LZGPS: (37.671116, -122.494646, 50)
 Requirements: P2-P3 (non-restricted)
-OfficialURL:
+Soundings: OAK
 ParaglidingEarthSite: 15523
 Notes: Paragliding only
 

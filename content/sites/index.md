@@ -173,6 +173,12 @@ phone <- function(numbers) {
   links
 } # phone()
 
+soundings <- function(airport) {
+  if (nchar(airport) == 0) return("")
+  sprintf("[%s](http://www.topaflyers.com/weather/soundings/%s.png)",
+          airport, tolower(airport))
+} # soundings()
+
 pathname <- "content/sites/sites.dcf"
 if (isUrl(pageSource)) {
   url <- file.path(pageSource, pathname)
@@ -224,6 +230,7 @@ data[["LZGPS"]] <- lapply(data[["LZGPS"]], FUN = parse_gps)
 * LZ: <%= gmap(LZGPS) %>
 * Weather at launch: <%= weather(LaunchGPS) %>
 * Live weather: <%= rstring(WeatherLive) %>
+* Soundings: <%= soundings(Soundings) %>
 * WindTalker: <%= paste(phone(WindTalker), collapse=", ") %>
 * Aeronautical chart: <%= aerochart(LaunchGPS) %>
 * Official page: <%= rstring(OfficialURL) %>
