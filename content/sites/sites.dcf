@@ -156,7 +156,7 @@ ParaglidingEarthSite: 13125
 
 Name: Marshall Peak / Crestline
 State: CA
-LaunchGPS: Marshall=(34.210000, -117.302900, 4200)
+LaunchGPS: "750"=(34.199800, -117.317000, 2480), Marshall=(34.210000, -117.302900, 4200)
 LZGPS: (34.193400, -117.323400, 1700)
 Requirements: P3, P2 w/ local instructor
 ParaglidingEarthSite: 6627
