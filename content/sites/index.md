@@ -74,8 +74,8 @@ noaa_weather_url <- function(gps, when = c("now" = 0, "12h" = 12, "24h" = 24, "4
   if (is.na(lat) || is.na(long)) return("")
   url <- sprintf("http://forecast.weather.gov/MapClick.php?w0=t&w1=td&w2=wc&w3=sfcwind&w3u=1&w4=sky&w5=pop&w6=rh&w7=thunder&w8=rain&w9=snow&w10=fzg&w11=sleet&Submit=Submit&FcstType=digital&site=mtr&unit=0&dd=0&bw=0&textField1=%f&textField2=%f&AheadHour=%d", lat, long, when)
   url <- c(sprintf("http://forecast.weather.gov/MapClick.php?lat=%f&lon=%f&site=rev&unit=0&lg=en&FcstType=text", lat, long), url)
-  url <- c(url, sprintf("http://forecast.weather.gov/MapClick.php?lat=%s&lon=%s", lat, long))
-  names(url) <- c("current conditions + 5-day forecast", names(when), "forecast area")
+#  url <- c(url, sprintf("http://forecast.weather.gov/MapClick.php?lat=%s&lon=%s", lat, long))
+  names(url) <- c("current conditions + 5-day forecast, forecast area", names(when))
   url
 }
 
