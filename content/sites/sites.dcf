@@ -156,9 +156,9 @@ ParaglidingEarthSite: 13125
 
 Name: Marshall Peak / Crestline
 State: CA
-LaunchGPS: "750"=(34.199800, -117.317000, 2480), Marshall=(34.210000, -117.302900, 4200)
+LaunchGPS: "750"=(34.199800, -117.317000, 2480), Marshall=(34.210000, -117.302900, 4200), Crestline=(34.236000, -117.313000, 5300)
 LZGPS: (34.193400, -117.323400, 1700)
-Requirements: P3, P2 w/ local instructor
+Requirements: P3, P2 w/ local instructor or signoff
 ParaglidingEarthSite: 6627
 Notes: 
 SeeAlso: [Crestline Soaring Society](http://www.crestlinesoaring.org/), [Rides to launch](http://flytandem.com/shuttle.htm)
@@ -200,10 +200,9 @@ Name: Mount Shasta
 Nickname: Whaleback Site
 State: CA
 LaunchGPS: (41.534, -122.153)
-Requirements: H3 recommended (H2 under appropriate conditions).
-OfficialURL: [Whaleback Site Guide (RVHPA)](http://rvhpa.org/site-guide/whaleback/)
+Requirements: H3 (H2 w/ instructor under appropriate conditions)
+OfficialURL: [Rogue Valley Hang Gliding & Paragliding Association (RVHPA)](http://rvhpa.org/site-guide/whaleback/)
 SeeAlso:
-
 
 Name: Mount Tamalpais
 Nickname: Mt Tam
@@ -281,13 +280,6 @@ OfficialURL: [Central California Hang Gliding & Paragliding Club](http://www.cch
 ParaglidingEarthSite: 7174
 Notes: You will need to sign a waiver and pay the day-use fee
 SeeAlso:
-
-
-Name: Whaleback
-LaunchGPS: (NA, NA)
-Requirements: H3 (H2 w/ instructor under appropriate conditions)
-OfficialURL: [Rogue Valley Hang Gliding & Paragliding Association](http://rvhpa.org/site-guide/whaleback/)
-Notes:
 
 
 Name: Wolf
