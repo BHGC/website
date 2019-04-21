@@ -13,8 +13,8 @@ SeeAlso: Road conditions: Los Padres National Forest [805-968-6640](tel:+1-805-9
 Name: Blue Rock
 Nickname: Vallejo
 State: CA
-LaunchGPS: (38.1379, -122.195, 100)
-LZGPS: 
+LaunchGPS: 'low'=(38.136409, -122.195852, 550), 'mid'=(38.138440, -122.195634, 600), 'top?'=(38.1379, -122.195, 700)
+LZGPS: 'main'=(38.137530, -122.196601, 450), 'park'=(38.133760, -122.202644, 250)
 Requirements: Unregulated. Not really for HG. P3 is recommended.
 SiteSticker: 
 OfficialURL: https://www.sportparagliding.com/blue-rock-vallejo-ca-paragliding
