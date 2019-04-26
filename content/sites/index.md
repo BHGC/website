@@ -193,10 +193,21 @@ data <- local({
   on.exit(close(con))
   read.dcf(con)
 })
+
+## If an entry has an extra newline by mistake, it'll show up here
+if (anyNA(data[, "Name"])) {
+  names <- data[, "Name"]
+  nas <- which(is.na(names)) - 1L
+  stop("It looks like one of the following entries may have been split up (extra newline?): ", paste(sQuote(names[nas]), collapse = ", "))
+}
+
 data[is.na(data)] <- ""
 data <- as.data.frame(data, stringsAsFactors=FALSE)
+stopifnot(!anyNA(data$Name))
+
 data <- data[order(data$Name),]
 rownames(data) <- data$Name
+stopifnot(all(nzchar(rownames(data))))
 data[["LaunchGPS"]] <- lapply(data[["LaunchGPS"]], FUN = parse_gps)
 data[["LZGPS"]] <- lapply(data[["LZGPS"]], FUN = parse_gps)
 %>
