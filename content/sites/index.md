@@ -17,12 +17,12 @@ the underlying database (and all other pages) directly in the browser.
 ## Regional
 
 * FAA Temporary Flight Restrictions:
-  [CA](http://tfr.faa.gov/tfr_map/states.jsp?select2=CA),
-  [NV](http://tfr.faa.gov/tfr_map/states.jsp?select2=NV),
-  [USA](http://tfr.faa.gov/tfr_map_ims/html/index.html)
+  [CA](https://tfr.faa.gov/tfr_map/states.jsp?select2=CA),
+  [NV](https://tfr.faa.gov/tfr_map/states.jsp?select2=NV),
+  [USA](https://tfr.faa.gov/tfr_map_ims/html/index.html)
 * California Fire Map 2018:
   [Google Map](https://www.google.com/maps/d/viewer?mid=1HacmM5E2ueL-FT2c6QMVzoAmE5M19GAf&ll=37.526496569132675%2C-119.27200899999997&z=6)
-  ([source](http://www.fire.ca.gov/general/firemaps.php))
+  ([source](https://www.fire.ca.gov/general/firemaps.php))
 
 
 <%-------------------------------------------------------------------
@@ -72,9 +72,9 @@ noaa_weather_url <- function(gps, when = c("now" = 0, "12h" = 12, "24h" = 24, "4
   lat <- gps[1]
   long <- gps[2]
   if (is.na(lat) || is.na(long)) return("")
-  url <- sprintf("http://forecast.weather.gov/MapClick.php?w0=t&w1=td&w2=wc&w3=sfcwind&w3u=1&w4=sky&w5=pop&w6=rh&w7=thunder&w8=rain&w9=snow&w10=fzg&w11=sleet&Submit=Submit&FcstType=digital&site=mtr&unit=0&dd=0&bw=0&textField1=%f&textField2=%f&AheadHour=%d", lat, long, when)
-  url <- c(sprintf("http://forecast.weather.gov/MapClick.php?lat=%f&lon=%f&site=rev&unit=0&lg=en&FcstType=text", lat, long), url)
-#  url <- c(url, sprintf("http://forecast.weather.gov/MapClick.php?lat=%s&lon=%s", lat, long))
+  url <- sprintf("https://forecast.weather.gov/MapClick.php?w0=t&w1=td&w2=wc&w3=sfcwind&w3u=1&w4=sky&w5=pop&w6=rh&w7=thunder&w8=rain&w9=snow&w10=fzg&w11=sleet&Submit=Submit&FcstType=digital&site=mtr&unit=0&dd=0&bw=0&textField1=%f&textField2=%f&AheadHour=%d", lat, long, when)
+  url <- c(sprintf("https://forecast.weather.gov/MapClick.php?lat=%f&lon=%f&site=rev&unit=0&lg=en&FcstType=text", lat, long), url)
+#  url <- c(url, sprintf("https://forecast.weather.gov/MapClick.php?lat=%s&lon=%s", lat, long))
   names(url) <- c("current conditions + 5-day forecast, forecast area", names(when))
   url
 }
@@ -110,7 +110,7 @@ aerochart_url_md <- function(gps, chart = 301, zoom = 3) {
   long <- gps[2]
   if (is.na(lat) || is.na(long)) return("")
   
-  url <- sprintf("http://skyvector.com/?ll=%f,%f&chart=%d&zoom=%d",
+  url <- sprintf("https://skyvector.com/?ll=%f,%f&chart=%d&zoom=%d",
                  lat, long, chart, zoom)
   names(url) <- c("SkyVector")
   md <- sprintf("[%s](%s)", names(url), url)
@@ -129,19 +129,19 @@ aerochart <- function(gps, ...) {
 
 # "This is current accepted way to link to a specific lat lon
 #  (rather than search for the nearest object).
-#  http://maps.google.com/maps?z=12&t=m&q=loc:38.9419+-78.3020
+#  https://maps.google.com/maps?z=12&t=m&q=loc:38.9419+-78.3020
 #  - z is the zoom level (1-20)
 #  - t is the map type ("m" map, "k" satellite, "h" hybrid,
 #      "p" terrain, "e" GoogleEarth)
 #  - q is the search query, if it is prefixed by loc:
 #      then google assumes it is a lat lon separated by a +"
-#  Source: http://goo.gl/2DD2yP
+#  Source: https://goo.gl/2DD2yP
 gmap_url_md <- function(gps, digits = 4L, ...) {
   lat <- round(gps[1], digits = digits)
   long <- round(gps[2], digits = digits)
   msl <- gps[3]
   if (is.na(lat) || is.na(long)) return("")
-  url <- sprintf("http://maps.google.com/maps/preview?t=h&q=%s,%s", lat, long)
+  url <- sprintf("https://maps.google.com/maps/preview?t=h&q=%s,%s", lat, long)
   md <- sprintf("[(%s,%s)](%s)", lat, long, url)
   if (!is.na(msl)) {
     md <- sprintf("%s @ %d' MSL", md, msl);
@@ -175,7 +175,7 @@ phone <- function(numbers) {
 
 soundings <- function(airport) {
   if (nchar(airport) == 0) return("")
-  sprintf("[%s](http://www.topaflyers.com/weather/soundings/%s.png)",
+  sprintf("[%s](https://www.topaflyers.com/weather/soundings/%s.png)",
           airport, tolower(airport))
 } # soundings()
 
@@ -223,7 +223,7 @@ data[["LZGPS"]] <- lapply(data[["LZGPS"]], FUN = parse_gps)
 
   # ParaglidingEarth link
   if (nzchar(ParaglidingEarthSite)) {
-    seealso$`Paragliding Earth` <- sprintf("http://www.paraglidingearth.com/pgearth/index.php?site=%s", ParaglidingEarthSite)
+    seealso$`Paragliding Earth` <- sprintf("https://www.paraglidingearth.com/pgearth/index.php?site=%s", ParaglidingEarthSite)
   }
 
   seealso <- sprintf("[%s](%s)", names(seealso), unlist(seealso))
@@ -266,8 +266,8 @@ The size of these areas is 2.5-by-2.5 km.
 <%-------------------------------------------------------------------
  REFERENCES
  -------------------------------------------------------------------%>
-[WOR]: http://www.wingsofrogallo.org/
-[Wings of Rogallo (WOR)]: http://www.wingsofrogallo.org/
+[WOR]: https://www.wingsofrogallo.org/
+[Wings of Rogallo (WOR)]: https://www.wingsofrogallo.org/
 [Sonoma Wings]: http://sonomawings.com/site-guides/
-[MCHGA]: http://www.mchga.org/
-[Marin County Hang Gliding Association (MCHGA)]: http://www.mchga.org/
+[MCHGA]: https://www.mchga.org/
+[Marin County Hang Gliding Association (MCHGA)]: https://www.mchga.org/

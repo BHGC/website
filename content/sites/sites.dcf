@@ -53,12 +53,12 @@ LaunchGPS: '300ft'=(37.461130, -121.864641, 700), '600ft'=(37.461324, -121.85997
 LZGPS: (37.458137, -121.867135, 400)
 Requirements: H0-H3
 SiteSticker: [WOR]
-OfficialURL: [Ed Levin Quick Reference](http://www.wingsofrogallo.org/sites/ed_levin/Ed_Levin_Quick_Ref_1-3.01.pdf) [pdf]
+OfficialURL: [Ed Levin Quick Reference](https://www.wingsofrogallo.org/sites/ed_levin/Ed_Levin_Quick_Ref_1-3.01.pdf) [pdf]
 WindTalker: +1-408-946-9516
-WeatherLive: [Mission Soaring Live Weather](http://router.hang-gliding.com/WindSlammer/), [Benlo.com](http://www.benlo.com/pg/edlevin.html)
+WeatherLive: [Mission Soaring Live Weather](https://router.hang-gliding.com/WindSlammer/), [Benlo.com](https://www.benlo.com/pg/edlevin.html)
 Soundings: OAK
 SeeAlso: Road conditions: [Santa Clara County Parks](https://www.sccgov.org/sites/parks/Pages/Closures.aspx), [408-355-2200](tel:+1-408-355-2200) (menu 7 menu 6)
-Notes: [_Emergency_](http://www.wingsofrogallo.org/sites/ed_levin/EL_emergency.pdf) frequency: 147.495 MHz
+Notes: [_Emergency_](https://www.wingsofrogallo.org/sites/ed_levin/EL_emergency.pdf) frequency: 147.495 MHz
 
 
 Name: Elk Mountain
@@ -85,8 +85,8 @@ Name: Herd Peak
 State: CA
 LaunchGPS: (41.6166, -122.229, 5680)
 Requirements: H3. H2 w/ instructor or mentor sign off.  Site intro required for all pilots.
-OfficialURL: [Rogue Valley Hang Gliding & Paragliding Association](http://rvhpa.org/site-guide/herdpeak/)
-SeeAlso: [The Oz Report](http://ozreport.com/1328031387)
+OfficialURL: [Rogue Valley Hang Gliding & Paragliding Association](https://rvhpa.org/site-guide/herdpeak/)
+SeeAlso: [The Oz Report](https://ozreport.com/1328031387)
 
 
 Name: Hat Creek Rim
@@ -129,7 +129,7 @@ State: CA
 LaunchGPS: (NA, NA)
 Requirements: H3 (H2 w/ instructor)
 Notes: Don't miss the LZ. Watch the venturi effect. Get a site intro.
-SeeAlso: <http://www.mlsr.net/>
+SeeAlso: <https://www.mlsr.net/>
 
 
 Name: Copper Mountain
@@ -162,7 +162,7 @@ Name: Lee Vining
 State: CA
 LaunchGPS: (37.975, -119.146)
 Requirements:
-SeeAlso: [Lee Vining](http://www.monolake.org/today/live)
+SeeAlso: [Lee Vining](https://www.monolake.org/today/live)
 ParaglidingEarthSite: 13125
 
 
@@ -189,7 +189,7 @@ LaunchGPS: (39.27160031783707, -119.7125244140625, 7200)
 LZGPS: (NA, NA, 5050)
 Requirements: Unregulated
 Notes: Very easy in the right conditions, and can be scary in the wrong conditions.
-SeeAlso: [HangGliding.org](http://www.hanggliding.org/wiki/McClellan)
+SeeAlso: [HangGliding.org](https://www.hanggliding.org/wiki/McClellan)
 
 
 Name: Mission Ridge
@@ -197,7 +197,7 @@ State: CA
 LaunchGPS: (37.517534, -121.89175)
 Requirements: H4
 Soundings: OAK
-SeeAlso: [WOR](http://www.wingsofrogallo.org/sites/mission/)
+SeeAlso: [WOR](https://www.wingsofrogallo.org/sites/mission/)
 
 
 Name: Mount Diablo
@@ -265,7 +265,7 @@ State: NV
 LaunchGPS: (39.319914, -119.867355, 8200)
 LZGPS: (39.308908, -119.822940, 5100)
 Requirements: H3-H4
-SeeAlso: [HangGliding.org](http://www.hanggliding.org/wiki/Slide_Mountain)
+SeeAlso: [HangGliding.org](https://www.hanggliding.org/wiki/Slide_Mountain)
 
 
 Name: Sweetwater
@@ -316,6 +316,6 @@ State: CA
 LaunchGPS: 'Glacier Point'=(37.729047,-119.572754, 7200)
 LZGPS: 'Leidig Meadow'=(37.737710, -119.603902, 3900)
 Requirements: H4, permit
-OfficialURL: http://www.yosemitehg.org/
+OfficialURL: https://www.yosemitehg.org/
 Notes:  May 1 to October 1 only. Launch 7-9:30am. Land 7-10:30am. Permit required.
 SeeAlso: https://parkplanning.nps.gov/projectHome.cfm?projectID=21599
