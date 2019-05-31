@@ -8,7 +8,6 @@
 <%@endif%>
 <%@meta title="${short_title}"%> 
 <%@meta author="Henrik Bengtsson"%>
-<%@string bootstrap_url="http://netdna.bootstrapcdn.com/bootstrap/3.3.7"%>
 <%@string google_analytics_id="UA-15596268-1"%>
 <%@logical favicons="${favicons}" default="true"%>
 <%@include file="utils.rsp"%>
@@ -22,7 +21,7 @@
   <link rel="shortcut icon" href="<%=pathToRoot%>assets/ico/favicon.ico">
   <title title="<%@string name="full_title"%>"><%@meta name="title"%></title>
   <%-- Include the Bootstrap stylesheets --%>
-  <link href="<%@string name="bootstrap_url"%>/css/bootstrap.min.css" rel="stylesheet">
+  <link href="<%=pathToRoot%>assets/css/bootstrap.min.css" rel="stylesheet">
   <%-- Custom styles for this template --%>
   <link href="<%=pathToRoot%>assets/css/navbar-fixed-top.css" rel="stylesheet">
   <link href="<%=pathToRoot%>assets/css/navbar-sticky-bottom.css" rel="stylesheet">
@@ -139,7 +138,7 @@
   <%--- Bootstrap core JavaScript ---%>
   <%--- Placed at the end of the document so the pages load faster ---%>
   <script src="<%=pathToRoot%>assets/js/jquery.min.js"></script>
-  <script src="<%@string name="bootstrap_url"%>/js/bootstrap.min.js"></script>
+  <script src="<%=pathToRoot%>assets/js/bootstrap.min.js"></script>
   <%@ifeq favicons="true"%>
   <script>
     <%-- Add favicons to external links --%>
