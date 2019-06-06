@@ -1,3 +1,12 @@
+Name: Alabama Hills
+State: CA
+LaunchGPS: 'North Launch'=(36.661762, -118.129119, 5200)
+LZGPS: 
+Requirements: Unregulated.  
+WindDirections: NW, N
+Notes: "There may well be places to get other wind directions nearby. Once you launch, ridge soar until a thermal comes through, then get up and fly south"
+
+
 Name: Big Sur
 State: CA
 LaunchGPS: 'Wild Cattle Launch'=(35.971299, -121.453027, 3200)
@@ -44,10 +53,18 @@ Name: Copper Mountain
 State: CA
 LaunchGPS: (38.048668, -119.195615, 9100)
 LZGPS: 'main'=(NA,NA), 'foothill'=(38.045164, -119.174000, 7000)
-Requirements: 
+Requirements: Unregulated.  H3, H2 w/ instructor recommended
 SeeAlso: 
 ParaglidingEarthSite: 15072
 Notes: Shallow launch at high altitude. Watch out for rotors from behind.
+
+
+Name: Duck Hill
+State: NV
+LaunchGPS: (39.224621, -119.779331, 5900)
+LZGPS: (39.227031, -119.793271, 5100)
+Requirements: Unregulated.  H3, H2 w/ instructor recommended
+Notes: 
 
 
 Name: Dunlap
@@ -96,7 +113,7 @@ Requirements: Unregulated. H3, H2 w/ instructor recommended
 WindDirections: 'southLaunch'=SSW, 'northLaunch'=NW
 SeeAlso: [Sonoma Wings]
 ParaglidingEarthSite: 6695
-Notes: 4WD required for launch road.  Beware the power line in the alternate LZ
+Notes: 4x4 required for launch road.  Beware the power line in the alternate LZ
 
 
 Name: Flynn's
@@ -129,6 +146,14 @@ Requirements: Unregulated. H3, H2 w/ instructor recommended
 WindDirections: SW, S, SE
 Notes: Watch for dust devils on launch/during landing
 
+
+Name: Glass Mountain
+State: CA
+LaunchGPS: (37.705268, -118.671287, 8500)
+LZGPS: 'Bailout'=(37.705263, -118.691663, 7200), 'Campground LZ'=(37.693376, -118.758021, 6800)
+Requirements: Unregulated. H3, experienced H2 w/ instructor recommended
+WindDirections: W, SW
+Notes:
 
 
 Name: Goat Rock
@@ -195,6 +220,14 @@ Notes: Long glide from launch to LZ.  Not appropriate without mountain experienc
 SeeAlso: [Sonoma Wings](http://sonomawings.com/site-guides/hull-mountain/)
 
 
+Name: Indian Valley
+State: CA
+LaunchGPS: 'Burn LP'=(40.194644, -120.923071, 6200), 'Mt. Hough'=(40.045490, -120.886023, 7200) 
+LZGPS: 'Tweeten Bailout'=(40.169673, -120.934279, 3900)
+Requirements: H3 (H2 w/ instructor)
+Notes: Burn LP is not H2 friendly.  Bailout is rotory and turbulent
+
+
 Name: Lake McClure
 State: CA
 LaunchGPS: (37.711403, -120.233885)
@@ -216,7 +249,7 @@ SeeAlso:
 Name: Lee Vining
 State: CA
 LaunchGPS: (37.975, -119.146)
-Requirements:
+Requirements: Unregulated. H3, H2 w/ instructor recommended
 SeeAlso: [Lee Vining](http://www.monolake.org/today/live)
 ParaglidingEarthSite: 13125
 
@@ -227,7 +260,6 @@ LaunchGPS: (36.699300, -121.809012)
 Requirements: H3, H2 w/ instructor
 WindDirections: W, WNW, WSW
 SeeAlso: [Coastal Condors] (http://www.coastalcondors.org)
-
 
 
 Name: Marshall Peak / Crestline
@@ -251,7 +283,7 @@ Name: Mazourka
 State: CA
 LaunchGPS: 'north'=(36.976681, -118.122839, 9300), 'southwest'=(36.969572, -118.124030, 9200), 'south'=(36.969704, -118.122031, 9200), 'southeast'=(36.973002, -118.116780, 9300)
 LZGPS: 'badger flat bailout'=(36.970321, -118.098244, 8700)
-Requirements: Unregulated. H4, Experienced H3 recommended.
+Requirements: Unregulated. H4/H3 recommended.
 WindDirections: N, NW, SW, S, SE
 Notes: Long drive. Shallow launches. Can handle strong N and S winds better than other Ownen's Valley launches.
 
@@ -263,6 +295,16 @@ LZGPS: (NA, NA, 5050)
 Requirements: Unregulated
 Notes: Very easy in the right conditions, and can be scary in the wrong conditions.
 SeeAlso: [HangGliding.org](http://www.hanggliding.org/wiki/McClellan)
+
+
+Name: McGee/Magee
+State: CA
+Launch GPS: 'Lower'=(), 'Upper'=()
+Launch GPS:
+Requirements: Unregulated.  H3, H2 w/ instructor recommended.
+WindDirections: NE, E, SE.
+Notes: 4x4 required.  Road to upper McGee is rugged, narrow, and rocky.
+
 
 
 Name: Mission Ridge
@@ -320,7 +362,7 @@ LaunchGPS: 'upper'=(37.531365, -118.279341, 9600), 'lower'=(37.521500, -118.2950
 LZGPS: (37.511111, -118.349722, 4300)
 Requirements: Unregulated. H3 recommended
 WindDirections: W, NW, SW
-Notes: 4WD required. Watch for sharp rocks, road regularly eats tires.
+Notes: 4x4 recommended. Watch for sharp rocks, road regularly eats tires.
 
 
 Name: Palomino
@@ -346,6 +388,14 @@ LaunchGPS: 'lower'=(39.694318, -119.983945, 5600), 'middle'=(39.702865, -119.986
 LZGPS: 'city park LZ'=(39.691083, -119.964903, 5100)
 Requirements: Unregulated. H3, H2 w/ instructor recommended.
 SeeAlso: <%-- BROKEN: [Nevada Wings](http://www.nvwings.com/site_guide.html) --%>\
+
+
+Name: Pine Mountain
+State: OR
+LaunchGPS: 'Observatory LP'=(43.790775, -120.946723, 6300), 'Antelope LP'=(43.809152, -120.881803, 6200), 'West LP'=(43.819690, -120.932574, 6300)
+LZGPS: 'Rock L LZ'=(43.837114, -120.930372, 4900), 'Flying Farm LZ'=(43.844892, -120.944951, 4500), 'Wright LZ'=(43.844862, -120.936396, 4500)
+Requirements: Unregulated. H3, H2 w/ instructor recommended.
+Notes:
 
 
 Name: Potato Hill
