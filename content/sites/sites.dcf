@@ -1,8 +1,17 @@
+Name: Alabama Hills
+State: CA
+LaunchGPS: 'North Launch'=(36.661762, -118.129119, 5200)
+LZGPS: 
+Requirements: Unregulated.  
+WindDirections: NW, N
+Notes: "There may well be places to get other wind directions nearby. Once you launch, ridge soar until a thermal comes through, then get up and fly south"
+
+
 Name: Big Sur
 State: CA
 LaunchGPS: 'Wild Cattle Launch'=(35.971299, -121.453027, 3200)
 LZGPS: (35.932435, -121.469551, 100)
-Requirements: 
+Requirements: Unregulated. H3, H2 w/ instructor recommended
 SiteSticker: 
 OfficialURL: 
 ParaglidingEarthSite: 7006
@@ -10,10 +19,19 @@ Notes:
 SeeAlso: Road conditions: Los Padres National Forest [805-968-6640](tel:+1-805-968-6640), [webcam 40-min north](https://www.nepenthe.com/live-weather-cam/), [Airtime of San Francisco](http://www.paragliding-lessons.com/big-sur-flying-site/)
 
 
+Name: Black Eagle
+State: CA
+LaunchGPS: (36.818344, -118.042978, 7000)
+LZGPS: 'bailout LZ'=(36.817322, -118.094236, 4100)
+Requirements: Unregulated. H4, Experienced H3 recommended.
+WindDirections: W, SW
+Notes: 
+
+
 Name: Blue Rock
 Nickname: Vallejo
 State: CA
-LaunchGPS: 'mid/poison oak'=(38.136409, -122.195852, 550), 'north'=(38.138440, -122.195634, 600), 'top?'=(38.1379, -122.195, 700)
+LaunchGPS: 'mid/poison oak'=(38.136409, -122.195852, 550), 'north'=(38.138440, -122.195634, 600), 'top'=(38.1379, -122.195, 700)
 LZGPS: 'main'=(38.137530, -122.196601, 450), 'park'=(38.133760, -122.202644, 250)
 Requirements: Unregulated. Not really for HG. P3 is recommended.
 SiteSticker: 
@@ -23,11 +41,37 @@ Notes:
 SeeAlso: http://www.flyzephyr.com/blue-rock-vallejo.html
 
 
+Name: Cerro Gordo
+State: CA
+LaunchGPS: 'lower'=(36.545289, -117.810623, 8300), 'upper [no access as of June 2019]'=(36.549860, -117.802731)
+LZGPS:
+Requirements: Unregulated. H4, Experienced H3 recommended.
+Notes: First 100 mile flight on a hang glider was flown from Cerro Gordo. Road from Cerro Gordo town to lower LP is a rough 4WD road. Road to peak locked off. Long glide.
+
+
+Name: Copper Mountain
+State: CA
+LaunchGPS: (38.048668, -119.195615, 9100)
+LZGPS: 'main'=(NA,NA), 'foothill'=(38.045164, -119.174000, 7000)
+Requirements: Unregulated.  H3, H2 w/ instructor recommended
+SeeAlso: 
+ParaglidingEarthSite: 15072
+Notes: Shallow launch at high altitude. Watch out for rotors from behind.
+
+
+Name: Duck Hill
+State: NV
+LaunchGPS: (39.224621, -119.779331, 5900)
+LZGPS: (39.227031, -119.793271, 5100)
+Requirements: Unregulated.  H3, H2 w/ instructor recommended
+Notes: 
+
+
 Name: Dunlap
 State: CA
 LaunchGPS: 'ramp'=(36.764134, -119.097631, 4600)
 LZGPS: (36.736126, -119.104683, 2000)
-Requirements: H3/P3
+Requirements: H3/P3, H2/P2 w/ instructor
 SiteSticker: yes (private launch/LZ)
 OfficialURL: [Dunlap Flying Club](https://www.facebook.com/DuPHaSS/)
 ParaglidingEarthSite: 7007
@@ -63,15 +107,28 @@ Notes: [_Emergency_](https://www.wingsofrogallo.org/sites/ed_levin/EL_emergency.
 
 Name: Elk Mountain
 State: CA
-LaunchGPS: (39.277, -122.941)
+LaunchGPS: 'south'=(39.277, -122.941), 'north'= (39.276414, -122.943531)
+LZGPS: 'main'=(39.251339, -122.950443), 'alternate'=(39.248226, -122.950779)
+Requirements: Unregulated. H3, H2 w/ instructor recommended
+WindDirections: 'southLaunch'=SSW, 'northLaunch'=NW
 SeeAlso: [Sonoma Wings]
 ParaglidingEarthSite: 6695
+Notes: 4x4 required for launch road.  Beware the power line in the alternate LZ
+
+
+Name: Flynn's
+State: CA
+LaunchGPS: (37.388394, -118.295029, 5600)
+LZGPS: (37.387053, -118.317233, 4100)
+Requirements: Unregulated. H3, H2 w/ instructor recommended.
+WindDirections: W, SW, WNW
+Notes: 
 
 
 Name: Fort Funston
 State: CA
-LaunchGPS: (37.7139, -122.503)
-LZGPS: main=(37.7139, -122.503), beach=(NA, NA)
+LaunchGPS: (37.7139, -122.503, NA)
+LZGPS: main=(37.7139, -122.503, NA), beach=(NA, NA, NA)
 Requirements: H3
 OfficialURL: [FlyFunston.org](http://flyfunston.org)
 SeeAlso: [Web cam & winds](http://www.flyfunston.org/newwebcam/)
@@ -79,6 +136,41 @@ WindTalker: +1-415-333-0100
 Soundings: OAK
 ParaglidingEarthSite: 9302
 Notes: No paragliding
+
+
+Name: Garlock
+State: CA
+LaunchGPS: 'upper'=(35.418972, -117.850556, NA), 'lower'=(NA, NA, NA)
+LZGPS: (35.375544, -117.853661)
+Requirements: Unregulated. H3, H2 w/ instructor recommended
+WindDirections: SW, S, SE
+Notes: Watch for dust devils on launch/during landing
+
+
+Name: Glass Mountain
+State: CA
+LaunchGPS: (37.705268, -118.671287, 8500)
+LZGPS: 'Bailout'=(37.705263, -118.691663, 7200), 'Campground LZ'=(37.693376, -118.758021, 6800)
+Requirements: Unregulated. H3, experienced H2 w/ instructor recommended
+WindDirections: W, SW
+Notes:
+
+
+Name: Goat Rock
+State: CA
+LaunchGPS: (38.441835,-123.124977, NA)
+LZGPS: 
+Requirements: H3, H2 w/ instructor
+WindDirections: W, NW
+SeeAlso: [Sonoma Wings]
+Notes: Small ridge, can only handle about 2 gliders at once.  Setup area gets rotor in strong winds.  Beware rotor from Goat Rock when flying to the ridge south of launch.
+
+
+Name: Gunter / Gunther
+LaunchGPS: (37.468200, -118.263088, NA)
+LZGPS: (37.420725, -118.334444, NA)
+Requirements: Unregulated. Experienced H3 recommended
+Notes: Better road than Paiute. Shallow launch, long glide to LZ, often blows out.
 
 
 Name: Herd Peak
@@ -94,83 +186,87 @@ State: CA
 LaunchGPS: (40.843055, -121.427468, 4500)
 LZGPS: '#1/bailout'=(40.838544, -121.438413, 3484), '#2/main'=(40.840963, -121.449369, 3576)
 Requirements: H3, H2 w/ mentor
-SiteSticker: yes
 OfficialURL: [Hat Creek Rim](http://hatcreek.info/)
 ParaglidingEarthSite: 7005
 Notes: A good first mountain site.
 
 
-Name: Horseshoe
-Nickname: Walt's Point
-State: Owens Valley, NV
-LaunchGPS: (NA, NA)
-Requirements: H4
+Name: Horseshoe Meadows / Walt's Point
+State: CA
+LaunchGPS: (36.472700, -118.114950, NA)
+LZGPS: 'Postage-stamp bailout'=(36.529957, -118.106944), 'GreenFields LZ'=(36.547793, -118.078085), 'Diaz LZ'=(36.556944, -118.054357)
+Requirements: H4,experienced H3 recommended
 SeeAlso: [KariCastle](http://karicastle.com/owens-valley/)
+Notes: The only Owen's Valley launch in the sierras.  Paved road.
 ParaglidingEarthSite: 7387
 
 
 Name: Hotsprings Mountain
 State: NV
-LaunchGPS: (39.06504800388501, -119.72282409667969)
-Requirements: Unregulated
+LaunchGPS: 'LP1'=(39.078628, -119.732742), 'LP2'=(39.065661, -119.730750)
+LZGPS: (39.080460, -119.743185)
+Requirements: Unregulated. H3, H2 w/ instructor recommended
+WindDirections: SW, W, NW
+Notes:
 
 
 Name: Hull Mountain
 State: CA
-LaunchGPS: 'Timberline/main'=(39.509387, -122.937847, 5800)
+LaunchGPS: 'Timberline/main'=(39.509387, -122.937847, 5800), 'lower'=(39.514371, -122.940361, NA), 'rock pile'=(39.522359, -122.938097, NA), 'Turn-in-the-road'=(39.522167, -122.935707, NA), 'propane tank'=(39.521859, -122.936935, NA)
 LZGPS: 'lake/main'=(39.442038, -122.946644, 1800), 'airstrip/bailout'=(39.452802, -122.953110, 1800)
 Requirements: Unregulated (H3 recommended, experienced H2 w/ instructor)
+WindDirections: SE, S, SW
 Notes: Long glide from launch to LZ.  Not appropriate without mountain experience.
 SeeAlso: [Sonoma Wings](http://sonomawings.com/site-guides/hull-mountain/)
 
 
+Name: Indian Valley
+State: CA
+LaunchGPS: 'Burn LP'=(40.194644, -120.923071, 6200), 'Mt. Hough'=(40.045490, -120.886023, 7200) 
+LZGPS: 'Tweeten Bailout'=(40.169673, -120.934279, 3900)
+Requirements: H3 (H2 w/ instructor)
+Notes: Burn LP is not H2 friendly.  Bailout is rotory and turbulent
+
+
 Name: Lake McClure
 State: CA
-LaunchGPS: (NA, NA)
+LaunchGPS: (37.711403, -120.233885, NA)
+LZGPS: (37.704583, -120.244940, NA)
 Requirements: H3 (H2 w/ instructor)
 Notes: Don't miss the LZ. Watch the venturi effect. Get a site intro.
-SeeAlso: <https://www.mlsr.net/>
-
-
-Name: Copper Mountain
-State: CA
-LaunchGPS: (38.048668, -119.195615, 9100)
-LZGPS: 'main'=(NA,NA), 'foothill'=(38.045164, -119.174000, 7000)
-Requirements: 
-SeeAlso: 
-ParaglidingEarthSite: 15072
-Notes: Shallow launch at high altitude. Watch out for rotors from behind.
-
-
-Name: Peavine Mt
-State: NV
-LaunchGPS: (NA, NA)
-Requirements: 
-Notes: 
-SeeAlso: 
+SeeAlso: <http://www.mlsr.net/>
 
 
 Name: Lakeview
-State: OR
-LaunchGPS: (NA, NA)
-Requirements: 
-Notes: 
+State: CA/OR
+LaunchGPS: 'Sugar Hill'=(41.806521, -120.328989, NA), 'sweet-and-low'=(41.828500, -120.346483, NA), 'black-cap'=(42.204264, -120.330122, NA)
+LZGPS: 'bailout'=(41.815931, -120.354752), 'mid-gap bailout'=(41.872721, -120.325768), 'Hunter\'s hot springs'=(42.220613, -120.366709) 
+Requirements: Unregulated.  H3, H2 w/ instructor recommended.
+Notes: Beware hostile landowners.
 SeeAlso: 
 
 
 Name: Lee Vining
 State: CA
-LaunchGPS: (37.975, -119.146)
-Requirements:
+LaunchGPS: (37.975, -119.146, NA)
+Requirements: Unregulated. H3, H2 w/ instructor recommended
 SeeAlso: [Lee Vining](https://www.monolake.org/today/live)
 ParaglidingEarthSite: 13125
+
+
+Name: Marina State Beach
+State: CA
+LaunchGPS: (36.699300, -121.809012, NA)
+Requirements: H3, H2 w/ instructor
+WindDirections: W, WNW, WSW
+SeeAlso: [Coastal Condors] (http://www.coastalcondors.org)
 
 
 Name: Marshall Peak / Crestline
 State: CA
 LaunchGPS: "750"=(34.199800, -117.317000, 2480), Marshall=(34.210000, -117.302900, 4200), Crestline=(34.236000, -117.313000, 5300)
 LZGPS: (34.193400, -117.323400, 1700)
-Requirements: P3, P2 w/ local instructor or signoff
+Requirements: H3/P3, H2/P2 w/ local instructor or signoff
 ParaglidingEarthSite: 6627
 Notes: 
 SeeAlso: [Crestline Soaring Society](http://www.crestlinesoaring.org/), [Rides to launch](http://flytandem.com/shuttle.htm)
@@ -178,23 +274,42 @@ SeeAlso: [Crestline Soaring Society](http://www.crestlinesoaring.org/), [Rides t
 
 Name: Mattole
 State: CA
-LaunchGPS: (NA, NA)
+LaunchGPS: (NA, NA, NA)
 Requirements: Unregulated
 SeeAlso: [Penguin's PG info](http://www.humboldt.net/~penguin/mattole.htm)
 
 
+Name: Mazourka
+State: CA
+LaunchGPS: 'north'=(36.976681, -118.122839, 9300), 'southwest'=(36.969572, -118.124030, 9200), 'south'=(36.969704, -118.122031, 9200), 'southeast'=(36.973002, -118.116780, 9300)
+LZGPS: 'badger flat bailout'=(36.970321, -118.098244, 8700)
+Requirements: Unregulated. H4/H3 recommended.
+WindDirections: N, NW, SW, S, SE
+Notes: Long drive. Shallow launches. Can handle strong N and S winds better than other Ownen's Valley launches.
+
+
 Name: McClellan
 State: NV
-LaunchGPS: (39.27160031783707, -119.7125244140625, 7200)
+LaunchGPS: 'main'=(39.27160031783707, -119.7125244140625, 7200)
 LZGPS: (NA, NA, 5050)
 Requirements: Unregulated
 Notes: Very easy in the right conditions, and can be scary in the wrong conditions.
 SeeAlso: [HangGliding.org](https://www.hanggliding.org/wiki/McClellan)
 
 
+Name: McGee/Magee
+State: CA
+LaunchGPS: 'lower'=(NA, NA, NA), 'upper'=(NA, NA, NA)
+LZGPS:
+Requirements: Unregulated.  H3, H2 w/ instructor recommended.
+WindDirections: NE, E, SE.
+Notes: 4x4 required.  Road to upper McGee is rugged, narrow, and rocky.
+
+
+
 Name: Mission Ridge
 State: CA
-LaunchGPS: (37.517534, -121.89175)
+LaunchGPS: (37.517534, -121.89175, NA)
 Requirements: H4
 Soundings: OAK
 SeeAlso: [WOR](https://www.wingsofrogallo.org/sites/mission/)
@@ -202,7 +317,8 @@ SeeAlso: [WOR](https://www.wingsofrogallo.org/sites/mission/)
 
 Name: Mount Diablo
 State: CA
-LaunchGPS: (NA, NA)
+LaunchGPS: 'south-west'=(37.877870, -121.934436, NA), 'west'=(37.879985, -121.919794, NA), 'north'=(37.882018, -121.919003, NA)
+LZGPS: '1000ft LZ'=(37.875580, -121.964653), 'Machedo Ranch'=(37.863056, -121.977188), 'Mitchell Canyon'=(37.923267, -121.941352)
 Requirements: H4
 Soundings: OAK
 SeeAlso: [Wings of Rogallo (WOR)]
@@ -211,7 +327,7 @@ SeeAlso: [Wings of Rogallo (WOR)]
 Name: Mount Shasta
 Nickname: Whaleback Site
 State: CA
-LaunchGPS: (41.534, -122.153)
+LaunchGPS: (41.534, -122.153, NA)
 Requirements: H3 (H2 w/ instructor under appropriate conditions)
 OfficialURL: [Rogue Valley Hang Gliding & Paragliding Association (RVHPA)](http://rvhpa.org/site-guide/whaleback/)
 SeeAlso:
@@ -240,19 +356,53 @@ ParaglidingEarthSite: 15523
 Notes: Paragliding only
 
 
-Name: Petersen Mountain
-Nickname: Rainbow
+Name: Paiute/Piute Mountain
+State: CA
+LaunchGPS: 'upper'=(37.531365, -118.279341, 9600), 'lower'=(37.521500, -118.295000, 8100)
+LZGPS: (37.511111, -118.349722, 4300)
+Requirements: Unregulated. H3 recommended
+WindDirections: W, NW, SW
+Notes: 4x4 recommended. Watch for sharp rocks, road regularly eats tires.
+
+
+Name: Palomino
 State: NV
-LaunchGPS: (NA, NA)
-Requirements: H2
+LaunchGPS: 'upper'=(39.830327, -119.623766, 5600), 'lower'=(39.825417, -119.626737, 5100)
+LZGPS: (39.817134, -119.636266, 4300)
+Requirements: Unregulated. H3, H2 w/ instructor recommended.
+WindDirections: W, SW, NW
+Notes: Shallow launch, often high winds.
+
+
+Name: Peavine Mt
+State: NV
+LaunchGPS: 'bowl'=(39.596083, -119.935976), 'tower'=(39.589559, -119.927833)
+Requirements: Unregulated.  H3 recommended.
+Notes: 
+SeeAlso: 
+
+
+Name: Petersen Mountain / Rainbow Ridge
+State: NV
+LaunchGPS: 'lower'=(39.694318, -119.983945, 5600), 'middle'=(39.702865, -119.986533, 5900), 'upper'=(39.711698, -119.983565, 6700)
+LZGPS: 'City park LZ'=(39.691083, -119.964903, 5100)
+Requirements: Unregulated. H3, H2 w/ instructor recommended.
 SeeAlso: <%-- BROKEN: [Nevada Wings](http://www.nvwings.com/site_guide.html) --%>
+
+
+Name: Pine Mountain
+State: OR
+LaunchGPS: 'Observatory LP'=(43.790775, -120.946723, 6300), 'Antelope LP'=(43.809152, -120.881803, 6200), 'West LP'=(43.819690, -120.932574, 6300)
+LZGPS: 'Rock L LZ'=(43.837114, -120.930372, 4900), 'Flying Farm LZ'=(43.844892, -120.944951, 4500), 'Wright LZ'=(43.844862, -120.936396, 4500)
+Requirements: Unregulated. H3, H2 w/ instructor recommended.
+Notes:
 
 
 Name: Potato Hill
 State: CA
 LaunchGPS: (39.341, -122.685, 3400)
-LZGPS: (39.350, -122.662, 1720)
-Requirements: 
+LZGPS: 'Fouts Spring LZ'=(39.352225, -122.660492, 1700), 'HG bailout LZ'=(39.349188, -122.661181, 1700), 'PG LZ'=(39.350, -122.662, 1700)
+Requirements: Unregulated. H3/P3, H2/P2 w/ instructor recommended.
 SiteSticker: 
 OfficialURL: 
 ParaglidingEarthSite: 6694
@@ -264,38 +414,43 @@ Name: Slide Mountain
 State: NV
 LaunchGPS: (39.319914, -119.867355, 8200)
 LZGPS: (39.308908, -119.822940, 5100)
-Requirements: H3-H4
+Requirements: Unregulated. H3, H2 w/ instructor recommended.
+WindDirections: E, SE
+Notes: good first mountain.  Beware wind over the back.
 SeeAlso: [HangGliding.org](https://www.hanggliding.org/wiki/Slide_Mountain)
 
 
 Name: Sweetwater
-State: NV
-LaunchGPS: (NA, NA)
-Requirements: Unregulated
-Notes: "Questionable if it is H2 friendly".
+State: CA
+LaunchGPS: (38.381987, -119.379736)
+LZGPS: (38.367205, -119.424847)
+Requirements: Unregulated.  H3 recommended.
+Notes: "Questionable if it is H2 friendly". Long glide to LZ. Strong winds common.
 SeeAlso:
 
 
 Name: St Helena
 State: CA
-LaunchGPS: (NA, NA, 4000)
-LZGPS: (38.630296, -122.673606, NA)
+LaunchGPS: (38.667481, -122.627897, 4000)
+LZGPS: (38.629329, -122.675306)
 Requirements: H4/P4, H3/P3 if sponsored by Sonoma Wings + member of [Sonoma Wings].
 SeeAlso: [Sonoma Wings](http://sonomawings.com/site-guides/st-helena/)
 
 
-
 Name: St Johns
 State: CA
-LaunchGPS: (NA, NA)
-Requirements:
+LaunchGPS: 'south'=(39.42422, -122.689222, 6300), 'west'=(39.432691, -122.693303, 6900), 'east'=(39.428428, -122.691053, 6400)
+LZGPS: 'Visitor\'s Center bailout'=(39.372167, -122.623415, 1500), 'Fouts Springs LZ'=(39.352225, -122.660492, 1700)
+Requirements: Unregulated. H4, experienced H3 recommended.
+WindDirections: W, S, E
+Notes: shallow slope launch, long glide to LZ's. Usually an XC site.
 SeeAlso: [Sonoma Wings]
 
 
 Name: Tollhouse
 State: CA
 LaunchGPS: (37.014900, -119.373313, 4100)
-LZGPS: (37.010863, -119.40189, 1900)
+LZGPS: (37.010728, -119.401315, 1900)
 Requirements: H3/P3 (H2/P2 w/ instructor under appropriate conditions)
 OfficialURL: [Central California Hang Gliding & Paragliding Club](http://www.cchpc.club/)
 ParaglidingEarthSite: 7174
@@ -305,7 +460,7 @@ SeeAlso:
 
 Name: Wolf
 State: CA
-LaunchGPS: (NA, NA)
+LaunchGPS: (NA, NA, NA)
 Requirements: Unregulated
 Notes: "Certainly not H2 friendly"
 SeeAlso:
