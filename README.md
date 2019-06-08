@@ -14,7 +14,7 @@ send your username to admin[at]bhgc.org and we'll give you permissions
 to edit the [contents](content/).  To edit a page, just click on the
 edit icon in the footer of every page on [BHGC website] to get to the
 source file here on GitHub.  All editing is done in plain-text files
-with [Markdown](http://www.wikipedia.org/wiki/Markdown) markup for
+with [Markdown](https://www.wikipedia.org/wiki/Markdown) markup for
 specifying headers, subheaders, links, images, lists etc.
 
 
@@ -34,4 +34,4 @@ over at [Travis CI](https://travis-ci.org/BHGC/website/builds).
 You can expect any edits to be live in ~2 minutes.
 
 
-[BHGC website]: http://bhgc.org/
+[BHGC website]: https://bhgc.org/
