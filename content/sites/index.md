@@ -20,9 +20,8 @@ the underlying database (and all other pages) directly in the browser.
   [CA](https://tfr.faa.gov/tfr_map/states.jsp?select2=CA),
   [NV](https://tfr.faa.gov/tfr_map/states.jsp?select2=NV),
   [USA](https://tfr.faa.gov/tfr_map_ims/html/index.html)
-* California Fire Map 2018:
-  [Google Map](https://www.google.com/maps/d/viewer?mid=1HacmM5E2ueL-FT2c6QMVzoAmE5M19GAf&ll=37.526496569132675%2C-119.27200899999997&z=6)
-  ([source](https://www.fire.ca.gov/general/firemaps.php))
+* California Red Alert Map: [Google Map](https://www.google.com/maps/d/viewer?mid=1yFb10tX5BPvSXtBWgOF1eZDVGE8&ll=38.48938213414961%2C-120.44777037662482&z=6) ([source](http://www.fire.ca.gov/communications/communications_firesafety_redflagwarning))
+* California Fire Map 2019: [Google Map](https://www.google.com/maps/d/viewer?mid=1jWr_7HBs-dNjhRa1r32I5Grrk4nrd_CM) ([source](https://www.fire.ca.gov/general/firemaps.php))
 
 
 <%-------------------------------------------------------------------
