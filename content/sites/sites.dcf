@@ -41,6 +41,14 @@ Notes:
 SeeAlso: http://www.flyzephyr.com/blue-rock-vallejo.html
 
 
+Name: Burney Mountain
+State: CA
+LaunchGPS: (40.806667, -121.627500, 7900)
+LZGPS: (40.777267, -121.610649, 4700)
+Requirements: Unregulated. H3, H2 w/ instructor recommended.
+Notes: typically blows out early, usually launched in the morning.  LZ has gotten smaller due to tree growth.
+
+
 Name: Cerro Gordo
 State: CA
 LaunchGPS: 'lower'=(36.545289, -117.810623, 8300), 'upper [no access as of June 2019]'=(36.549860, -117.802731)
@@ -420,6 +428,15 @@ Notes: good first mountain.  Beware wind over the back.
 SeeAlso: [HangGliding.org](https://www.hanggliding.org/wiki/Slide_Mountain)
 
 
+Name: Sylmar
+State: CA
+LaunchGPS: 'Kagel Mtn'=(34.333230, -118.384430, 3500), 'Towers'=(34.342452, -118.406573, 3600)
+LZGPS: 'Main LZ'=(34.317404, -118.406591, 1400)
+Requirements: H3
+SeeAlso: [Sylmar HG Association] (http://www.shga.com/)
+Notes: Be aware of airspace restrictions.  Watch for helicopters crossing May Canyon.  
+
+
 Name: Sweetwater
 State: CA
 LaunchGPS: (38.381987, -119.379736)
@@ -457,6 +474,14 @@ ParaglidingEarthSite: 7174
 Notes: You will need to sign a waiver and pay the day-use fee
 SeeAlso:
 
+
+Name: Valle de Bravo
+State: State of Mexico, Mexico
+LaunchGPS: 'El Penon'=(19.061704, -100.090468, 7700), 'La Torre'=(19.184436, -100.113890, 7200)
+LZGPS: 'Piano LZ/Main'=(19.042247, -100.104522, 5800), 'Penitas'=(19.093295, -100.066730, 7200), 'Cerro Pelon'=(19.036102, -100.133785, 5600), 'Airstrip'=(19.146515, -100.076430, 7200), 'Casas Viejas'=(19.154340, -100.103797, 6800), 'Lakeside LZ'=(19.183228, -100.127772, 5900)
+Requirements: Unregulated.  H3/P3, H2/P2 w/ instructor recommended
+Notes: We typically fly Jan/Feb, gliders rented through Jeff at Fly Mexico
+SeeAlso: [Fly Mexico](https://www.flymexico.com/)
 
 Name: Wolf
 State: CA
