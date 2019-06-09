@@ -433,7 +433,7 @@ State: CA
 LaunchGPS: 'Kagel Mtn'=(34.333230, -118.384430, 3500), 'Towers'=(34.342452, -118.406573, 3600)
 LZGPS: 'Main LZ'=(34.317404, -118.406591, 1400)
 Requirements: H3
-SeeAlso: [Sylmar HG Association] (http://www.shga.com/)
+SeeAlso: [Sylmar HG Association](http://www.shga.com/)
 Notes: Be aware of airspace restrictions.  Watch for helicopters crossing May Canyon.  
 
 
