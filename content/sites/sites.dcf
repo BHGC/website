@@ -361,7 +361,8 @@ LZGPS: (37.671116, -122.494646, 50)
 Requirements: P2-P3 (non-restricted)
 Soundings: OAK
 ParaglidingEarthSite: 15523
-Notes: Paragliding only
+WindAlertSite: 169580
+Notes: Paragliding only, [WindAlert](https://www.windalert.com/spot/169580)
 
 
 Name: Paiute/Piute Mountain
