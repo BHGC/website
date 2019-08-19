@@ -1,14 +1,19 @@
 # Join the club <span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
 
-<%--- HIDE UNTIL NEXT SIGNUP ----------------------------------------
-
 If you want to **learn to hang glide this academic year**, below is how to join the club:
 
-* Wed Sept 26 @ noon-2pm: Chat with active hangliding students and pilots.  Meet us at Sproul Plaza / Sather Gate on UC Berkeley campus (south side).  Look for the hang glider. **(Location is preliminary; we're waiting on approval as of Sept 19)**
+* Tue Sept 10 @ 11am-2pm: Chat with active hangliding students and pilots.  Meet us at Sproul Plaza / Sather Gate on UC Berkeley campus (south side).  Look for the hang glider.
 
-* **Wed Sept 26 @ 8:00pm** 222 Wheeler Hall, UC Berkeley: **SIGNUP MEETING.**
+* Wed Sept 11 @ 11am-2pm: Chat with active hangliding students and pilots.  Meet us at Sproul Plaza / Sather Gate on UC Berkeley campus (south side).  Look for the hang glider.
+
+* **Wed Sept 11 @ 8:00pm**, 20 Barrows Hall, UC Berkeley: **SIGNUP MEETING.**
   Come to our introduction, talk to pilots and flying students, watch some flying videos, get all your questions answered and sign up.  **You have to sign up in person and at this event.**  Due to popularity it is likely there is a lottery, but you'll know when you walk home. **DON'T MISS IT!**
 
+<small>
+_Last updated: August 19, 2019 @ 2:00pm_
+</small>
+
+<%--- HIDE UNTIL NEXT SIGNUP ----------------------------------------
 
 **Mandatory** for students who get in:
 
@@ -16,10 +21,6 @@ If you want to **learn to hang glide this academic year**, below is how to join 
 
 * **Sat-Sun October 6-7 & 13-14 & 20-21 (early am-mid pm)**: The first three training weekends (all weather dependent)
 
-
-<small>
-_Last updated: September 27, 2018 @ 7:45pm_
-</small>
 --------------------------------------------------------------- ---%>
 
 <%--- HIDE UNTIL NEXT SIGNUP ----------------------------------------
@@ -47,16 +48,14 @@ To get in from this waitlist, make sure to attend the ground school
 _Last updated: September 27, 2018 @ 7:45 pm_
 </small>
 
---------------------------------------------------------------- ---%>
-
-<%---
----%>
 ## Next chance to join the club is in September 2019
 
 The next round of sign ups for new pilot students will be announced
 on this website in Aug/Sept 2019. Signup happens once a year, typically
 in early September (after the Labor Day weekend), and only in person.
 As a rough guide, see previous years below (note that the Spring 2018 lesson set was an exception). See also the [About] page.
+
+--------------------------------------------------------------- ---%>
 
 
 ## Previous years
