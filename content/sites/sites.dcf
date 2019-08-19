@@ -60,8 +60,8 @@ Notes: First 100 mile flight on a hang glider was flown from Cerro Gordo. Road f
 
 Name: Copper Mountain
 State: CA
-LaunchGPS: (38.048668, -119.195615, 9100)
-LZGPS: 'main'=(NA,NA), 'foothill'=(38.045164, -119.174000, 7000)
+LaunchGPS: 'SE Launch'=(38.048889, -119.195437, 9100)
+LZGPS: 'Main LZ'=(38.069492,-119.159581, 6900), 'Old LZ/Bailout'=(38.057622, -119.163081, 6900), 'Power Plant Bailout'=(38.045164, -119.174000, 7000)
 Requirements: Unregulated.  H3, H2 w/ instructor recommended
 SeeAlso: 
 ParaglidingEarthSite: 15072
@@ -309,12 +309,11 @@ SeeAlso: [HangGliding.org](https://www.hanggliding.org/wiki/McClellan)
 
 Name: McGee/Magee
 State: CA
-LaunchGPS: 'lower'=(NA, NA, NA), 'upper'=(NA, NA, NA)
-LZGPS:
+LaunchGPS: 'lower'=(37.589312, -118.817501, 9100), 'upper'=(NA, NA, NA)
+LZGPS: 'Main'=(37.600987, -118.798404, 6800)
 Requirements: Unregulated.  H3, H2 w/ instructor recommended.
 WindDirections: NE, E, SE.
 Notes: 4x4 required.  Road to upper McGee is rugged, narrow, and rocky.
-
 
 
 Name: Mission Ridge
