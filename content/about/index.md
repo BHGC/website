@@ -13,7 +13,7 @@ ongoing interaction between students and instructors is one of the great
 pleasures and benefits of the club. And because the instructors are
 volunteers, learning to hang glide is inexpensive. With more than fifty
 active pilots, the club plans weekly trips to the mountains during
-flying season, has weekly meetings, and organizes lessons for new pilots
+flying season, has meetings, and organizes lessons for new pilots
 annually.
 
 ## More about lessons
@@ -51,3 +51,5 @@ big air.
 
 The Berkeley Hang Gliding Club (BHGC) is located in Berkeley, CA. You
 can reach us at info [at] bhgc.org.
+
+Note: As of August 2019, the Bekeley Club does not hold regular weekly meetings.
