@@ -88,13 +88,15 @@
   <%-- GRID NAVIGATION --%>
   <div style="text-align: center;">
     <a href="<%=pathToRoot%>sites/index.html" class="btn btn-default btn-lg" style="width: 7.5em; margin: 0.3ex 0.1ex 0.3ex 0.1ex; padding: 0.6ex 0.2ex; text-align: center;">
-      <span class="glyphicon glyphicon-map-marker"></span>
+      <span class="glyphicon glyphicon-send"></span>
       <div>Flying sites</div>
     </a>
-    <a href="<%=pathToRoot%>join/index.html" class="btn btn-default btn-lg" style="width: 7.5em; margin: 0.3ex 0.1ex 0.3ex 0.1ex; padding: 0.6ex 0.2ex; text-align: center;">
-      <span class="glyphicon glyphicon-heart-empty"></span>
-      <div>Join</div>
+<!--
+    <a href="<%=pathToRoot%>live/index.html" class="btn btn-default btn-lg" style="width: 7.5em; margin: 0.3ex 0.1ex 0.3ex 0.1ex; padding: 0.6ex 0.2ex; text-align: center;">
+      <span class="glyphicon glyphicon-map-marker"></span>
+      <div>Live</div>
     </a>
+-->
     <a href="<%=pathToRoot%>forums/index.html" class="btn btn-default btn-lg" style="width: 7.5em; margin: 0.3ex 0.1ex 0.3ex 0.1ex; padding: 0.6ex 0.2ex; text-align: center;">
       <span class="glyphicon glyphicon-comment"></span>
       <div>Forums</div>
@@ -106,6 +108,10 @@
     <a href="<%=pathToRoot%>miscellaneous/index.html" class="btn btn-default btn-lg" style="width: 7.5em; margin: 0.3ex 0.1ex 0.3ex 0.1ex; padding: 0.6ex 0.2ex; text-align: center;">
       <span class="glyphicon glyphicon-paperclip"></span>
       <div>Miscellaneous</div>
+    </a>
+    <a href="<%=pathToRoot%>join/index.html" class="btn btn-default btn-lg" style="width: 7.5em; margin: 0.3ex 0.1ex 0.3ex 0.1ex; padding: 0.6ex 0.2ex; text-align: center;">
+      <span class="glyphicon glyphicon-heart-empty"></span>
+      <div>Join</div>
     </a>
     <a href="<%=pathToRoot%>about/index.html" class="btn btn-default btn-lg" style="width: 7.5em; margin: 0.3ex 0.1ex 0.3ex 0.1ex; padding: 0.6ex 0.2ex; text-align: center;">
       <span class="glyphicon glyphicon-info-sign"></span>
