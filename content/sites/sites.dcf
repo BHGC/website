@@ -110,7 +110,7 @@ OfficialURL: [Ed Levin Quick Reference](https://www.wingsofrogallo.org/sites/ed_
 WindTalker: +1-408-946-9516
 WeatherLive: [Mission Soaring Live Weather](http://router.hang-gliding.com/WindSlammer/), [Benlo.com](http://www.benlo.com/pg/edlevin.html)
 Soundings: OAK
-SeeAlso: Road conditions: [Santa Clara County Parks](https://www.sccgov.org/sites/parks/Pages/Closures.aspx), [408-355-2200](tel:+1-408-355-2200) (menu 7 menu 6)
+SeeAlso: Road conditions: [Santa Clara County Parks](https://www.sccgov.org/sites/parks/Pages/Closures.aspx), [408-355-2200](tel:+1-408-355-2200) (menu 4 menu 6)
 Notes: [_Emergency_](https://www.wingsofrogallo.org/sites/ed_levin/EL_emergency.pdf) frequency: 147.495 MHz
 
 
@@ -346,7 +346,7 @@ Nickname: Mt Tam
 State: CA
 LaunchGPS: A=(37.907607, -122.619097, 2050), B=(37.911167, -122.624422, 1950), C=(37.920857, -122.632657, 2500)
 LZGPS: 'public beach'=(37.902664, -122.653185, 0)
-Requirements: H3
+Requirements: H3/P3 and sticker
 SiteSticker: [MCHGA]
 OfficialURL: [Marin County Hang Gliding Association (MCHGA)]
 WindTalker: Mt. Tamalpais=+1-415-381-9463, Stinson Beach=+1-415-868-1922
