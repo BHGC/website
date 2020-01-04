@@ -39,7 +39,6 @@ OfficialURL: https://www.sportparagliding.com/blue-rock-vallejo-ca-paragliding
 ParaglidingEarthSite: 11342
 WindAlertSite: 100723
 WeatherUndergroundStationID: KCAVALLE53
-Notes: [WindAlert](https://www.windalert.com/spot/100723)
 SeeAlso: http://www.flyzephyr.com/blue-rock-vallejo.html
 
 
@@ -364,7 +363,7 @@ Requirements: P2-P3 (non-restricted)
 Soundings: OAK
 ParaglidingEarthSite: 15523
 WindAlertSite: 169580
-Notes: Paragliding only, [WindAlert](https://www.windalert.com/spot/169580)
+Notes: Paragliding only
 
 
 Name: Paiute/Piute Mountain

@@ -47,6 +47,16 @@ sites <- read_sites(pageSource = pageSource)
     seealso$`Paragliding Earth` <- sprintf("https://www.paraglidingearth.com/pgearth/index.php?site=%s", ParaglidingEarthSite)
   }
 
+  # WindAlert
+  if (nzchar(WindAlertSite)) {
+    seealso$`WindAlert Station` <- sprintf("https://www.windalert.com/spot/%s", WindAlertSite)
+  }
+
+  # Weather Underground Weather Station ID link
+  if (nzchar(WeatherUndergroundStationID)) {
+    seealso$`Weather Underground Station` <- sprintf("https://www.wunderground.com/dashboard/pws/%s", WeatherUndergroundStationID)
+  }
+
   seealso <- sprintf("[%s](%s)", names(seealso), unlist(seealso))
   
   # "See also" text
