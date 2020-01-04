@@ -63,7 +63,10 @@ weather_url_md <- function(gps, ...) {
   paste(md, collapse = ",\n")
 }
 
-weather <- function(gps, ...) {
+weather <- function(...) UseMethod("weather")
+
+weather.bhgc_site <- function(site, ...) {
+  gps <- site$LaunchGPS
   gps <- gps[[1]]
   gps_md(gps = gps, url_md = weather_url_md, ...)
 }
@@ -85,8 +88,11 @@ aerochart_url_md <- function(gps, chart = 301, zoom = 3) {
   md <- sprintf("[%s](%s)", names(url), url)
   paste(md, collapse = ",\n")
 }
-  
-aerochart <- function(gps, ...) {
+
+aerochart <- function(...) UseMethod("aerochart")
+
+aerochart.bhgc_site <- function(site, ...) {
+  gps <- site$LaunchGPS
   gps <- gps[[1]]
 
   ## First launch site only
@@ -118,6 +124,20 @@ gmap_url_md <- function(gps, digits = 4L, ...) {
   md
 }
 
+launch_map <- function(...) UseMethod("launch_map")
+
+launch_map.bhgc_site <- function(site, ...) {
+  gps <- site$LaunchGPS
+  gps_md(gps = gps, url_md = gmap_url_md, ...)
+}
+
+lz_map <- function(...) UseMethod("lz_map")
+
+lz_map.bhgc_site <- function(site, ...) {
+  gps <- site$LZGPS
+  gps_md(gps = gps, url_md = gmap_url_md, ...)
+}
+
 gmap <- function(gps, ...) {
   gps_md(gps = gps, url_md = gmap_url_md, ...)
 }
@@ -142,11 +162,52 @@ phone <- function(numbers) {
   links
 } # phone()
 
-soundings <- function(airport) {
+wind_talker <- function(...) UseMethod("wind_talker")
+
+wind_talker.bhgc_site <- function(site, ...) {
+   paste(phone(site$WindTalker), collapse=", ")
+}
+ 
+soundings <- function(...) UseMethod("soundings")
+
+soundings.bhgc_site <- function(site, ...) {
+  airport <- site$Soundings
   if (nchar(airport) == 0) return("")
   sprintf("[%s](https://www.topaflyers.com/weather/soundings/%s.png)",
           airport, tolower(airport))
-} # soundings()
+}
+
+
+live_weather <- function(...) UseMethod("live_weather")
+
+live_weather.bhgc_site <- function(site, ...) {
+ rstring(site$WeatherLive)
+} 
+
+official_page <- function(...) UseMethod("official_page")
+
+official_page.bhgc_site <- function(site, ...) {
+ rstring(site$OfficialURL)
+} 
+
+requirements <- function(...) UseMethod("requirements")
+
+requirements.bhgc_site <- function(site, ...) {
+ rstring(site$Requirements)
+} 
+
+sticker <- function(...) UseMethod("sticker")
+
+sticker.bhgc_site <- function(site, ...) {
+ rstring(site$SiteSticker)
+} 
+
+
+notes <- function(...) UseMethod("notes")
+
+notes.bhgc_site <- function(site, ...) {
+ rstring(site$Notes)
+} 
 
 
 #' @importFrom R.utils isUrl
@@ -184,7 +245,8 @@ read_sites <- function(pathname = "content/sites/sites.dcf", pageSource = ".") {
   data[["LZGPS"]] <- lapply(data[["LZGPS"]], FUN = parse_gps)
 
   sites <- lapply(seq_len(nrow(data)), FUN = function(row) {
-    as.list(data[row,])
+    site <- as.list(data[row,])
+    structure(site, class = "bhgc_site")
   })
   names(sites) <- rownames(data)
 

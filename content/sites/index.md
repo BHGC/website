@@ -58,18 +58,18 @@ sites <- read_sites(pageSource = pageSource)
 %>	  
 ## <%=label%>
 
-* Launch: <%= gmap(gps = LaunchGPS) %>
-* LZ: <%= gmap(LZGPS) %>
-* Weather at launch: <%= weather(LaunchGPS) %>
-* Live weather: <%= rstring(WeatherLive) %>
-* Soundings: <%= soundings(Soundings) %>
-* WindTalker: <%= paste(phone(WindTalker), collapse=", ") %>
-* Aeronautical chart: <%= aerochart(LaunchGPS) %>
-* Official page: <%= rstring(OfficialURL) %>
-* Requirements: <%= rstring(Requirements) %>
-* Sticker: <%= rstring(SiteSticker) %>
+* Launch: <%= launch_map(site) %>
+* LZ: <%= lz_map(site) %>
+* Weather at launch: <%= weather(site) %>
+* Live weather: <%= live_weather(site) %>
+* Soundings: <%= soundings(site) %>
+* WindTalker: <%= wind_talker(site) %>
+* Aeronautical chart: <%= aerochart(site) %>
+* Official page: <%= official_page(site) %>
+* Requirements: <%= requirements(site) %>
+* Sticker: <%= sticker(site) %>
 * See also: <%= rstring(seealso) %>
-* Notes: <%= rstring(Notes) %>
+* Notes: <%= notes(site) %>
 
 <% }) # with(site, ...) %>
 <% } # for (name ...) %>
