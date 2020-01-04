@@ -29,10 +29,10 @@ the underlying database (and all other pages) directly in the browser.
  -------------------------------------------------------------------%>
 <%
 source("R/bhgc_sites.R")
-data <- read_sites(pageSource = pageSource)
+sites <- read_sites(pageSource = pageSource)
 %>
-<% for (name in rownames(data)) { %>
-<% site <- data[name, ] %>
+<% for (kk in seq_along(sites)) { %>
+<% site <- sites[[kk]] %>
 <% with(site, {
 
   # Full site name
@@ -71,7 +71,7 @@ data <- read_sites(pageSource = pageSource)
 * See also: <%= rstring(seealso) %>
 * Notes: <%= rstring(Notes) %>
 
-<% }) # with(data[name,], ...) %>
+<% }) # with(site, ...) %>
 <% } # for (name ...) %>
 
 

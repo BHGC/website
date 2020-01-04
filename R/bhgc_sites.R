@@ -182,6 +182,11 @@ read_sites <- function(pathname = "content/sites/sites.dcf", pageSource = ".") {
   stopifnot(all(nzchar(rownames(data))))
   data[["LaunchGPS"]] <- lapply(data[["LaunchGPS"]], FUN = parse_gps)
   data[["LZGPS"]] <- lapply(data[["LZGPS"]], FUN = parse_gps)
-  
-  data
+
+  sites <- lapply(seq_len(nrow(data)), FUN = function(row) {
+    as.list(data[row,])
+  })
+  names(sites) <- rownames(data)
+
+  sites
 }
