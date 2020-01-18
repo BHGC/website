@@ -40,6 +40,7 @@ ParaglidingEarthSite: 11342
 WindAlertSite: 100723
 WeatherUndergroundStationID: KCAVALLE53
 SeeAlso: http://www.flyzephyr.com/blue-rock-vallejo.html
+Notes: The wind direction of the KCAVALLE53 weather station is _not_ reliable. The wind speed is only reliable in approx. WSW-WNW wind (per 2020-01-05)
 
 
 Name: Burney Mountain
@@ -155,6 +156,14 @@ LZGPS: (35.375544, -117.853661)
 Requirements: Unregulated. H3, H2 w/ instructor recommended
 WindDirections: SW, S, SE
 Notes: Watch for dust devils on launch/during landing
+
+
+Name: Gateway
+State: CA
+LaunchGPS: 'kiting/sledders'=(38.0908909, -122.1696237, 300)
+Requirements: Unregulated. PG only. Useful for kiting, sledders, and proximity flying.
+WindDirections: ESE
+Notes: Watch out for ventury effects near the left and right sides of the hill - it is easy to be blown back.
 
 
 Name: Glass Mountain
