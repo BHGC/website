@@ -59,6 +59,14 @@ Requirements: Unregulated. H4, Experienced H3 recommended.
 Notes: First 100 mile flight on a hang glider was flown from Cerro Gordo. Road from Cerro Gordo town to lower LP is a rough 4WD road. Road to peak locked off. Long glide.
 
 
+Name: Channing East
+State: CA
+LaunchGPS: 'east'=(38.1015, -122.1810, NA)
+Requirements: Unregulated. PG only.
+WindDirections: E
+Notes: 
+
+
 Name: Copper Mountain
 State: CA
 LaunchGPS: 'SE Launch'=(38.048889, -119.195437, 9100)
@@ -160,7 +168,7 @@ Notes: Watch for dust devils on launch/during landing
 
 Name: Gateway
 State: CA
-LaunchGPS: 'kiting/sledders'=(38.0908909, -122.1696237, 300)
+LaunchGPS: 'kiting/sledders'=(38.0908909, -122.1696237, NA)
 Requirements: Unregulated. PG only. Useful for kiting, sledders, and proximity flying.
 WindDirections: ESE
 Notes: Watch out for ventury effects near the left and right sides of the hill - it is easy to be blown back.
