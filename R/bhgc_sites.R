@@ -37,13 +37,19 @@ gps_md <- function(gps, url_md, ...) {
 } ## gps_md()
 
 
-noaa_weather_url <- function(gps, when = c("now" = 0, "12h" = 12, "24h" = 24, "48h" = 48, "72h" = 72)) {
+noaa_weather_url <- function(gps, when = c("now" = 0, "12h" = 12, "24h" = 24, "48h" = 48, "72h" = 72), type <- c("graphical", "digital")) {
   lat <- gps[1]
   long <- gps[2]
+  type <- match.arg(type)
+
+  ## Nothing todo?
   if (is.na(lat) || is.na(long)) return("")
-  url <- sprintf("https://forecast.weather.gov/MapClick.php?w0=t&w1=td&w2=wc&w3=sfcwind&w3u=1&w4=sky&w5=pop&w6=rh&w7=thunder&w8=rain&w9=snow&w10=fzg&w11=sleet&Submit=Submit&FcstType=digital&site=mtr&unit=0&dd=0&bw=0&textField1=%f&textField2=%f&AheadHour=%d", lat, long, when)
+
+  ## Forecast
+  url <- sprintf("https://forecast.weather.gov/MapClick.php?w0=t&w1=td&w2=wc&w3=sfcwind&w3u=1&w4=sky&w5=pop&w6=rh&w7=thunder&w8=rain&w9=snow&w10=fzg&w11=sleet&Submit=Submit&FcstType=%s&site=mtr&unit=0&dd=0&bw=0&textField1=%f&textField2=%f&AheadHour=%d", type, lat, long, when)
+  
+  ## Current weather
   url <- c(sprintf("https://forecast.weather.gov/MapClick.php?lat=%f&lon=%f&site=rev&unit=0&lg=en&FcstType=text", lat, long), url)
-#  url <- c(url, sprintf("https://forecast.weather.gov/MapClick.php?lat=%s&lon=%s", lat, long))
   names(url) <- c("current conditions + 5-day forecast, forecast area", names(when))
   url
 }
