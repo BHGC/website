@@ -37,7 +37,7 @@ gps_md <- function(gps, url_md, ...) {
 } ## gps_md()
 
 
-noaa_weather_url <- function(gps, when = c("now" = 0, "12h" = 12, "24h" = 24, "48h" = 48, "72h" = 72), type <- c("graphical", "digital")) {
+noaa_weather_url <- function(gps, when = c("now" = 0, "12h" = 12, "24h" = 24, "48h" = 48, "72h" = 72), type = c("graphical", "digital")) {
   lat <- gps[1]
   long <- gps[2]
   type <- match.arg(type)
