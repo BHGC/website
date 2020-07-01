@@ -1,4 +1,10 @@
-# Flying Sites
+# Flying Sites - All
+
+See also:
+
+* [Flying Sites - Bay Area](<%=pathToRoot%>sites/bayarea/index.html)
+* [Flying Sites - Mt Tamalpais](<%=pathToRoot%>sites/tam/index.html)
+
 
 <%-- ALERT (CALL FOR HELP) --%>
 <div class="alert alert-warning" role="alert">
