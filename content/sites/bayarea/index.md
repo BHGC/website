@@ -15,9 +15,7 @@
  -------------------------------------------------------------------%>
 <%
 source("R/bhgc_sites.R")
-sites <- read_sites(pageSource = pageSource)
-keep <- vapply(sites, FUN = function(site) "BayArea" %in% site$Tags, FUN.VALUE = FALSE)
-sites <- sites[keep]
+sites <- read_sites(pageSource = pageSource, tags = c("BayArea"))
 R.utils::cstr(sites)
 %>
 <% for (kk in seq_along(sites)) { %>

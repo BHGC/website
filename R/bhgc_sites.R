@@ -217,7 +217,7 @@ notes.bhgc_site <- function(site, ...) {
 
 
 #' @importFrom R.utils isUrl
-read_sites <- function(pathname = "content/sites/sites.dcf", pageSource = ".") {
+read_sites <- function(pathname = "content/sites/sites.dcf", pageSource = ".", tags = NULL) {
   isUrl <- R.utils::isUrl
   if (isUrl(pageSource)) {
     url <- file.path(pageSource, pathname)
@@ -255,6 +255,13 @@ read_sites <- function(pathname = "content/sites/sites.dcf", pageSource = ".") {
     structure(site, class = "bhgc_site")
   })
   names(sites) <- rownames(data)
+
+  if (!is.null(tags)) {
+    keep <- vapply(sites, FUN = function(site) {
+      all(tags %in% site$Tags)
+    }, FUN.VALUE = FALSE)
+    sites <- sites[keep]
+  }
 
   sites
 }
