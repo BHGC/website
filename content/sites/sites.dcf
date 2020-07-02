@@ -16,7 +16,6 @@ OfficialURL:
 ParaglidingEarthSite: 7006
 Notes: 
 SeeAlso: Road conditions: Los Padres National Forest [805-968-6640](tel:+1-805-968-6640), [webcam 40-min north](https://www.nepenthe.com/live-weather-cam/), [Airtime of San Francisco](http://www.paragliding-lessons.com/big-sur-flying-site/)
-Tags: BayArea
 
 
 Name: Black Eagle
@@ -108,7 +107,6 @@ OfficialURL:
 ParaglidingEarthSite: 
 Notes: This is cliff launch site with landing on the beach.
 SeeAlso: https://www.nps.gov/pore/planyourvisit/weather.htm
-Tags: BayArea
 
 
 Name: Ed Levin
@@ -136,7 +134,6 @@ WindDirections: 'southLaunch'=SSW, 'northLaunch'=NW
 SeeAlso: [Sonoma Wings]
 ParaglidingEarthSite: 6695
 Notes: 4x4 required for launch road.  Beware the power line in the alternate LZ
-Tags: BayArea
 
 
 Name: Flynn's
@@ -253,7 +250,6 @@ Requirements: Unregulated (H3 recommended, experienced H2 w/ instructor)
 WindDirections: SE, S, SW
 Notes: Long glide from launch to LZ.  Not appropriate without mountain experience.
 SeeAlso: [Sonoma Wings](http://sonomawings.com/site-guides/hull-mountain/)
-Tags: BayArea
 
 
 Name: Indian Valley
@@ -449,7 +445,6 @@ OfficialURL:
 ParaglidingEarthSite: 6694
 Notes: Mostly a PG site
 SeeAlso: 
-Tags: BayArea
 
 
 Name: Slide Mountain
@@ -486,7 +481,6 @@ LaunchGPS: (38.667481, -122.627897, 4000)
 LZGPS: (38.629329, -122.675306)
 Requirements: H4/P4, H3/P3 if sponsored by Sonoma Wings + member of [Sonoma Wings].
 SeeAlso: [Sonoma Wings](http://sonomawings.com/site-guides/st-helena/)
-Tags: BayArea
 
 
 Name: St Johns
@@ -497,7 +491,6 @@ Requirements: Unregulated. H4, experienced H3 recommended.
 WindDirections: W, S, E
 Notes: shallow slope launch, long glide to LZ's. Usually an XC site.
 SeeAlso: [Sonoma Wings]
-Tags: BayArea
 
 
 Name: Tollhouse
