@@ -44,6 +44,7 @@ build:
 
 sites:
 	touch content/sites/index.md
+	touch content/sites/*/index.md
 	make build
 
 
