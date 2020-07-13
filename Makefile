@@ -47,6 +47,8 @@ sites:
 	touch content/sites/*/index.md
 	make build
 
+tags:
+	grep -F "Tags:" content/sites/sites.dcf | sed 's/Tags: //g' | sed 's/, /\n/g' | sort -u
 
 #=====================================================================
 # Publish (=go live!)
