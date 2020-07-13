@@ -1,5 +1,10 @@
 # Join the club <span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
 
+<div class="alert alert-warning" role="alert" style="font-size: 150%">
+<strong>Due to the ongoing COVID-19 pandemic, we do not yet know if we will be teaching lessons for Fall 2020.</strong>
+
+</div>
+
 <%--- HIDE UNTIL NEXT SIGNUP ----------------------------------------
 
 If you want to **learn to hang glide this academic year**, below is how to join the club:
@@ -25,8 +30,6 @@ _Last updated: August 19, 2019 @ 2:00pm_
 
 * **Sat-Sun October 6-7 & 13-14 & 20-21 (early am-mid pm)**: The first three training weekends (all weather dependent)
 
---------------------------------------------------------------- ---%>
-
 ## To the unlucky ones
 
 We thank everyone who came to the signup meeting.
@@ -46,17 +49,18 @@ To get in from this waitlist, make sure to attend the ground school
 (see [front page]).
 --%>
 
-<small>
-_Last updated: October 10, 2019_
-</small>
+--------------------------------------------------------------- ---%>
 
-## Next chance to join the club is in September 2020
+## Next chance to join the club is ... in COVID-19 limbo
 
-The next round of sign ups for new pilot students will be announced
-on this website in Aug/Sept 2020. Signup happens once a year, typically
-in early September (after the Labor Day weekend), and only in person.
+_If_ we are teaching, information will be available on this website in August/September 2020.
+Signup happens once a year, typically in early September (after the Labor Day weekend), and only in person.
 As a rough guide, see previous years below (note that the Spring 2018
 lesson set was an exception). See also the [About] page.
+
+<small>
+_Last updated: July 13, 2020_
+</small>
 
 <%--- HIDE UNTIL NEXT SIGNUP ----------------------------------------
 
