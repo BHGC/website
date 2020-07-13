@@ -56,7 +56,7 @@ site-pages:
 	    tag_lc=$$(echo "$${tag}" | tr "[:upper:]" "[:lower:]"); \
 	    dir="content/sites/$${tag_lc}"; \
 	    mkdir -p "$${dir}"; \
-	    if [ -f "$${dir}/index.md" ]; then \
+	    if [ ! -f "$${dir}/index.md" ]; then \
 	        echo "# Flying Sites - <%= tag <- c($${tag} = \"$${tag}\") %>\n\n<%@include file=\"content/sites/incl/index.md.rsp\"%>" > "$${dir}/index.md"; \
 	    fi; \
 	done

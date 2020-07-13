@@ -3,7 +3,12 @@
 See also:
 
 * [Flying Sites - Bay Area](<%=pathToRoot%>sites/bayarea/index.html)
-* [Flying Sites - Mt Tamalpais](<%=pathToRoot%>sites/tam/index.html)
+  - [Flying Sites - Mt Tamalpais](<%=pathToRoot%>sites/tam/index.html)
+* [Flying Sites - LakeTahoe-RenoArea](<%=pathToRoot%>sites/laketahoe-renoarea/index.html)
+* [Flying Sites - Lakeview](<%=pathToRoot%>sites/lakeview/index.html)
+* [Flying Sites - Mendocino](<%=pathToRoot%>sites/mendocino/index.html)
+* [Flying Sites - OwensValley](<%=pathToRoot%>sites/owensvalley/index.html)
+* [Flying Sites - SierraNevada](<%=pathToRoot%>sites/sierranevada/index.html)
 
 
 <%-- ALERT (CALL FOR HELP) --%>
