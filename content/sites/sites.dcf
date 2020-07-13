@@ -5,6 +5,8 @@ LZGPS:
 Requirements: Unregulated.  
 WindDirections: NW, N
 Notes: "There may well be places to get other wind directions nearby. Once you launch, ridge soar until a thermal comes through, then get up and fly south"
+Tags: OwensValley
+
 
 Name: Big Sur
 State: CA
@@ -25,6 +27,7 @@ LZGPS: 'bailout LZ'=(36.817322, -118.094236, 4100)
 Requirements: Unregulated. H4, Experienced H3 recommended.
 WindDirections: W, SW
 Notes: 
+Tags: OwensValley
 
 
 Name: Blue Rock
@@ -57,6 +60,7 @@ LaunchGPS: 'lower'=(36.545289, -117.810623, 8300), 'upper [no access as of June 
 LZGPS:
 Requirements: Unregulated. H4, Experienced H3 recommended.
 Notes: First 100 mile flight on a hang glider was flown from Cerro Gordo. Road from Cerro Gordo town to lower LP is a rough 4WD road. Road to peak locked off. Long glide.
+Tags: OwensValley
 
 
 Name: Channing East
@@ -76,6 +80,7 @@ Requirements: Unregulated.  H3, H2 w/ instructor recommended
 SeeAlso: 
 ParaglidingEarthSite: 15072
 Notes: Shallow launch at high altitude. Watch out for rotors from behind.
+Tags: SierraNevada
 
 
 Name: Duck Hill
@@ -84,6 +89,7 @@ LaunchGPS: (39.224621, -119.779331, 5900)
 LZGPS: (39.227031, -119.793271, 5100)
 Requirements: Unregulated.  H3, H2 w/ instructor recommended
 Notes: 
+Tags: LakeTahoe/RenoArea
 
 
 Name: Dunlap
@@ -135,6 +141,7 @@ WindDirections: 'southLaunch'=SSW, 'northLaunch'=NW
 SeeAlso: [Sonoma Wings]
 ParaglidingEarthSite: 6695
 Notes: 4x4 required for launch road.  Beware the power line in the alternate LZ
+Tags: Mendocino
 
 
 Name: Flynn's
@@ -144,6 +151,7 @@ LZGPS: (37.387053, -118.317233, 4100)
 Requirements: Unregulated. H3, H2 w/ instructor recommended.
 WindDirections: W, SW, WNW
 Notes: 
+Tags: OwensValley
 
 
 Name: Fort Funston
@@ -196,6 +204,7 @@ Requirements: H3, H2 w/ instructor
 WindDirections: W, NW
 SeeAlso: [Sonoma Wings]
 Notes: Small ridge, can only handle about 2 gliders at once.  Setup area gets rotor in strong winds.  Beware rotor from Goat Rock when flying to the ridge south of launch.
+Tags: BayArea
 
 
 Name: Gunter / Gunther
@@ -204,11 +213,13 @@ LaunchGPS: (37.468200, -118.263088, NA)
 LZGPS: (37.420725, -118.334444, NA)
 Requirements: Unregulated. Experienced H3 recommended
 Notes: Better road than Paiute. Shallow launch, long glide to LZ, often blows out.
+Tags: OwensValley
 
 
 Name: Herd Peak
 State: CA
-LaunchGPS: (41.6166, -122.229, 5680)
+LaunchGPS: (41.613726, -122.228232, 5680)
+LZGPS: (41.584861, -122.250697, 3550)
 Requirements: H3. H2 w/ instructor or mentor sign off.  Site intro required for all pilots.
 OfficialURL: [Rogue Valley Hang Gliding & Paragliding Association](https://rvhpa.org/site-guide/herdpeak/)
 SeeAlso: [The Oz Report](https://ozreport.com/1328031387)
@@ -224,7 +235,7 @@ ParaglidingEarthSite: 7005
 Notes: A good first mountain site.
 
 
-Name: Horseshoe Meadows / Walt's Point
+Name: Walt's Point/Horseshoe Meadows
 State: CA
 LaunchGPS: (36.472700, -118.114950, NA)
 LZGPS: 'Postage-stamp bailout'=(36.529957, -118.106944), 'GreenFields LZ'=(36.547793, -118.078085), 'Diaz LZ'=(36.556944, -118.054357)
@@ -232,6 +243,7 @@ Requirements: H4,experienced H3 recommended
 SeeAlso: [KariCastle](http://karicastle.com/owens-valley/)
 Notes: The only Owen's Valley launch in the sierras.  Paved road.
 ParaglidingEarthSite: 7387
+Tags: OwensValley, SierraNevada
 
 
 Name: Hotsprings Mountain
@@ -241,6 +253,7 @@ LZGPS: (39.080460, -119.743185)
 Requirements: Unregulated. H3, H2 w/ instructor recommended
 WindDirections: SW, W, NW
 Notes:
+Tags: LakeTahoe/RenoArea
 
 
 Name: Hull Mountain
@@ -251,6 +264,7 @@ Requirements: Unregulated (H3 recommended, experienced H2 w/ instructor)
 WindDirections: SE, S, SW
 Notes: Long glide from launch to LZ.  Not appropriate without mountain experience.
 SeeAlso: [Sonoma Wings](http://sonomawings.com/site-guides/hull-mountain/)
+Tags: Mendocino
 
 
 Name: Indian Valley
@@ -270,13 +284,34 @@ Notes: Don't miss the LZ. Watch the venturi effect. Get a site intro.
 SeeAlso: <http://www.mlsr.net/>
 
 
-Name: Lakeview
-State: CA/OR
-LaunchGPS: 'Sugar Hill'=(41.806521, -120.328989, NA), 'sweet-and-low'=(41.828500, -120.346483, NA), 'black-cap'=(42.204264, -120.330122, NA)
+Name: Sugar Hill
+State: CA
+LaunchGPS: (41.806521, -120.328989, 7200)
 LZGPS: 'bailout'=(41.815931, -120.354752), 'mid-gap bailout'=(41.872721, -120.325768), 'Hunter\'s hot springs'=(42.220613, -120.366709) 
 Requirements: Unregulated.  H3, H2 w/ instructor recommended.
-Notes: Beware hostile landowners.
+Notes: XC site.  Beware hostile landowners if you have to land in the bailout.
 SeeAlso: 
+Tags: Lakeview
+
+
+Name: Sweet and Low
+State: CA
+LaunchGPS: (41.828500, -120.346483, 5650)
+LZGPS: 'bailout'=(41.815931, -120.354752), 'mid-gap bailout'=(41.872721, -120.325768), 'Hunter\'s hot springs'=(42.220613, -120.366709) 
+Requirements: Unregulated.  H3, H2 w/ instructor recommended.
+Notes: 4x4 required.  XC site.  Ridge soar until you catch a thermal, bench up Sugar Hill and go over the back. Beware hostile landowners if you have to land in the bailout.
+SeeAlso: 
+Tags: Lakeview
+
+
+Name: Black Cap
+State: OR
+LaunchGPS: (42.204264, -120.330122, 6250)
+LZGPS: 'Hunter\'s hot springs'=(42.220613, -120.366709) 
+Requirements: Unregulated.
+Notes: Flat slope launch
+SeeAlso: 
+Tags: Lakeview
 
 
 Name: Lee Vining
@@ -285,6 +320,7 @@ LaunchGPS: (37.975, -119.146, NA)
 Requirements: Unregulated. H3, H2 w/ instructor recommended
 SeeAlso: [Lee Vining](https://www.monolake.org/today/live)
 ParaglidingEarthSite: 13125
+Tags: SierraNevada
 
 
 Name: Marina State Beach
@@ -293,7 +329,6 @@ LaunchGPS: 'Reservation Road'=(36.699300, -121.809012, NA), 'Lakecourt Dune'=(36
 Requirements: H3/P3, H2 w/ instructor
 WindDirections: WSW, W, WNW
 SeeAlso: [Coastal Condors] (http://www.coastalcondors.org)
-Tags: BayArea
 
 
 Name: Marshall Peak / Crestline
@@ -320,6 +355,7 @@ LZGPS: 'badger flat bailout'=(36.970321, -118.098244, 8700)
 Requirements: Unregulated. H4/H3 recommended.
 WindDirections: N, NW, SW, S, SE
 Notes: Long drive. Shallow launches. Can handle strong N and S winds better than other Ownen's Valley launches.
+Tags: OwensValley
 
 
 Name: McClellan
@@ -329,6 +365,7 @@ LZGPS: (NA, NA, 5050)
 Requirements: Unregulated
 Notes: Very easy in the right conditions, and can be scary in the wrong conditions.
 SeeAlso: [HangGliding.org](https://www.hanggliding.org/wiki/McClellan)
+Tags: LakeTahoe/RenoArea
 
 
 Name: McGee/Magee
@@ -338,6 +375,7 @@ LZGPS: 'Main'=(37.600987, -118.798404, 6800)
 Requirements: Unregulated.  H3, H2 w/ instructor recommended.
 WindDirections: NE, E, SE.
 Notes: 4x4 required.  Road to upper McGee is rugged, narrow, and rocky.
+Tags: SierraNevada
 
 
 Name: Mission Ridge
@@ -359,13 +397,14 @@ SeeAlso: [Wings of Rogallo (WOR)]
 Tags: BayArea
 
 
-Name: Mount Shasta
-Nickname: Whaleback Site
+Name: Whaleback
 State: CA
-LaunchGPS: (41.534, -122.153, NA)
+LaunchGPS: (41.535304, -122.152666, 7450)
 Requirements: H3 (H2 w/ instructor under appropriate conditions)
 OfficialURL: [Rogue Valley Hang Gliding & Paragliding Association (RVHPA)](http://rvhpa.org/site-guide/whaleback/)
 SeeAlso:
+Notes: The new launch is unsafe for launching a hang glider.
+
 
 Name: Mount Tamalpais
 Nickname: Mt Tam
@@ -401,6 +440,7 @@ LZGPS: (37.511111, -118.349722, 4300)
 Requirements: Unregulated. H3 recommended
 WindDirections: W, NW, SW
 Notes: 4x4 recommended. Watch for sharp rocks, road regularly eats tires.
+Tags: OwensValley
 
 
 Name: Palomino
@@ -410,6 +450,7 @@ LZGPS: (39.817134, -119.636266, 4300)
 Requirements: Unregulated. H3, H2 w/ instructor recommended.
 WindDirections: W, SW, NW
 Notes: Shallow launch, often high winds.
+Tags: LakeTahoe/RenoArea
 
 
 Name: Peavine Mt
@@ -418,6 +459,7 @@ LaunchGPS: 'bowl'=(39.596083, -119.935976), 'tower'=(39.589559, -119.927833)
 Requirements: Unregulated.  H3 recommended.
 Notes: 
 SeeAlso: 
+Tags: LakeTahoe/RenoArea
 
 
 Name: Petersen Mountain / Rainbow Ridge
@@ -426,12 +468,13 @@ LaunchGPS: 'lower'=(39.694318, -119.983945, 5600), 'middle'=(39.702865, -119.986
 LZGPS: 'City park LZ'=(39.691083, -119.964903, 5100)
 Requirements: Unregulated. H3, H2 w/ instructor recommended.
 SeeAlso: <%-- BROKEN: [Nevada Wings](http://www.nvwings.com/site_guide.html) --%>
+Tags: LakeTahoe/RenoArea
 
 
 Name: Pine Mountain
 State: OR
 LaunchGPS: 'Observatory LP'=(43.790775, -120.946723, 6300), 'Antelope LP'=(43.809152, -120.881803, 6200), 'West LP'=(43.819690, -120.932574, 6300)
-LZGPS: 'Rock L LZ'=(43.837114, -120.930372, 4900), 'Flying Farm LZ'=(43.844892, -120.944951, 4500), 'Wright LZ'=(43.844862, -120.936396, 4500)
+LZGPS: 'Airstrip LZ'=(43.876175, -120.916427, 4300), 'Rock L LZ'=(43.837114, -120.930372, 4900), 'Flying Farm LZ'=(43.844892, -120.944951, 4500), 'Wright LZ'=(43.844862, -120.936396, 4500)
 Requirements: Unregulated. H3, H2 w/ instructor recommended.
 Notes:
 
@@ -446,6 +489,19 @@ OfficialURL:
 ParaglidingEarthSite: 6694
 Notes: Mostly a PG site
 SeeAlso: 
+Tags: Mendocino
+
+
+Name: Elk Creek
+State: CA
+LaunchGPS: '1500ft LP'=(39.560793, -122.630933, 2650), '3000ft LP'=(39.547897, -122.654555, 4400)
+LZGPS: 'Butler LZ'=(39.585153, -122.584564, 1050) 
+Requirements: Unregulated. 
+SiteSticker: 
+OfficialURL: 
+Notes: 
+SeeAlso: 
+Tags: Mendocino
 
 
 Name: Slide Mountain
@@ -456,6 +512,7 @@ Requirements: Unregulated. H3, H2 w/ instructor recommended.
 WindDirections: E, SE
 Notes: good first mountain.  Beware wind over the back.
 SeeAlso: [HangGliding.org](https://www.hanggliding.org/wiki/Slide_Mountain)
+Tags: SierraNevada, LakeTahoe/RenoArea
 
 
 Name: Sylmar
@@ -482,6 +539,7 @@ LaunchGPS: (38.667481, -122.627897, 4000)
 LZGPS: (38.629329, -122.675306)
 Requirements: H4/P4, H3/P3 if sponsored by Sonoma Wings + member of [Sonoma Wings].
 SeeAlso: [Sonoma Wings](http://sonomawings.com/site-guides/st-helena/)
+Tags: BayArea
 
 
 Name: St Johns
@@ -492,6 +550,7 @@ Requirements: Unregulated. H4, experienced H3 recommended.
 WindDirections: W, S, E
 Notes: shallow slope launch, long glide to LZ's. Usually an XC site.
 SeeAlso: [Sonoma Wings]
+Tags: Mendocino
 
 
 Name: Tollhouse
@@ -513,12 +572,14 @@ Requirements: Unregulated.  H3/P3, H2/P2 w/ instructor recommended
 Notes: We typically fly Jan/Feb, gliders rented through Jeff at Fly Mexico
 SeeAlso: [Fly Mexico](https://www.flymexico.com/)
 
+
 Name: Wolf
 State: CA
 LaunchGPS: (NA, NA, NA)
 Requirements: Unregulated
 Notes: "Certainly not H2 friendly"
 SeeAlso:
+Tags: SierraNevada
 
 
 Name: Yosemite / Glacier Point
@@ -529,3 +590,4 @@ Requirements: H4, permit
 OfficialURL: https://www.yosemitehg.org/
 Notes:  May 1 to October 1 only. Launch 7-9:30am. Land 7-10:30am. Permit required.
 SeeAlso: https://parkplanning.nps.gov/projectHome.cfm?projectID=21599
+Tags: SierraNevada
