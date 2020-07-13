@@ -89,7 +89,7 @@ LaunchGPS: (39.224621, -119.779331, 5900)
 LZGPS: (39.227031, -119.793271, 5100)
 Requirements: Unregulated.  H3, H2 w/ instructor recommended
 Notes: 
-Tags: LakeTahoe/RenoArea
+Tags: LakeTahoe-RenoArea
 
 
 Name: Dunlap
@@ -253,7 +253,7 @@ LZGPS: (39.080460, -119.743185)
 Requirements: Unregulated. H3, H2 w/ instructor recommended
 WindDirections: SW, W, NW
 Notes:
-Tags: LakeTahoe/RenoArea
+Tags: LakeTahoe-RenoArea
 
 
 Name: Hull Mountain
@@ -366,7 +366,7 @@ LZGPS: (NA, NA, 5050)
 Requirements: Unregulated
 Notes: Very easy in the right conditions, and can be scary in the wrong conditions.
 SeeAlso: [HangGliding.org](https://www.hanggliding.org/wiki/McClellan)
-Tags: LakeTahoe/RenoArea
+Tags: LakeTahoe-RenoArea
 
 
 Name: McGee/Magee
@@ -451,7 +451,7 @@ LZGPS: (39.817134, -119.636266, 4300)
 Requirements: Unregulated. H3, H2 w/ instructor recommended.
 WindDirections: W, SW, NW
 Notes: Shallow launch, often high winds.
-Tags: LakeTahoe/RenoArea
+Tags: LakeTahoe-RenoArea
 
 
 Name: Peavine Mt
@@ -460,7 +460,7 @@ LaunchGPS: 'bowl'=(39.596083, -119.935976), 'tower'=(39.589559, -119.927833)
 Requirements: Unregulated.  H3 recommended.
 Notes: 
 SeeAlso: 
-Tags: LakeTahoe/RenoArea
+Tags: LakeTahoe-RenoArea
 
 
 Name: Petersen Mountain / Rainbow Ridge
@@ -469,7 +469,7 @@ LaunchGPS: 'lower'=(39.694318, -119.983945, 5600), 'middle'=(39.702865, -119.986
 LZGPS: 'City park LZ'=(39.691083, -119.964903, 5100)
 Requirements: Unregulated. H3, H2 w/ instructor recommended.
 SeeAlso: <%-- BROKEN: [Nevada Wings](http://www.nvwings.com/site_guide.html) --%>
-Tags: LakeTahoe/RenoArea
+Tags: LakeTahoe-RenoArea
 
 
 Name: Pine Mountain
@@ -513,7 +513,7 @@ Requirements: Unregulated. H3, H2 w/ instructor recommended.
 WindDirections: E, SE
 Notes: good first mountain.  Beware wind over the back.
 SeeAlso: [HangGliding.org](https://www.hanggliding.org/wiki/Slide_Mountain)
-Tags: SierraNevada, LakeTahoe/RenoArea
+Tags: SierraNevada, LakeTahoe-RenoArea
 
 
 Name: Sylmar

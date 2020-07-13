@@ -48,7 +48,19 @@ sites:
 	make build
 
 tags:
-	grep -F "Tags:" content/sites/sites.dcf | sed 's/Tags: //g' | sed 's/, /\n/g' | sort -u
+	@grep -F "Tags:" content/sites/sites.dcf | sed 's/Tags: //g' | sed 's/, /\n/g' | sort -u
+
+site-pages:
+	@tags=$$(grep -F "Tags:" content/sites/sites.dcf | sed 's/Tags: //g' | sed 's/, /\n/g' | sort -u); \
+	for tag in $${tags}; do \
+	    tag_lc=$$(echo "$${tag}" | tr "[:upper:]" "[:lower:]"); \
+	    dir="content/sites/$${tag_lc}"; \
+	    mkdir -p "$${dir}"; \
+	    if [ -f "$${dir}/index.md" ]; then \
+	        echo "# Flying Sites - <%= tag <- c($${tag} = \"$${tag}\") %>\n\n<%@include file=\"content/sites/incl/index.md.rsp\"%>" > "$${dir}/index.md"; \
+	    fi; \
+	done
+
 
 #=====================================================================
 # Publish (=go live!)
