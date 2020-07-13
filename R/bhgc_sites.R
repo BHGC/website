@@ -252,6 +252,8 @@ read_sites <- function(pathname = "content/sites/sites.dcf", pageSource = ".", t
 
   sites <- lapply(seq_len(nrow(data)), FUN = function(row) {
     site <- as.list(data[row,])
+    site$Tags <- unlist(strsplit(site$Tags, split="[, ]"), use.names=FALSE)
+    site$Tags <- site$Tags[nzchar(site$Tags)]
     structure(site, class = "bhgc_site")
   })
   names(sites) <- rownames(data)
