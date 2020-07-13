@@ -57,7 +57,7 @@ site-pages:
 	    dir="content/sites/$${tag_lc}"; \
 	    mkdir -p "$${dir}"; \
 	    if [ ! -f "$${dir}/index.md" ]; then \
-	        echo "# Flying Sites - <%= tag <- c($${tag} = \"$${tag}\") %>\n\n<%@include file=\"content/sites/incl/index.md.rsp\"%>" > "$${dir}/index.md"; \
+	        echo "# Flying Sites - <%= tag <- c(\"$${tag}\" = \"$${tag}\") %>\n\n<%@include file=\"content/sites/incl/index.md.rsp\"%>" > "$${dir}/index.md"; \
 	    fi; \
 	done
 
