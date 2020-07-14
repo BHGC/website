@@ -80,7 +80,7 @@ Requirements: Unregulated.  H3, H2 w/ instructor recommended
 SeeAlso: 
 ParaglidingEarthSite: 15072
 Notes: Shallow launch at high altitude. Watch out for rotors from behind.
-Tags: SierraNevada
+Tags: SierraNevada, SonoraPass-Mono-Mammoth
 
 
 Name: Duck Hill
@@ -194,6 +194,7 @@ LZGPS: 'Bailout'=(37.705263, -118.691663, 7200), 'Campground LZ'=(37.693376, -11
 Requirements: Unregulated. H3, experienced H2 w/ instructor recommended
 WindDirections: W, SW
 Notes:
+Tags: SonoraPass-Mono-Mammoth
 
 
 Name: Goat Rock
@@ -320,7 +321,7 @@ LaunchGPS: (37.975, -119.146, NA)
 Requirements: Unregulated. H3, H2 w/ instructor recommended
 SeeAlso: [Lee Vining](https://www.monolake.org/today/live)
 ParaglidingEarthSite: 13125
-Tags: SierraNevada
+Tags: SierraNevada, SonoraPass-Mono-Mammoth
 
 
 Name: Marina State Beach
@@ -376,7 +377,7 @@ LZGPS: 'Main'=(37.600987, -118.798404, 6800)
 Requirements: Unregulated.  H3, H2 w/ instructor recommended.
 WindDirections: NE, E, SE.
 Notes: 4x4 required.  Road to upper McGee is rugged, narrow, and rocky.
-Tags: SierraNevada
+Tags: SierraNevada, SonoraPass-Mono-Mammoth
 
 
 Name: Mission Ridge
@@ -532,6 +533,7 @@ LZGPS: (38.367205, -119.424847)
 Requirements: Unregulated.  H3 recommended.
 Notes: "Questionable if it is H2 friendly". Long glide to LZ. Strong winds common.
 SeeAlso:
+Tags: SonoraPass-Mono-Mammoth
 
 
 Name: St Helena
@@ -580,7 +582,7 @@ LaunchGPS: (NA, NA, NA)
 Requirements: Unregulated
 Notes: "Certainly not H2 friendly"
 SeeAlso:
-Tags: SierraNevada
+Tags: SierraNevada, SonoraPass-Mono-Mammoth
 
 
 Name: Yosemite / Glacier Point
