@@ -517,6 +517,16 @@ SeeAlso: [HangGliding.org](https://www.hanggliding.org/wiki/Slide_Mountain)
 Tags: SierraNevada, LakeTahoe-RenoArea
 
 
+Name: Spooner
+State: NV
+LaunchGPS: (39.054307, -119.872620)
+LZGPS: 
+Requirements: Unregulated. H3 recommended.
+Notes: Bailout LZ is behind a locked gate.
+SeeAlso: 
+Tags: SierraNevada, LakeTahoe-RenoArea
+
+
 Name: Sylmar
 State: CA
 LaunchGPS: 'Kagel Mtn'=(34.333230, -118.384430, 3500), 'Towers'=(34.342452, -118.406573, 3600)
