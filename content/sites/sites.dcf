@@ -422,8 +422,8 @@ SeeAlso: [BHGC's Tam page](tam/index.html)
 Tags: BayArea
 
 
-Name: Mussel Rock
-Nickname: The Dumps
+Name: The Dumps
+Nickname: Mussel Rock
 State: CA
 LaunchGPS: (37.6721641,-122.4939425, 100)
 LZGPS: (37.671116, -122.494646, 50)
@@ -431,6 +431,7 @@ Requirements: P2-P3 (non-restricted)
 Soundings: OAK
 ParaglidingEarthSite: 15523
 WindAlertSite: 169580
+Notes: _Emergency_ frequency: 147.495 MHz (as of June 2020; same as Ed Levin)
 Notes: Paragliding only
 Tags: BayArea
 
