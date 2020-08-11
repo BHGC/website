@@ -588,9 +588,10 @@ SeeAlso: [Fly Mexico](https://www.flymexico.com/)
 
 Name: Wolf
 State: CA
-LaunchGPS: (NA, NA, NA)
-Requirements: Unregulated
-Notes: "Certainly not H2 friendly"
+LaunchGPS: (38.338085, -119.572881, 9200)
+LZGPS: (38.350686, -119.527393, 6750)
+Requirements: Unregulated.  Experienced H3/H4 recommended.
+Notes: Very technical site.  Must be able to perform crosswind flat-slope launch at high altitude.  Long glide out.  Be prepared for W wind over the back, don't get bit by the Wolf.
 SeeAlso:
 Tags: SierraNevada, SonoraPass-Mono-Mammoth
 
