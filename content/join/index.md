@@ -1,7 +1,7 @@
 # Join the club <span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
 
 <div class="alert alert-warning" role="alert" style="font-size: 150%">
-<strong>Due to the ongoing COVID-19 pandemic, we do not yet know if we will be teaching lessons for Fall 2020.</strong>
+<strong>Due to COVID-19 restrictions, there will not be a Fall 2020 lesson set.</strong>
 
 </div>
 
@@ -53,7 +53,6 @@ To get in from this waitlist, make sure to attend the ground school
 
 ## Next chance to join the club is ... in COVID-19 limbo
 
-_If_ we are teaching, information will be available on this website in August/September 2020.
 Signup happens once a year, typically in early September (after the Labor Day weekend), and only in person.
 As a rough guide, see previous years below (note that the Spring 2018
 lesson set was an exception). See also the [About] page.
