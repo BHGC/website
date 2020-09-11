@@ -53,12 +53,14 @@ To get in from this waitlist, make sure to attend the ground school
 
 ## Next chance to join the club is ... in COVID-19 limbo
 
-Signup happens once a year, typically in early September (after the Labor Day weekend), and only in person.
+Signup happens once a year, typically in early September (after the Labor Day weekend), and only in person.  However, due to COVID-19, we cannot do lessons on hang gliding during Fall 2020.
+<%---
 As a rough guide, see previous years below (note that the Spring 2018
 lesson set was an exception). See also the [About] page.
+---%>
 
 <small>
-_Last updated: July 13, 2020_
+_Last updated: September 11, 2020_
 </small>
 
 <%--- HIDE UNTIL NEXT SIGNUP ----------------------------------------
