@@ -13,11 +13,12 @@ State: CA
 LaunchGPS: 'Wild Cattle Launch'=(35.971299, -121.453027, 3200)
 LZGPS: (35.932435, -121.469551, 100)
 Requirements: Unregulated. H3, H2 w/ instructor recommended
+Webcams: '40-min north'="https://www.nepenthe.com/live-weather-cam/"
 SiteSticker: 
 OfficialURL: 
 ParaglidingEarthSite: 7006
-Notes: 
-SeeAlso: Road conditions: Los Padres National Forest [805-968-6640](tel:+1-805-968-6640), [webcam 40-min north](https://www.nepenthe.com/live-weather-cam/), [Airtime of San Francisco](http://www.paragliding-lessons.com/big-sur-flying-site/)
+Notes:
+SeeAlso: Road conditions: Los Padres National Forest [805-968-6640](tel:+1-805-968-6640), [Airtime of San Francisco](http://www.paragliding-lessons.com/big-sur-flying-site/)
 
 
 Name: Black Eagle
@@ -160,6 +161,7 @@ LaunchGPS: (37.7139, -122.503, NA)
 LZGPS: main=(37.7139, -122.503, NA), beach=(NA, NA, NA)
 Requirements: H3
 OfficialURL: [FlyFunston.org](http://flyfunston.org)
+Webcams: 'Clubhouse & Ropes Bldg'="http://www.flyfunston.org/newwebcam/"
 SeeAlso: [Web cam & winds](http://www.flyfunston.org/newwebcam/)
 WindTalker: +1-415-333-0100
 Soundings: OAK
@@ -431,6 +433,7 @@ Requirements: P2-P3 (non-restricted)
 Soundings: OAK
 ParaglidingEarthSite: 15523
 WindAlertSite: 169580
+Webcams: 'Cheetah'="https://www.youtube.com/watch?v=L6e1EEA-dQI"
 Notes: Paragliding only. _Emergency_ frequency: 147.495 MHz (as of June 2020; same as Ed Levin)
 Tags: BayArea
 

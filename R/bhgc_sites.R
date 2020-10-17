@@ -8,6 +8,15 @@ parse_gps <- function(s) {
   s
 } # parse_gps()
 
+parse_webcams <- function(s) {
+  stopifnot(is.character(s))
+  s <- gsub("NA", "NA_real_", s, fixed = TRUE)
+  s <- gsub("(", "c(", s, fixed=TRUE)
+  s <- sprintf("list(%s)", s)
+  s <- eval(parse(text = s))
+  s
+} # parse_webcams()
+
 gps_md <- function(gps, url_md, ...) {
   stopifnot(is.list(gps) || (is.numeric(gps) && length(gps) <= 3))
   stopifnot(is.function(url_md))
@@ -216,6 +225,16 @@ notes.bhgc_site <- function(site, ...) {
 } 
 
 
+webcams <- function(...) UseMethod("webcams")
+
+webcams.bhgc_site <- function(site, ...) {
+ urls <- unlist(site$Webcams)
+ md <- sprintf("[%s](%s)", names(urls), urls)
+ md <- paste(md, collapse = ", ")
+ md
+} 
+
+
 #' @importFrom R.utils isUrl
 read_sites <- function(pathname = "content/sites/sites.dcf", pageSource = ".", tags = NULL) {
   isUrl <- R.utils::isUrl
@@ -249,6 +268,7 @@ read_sites <- function(pathname = "content/sites/sites.dcf", pageSource = ".", t
   stopifnot(all(nzchar(rownames(data))))
   data[["LaunchGPS"]] <- lapply(data[["LaunchGPS"]], FUN = parse_gps)
   data[["LZGPS"]] <- lapply(data[["LZGPS"]], FUN = parse_gps)
+  data[["Webcams"]] <- lapply(data[["Webcams"]], FUN = parse_webcams)
 
   sites <- lapply(seq_len(nrow(data)), FUN = function(row) {
     site <- as.list(data[row,])

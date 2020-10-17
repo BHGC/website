@@ -86,6 +86,7 @@ sites <- read_sites(pageSource = pageSource)
 * LZ: <%= lz_map(site) %>
 * Weather at launch: <%= weather(site) %>
 * Live weather: <%= live_weather(site) %>
+* Webcams: <%= webcams(site) %>
 * Soundings: <%= soundings(site) %>
 * WindTalker: <%= wind_talker(site) %>
 * Aeronautical chart: <%= aerochart(site) %>
