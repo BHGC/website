@@ -125,7 +125,7 @@ LaunchGPS: '300ft'=(37.461130, -121.864641, 700), '600ft'=(37.461324, -121.85997
 LZGPS: (37.458137, -121.867135, 400)
 Requirements: H0-H3, P0-P3
 SiteSticker: [WOR]
-OfficialURL: [Ed Levin Quick Reference](https://www.wingsofrogallo.org/sites/ed_levin/Ed_Levin_Quick_Ref_1-3.01.pdf) [pdf]
+OfficialURL: [Wings of Rogallo](https://wingsofrogallo.org/ed-levin/) <!-- [Ed Levin Quick Reference](https://www.wingsofrogallo.org/sites/ed-levin/Ed_Levin_Quick_Ref_1-3.01.pdf) [pdf] -->
 WindTalker: +1-408-946-9516
 WeatherLive: [Mission Soaring Live Weather](http://windslammer.wingsofrogallo.org/WindSlammer/), [Benlo.com](http://www.benlo.com/pg/edlevin.html)
 Soundings: OAK
@@ -387,8 +387,8 @@ State: CA
 LaunchGPS: (37.517534, -121.89175, NA)
 Requirements: H4, P3 with signoff (>= 40 hours & P4 spot landing)
 Soundings: OAK
+OfficialURL: [Wings of Rogallo](https://wingsofrogallo.org/mission-ridge/)
 Webcams: 'Mission Peak NW'="http://www.alertwildfire.org/northcoast/index.html?camera=Axis-Mission1", 'Mission Peak SE'="http://www.alertwildfire.org/northcoast/index.html?camera=Axis-Mission2"
-SeeAlso: [WOR](https://www.wingsofrogallo.org/sites/mission/)
 Tags: BayArea
 
 
