@@ -34,8 +34,8 @@ Tags: OwensValley
 Name: Blue Rock
 Nickname: Vallejo
 State: CA
-LaunchGPS: 'mid/poison oak'=(38.136409, -122.195852, 550), 'north'=(38.138440, -122.195634, 600), 'top'=(38.1379, -122.195, 700)
-LZGPS: 'main'=(38.137530, -122.196601, 450), 'park'=(38.133760, -122.202644, 250)
+LaunchGPS: 'mid/poison oak'=(38.136409, -122.195852, 550), 'north'=(38.138440, -122.195634, 650), 'top'=(38.1379, -122.195, 720)
+LZGPS: 'main'=(38.137530, -122.196601, 480), 'park'=(38.133760, -122.202644, 270)
 Requirements: Unregulated. Not really for HG. P3 is recommended.
 SiteSticker: 
 OfficialURL: https://www.sportparagliding.com/blue-rock-vallejo-ca-paragliding
@@ -66,7 +66,7 @@ Tags: OwensValley
 
 Name: Channing East
 State: CA
-LaunchGPS: 'east'=(38.1015, -122.1810, NA)
+LaunchGPS: 'east'=(38.1015, -122.1810, 660)
 Requirements: Unregulated. PG only.
 WindDirections: E
 Notes: 
@@ -182,7 +182,7 @@ Notes: Watch for dust devils on launch/during landing
 
 Name: Gateway
 State: CA
-LaunchGPS: 'kiting/sledders'=(38.0908909, -122.1696237, NA)
+LaunchGPS: 'kiting/sledders'=(38.0908909, -122.1696237, 500)
 Requirements: Unregulated. PG only. Useful for kiting, sledders, and proximity flying.
 WindDirections: ESE
 Notes: Watch out for ventury effects near the left and right sides of the hill - it is easy to be blown back.
