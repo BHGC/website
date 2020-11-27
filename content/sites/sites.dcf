@@ -170,7 +170,6 @@ WeatherUndergroundStationID: KCASANFR69
 Notes: No paragliding
 Tags: BayArea
 
-
 Name: Garlock
 State: CA
 LaunchGPS: 'upper'=(35.418972, -117.850556, NA), 'lower'=(NA, NA, NA)
@@ -387,6 +386,7 @@ State: CA
 LaunchGPS: (37.517534, -121.89175, NA)
 Requirements: H4, P3 with signoff (>= 40 hours & P4 spot landing)
 Soundings: OAK
+Webcams: 'Mission Peak NW'="http://www.alertwildfire.org/northcoast/index.html?camera=Axis-Mission1", 'Mission Peak SE'="http://www.alertwildfire.org/northcoast/index.html?camera=Axis-Mission2"
 SeeAlso: [WOR](https://www.wingsofrogallo.org/sites/mission/)
 Tags: BayArea
 
