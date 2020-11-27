@@ -42,7 +42,7 @@ OfficialURL: https://www.sportparagliding.com/blue-rock-vallejo-ca-paragliding
 ParaglidingEarthSite: 11342
 WindAlertSite: 100723
 WeatherUndergroundStationID: KCAVALLE53
-SeeAlso: http://www.flyzephyr.com/blue-rock-vallejo.html
+SeeAlso: [Joel McMinn's site guide](https://docs.google.com/document/d/1AHpmCNsV1g1ad4QwXFbuvCvJKOXeBIqpS4JXx1pAJQc/preview), http://www.flyzephyr.com/blue-rock-vallejo.html
 Notes: The wind direction of the KCAVALLE53 weather station is _not_ reliable. The wind speed is only reliable in approx. WSW-WNW wind (per 2020-01-05)
 Tags: BayArea
 
@@ -69,7 +69,8 @@ State: CA
 LaunchGPS: 'east'=(38.1015, -122.1810, 660)
 Requirements: Unregulated. PG only.
 WindDirections: E
-Notes: 
+Notes:
+SeeAlso: [Joel McMinn's site guide](https://docs.google.com/document/d/1Sg6VPZQvqNYOgn_IUdEvUQNTU-Z1QUa5I4q522cc5dc/preview)
 Tags: BayArea
 
 
