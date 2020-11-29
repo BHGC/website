@@ -69,6 +69,7 @@ State: CA
 LaunchGPS: 'east'=(38.1015, -122.1810, 660)
 Requirements: Unregulated. PG only.
 WindDirections: E
+WeatherUndergroundStationID: KCABENIC45
 Notes:
 SeeAlso: [Joel McMinn's site guide](https://docs.google.com/document/d/1Sg6VPZQvqNYOgn_IUdEvUQNTU-Z1QUa5I4q522cc5dc/preview)
 Tags: BayArea
@@ -185,6 +186,7 @@ State: CA
 LaunchGPS: 'kiting/sledders'=(38.0908909, -122.1696237, 500)
 Requirements: Unregulated. PG only. Useful for kiting, sledders, and proximity flying.
 WindDirections: ESE
+WeatherUndergroundStationID: KCABENIC45
 Notes: Watch out for ventury effects near the left and right sides of the hill - it is easy to be blown back.
 Tags: BayArea
 
