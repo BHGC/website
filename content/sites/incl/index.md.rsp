@@ -19,17 +19,17 @@ R.utils::cstr(sites)
 
   # ParaglidingEarth link
   if (nzchar(ParaglidingEarthSite)) {
-    seealso$`Paragliding Earth` <- sprintf("https://www.paraglidingearth.com/pgearth/index.php?site=%s", ParaglidingEarthSite)
+    seealso[[sprintf("PGE:%s", ParaglidingEarthSite)]] <- sprintf("https://www.paraglidingearth.com/pgearth/index.php?site=%s", ParaglidingEarthSite)
   }
 
   # WindAlert
   if (nzchar(WindAlertSite)) {
-    seealso$`WindAlert Station` <- sprintf("https://www.windalert.com/spot/%s", WindAlertSite)
+    seealso[[sprintf("WA:%s", WindAlertSite)]] <- sprintf("https://www.windalert.com/spot/%s", WindAlertSite)
   }
 
   # Weather Underground Weather Station ID link
   if (nzchar(WeatherUndergroundStationID)) {
-    seealso$`Weather Underground Station` <- sprintf("https://www.wunderground.com/dashboard/pws/%s", WeatherUndergroundStationID)
+    seealso[[sprintf("WU:%s", WeatherUndergroundStationID)]] <- sprintf("https://www.wunderground.com/dashboard/pws/%s", WeatherUndergroundStationID)
   }
 
   seealso <- sprintf("[%s](%s)", names(seealso), unlist(seealso))
