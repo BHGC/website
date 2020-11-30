@@ -5,10 +5,22 @@
 source("R/bhgc_sites.R")
 sites <- read_sites(pageSource = pageSource, tags = names(tag))
 R.utils::cstr(sites)
-split <- function(x) {
-  x <- unlist(strsplit(x, split="[ ,]"))
-  x <- x[nzchar(x)]
-  x
+split <- function(x, prefix = "") {
+  y <- unlist(strsplit(x, split = ",", fixed = TRUE))
+  y <- gsub("(^[ ]|[ ]$)", "", y)
+  y <- gsub("^([^=]+)=([^']+)$", "\\1='\\2'", y)
+  y <- gsub("^([^=']+)$", "'\\1'", y)
+  y <- sprintf("c(%s)", paste(y, collapse = ", "))
+  y <- eval(parse(text = y))
+  names <- names(y)
+  if (is.null(names)) {
+    names <- y
+  } else {
+    names[!nzchar(names)] <- y
+  }
+  names <- paste0(prefix, names)
+  names(y) <- names
+  y
 }
 
 %>
@@ -25,20 +37,20 @@ split <- function(x) {
 
   # ParaglidingEarth link
   if (nzchar(ParaglidingEarthSite)) {
-    ParaglidingEarthSite <- split(ParaglidingEarthSite)
-    seealso[sprintf("PGE:%s", ParaglidingEarthSite)] <- sprintf("https://www.paraglidingearth.com/pgearth/index.php?site=%s", ParaglidingEarthSite)
+    values <- split(ParaglidingEarthSite, prefix = "PGE:")
+    seealso[names(values)] <- sprintf("https://www.paraglidingearth.com/pgearth/index.php?site=%s", values)
   }
 
   # WindAlert
   if (nzchar(WindAlertSite)) {
-    WindAlertSite <- split(WindAlertSite)
-    seealso[sprintf("WA:%s", WindAlertSite)] <- sprintf("https://www.windalert.com/spot/%s", WindAlertSite)
+    values <- split(WindAlertSite, prefix = "WA:")
+    seealso[names(values)] <- sprintf("https://www.windalert.com/spot/%s", values)
   }
 
   # Weather Underground Weather Station ID link
   if (nzchar(WeatherUndergroundStationID)) {
-    WeatherUndergroundStationID <- split(WeatherUndergroundStationID)
-    seealso[sprintf("WU:%s", WeatherUndergroundStationID)] <- sprintf("https://www.wunderground.com/dashboard/pws/%s", WeatherUndergroundStationID)
+    values <- split(WeatherUndergroundStationID, prefix = "WU:")
+    seealso[names(values)] <- sprintf("https://www.wunderground.com/dashboard/pws/%s", values)
   }
 
   seealso <- sprintf("[%s](%s)", names(seealso), unlist(seealso))
