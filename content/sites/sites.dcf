@@ -69,7 +69,7 @@ State: CA
 LaunchGPS: 'east'=(38.1015, -122.1810, 660)
 Requirements: Unregulated. PG only.
 WindDirections: E
-WeatherUndergroundStationID: KCABENIC45
+WeatherUndergroundStationID: KCABENIC45, KCABENIC65
 Notes:
 SeeAlso: [Joel McMinn's site guide](https://docs.google.com/document/d/1Sg6VPZQvqNYOgn_IUdEvUQNTU-Z1QUa5I4q522cc5dc/preview)
 Tags: BayArea
