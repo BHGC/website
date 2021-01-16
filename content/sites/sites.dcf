@@ -42,6 +42,7 @@ OfficialURL: https://www.sportparagliding.com/blue-rock-vallejo-ca-paragliding
 ParaglidingEarthSite: 11342
 WindAlertSite: 'Davis Point'=100723
 WeatherUndergroundStationID: KCAVALLE53
+Webcams: 'Channing West'="https://www.youtube.com/watch?v=P9SEtKcJik8"
 SeeAlso: [Joel McMinn's site guide](https://docs.google.com/document/d/1AHpmCNsV1g1ad4QwXFbuvCvJKOXeBIqpS4JXx1pAJQc/preview), http://www.flyzephyr.com/blue-rock-vallejo.html
 Notes: The wind direction of the KCAVALLE53 weather station is _not_ reliable. The wind speed is only reliable in approx. WSW-WNW wind (per 2020-01-05)
 Tags: BayArea
@@ -71,6 +72,7 @@ Requirements: Unregulated. PG only.
 WindDirections: E
 WindAlertSite: 'Port Chicago'=518, Cordelia=3961
 WeatherUndergroundStationID: KCABENIC45, KCABENIC65
+Webcams: 'Channing West'="https://www.youtube.com/watch?v=P9SEtKcJik8"
 Notes:
 SeeAlso: [Joel McMinn's site guide](https://docs.google.com/document/d/1Sg6VPZQvqNYOgn_IUdEvUQNTU-Z1QUa5I4q522cc5dc/preview)
 Tags: BayArea
