@@ -393,7 +393,7 @@ Tags: SierraNevada, SonoraPass-Mono-Mammoth
 Name: Mission Ridge
 State: CA
 LaunchGPS: (37.517534, -121.89175, NA)
-Requirements: H4, P3 with signoff (>= 40 hours & P4 spot landing)
+Requirements: H4/P4, H3/P3 with required skills and signoff
 Soundings: OAK
 OfficialURL: [Wings of Rogallo](https://wingsofrogallo.org/mission-ridge/)
 Webcams: 'Mission Peak NW'="http://www.alertwildfire.org/northcoast/index.html?camera=Axis-Mission1", 'Mission Peak SE'="http://www.alertwildfire.org/northcoast/index.html?camera=Axis-Mission2", 'WoR cam'="http://missionpeak.axiscam.net:1920/view/view.shtml?id=734&imagepath=%2Fmjpg%2Fvideo.mjpg&size=1"
