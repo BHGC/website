@@ -1,8 +1,5 @@
 # Join the club <span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
 
-<div class="alert alert-warning" role="alert" style="font-size: 150%">
-<strong>Due to COVID-19 restrictions, there will not be a Fall 2020 lesson set.</strong>
-
 </div>
 
 <%--- HIDE UNTIL NEXT SIGNUP ----------------------------------------
@@ -51,16 +48,16 @@ To get in from this waitlist, make sure to attend the ground school
 
 --------------------------------------------------------------- ---%>
 
-## Next chance to join the club is ... in COVID-19 limbo
+## Next chance to join the club is fall 2021, details TBD
 
-Signup happens once a year, typically in early September (after the Labor Day weekend), and only in person.  However, due to COVID-19, we cannot do lessons on hang gliding during Fall 2020.
+Signup happens once a year, typically in early September (after the Labor Day weekend), and only in person.  
 <%---
 As a rough guide, see previous years below (note that the Spring 2018
 lesson set was an exception). See also the [About] page.
 ---%>
 
 <small>
-_Last updated: September 11, 2020_
+_Last updated: June 21, 2021_
 </small>
 
 <%--- HIDE UNTIL NEXT SIGNUP ----------------------------------------
@@ -69,6 +66,11 @@ _Last updated: September 11, 2020_
 
 
 ## Previous years
+
+### Signup dates 2020
+
+2020 lessons were cancelled due to Covid restrictions.
+
 
 ### Signup dates 2019
 
