@@ -119,6 +119,7 @@ OfficialURL:
 ParaglidingEarthSite: 
 Notes: This is cliff launch site with landing on the beach.
 SeeAlso: https://www.nps.gov/pore/planyourvisit/weather.htm
+WeatherLive: [Fog Today](https://fog.today/)
 Tags: BayArea
 
 
@@ -172,6 +173,7 @@ WindTalker: +1-415-333-0100
 Soundings: OAK
 ParaglidingEarthSite: 9302
 WeatherUndergroundStationID: KCASANFR69
+WeatherLive: [Fog Today](https://fog.today/)
 Notes: No paragliding
 Tags: BayArea
 
@@ -428,8 +430,9 @@ OfficialURL: [Marin County Hang Gliding Association (MCHGA)]
 WindTalker: Mt. Tamalpais=+1-415-381-9463, Stinson Beach=+1-415-868-1922
 Soundings: OAK
 SeeAlso: [BHGC's Tam page](tam/index.html)
-Tags: BayArea
 Webcams: 'Bolinas'="http://www.alertwildfire.org/northcoast/index.html?camera=Axis-Bolinas", 'Muir Beach'="http://www.alertwildfire.org/northcoast/index.html?camera=Axis-MuirBeach", 'Mt. Tamalpais West'="http://www.alertwildfire.org/northcoast/index.html?camera=Axis-TamWest"
+WeatherLive: [Fog Today](https://fog.today/)
+Tags: BayArea
 
 
 
@@ -446,6 +449,7 @@ WeatherUndergroundStationID: KCADALYC37, KCADALYC1, KCAPACIF205
 Webcams: 'Cheetah'="https://www.youtube.com/watch?v=L6e1EEA-dQI"
 Notes: Paragliding only. _Emergency_ frequency: 147.495 MHz (as of June 2020; same as Ed Levin)
 SeeAlso: https://mr.robertmparker.com/
+WeatherLive: [Fog Today](https://fog.today/)
 Tags: BayArea
 
 
