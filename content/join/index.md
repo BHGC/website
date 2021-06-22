@@ -1,7 +1,5 @@
 # Join the club <span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
 
-</div>
-
 <%--- HIDE UNTIL NEXT SIGNUP ----------------------------------------
 
 If you want to **learn to hang glide this academic year**, below is how to join the club:
