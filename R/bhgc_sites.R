@@ -19,30 +19,33 @@ parse_webcams <- function(s) {
 
 gps_md <- function(gps, url_md, ...) {
   stopifnot(is.list(gps) || (is.numeric(gps) && length(gps) <= 3))
-  stopifnot(is.function(url_md))
+  stopifnot(is.list(url_md) || is.function(url_md))
   if (length(gps) == 0) return("")
+  if (!is.list(url_md)) url_md <- list(url_md)
 
   ## A list?
   if (is.list(gps)) {
     n <- length(gps)
     md <- character(length = n)
     for (kk in seq_len(n)) {
-	  md[[kk]] <- Recall(gps[[kk]], url_md = url_md, ...)
+      md[[kk]] <- Recall(gps[[kk]], url_md = url_md, ...)
     }
-	if (!is.null(names(gps))) {
+    
+    if (!is.null(names(gps))) {
       md <- sprintf("%s: %s", names(gps), md);
-	}
-	  
-	## Turn into a Markdown sublist?
+    }
+    
+    ## Turn into a Markdown sublist?
     if (n > 1L) {
       md <- sprintf("  - %s", md);
       md <- paste(c("", md), collapse = "\n")
     }
-	  
+    
     return(md)
   }
 
-  url_md(gps, ...)
+  md <- lapply(url_md, FUN = function(url_md) url_md(gps, ...))
+  paste(unlist(md), collapse = " ")
 } ## gps_md()
 
 
@@ -139,18 +142,30 @@ gmap_url_md <- function(gps, digits = 4L, ...) {
   md
 }
 
+
+#  Source: https://www.opentopomap.org/
+opentopo_url_md <- function(gps, digits = 5L, zoom = 16, ...) {
+  lat <- round(gps[1], digits = digits)
+  long <- round(gps[2], digits = digits)
+  if (is.na(lat) || is.na(long)) return("")
+  url <- sprintf("https://www.opentopomap.org/#marker=%s/%s/%s", zoom, lat, long)
+  md <- sprintf("[topo](%s)", url)
+  md
+}
+
+
 launch_map <- function(...) UseMethod("launch_map")
 
 launch_map.bhgc_site <- function(site, ...) {
   gps <- site$LaunchGPS
-  gps_md(gps = gps, url_md = gmap_url_md, ...)
+  gps_md(gps = gps, url_md = list(gmap_url_md, opentopo_url_md), ...)
 }
 
 lz_map <- function(...) UseMethod("lz_map")
 
 lz_map.bhgc_site <- function(site, ...) {
   gps <- site$LZGPS
-  gps_md(gps = gps, url_md = gmap_url_md, ...)
+  gps_md(gps = gps, url_md = list(gmap_url_md, opentopo_url_md), ...)
 }
 
 gmap <- function(gps, ...) {
@@ -164,15 +179,15 @@ phone <- function(numbers) {
   if (length(numbers) == 0) return(NULL)
   links <- sapply(numbers, FUN=function(s) {
     s <- unlist(strsplit(s, split="=", fixed=TRUE))
-	s <- trim(s)
+    s <- trim(s)
     number <- s[length(s)]
-	label <- gsub("^[+]1[-]?", "", number)
+    label <- gsub("^[+]1[-]?", "", number)
     link <- sprintf('<a href="tel:%s">%s</a>', number, label)
     name <- s[-length(s)]
     if (length(name) == 1L) {
-	  link <- sprintf('%s: %s', name, link)
-	}
-	link
+      link <- sprintf('%s: %s', name, link)
+    }
+    link
   })
   links
 } # phone()
