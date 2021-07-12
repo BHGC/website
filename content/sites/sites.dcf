@@ -80,12 +80,12 @@ Tags: BayArea
 
 Name: Copper Mountain
 State: CA
-LaunchGPS: 'SE Launch'=(38.048889, -119.195437, 9100)
-LZGPS: 'Main LZ'=(38.069492,-119.159581, 6900), 'Old LZ/Bailout'=(38.057622, -119.163081, 6900), 'Power Plant Bailout'=(38.045164, -119.174000, 7000)
+LaunchGPS: 'E Launch'=(38.048889, -119.195437, 9200), 'SE Launch/KM Launch'=(38.042352, -119.190552, 9000)
+LZGPS: 'Barn LZ'=(38.069492,-119.159581, 6900), 'Power Plant Bailout'=(38.045164, -119.174000, 7000), 'Green Field LZ'=(38.060562, -119.161887, 6800)
 Requirements: Unregulated.  H3, H2 w/ instructor recommended
 SeeAlso: 
 ParaglidingEarthSite: 15072
-Notes: Shallow launch at high altitude. Watch out for rotors from behind.
+Notes: E launch is a shallow launch at high altitude, SE launch is steep launch with extremely limited setup area. Watch out for rotors from behind.
 Tags: SierraNevada, SonoraPass-Mono-Mammoth
 
 
@@ -280,9 +280,9 @@ Tags: Mendocino
 Name: Indian Valley
 State: CA
 LaunchGPS: 'Burn LP'=(40.194644, -120.923071, 6200), 'Mt. Hough'=(40.045490, -120.886023, 7200) 
-LZGPS: 'Tweeten Bailout'=(40.169673, -120.934279, 3900)
-Requirements: H3 (H2 w/ instructor)
-Notes: Burn LP is not H2 friendly.  Bailout is rotory and turbulent
+LZGPS: 'Tweeten Bailout'=(40.169673, -120.934279, 3900), 'Snow White LZ'=(40.143825, -120.895198, 3500
+Requirements: Unregulated. H3 (Burn LP), H2 w/ instructor (Hough) recommended.
+Notes: Burn LP is a long glide out to landable fields and is a brushy flat slope.  Tweeten bailout is rotory and turbulent; landing is currently prohibited. 
 
 
 Name: Lake McClure
@@ -558,9 +558,9 @@ Notes: Be aware of airspace restrictions.  Watch for helicopters crossing May Ca
 Name: Sweetwater
 State: CA
 LaunchGPS: (38.381987, -119.379736)
-LZGPS: (38.367205, -119.424847)
-Requirements: Unregulated.  H3 recommended.
-Notes: "Questionable if it is H2 friendly". Long glide to LZ. Strong winds common.
+LZGPS: 'LZ1 Sage Field'=(38.367205, -119.424847, 7300), 'LZ2 Grass Field'=(38.349454, -119.388886, 7400)
+Requirements: Unregulated.  H3 recommended.  H2 w/instructor under appropriate conditions late day.
+Notes: "Questionable if it is H2 friendly". Long glide to LZ. Strong winds common.  LZ2 recommended in strong W conditions.
 SeeAlso:
 Tags: SonoraPass-Mono-Mammoth
 
