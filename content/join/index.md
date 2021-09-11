@@ -46,19 +46,20 @@ To get in from this waitlist, make sure to attend the ground school
 
 --------------------------------------------------------------- ---%>
 
+<%--- HIDE UNTIL NEXT SIGNUP ----------------------------------------
+
 ## Next chance to join the club is fall 2021, details TBD
 
 Signup happens once a year, typically in early September (after the Labor Day weekend), and only in person.  
-<%---
+
 As a rough guide, see previous years below (note that the Spring 2018
 lesson set was an exception). See also the [About] page.
----%>
+
 
 <small>
 _Last updated: June 21, 2021_
 </small>
 
-<%--- HIDE UNTIL NEXT SIGNUP ----------------------------------------
 
 --------------------------------------------------------------- ---%>
 
