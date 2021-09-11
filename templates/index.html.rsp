@@ -108,9 +108,9 @@
       <span class="glyphicon glyphicon-paperclip"></span>
       <div>Miscellaneous</div>
     </a>
-    <a href="<%=pathToRoot%>join/index.html" class="btn btn-default btn-lg" style="width: 7.5em; margin: 0.3ex 0.1ex 0.3ex 0.1ex; padding: 0.6ex 0.2ex; text-align: center;">
+    <a href="<%=pathToRoot%>join/index.html" class="btn btn-default btn-lg" style="width: 7.5em; margin: 0.3ex 0.1ex 0.3ex 0.1ex; padding: 0.6ex 0.2ex; text-align: center; border: 2px solid blue;">
       <span class="glyphicon glyphicon-heart-empty"></span>
-      <div>Join</div>
+      <div>Join 2021</div>
     </a>
     <a href="<%=pathToRoot%>about/index.html" class="btn btn-default btn-lg" style="width: 7.5em; margin: 0.3ex 0.1ex 0.3ex 0.1ex; padding: 0.6ex 0.2ex; text-align: center;">
       <span class="glyphicon glyphicon-info-sign"></span>
