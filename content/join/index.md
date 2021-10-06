@@ -1,6 +1,6 @@
 # Join the club <span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
 
-<!-- HIDE UNTIL NEXT SIGNUP ----------------------------------------
+<%--- HIDE UNTIL NEXT SIGNUP ---------------------------------------
 
 
 If you want to **learn to hang glide this academic year (2021/2022)**, below is how to join the club:
@@ -15,9 +15,9 @@ If you want to **learn to hang glide this academic year (2021/2022)**, below is 
 <small>
 _Last updated: September 11, 2021 @ 11:45am_
 </small>
---------------------------------------------------------------- -->
+--------------------------------------------------------------- ---%>
 
-<!-- HIDE UNTIL NEXT SIGNUP ----------------------------------------
+<%--- HIDE UNTIL NEXT SIGNUP ---------------------------------------
 
 **Mandatory** for students who get in:
 
@@ -44,9 +44,10 @@ To get in from this waitlist, make sure to attend the ground school
 (see [front page]).
 --%>
 
---------------------------------------------------------------- -->
+--------------------------------------------------------------- ---%>
 
-<!-- HIDE UNTIL NEXT SIGNUP ---------------------------------------->
+<%-- HIDE UNTIL NEXT SIGNUP ---------------------------------------->
+ --------------------------------------------------------------- --%>
 
 ## Next chance to join the club is fall 2022, details TBD
 
@@ -57,11 +58,10 @@ lesson set was an exception). See also the [About] page.
 
 
 <small>
-_Last updated: Oct 5, 2021_
+_Last updated: October 5, 2021_
 </small>
 
 
---------------------------------------------------------------- --%>
 
 
 ## Previous years
