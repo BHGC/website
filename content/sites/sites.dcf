@@ -130,9 +130,10 @@ LaunchGPS: '300ft'=(37.461130, -121.864641, 700), '600ft'=(37.461324, -121.85997
 LZGPS: (37.458137, -121.867135, 400)
 Requirements: H0-H3, P0-P3
 SiteSticker: [WOR]
-OfficialURL: [Wings of Rogallo](https://wingsofrogallo.org/ed-levin/) <!-- [Ed Levin Quick Reference](https://www.wingsofrogallo.org/sites/ed-levin/Ed_Levin_Quick_Ref_1-3.01.pdf) [pdf] -->
+OfficialURL: [Wings of Rogallo](https://wingsofrogallo.org/ed-levin/)
 WindTalker: +1-408-946-9516
 WeatherLive: [Mission Soaring Live Weather](http://windslammer.wingsofrogallo.org/WindSlammer/), [Benlo.com](http://www.benlo.com/pg/edlevin.html)
+Webcams: '1750'="https://www.youtube.com/watch?v=t1SP26FUUpo+autoplay=true"
 Soundings: OAK
 SeeAlso: Road conditions: [Santa Clara County Parks](https://www.sccgov.org/sites/parks/Pages/Closures.aspx), [408-355-2200](tel:+1-408-355-2200) (menu 4 menu 6)
 Notes: _Emergency_ frequency: 147.495 MHz (same as The Dumps)
@@ -339,7 +340,7 @@ LaunchGPS: 'Reservation Road'=(36.699300, -121.809012, NA), 'Lake Court Dune'=(3
 Requirements: H3/P3, H2 w/ instructor
 WindDirections: WSW, W, WNW
 Webcams: 'Downtown Monterey'="https://hdontap.com/index.php/video/stream/port-of-monterey"
-SeeAlso: [Coastal Condors] (http://www.coastalcondors.org)
+SeeAlso: [Coastal Condors](https://www.coastalcondors.org)
 Tags: BayArea
 
 
@@ -396,6 +397,7 @@ LaunchGPS: (37.517534, -121.89175, 1900)
 LZGPS: (37.5065537,-121.9050622, 500)
 Requirements: H4/P4, H3/P3 with required skills and signoff
 Soundings: OAK
+Notes: [daily sign-in](https://wingsofrogallo.org/mission-ridge-electronic-sign-in/)
 OfficialURL: [Wings of Rogallo](https://wingsofrogallo.org/mission-ridge/)
 Webcams: 'Mission Peak NW'="http://www.alertwildfire.org/northcoast/index.html?camera=Axis-Mission1", 'Mission Peak SE'="http://www.alertwildfire.org/northcoast/index.html?camera=Axis-Mission2", 'WoR cam'="http://missionpeak.axiscam.net:1920/view/view.shtml?id=734&imagepath=%2Fmjpg%2Fvideo.mjpg&size=1"
 Tags: BayArea
