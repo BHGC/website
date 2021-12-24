@@ -53,13 +53,17 @@ tags:
 site-pages:
 	@tags=$$(grep -F "Tags:" content/sites/sites.dcf | sed 's/Tags: //g' | sed 's/, /\n/g' | sort -u); \
 	for tag in $${tags}; do \
+	    echo "Tag: $${tag}"; \
 	    tag_lc=$$(echo "$${tag}" | tr "[:upper:]" "[:lower:]"); \
 	    dir="content/sites/$${tag_lc}"; \
 	    mkdir -p "$${dir}"; \
-	    if [ ! -f "$${dir}/index.md" ]; then \
-	        echo "# Flying Sites - <%= tag <- c(\"$${tag}\" = \"$${tag}\") %>\n\n<%@include file=\"content/sites/incl/index.md.rsp\"%>" > "$${dir}/index.md"; \
+	    file="$${dir}/index.md"; \
+	    if [ ! -f "$${file}" ] ; then \
+	        echo "# Flying Sites - <%= tag <- c(\"$${tag}\" = \"$${tag}\"); tag %>\n\n<%@include file=\"content/sites/incl/index.md.rsp\"%>" > "$${file}"; \
+	        echo "Updated: $${file}"; \
 	    fi; \
-	done
+	done; \
+	echo "Rerun: make sites"
 
 
 #=====================================================================

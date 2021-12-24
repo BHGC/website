@@ -10,6 +10,8 @@ See also:
 * [Flying Sites - Owens Valley](<%=pathToRoot%>sites/owensvalley/index.html)
 * [Flying Sites - Sierra Nevada](<%=pathToRoot%>sites/sierranevada/index.html)
 * [Flying Sites - Sonora Pass-Mono-Mammoth](<%=pathToRoot%>sites/sonorapass-mono-mammoth/index.html)
+* [Flying Sites - Southern California](<%=pathToRoot%>sites/southcal/index.html)
+* [Flying Sites - Mexico](<%=pathToRoot%>sites/mexico/index.html)
 
 
 <%-- ALERT (CALL FOR HELP) --%>
