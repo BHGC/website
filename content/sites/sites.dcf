@@ -654,18 +654,30 @@ SeeAlso: https://parkplanning.nps.gov/projectHome.cfm?projectID=21599
 Tags: SierraNevada
 
 
-Name: Eling's Flight Park, Santa Barbara
+Name: Elings Flight Park, Santa Barbara
 LaunchGPS: 'top'=(34.409000, -119.735000, 350)
 LZGPS: 'bottom'=(34.40650, -119.73706, 150)
 State: CA
-OfficialURL: [Santa Barbara Soaring Association](http://sbsa.info/site-guidelines/)
+OfficialURL: [Santa Barbara Soaring Association](http://sbsa.info/site-guidelines/#elings)
 Requirements: H3/P3. H2/P2 with instructor supervision. Paid site fees (!= SBSA fees). Flying activities, including ground handling, are permitted only when at least one instructor from any of the local flight schools is present!
 Tags: SouthCal
 
-Name: Upper EJ, Santa Barbara
-LaunchGPS: 'top'=(34.494434, -119.702987, 3800)
+
+Name: EJ, Santa Barbara
+LaunchGPS: 'upper EJ'=(34.494434, -119.702987, 3800), 'EJ bowl'=(34.4924, -119.702, 3400)
 State: CA
+Requirements: H3/P3
 OfficialURL: [Santa Barbara Soaring Association](http://sbsa.info/site-guidelines/)
+ParaglidingEarthSite: 14122
+Tags: SouthCal
+
+
+Name: Skyport, Santa Barbara
+LaunchGPS: (34.480942, -119.684751, 2900)
+State: CA
+Requirements: H3/P3
+OfficialURL: [Santa Barbara Soaring Association](http://sbsa.info/site-guidelines/)
+ParaglidingEarthSite: 22332
 Tags: SouthCal
 
 
@@ -673,5 +685,14 @@ Name: Bates Bluff, Carpinteria
 LaunchGPS: 'top'=(34.381738, -119.484446, 150)
 State: CA
 OfficialURL: [Santa Barbara Soaring Association](http://sbsa.info/site-guidelines/)
+Notes: Paragliding only.
+Tags: SouthCal
+
+
+Name: More Mesa, Santa Barbara
+LaunchGPS: (34.417858, -119.789772, 100)
+State: CA
+OfficialURL: [Santa Barbara Soaring Association](http://sbsa.info/site-guidelines/#moremesa)
+Requirements: H2/P2 (Before flying More Mesa, all pilots must contact a Local Site Guide and ask the guide to call the SBA Tower for permission.)
 Notes: Paragliding only.
 Tags: SouthCal
