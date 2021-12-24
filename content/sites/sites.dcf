@@ -661,3 +661,17 @@ State: CA
 OfficialURL: [Santa Barbara Soaring Association](http://sbsa.info/site-guidelines/)
 Requirements: H3/P3. H2/P2 with instructor supervision. Paid site fees (!= SBSA fees). Flying activities, including ground handling, are permitted only when at least one instructor from any of the local flight schools is present!
 Tags: SouthCal
+
+Name: Upper EJ, Santa Barbara
+LaunchGPS: 'top'=(34.494434, -119.702987, 3800)
+State: CA
+OfficialURL: [Santa Barbara Soaring Association](http://sbsa.info/site-guidelines/)
+Tags: SouthCal
+
+
+Name: Bates Bluff, Carpinteria
+LaunchGPS: 'top'=(34.381738, -119.484446, 150)
+State: CA
+OfficialURL: [Santa Barbara Soaring Association](http://sbsa.info/site-guidelines/)
+Notes: Paragliding only.
+Tags: SouthCal

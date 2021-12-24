@@ -4,3 +4,4 @@ html
 .Rhistory
 .ssh
 secrets.tar
+.Rdump
