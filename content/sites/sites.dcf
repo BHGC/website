@@ -334,7 +334,7 @@ ParaglidingEarthSite: 13125
 Tags: SierraNevada, SonoraPass-Mono-Mammoth
 
 
-Name: Marina State Beach
+Name: Marina State Beach, Monterey Bay
 State: CA
 LaunchGPS: 'Reservation Road'=(36.699300, -121.809012, 20), 'Lake Court Dune'=(36.683519, -121.811399, 100)
 Requirements: H3/P3, H2 w/ instructor
@@ -344,7 +344,7 @@ SeeAlso: [Coastal Condors](https://www.coastalcondors.org)
 Tags: BayArea
 
 
-Name: Marshall Peak / Crestline
+Name: Marshall Peak / Crestline, San Bernardino, Los Angeles
 State: CA
 LaunchGPS: "750"=(34.199800, -117.317000, 2480), Marshall=(34.210000, -117.302900, 4200), Crestline=(34.236000, -117.313000, 5300)
 LZGPS: (34.193400, -117.323400, 1700)
@@ -528,7 +528,7 @@ SeeAlso:
 Tags: Mendocino
 
 
-Name: Sand City
+Name: Sand City, Monterey Bay
 State: CA
 LaunchGPS: (36.624753, -121.845234, 30)
 Requirements: unregulated
@@ -560,7 +560,7 @@ SeeAlso:
 Tags: SierraNevada, LakeTahoe-RenoArea
 
 
-Name: Sylmar
+Name: Sylmar, Los Angeles
 State: CA
 LaunchGPS: 'Kagel Mtn'=(34.333230, -118.384430, 3500), 'Towers'=(34.342452, -118.406573, 3600)
 LZGPS: 'Main LZ'=(34.317404, -118.406591, 1400)
