@@ -611,6 +611,18 @@ Notes: You will need to sign a waiver and pay the day-use fee
 SeeAlso:
 
 
+Name: Torrey Pines Gliderport
+State: CA
+LaunchGPS: (32.890100, -117.251000, 300)
+Requirements: H3/P3 (50 hours air time)
+OfficialURL: https://www.flytorrey.com/
+WeatherLive: [Torrey Pines Gliderport Weather](http://gliderport.thilenius.com/#/Home)
+Webcams: 'Glideport'="https://www.youtube.com/user/cmosdsnr2/videos"
+ParaglidingEarthSite: 
+SeeAlso:
+Tags: SouthCal
+
+
 Name: Valle de Bravo
 State: State of Mexico, Mexico
 LaunchGPS: 'El Penon'=(19.061704, -100.090468, 7700), 'La Torre'=(19.184436, -100.113890, 7200)
