@@ -614,7 +614,7 @@ SeeAlso:
 Name: Torrey Pines Gliderport, La Jolla, San Diego
 State: CA
 LaunchGPS: (32.890100, -117.251000, 300)
-Requirements: H3/P3 (50 hours air time)
+Requirements: H4/P3 (50 hours air time)
 OfficialURL: https://www.flytorrey.com/
 WeatherLive: [Torrey Pines Gliderport Weather](http://gliderport.thilenius.com/#/Home)
 Webcams: 'Glideport'="https://www.youtube.com/user/cmosdsnr2/videos"
@@ -695,4 +695,15 @@ State: CA
 OfficialURL: [Santa Barbara Soaring Association](http://sbsa.info/site-guidelines/#moremesa)
 Requirements: H2/P2 (Before flying More Mesa, all pilots must contact a Local Site Guide and ask the guide to call the SBA Tower for permission.)
 Notes: Paragliding only.
+Tags: SoCal
+
+
+Name: Horse Canyon, San Diego
+LaunchGPS: (32.774000, -116.476000, 4400)
+LZGPS: (32.780316, -116.498596, 3300)
+State: CA
+OfficialURL: [SDHGPA](https://www.sdhgpa.com/horse.html)
+Requirements: H2/P2
+WeatherLive: https://holfuy.com/en/weather/581, https://www.sdhgpa.com/weather-stations.html
+Notes: [SoCal Soaring Weather Dashboard](https://www.sdhgpa.com/socal-wx-dash-board.html)
 Tags: SoCal
