@@ -422,20 +422,20 @@ OfficialURL: [Rogue Valley Hang Gliding & Paragliding Association (RVHPA)](http:
 SeeAlso:
 Notes: The new launch is unsafe for launching a hang glider.
 
-
 Name: Mount Tamalpais
 Nickname: Mt Tam
 State: CA
 LaunchGPS: A=(37.907607, -122.619097, 2050), B=(37.911167, -122.624422, 1950), C=(37.920857, -122.632657, 2500)
 LZGPS: 'public beach'=(37.902664, -122.653185, 0)
-Requirements: H3/P3 and sticker
-SiteSticker: [MCHGA]
-OfficialURL: [Marin County Hang Gliding Association (MCHGA)]
-WindTalker: Mt. Tamalpais=+1-415-381-9463, Stinson Beach=+1-415-868-1922
+Requirements: H3/P3 with MCHGA sticker and sign-in at Pantoll
+SiteSticker: [MCHGA](http://www.mchga.org/)
+OfficialURL: [Marin County Hang Gliding Association (MCHGA)](http://www.mchga.org/site.shtml)
+WindTalker: Mt. Tamalpais=+1-415-381-9463
+WeatherUndergroundStationID: KCASTINS13, KCASTINS20
 Soundings: OAK
 SeeAlso: [BHGC's Tam page](https://bhgc.org/sites/tam/index.html)
 Webcams: 'Bolinas'="http://www.alertwildfire.org/northcoast/index.html?camera=Axis-Bolinas", 'Muir Beach'="http://www.alertwildfire.org/northcoast/index.html?camera=Axis-MuirBeach", 'Mt. Tamalpais West'="http://www.alertwildfire.org/northcoast/index.html?camera=Axis-TamWest"
-WeatherLive: [Fog Today](https://fog.today/)
+WeatherLive: [Middle Peak Wind](https://www.wrh.noaa.gov/mesowest/getobext.php?sid=MDEC1&table=1&banner=off), [SF Buoy](https://www.ndbc.noaa.gov/station_page.php?station=46026), [Bodega Buoy (down since Jan 2021)](https://www.ndbc.noaa.gov/station_page.php?station=46013), [Fog Today](https://fog.today/), [tide](https://tidesandcurrents.noaa.gov/waterlevels.html?id=9415020&units=standard&timezone=LST/LDT&datum=MSL&interval=6&action=)
 Tags: BayArea
 
 
