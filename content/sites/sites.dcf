@@ -707,3 +707,17 @@ Requirements: H2/P2
 WeatherLive: https://holfuy.com/en/weather/581, https://www.sdhgpa.com/weather-stations.html
 Notes: [SoCal Soaring Weather Dashboard](https://www.sdhgpa.com/socal-wx-dash-board.html)
 Tags: SoCal
+
+
+Name: Stoneman, Pittsburg
+State: CA
+LaunchGPS: 'A'=(38.004762, -121.920061, 400), 'B'=(38.006176, -121.927513, 475)
+LZGPS: 'A'=(38.005637, -121.918625, 330), 'A/B'=(38.008095, -121.920775, 200)
+Requirements: Unregulated
+WindDirections: E-NE
+WindAlertSite: 
+WeatherUndergroundStationID: 
+Webcams: 
+Notes: Paragliding only. Be aware of radio-controlled (RC) air fields and the powerlines.
+SeeAlso: 
+Tags: BayArea
