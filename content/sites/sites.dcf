@@ -711,10 +711,10 @@ Tags: SoCal
 
 Name: Stoneman, Pittsburg
 State: CA
-LaunchGPS: 'A'=(38.004762, -121.920061, 400), 'B'=(38.006176, -121.927513, 475)
-LZGPS: 'A'=(38.005637, -121.918625, 330), 'A/B'=(38.008095, -121.920775, 200)
+LaunchGPS: 'East & North'=(38.004762, -121.920061, 400), 'Low launch & top landing'=(38.005637, -121.918625, 330), 'North Ridge'=(37.9958116, -121.9191275, 750), 'Upper East'=(38.006176, -121.927513, 475), 'West Bowl'=(38.004486, -121.920524, 400)
+LZGPS: 'Low launch & top landing'=(38.005637, -121.918625, 330), 'LZ1'=(38.006422, -121.915527, 180), 'LZ'=(38.004021, -121.922992, 300)
 Requirements: Unregulated
-WindDirections: E-NE
+WindDirections: W, NW, NE, E, N
 WindAlertSite: 
 WeatherUndergroundStationID: 
 Webcams: 
