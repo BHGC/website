@@ -33,18 +33,18 @@ HAS_ASPELL := $(shell $(R_SCRIPT) -e "cat(Sys.getenv('HAS_ASPELL', !is.na(utils:
 #=====================================================================
 # Global
 #=====================================================================
-all: build
+all: sites build
 
 
 #=====================================================================
 # Pages
 #=====================================================================
-build: sites
+build:
 	$(R_SCRIPT) "R/build"
 
 sites: html/sites/index.html
 
-html/sites/index.html: content/sites/sites.dcf content/sites/index.md content/sites/*/index.md
+html/sites/index.html: content/sites/sites.dcf content/sites/index.md content/sites/*/index.md content/sites/incl/index.md.rsp R/bhgc_sites.R
 	touch content/sites/index.md
 	touch content/sites/*/index.md
 	make build

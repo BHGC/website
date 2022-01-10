@@ -1,3 +1,21 @@
+link_split <- function(x, prefix = "") {
+  y <- unlist(strsplit(x, split = ",", fixed = TRUE))
+  y <- gsub("(^[ ]|[ ]$)", "", y)
+  y <- gsub("^([^=]+)=([^']+)$", "\\1='\\2'", y)
+  y <- gsub("^([^=']+)$", "'\\1'", y)
+  y <- sprintf("c(%s)", paste(y, collapse = ", "))
+  y <- eval(parse(text = y))
+  names <- names(y)
+  if (is.null(names)) {
+    names <- y
+  } else {
+    names[!nzchar(names)] <- y
+  }
+  names <- paste0(prefix, names)
+  names(y) <- names
+  y
+}
+
 parse_gps <- function(s) {
   stopifnot(is.character(s))
   s <- gsub("NA", "NA_real_", s, fixed = TRUE)
@@ -211,8 +229,37 @@ soundings.bhgc_site <- function(site, ...) {
 live_weather <- function(...) UseMethod("live_weather")
 
 live_weather.bhgc_site <- function(site, ...) {
- rstring(site$WeatherLive)
-} 
+  with(site, {
+    liveweather <- list()
+
+    # ParaglidingEarth link
+    if (nzchar(ParaglidingEarthSite)) {
+      values <- link_split(ParaglidingEarthSite, prefix = "PGE:")
+      liveweather[names(values)] <- sprintf("https://www.paraglidingearth.com/pgearth/index.php?site=%s", values)
+    }
+  
+    # WindAlert
+    if (nzchar(WindAlertSite)) {
+      values <- link_split(WindAlertSite, prefix = "WA:")
+      liveweather[names(values)] <- sprintf("https://www.windalert.com/spot/%s", values)
+    }
+  
+    # Weather Underground Weather Station ID link
+    if (nzchar(WeatherUndergroundStationID)) {
+      values <- link_split(WeatherUndergroundStationID, prefix = "WU:")
+      liveweather[names(values)] <- sprintf("https://www.wunderground.com/dashboard/pws/%s", values)
+    }
+
+    liveweather <- sprintf("[%s](%s)", names(liveweather), unlist(liveweather))
+  
+    # "Live weather" text
+    if (nzchar(WeatherLive)) {
+      liveweather <- c(WeatherLive, liveweather)
+    }
+    
+    rstring(liveweather)
+  }) ## with()
+}
 
 official_page <- function(...) UseMethod("official_page")
 

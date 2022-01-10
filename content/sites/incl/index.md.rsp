@@ -5,23 +5,6 @@
 source("R/bhgc_sites.R")
 sites <- read_sites(pageSource = pageSource, tags = names(tag))
 R.utils::cstr(sites)
-split <- function(x, prefix = "") {
-  y <- unlist(strsplit(x, split = ",", fixed = TRUE))
-  y <- gsub("(^[ ]|[ ]$)", "", y)
-  y <- gsub("^([^=]+)=([^']+)$", "\\1='\\2'", y)
-  y <- gsub("^([^=']+)$", "'\\1'", y)
-  y <- sprintf("c(%s)", paste(y, collapse = ", "))
-  y <- eval(parse(text = y))
-  names <- names(y)
-  if (is.null(names)) {
-    names <- y
-  } else {
-    names[!nzchar(names)] <- y
-  }
-  names <- paste0(prefix, names)
-  names(y) <- names
-  y
-}
 
 %>
 <% for (kk in seq_along(sites)) { %>
@@ -32,35 +15,6 @@ split <- function(x, prefix = "") {
   label <- Name
   if (nzchar(Nickname)) label <- sprintf("%s (%s)", label, Nickname)
   if (nzchar(State)) label <- sprintf("%s, %s", label, State)
-
-  seealso <- list()
-
-  # ParaglidingEarth link
-  if (nzchar(ParaglidingEarthSite)) {
-    values <- split(ParaglidingEarthSite, prefix = "PGE:")
-    seealso[names(values)] <- sprintf("https://www.paraglidingearth.com/pgearth/index.php?site=%s", values)
-  }
-
-  # WindAlert
-  if (nzchar(WindAlertSite)) {
-    values <- split(WindAlertSite, prefix = "WA:")
-    seealso[names(values)] <- sprintf("https://www.windalert.com/spot/%s", values)
-  }
-
-  # Weather Underground Weather Station ID link
-  if (nzchar(WeatherUndergroundStationID)) {
-    values <- split(WeatherUndergroundStationID, prefix = "WU:")
-    seealso[names(values)] <- sprintf("https://www.wunderground.com/dashboard/pws/%s", values)
-  }
-
-  seealso <- sprintf("[%s](%s)", names(seealso), unlist(seealso))
-  
-  # "See also" text
-  if (nzchar(SeeAlso)) {
-    seealso <- c(SeeAlso, seealso)
-  }
-  
-  seealso <- paste(seealso, collapse=", ")
 %>	  
 ## <%=label%>
 
@@ -75,7 +29,7 @@ split <- function(x, prefix = "") {
 * Official page: <%= official_page(site) %>
 * Requirements: <%= requirements(site) %>
 * Sticker: <%= sticker(site) %>
-* See also: <%= rstring(seealso) %>
+* See also: <%= rstring(site$SeeAlso) %>
 * Notes: <%= notes(site) %>
 
 <% }) # with(site, ...) %>
