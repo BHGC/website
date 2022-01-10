@@ -232,12 +232,6 @@ live_weather.bhgc_site <- function(site, ...) {
   with(site, {
     liveweather <- list()
 
-    # ParaglidingEarth link
-    if (nzchar(ParaglidingEarthSite)) {
-      values <- link_split(ParaglidingEarthSite, prefix = "PGE:")
-      liveweather[names(values)] <- sprintf("https://www.paraglidingearth.com/pgearth/index.php?site=%s", values)
-    }
-  
     # WindAlert
     if (nzchar(WindAlertSite)) {
       values <- link_split(WindAlertSite, prefix = "WA:")
@@ -276,7 +270,24 @@ requirements.bhgc_site <- function(site, ...) {
 see_also <- function(...) UseMethod("see_also")
 
 see_also.bhgc_site <- function(site, ...) {
-  rstring(site$SeeAlso)
+  with(site, {
+    seealso <- list()
+    
+    # ParaglidingEarth link
+    if (nzchar(ParaglidingEarthSite)) {
+      values <- link_split(ParaglidingEarthSite, prefix = "PGE:")
+      seealso[names(values)] <- sprintf("https://www.paraglidingearth.com/pgearth/index.php?site=%s", values)
+    }
+
+    seealso <- sprintf("[%s](%s)", names(seealso), unlist(seealso))
+
+    # "See also" text
+    if (nzchar(SeeAlso)) {
+      seealso <- c(SeeAlso, seealso)
+    }
+    
+    rstring(seealso)
+  })
 } 
 
 sticker <- function(...) UseMethod("sticker")
