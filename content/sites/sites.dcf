@@ -715,7 +715,7 @@ LaunchGPS: 'East & North'=(38.004762, -121.920061, 400), 'Low launch & top landi
 LZGPS: 'Low launch & top landing'=(38.005637, -121.918625, 330), 'LZ1'=(38.006422, -121.915527, 180), 'LZ'=(38.004021, -121.922992, 300)
 Requirements: Unregulated
 WindDirections: W, NW, NE, E, N
-WeatherLive: [RC valley](https://www.weatherlink.com/embeddablePage/show/0b16d24feb424cd8a8f0223409fba891/summary), [Pittsburg Marina](https://windalert.com/spot/100721)
+WeatherLive: [RC valley](https://www.weatherlink.com/embeddablePage/show/0b16d24feb424cd8a8f0223409fba891/summary)
 WindAlertSite: 'Pittsburg Marina'=100721
 WeatherUndergroundStationID: 
 Webcams: 
