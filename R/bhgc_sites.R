@@ -172,6 +172,17 @@ opentopo_url_md <- function(gps, digits = 5L, zoom = 16, ...) {
 }
 
 
+#  Source: https://thermal.kk7.ch
+kk7_url_md <- function(gps, digits = 5L, zoom = 14, ...) {
+  lat <- round(gps[1], digits = digits)
+  long <- round(gps[2], digits = digits)
+  if (is.na(lat) || is.na(long)) return("")
+  url <- sprintf("https://thermal.kk7.ch/#%s,%s,%sz", lat, long, zoom)
+  md <- sprintf("[Thermal Map](%s)", url)
+  md
+}
+
+
 launch_map <- function(...) UseMethod("launch_map")
 
 launch_map.bhgc_site <- function(site, ...) {
@@ -280,6 +291,9 @@ see_also.bhgc_site <- function(site, ...) {
     }
 
     seealso <- sprintf("[%s](%s)", names(seealso), unlist(seealso))
+
+    # Thermal Map (https://thermal.kk7.ch)
+    seealso <- c(seealso, kk7_url_md(LaunchGPS[[1]][[1]]))
 
     # "See also" text
     if (nzchar(SeeAlso)) {
