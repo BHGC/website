@@ -42,7 +42,9 @@ all: build
 build:
 	$(R_SCRIPT) "R/build"
 
-sites:
+sites: html/sites/index.html
+
+html/sites/index.html: content/sites/sites.dcf content/sites/index.md content/sites/*/index.md
 	touch content/sites/index.md
 	touch content/sites/*/index.md
 	make build
