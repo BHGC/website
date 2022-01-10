@@ -29,7 +29,7 @@ R.utils::cstr(sites)
 * Official page: <%= official_page(site) %>
 * Requirements: <%= requirements(site) %>
 * Sticker: <%= sticker(site) %>
-* See also: <%= rstring(site$SeeAlso) %>
+* See also: <%= see_also(site) %>
 * Notes: <%= notes(site) %>
 
 <% }) # with(site, ...) %>

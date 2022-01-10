@@ -273,6 +273,12 @@ requirements.bhgc_site <- function(site, ...) {
  rstring(site$Requirements)
 } 
 
+see_also <- function(...) UseMethod("see_also")
+
+see_also.bhgc_site <- function(site, ...) {
+  rstring(site$SeeAlso)
+} 
+
 sticker <- function(...) UseMethod("sticker")
 
 sticker.bhgc_site <- function(site, ...) {
