@@ -340,6 +340,7 @@ LaunchGPS: 'Reservation Road'=(36.699300, -121.809012, 20), 'Lake Court Dune'=(3
 Requirements: H3/P3, H2 w/ instructor
 WindDirections: WSW, W, WNW
 Webcams: 'Downtown Monterey'="https://hdontap.com/index.php/video/stream/port-of-monterey"
+WeatherUndergroundStationID: KCASEASI29, KCASEASI10
 SeeAlso: [Coastal Condors](https://www.coastalcondors.org)
 Tags: BayArea
 
