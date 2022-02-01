@@ -161,6 +161,17 @@ gmap_url_md <- function(gps, digits = 4L, ...) {
 }
 
 
+gearth_url_md <- function(gps, zoom = 30L, digits = 4L, ...) {
+  lat <- round(gps[1], digits = digits)
+  long <- round(gps[2], digits = digits)
+  msl <- 0.3048 * gps[3]  ## in meters
+  if (is.na(lat) || is.na(long) || is.na(msl)) return("")
+  url <- sprintf("https://earth.google.com/web/@%s,%s,%sa,%sd,%dy,360h,60t,0r/data=KAI", lat, long, msl, msl+1000, zoom)
+  md <- sprintf("[3D](%s)", url)
+  md
+}
+
+
 #  Source: https://www.opentopomap.org/
 opentopo_url_md <- function(gps, digits = 5L, zoom = 16, ...) {
   lat <- round(gps[1], digits = digits)
@@ -187,14 +198,14 @@ launch_map <- function(...) UseMethod("launch_map")
 
 launch_map.bhgc_site <- function(site, ...) {
   gps <- site$LaunchGPS
-  gps_md(gps = gps, url_md = list(gmap_url_md, opentopo_url_md), ...)
+  gps_md(gps = gps, url_md = list(gmap_url_md, opentopo_url_md, gearth_url_md), ...)
 }
 
 lz_map <- function(...) UseMethod("lz_map")
 
 lz_map.bhgc_site <- function(site, ...) {
   gps <- site$LZGPS
-  gps_md(gps = gps, url_md = list(gmap_url_md, opentopo_url_md), ...)
+  gps_md(gps = gps, url_md = list(gmap_url_md, opentopo_url_md, gearth_url_md), ...)
 }
 
 gmap <- function(gps, ...) {
