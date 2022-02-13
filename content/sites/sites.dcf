@@ -147,7 +147,7 @@ LaunchGPS: 'south'=(39.277, -122.941), 'north'= (39.276414, -122.943531)
 LZGPS: 'main'=(39.251339, -122.950443), 'alternate'=(39.248226, -122.950779)
 Requirements: Unregulated. H3, H2 w/ instructor recommended
 WindDirections: 'southLaunch'=SSW, 'northLaunch'=NW
-SeeAlso: [Sonoma Wings], [FlyZephyr](http://www.flyzephyr.com/elk-mountain.html)
+SeeAlso: [Sonoma Wings](http://sonomawings.com/site-guides/elk-mountain/), [FlyZephyr](http://www.flyzephyr.com/elk-mountain.html)
 ParaglidingEarthSite: 6695
 Notes: 4x4 required for launch road.  Beware the power line in the alternate LZ
 Tags: Mendocino
@@ -214,7 +214,7 @@ LaunchGPS: (38.441835,-123.124977, NA)
 LZGPS: 
 Requirements: H3, H2 w/ instructor
 WindDirections: W, NW
-SeeAlso: [Sonoma Wings]
+SeeAlso: [Sonoma Wings](http://sonomawings.com/site-guides/goat-rock/)
 Notes: Small ridge, can only handle about 2 gliders at once.  Setup area gets rotor in strong winds.  Beware rotor from Goat Rock when flying to the ridge south of launch.
 Tags: BayArea
 
@@ -587,7 +587,7 @@ Name: St Helena
 State: CA
 LaunchGPS: (38.667481, -122.627897, 4000)
 LZGPS: (38.629329, -122.675306)
-Requirements: H4/P4, H3/P3 if sponsored by Sonoma Wings + member of [Sonoma Wings].
+Requirements: H4/P4, H3/P3 if sponsored by Sonoma Wings + member of Sonoma Wings.
 SeeAlso: [Sonoma Wings](http://sonomawings.com/site-guides/st-helena/)
 Tags: BayArea
 
@@ -599,7 +599,7 @@ LZGPS: 'Visitor\'s Center bailout'=(39.372167, -122.623415, 1500), 'Fouts Spring
 Requirements: Unregulated. H4, experienced H3 recommended.
 WindDirections: W, S, E
 Notes: shallow slope launch, long glide to LZ's. Usually an XC site.
-SeeAlso: [Sonoma Wings]
+SeeAlso: [Sonoma Wings](http://sonomawings.com/site-guides/st-john/)
 Tags: Mendocino
 
 
