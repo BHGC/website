@@ -15,8 +15,10 @@ R.utils::cstr(sites)
   label <- Name
   if (nzchar(Nickname)) label <- sprintf("%s (%s)", label, Nickname)
   if (nzchar(State)) label <- sprintf("%s, %s", label, State)
-%>	  
-## <%=label%>
+  header_id <- sprintf("site_%s", tolower(label))
+  header_id <- gsub("[^[:alnum:]_]+", "-", header_id)
+%>
+<h2 id="<%= header_id %>"><%=label%> <a href="#<%= header_id %>">#</a></h2>
 
 * Launch: <%= launch_map(site) %>
 * LZ: <%= lz_map(site) %>
