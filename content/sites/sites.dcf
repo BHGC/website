@@ -439,7 +439,7 @@ WeatherUndergroundStationID: KCASTINS13, KCASTINS20
 Soundings: OAK
 SeeAlso: [BHGC's Tam page](https://bhgc.org/sites/tam/index.html)
 Webcams: 'Bolinas'="http://www.alertwildfire.org/northcoast/index.html?camera=Axis-Bolinas", 'Muir Beach'="http://www.alertwildfire.org/northcoast/index.html?camera=Axis-MuirBeach", 'Mt. Tamalpais West'="http://www.alertwildfire.org/northcoast/index.html?camera=Axis-TamWest"
-WeatherLive: [Middle Peak Wind](https://www.wrh.noaa.gov/mesowest/getobext.php?sid=MDEC1&table=1&banner=off), [SF Buoy](https://www.ndbc.noaa.gov/station_page.php?station=46026), [Bodega Buoy (down since Jan 2021)](https://www.ndbc.noaa.gov/station_page.php?station=46013), [Fog Today](https://fog.today/), [tide](https://tidesandcurrents.noaa.gov/waterlevels.html?id=9415020&units=standard&timezone=LST/LDT&datum=MSL&interval=6&action=)
+WeatherLive: [Middle Peak Wind](https://www.weather.gov/wrh/timeseries?site=MDEC1), [SF Buoy](https://www.ndbc.noaa.gov/station_page.php?station=46026), [Bodega Buoy (down since Jan 2021)](https://www.ndbc.noaa.gov/station_page.php?station=46013), [Fog Today](https://fog.today/), [tide](https://tidesandcurrents.noaa.gov/waterlevels.html?id=9415020&units=standard&timezone=LST/LDT&datum=MSL&interval=6&action=)
 Tags: BayArea
 
 
