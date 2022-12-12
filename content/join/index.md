@@ -1,7 +1,7 @@
 # Join the club <span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
 
 <%
-phase <- c("open", "closing", "closed")[1]
+phase <- c("open", "closing", "closed")[3]
 %>
 <% if (phase == "open") { %>
 
@@ -14,7 +14,7 @@ If you want to **learn to hang glide this academic year (2022/2023)**, below is 
   Come to our introduction, talk to pilots and flying students, watch some flying videos, get all your questions answered and sign up.  **You have to sign up in person and at this event.**  Due to popularity it is likely there is a lottery, but you'll know when you walk home. **DON'T MISS IT!**
 
 <small>
-_Last updated: September 9, 2021 @ 2:45pm_
+<em>Last updated: September 9, 2021 @ 2:45pm</em>
 </small>
 <% } else if (phase == "closing") { %>
 
@@ -45,7 +45,7 @@ To get in from this waitlist, make sure to attend the ground school
 
 <% } else if (phase == "closed") { %>
 
-## Next chance to join the club is fall 2022, details TBD
+## Next chance to join the club is fall 2023, details TBD
 
 Signup happens once a year, typically in early September (after the Labor Day weekend), and only in person.  
 
@@ -54,13 +54,20 @@ lesson set was an exception). See also the [About] page.
 
 
 <small>
-_Last updated: October 5, 2021_
+<em>Last updated: December 12, 2022</em>
 </small>
 <% } %>
 
 
 
 ## Previous years
+
+### Signup dates 2022
+
+* Mon Sept 19 @  12-3pm: Chat with active hangliding students and pilots. Meet us at Sproul Plaza / Sather Gate on UC Berkeley campus (south side). Look for the hang glider.
+* Wed Sept 21 @  12-3pm: Chat with active hangliding students and pilots. Meet us at Sproul Plaza / Sather Gate on UC Berkeley campus (south side). Look for the hang glider.
+* **Wed Sept 21 @ 7:00pm**, Room 100, Genetics & Plant Biology Building, UC Berkeley: **SIGNUP MEETING.**
+
 
 ### Signup dates 2021
 
