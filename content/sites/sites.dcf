@@ -169,7 +169,7 @@ LaunchGPS: (37.7139, -122.503, NA)
 LZGPS: main=(37.7139, -122.503, NA), beach=(NA, NA, NA)
 Requirements: H3
 OfficialURL: [FlyFunston.org](http://flyfunston.org)
-Webcams: 'Clubhouse & Ropes Bldg'="https://flyfunston.org/webcams-only/"
+Webcams: 'Fort Funston'="https://www.youtube.com/watch?v=ai0WuaWyt4E", 'Clubhouse & Ropes Bldg'="https://flyfunston.org/webcams-only/"
 SeeAlso: [Web cam & winds](https://flyfunston.org/dashboard/)
 WindTalker: +1-415-333-0100
 Soundings: OAK
@@ -439,7 +439,7 @@ WeatherUndergroundStationID: KCASTINS13, KCASTINS20
 Soundings: OAK
 SeeAlso: [BHGC's Tam page](https://bhgc.org/sites/tam/index.html)
 Webcams: 'Alert CA'="https://alertca.live/cam-console/1843", 'Bolinas'="http://www.alertwildfire.org/northcoast/index.html?camera=Axis-Bolinas", 'Muir Beach'="http://www.alertwildfire.org/northcoast/index.html?camera=Axis-MuirBeach", 'Mt. Tamalpais West'="http://www.alertwildfire.org/northcoast/index.html?camera=Axis-TamWest"
-WeatherLive: [Middle Peak Wind](https://www.weather.gov/wrh/timeseries?site=MDEC1), [SF Buoy](https://www.ndbc.noaa.gov/station_page.php?station=46026), [Bodega Buoy (down since Jan 2021)](https://www.ndbc.noaa.gov/station_page.php?station=46013), [Fog Today](https://fog.today/), [tide](https://tidesandcurrents.noaa.gov/waterlevels.html?id=9415020&units=standard&timezone=LST/LDT&datum=MSL&interval=6&action=)
+WeatherLive: [Middle Peak Wind](https://www.weather.gov/wrh/timeseries?site=MDEC1), [SF Buoy](https://www.ndbc.noaa.gov/station_page.php?station=46026), [Bodega Buoy](https://www.ndbc.noaa.gov/station_page.php?station=46013), [Fog Today](https://fog.today/), [tide](https://tidesandcurrents.noaa.gov/waterlevels.html?id=9415020&units=standard&timezone=LST/LDT&datum=MSL&interval=6&action=)
 Tags: BayArea
 
 
