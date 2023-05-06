@@ -43,7 +43,7 @@ ParaglidingEarthSite: 11342
 WindAlertSite: 'Davis Point'=100723
 WeatherUndergroundStationID: KCAVALLE53
 Webcams: 'Channing West'="https://www.youtube.com/watch?v=JFkxBYPwkfY"
-SeeAlso: [Joel McMinn's site guide](https://docs.google.com/document/d/1AHpmCNsV1g1ad4QwXFbuvCvJKOXeBIqpS4JXx1pAJQc/preview), [FlyZephyr](http://www.flyzephyr.com/blue-rock-vallejo.html)
+SeeAlso: [Davis Point Seawind Dr](https://tempestwx.com/station/103812/), [Joel McMinn's site guide](https://docs.google.com/document/d/1AHpmCNsV1g1ad4QwXFbuvCvJKOXeBIqpS4JXx1pAJQc/preview), [FlyZephyr](http://www.flyzephyr.com/blue-rock-vallejo.html)
 Notes: The wind direction of the KCAVALLE53 weather station is _not_ reliable. The wind speed is only reliable in approx. WSW-WNW wind (per 2020-01-05)
 Tags: BayArea
 
