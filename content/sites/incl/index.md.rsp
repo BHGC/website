@@ -3,7 +3,8 @@
  -------------------------------------------------------------------%>
 <%
 source("R/bhgc_sites.R")
-sites <- read_sites(pageSource = pageSource, tags = names(tag))
+tags <- names(tag)
+sites <- read_sites(pageSource = pageSource, tags = tags)
 R.utils::cstr(sites)
 
 %>
@@ -22,7 +23,7 @@ R.utils::cstr(sites)
 
 * Launch: <%= launch_map(site) %>
 * LZ: <%= lz_map(site) %>
-* Weather at launch: <%= weather(site) %>
+* Weather at launch: <%= weather(site, tags = tags) %>
 * Live weather: <%= live_weather(site) %>
 * Webcams: <%= webcams(site) %>
 * Soundings: <%= soundings(site) %>

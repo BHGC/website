@@ -93,8 +93,12 @@ windy_weather_url <- function(gps, zoom=11L) {
   url
 }
 
-weather_url_md <- function(gps, ...) {
-  url <- c(noaa_weather_url(gps = gps, ...), windy_weather_url(gps = gps, ...))
+weather_url_md <- function(gps, tags = NULL, ...) {
+  url <- NULL
+  if (!any(c("mexico", "sweden") %in% tolower(tags))) {
+    url <- c(url, noaa_weather_url(gps = gps, ...))
+  }
+  url <- c(url, windy_weather_url(gps = gps, ...))
   md <- sprintf("[%s](%s)", names(url), url)
   paste(md, collapse = ",\n")
 }
