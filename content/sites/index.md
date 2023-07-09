@@ -12,6 +12,7 @@ See also:
 * [Flying Sites - Sonora Pass-Mono-Mammoth](<%=pathToRoot%>sites/sonorapass-mono-mammoth/index.html)
 * [Flying Sites - Southern California](<%=pathToRoot%>sites/socal/index.html)
 * [Flying Sites - Mexico](<%=pathToRoot%>sites/mexico/index.html)
+* [Flying Sites - Sweden](<%=pathToRoot%>sites/sweden/index.html)
 
 
 <%-- ALERT (CALL FOR HELP) --%>

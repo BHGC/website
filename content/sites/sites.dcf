@@ -725,3 +725,18 @@ Webcams:
 Notes: Paragliding only. Be aware of radio-controlled (RC) air fields and the powerlines.
 SeeAlso: [Stoneman Trailhead Site Overview](https://docs.google.com/document/d/1HYGIQhG2lzOCrzaotVrbTuK7CShP_nUaJWLfgEtJcqI) provides a great overview
 Tags: BayArea
+
+
+
+
+Name: Kåseberg
+State: Skåne, Sweden
+LaunchGPS: 'Skolbacken'=(55.414489, 13.994585, 30), 'Hammar'=(55.403359, 14.012695, 0), 'Stigs Backe'=(55.392141, 14.033844, 0), 'Alestenar'=(55.383276, 14.052415, 0), 'Kåseberga S'=(55.385700, 14.078761, 0)
+LZGPS: 
+Requirements: 
+WeatherLive: [Hammar](https://holfuy.com/en/weather/214), [Kåseberga S](https://holfuy.com/en/weather/155)
+Webcams: 'Hammar'="https://holfuy.com/en/weather/214"
+Notes: You can basically land everywhere along the ridges, e.g. top land or on the beach. The 'Stigs Backe' ("Stig's Hill") launch is beginner friendly and easier to launch in stronger winds since you can launch below the ridge. 'Skolbacken' ("The School Hill") is a good open when it's very windy.
+SeeAlso: [DMI wind forecast](https://www.dmi.dk/vind/), [FCOO wind forecast](https://app.fcoo.dk/ifm-maps/#domain=denmark&zoom=9.75&lat=55.3486&lon=14.009&layer=fcoo%20standard&overlays=Short%20range%20forecasts.wind%252CShort%20range%20forecasts.windspeed&level=0), [SMHI forecast](https://www.smhi.se/vader/q/K%C3%A5seberga/Ystad/2701344), [YR forecast](https://www.yr.no/nb/v%C3%A6rvarsel/graf/2-2708172/Sverige/Sk%C3%A5ne/Hammars%20Backar)
+OfficialURL: [Club Parapente Syd](https://www.cps.to/)
+Tags: Sweden
