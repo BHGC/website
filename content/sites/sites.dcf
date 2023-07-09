@@ -1,5 +1,6 @@
 Name: Alabama Hills
 State: CA
+Country: USA
 LaunchGPS: 'North Launch'=(36.661762, -118.129119, 5200)
 LZGPS: 
 Requirements: Unregulated.  
@@ -10,6 +11,7 @@ Tags: OwensValley
 
 Name: Big Sur
 State: CA
+Country: USA
 LaunchGPS: 'Wild Cattle Launch'=(35.971299, -121.453027, 3200)
 LZGPS: (35.932435, -121.469551, 100)
 Requirements: Unregulated. H3, H2 w/ instructor recommended
@@ -23,6 +25,7 @@ SeeAlso: Road conditions: Los Padres National Forest [805-968-6640](tel:+1-805-9
 
 Name: Black Eagle
 State: CA
+Country: USA
 LaunchGPS: (36.818344, -118.042978, 7000)
 LZGPS: 'bailout LZ'=(36.817322, -118.094236, 4100)
 Requirements: Unregulated. H4, Experienced H3 recommended.
@@ -34,6 +37,7 @@ Tags: OwensValley
 Name: Blue Rock
 Nickname: Vallejo
 State: CA
+Country: USA
 LaunchGPS: 'mid/poison oak'=(38.136409, -122.195852, 550), 'north'=(38.138440, -122.195634, 650), 'top'=(38.1379, -122.195, 720)
 LZGPS: 'main'=(38.137530, -122.196601, 480), 'park'=(38.133760, -122.202644, 270)
 Requirements: Unregulated. Not really for HG. P3 is recommended.
@@ -50,6 +54,7 @@ Tags: BayArea
 
 Name: Burney Mountain
 State: CA
+Country: USA
 LaunchGPS: (40.806667, -121.627500, 7900)
 LZGPS: (40.777267, -121.610649, 4700)
 Requirements: Unregulated. H3, H2 w/ instructor recommended.
@@ -58,6 +63,7 @@ Notes: typically blows out early, usually launched in the morning.  LZ has gotte
 
 Name: Cerro Gordo
 State: CA
+Country: USA
 LaunchGPS: 'lower'=(36.545289, -117.810623, 8300), 'upper [no access as of June 2019]'=(36.549860, -117.802731)
 LZGPS:
 Requirements: Unregulated. H4, Experienced H3 recommended.
@@ -67,6 +73,7 @@ Tags: OwensValley
 
 Name: Channing East
 State: CA
+Country: USA
 LaunchGPS: 'east'=(38.1015, -122.1810, 660)
 Requirements: Unregulated. PG only.
 WindDirections: E
@@ -80,6 +87,7 @@ Tags: BayArea
 
 Name: Copper Mountain
 State: CA
+Country: USA
 LaunchGPS: 'E Launch'=(38.048889, -119.195437, 9200), 'SE Launch/KM Launch'=(38.042352, -119.190552, 9000)
 LZGPS: 'Barn LZ'=(38.069492,-119.159581, 6900), 'Power Plant Bailout'=(38.045164, -119.174000, 7000), 'Green Field LZ'=(38.060562, -119.161887, 6800)
 Requirements: Unregulated.  H3, H2 w/ instructor recommended
@@ -91,6 +99,7 @@ Tags: SierraNevada, SonoraPass-Mono-Mammoth
 
 Name: Duck Hill
 State: NV
+Country: USA
 LaunchGPS: (39.224621, -119.779331, 5900)
 LZGPS: (39.227031, -119.793271, 5100)
 Requirements: Unregulated.  H3, H2 w/ instructor recommended
@@ -100,6 +109,7 @@ Tags: LakeTahoe-RenoArea
 
 Name: Dunlap
 State: CA
+Country: USA
 LaunchGPS: 'ramp'=(36.764134, -119.097631, 4600)
 LZGPS: (36.736126, -119.104683, 2000)
 Requirements: H3/P3, H2/P2 w/ instructor
@@ -112,6 +122,7 @@ Notes: A good first mountain site. (After being closed since 2017-11-30, Dunlap 
 
 Name: Drake's Beach, Point Reyes
 State: CA
+Country: USA
 LaunchGPS: 'cliff launch'=(38.0268347,-122.9626807, 70)
 LZGPS: 'beach'=(38.0274627,-122.9621008, 0)
 Requirements: H3/P3 + permit
@@ -127,6 +138,7 @@ Tags: BayArea
 Name: Ed Levin
 Nickname: Sled Heaven
 State: CA
+Country: USA
 LaunchGPS: '300ft'=(37.461130, -121.864641, 700), '600ft'=(37.461324, -121.859979, 1000), 'top/1750ft'=(37.475389, -121.861305, 2150)
 LZGPS: (37.458137, -121.867135, 400)
 Requirements: H0-H3, P0-P3
@@ -143,6 +155,7 @@ Tags: BayArea
 
 Name: Elk Mountain
 State: CA
+Country: USA
 LaunchGPS: 'south'=(39.277, -122.941, 4000), 'north'= (39.276414, -122.943531, 4000)
 LZGPS: 'main'=(39.251339, -122.950443, 1500), 'alternate'=(39.248226, -122.950779, 1500)
 Requirements: Unregulated. H3, H2 w/ instructor recommended
@@ -155,6 +168,7 @@ Tags: Mendocino
 
 Name: Flynn's
 State: CA
+Country: USA
 LaunchGPS: (37.388394, -118.295029, 5600)
 LZGPS: (37.387053, -118.317233, 4100)
 Requirements: Unregulated. H3, H2 w/ instructor recommended.
@@ -165,6 +179,7 @@ Tags: OwensValley
 
 Name: Fort Funston
 State: CA
+Country: USA
 LaunchGPS: (37.7139, -122.503, NA)
 LZGPS: main=(37.7139, -122.503, NA), beach=(NA, NA, NA)
 Requirements: H3
@@ -181,6 +196,7 @@ Tags: BayArea
 
 Name: Garlock
 State: CA
+Country: USA
 LaunchGPS: 'upper'=(35.418972, -117.850556, NA), 'lower'=(NA, NA, NA)
 LZGPS: (35.375544, -117.853661)
 Requirements: Unregulated. H3, H2 w/ instructor recommended
@@ -190,6 +206,7 @@ Notes: Watch for dust devils on launch/during landing
 
 Name: Gateway
 State: CA
+Country: USA
 LaunchGPS: 'kiting/sledders'=(38.0908909, -122.1696237, 500)
 Requirements: Unregulated. PG only. Useful for kiting, sledders, and proximity flying.
 WindDirections: ESE
@@ -200,6 +217,7 @@ Tags: BayArea
 
 Name: Glass Mountain
 State: CA
+Country: USA
 LaunchGPS: (37.705268, -118.671287, 8500)
 LZGPS: 'Bailout'=(37.705263, -118.691663, 7200), 'Campground LZ'=(37.693376, -118.758021, 6800)
 Requirements: Unregulated. H3, experienced H2 w/ instructor recommended
@@ -210,6 +228,7 @@ Tags: SonoraPass-Mono-Mammoth
 
 Name: Goat Rock
 State: CA
+Country: USA
 LaunchGPS: (38.441835,-123.124977, NA)
 LZGPS: 
 Requirements: H3, H2 w/ instructor
@@ -221,6 +240,7 @@ Tags: BayArea
 
 Name: Gunter / Gunther
 State: CA
+Country: USA
 LaunchGPS: (37.468200, -118.263088, NA)
 LZGPS: (37.420725, -118.334444, NA)
 Requirements: Unregulated. Experienced H3 recommended
@@ -230,6 +250,7 @@ Tags: OwensValley
 
 Name: Herd Peak
 State: CA
+Country: USA
 LaunchGPS: (41.613726, -122.228232, 5680)
 LZGPS: (41.584861, -122.250697, 3550)
 Requirements: H3/P3. H2/P2 w/ instructor or mentor sign off.  Site intro required for all pilots.
@@ -239,6 +260,7 @@ SeeAlso: [The Oz Report](https://ozreport.com/1328031387)
 
 Name: Hat Creek Rim
 State: CA
+Country: USA
 LaunchGPS: (40.843055, -121.427468, 4500)
 LZGPS: '#1/bailout'=(40.838544, -121.438413, 3484), '#2/main'=(40.840963, -121.449369, 3576)
 Requirements: H3, H2 w/ mentor
@@ -250,6 +272,7 @@ Tags: Lakeview
 
 Name: Walt's Point/Horseshoe Meadows
 State: CA
+Country: USA
 LaunchGPS: (36.472700, -118.114950, NA)
 LZGPS: 'Postage-stamp bailout'=(36.529957, -118.106944), 'GreenFields LZ'=(36.547793, -118.078085), 'Diaz LZ'=(36.556944, -118.054357)
 Requirements: H4,experienced H3 recommended
@@ -261,6 +284,7 @@ Tags: OwensValley, SierraNevada
 
 Name: Hotsprings Mountain
 State: NV
+Country: USA
 LaunchGPS: 'LP1'=(39.078628, -119.732742), 'LP2'=(39.065661, -119.730750)
 LZGPS: (39.080460, -119.743185)
 Requirements: Unregulated. H3, H2 w/ instructor recommended
@@ -271,6 +295,7 @@ Tags: LakeTahoe-RenoArea
 
 Name: Hull Mountain
 State: CA
+Country: USA
 LaunchGPS: 'Timberline/main'=(39.509387, -122.937847, 5800), 'lower'=(39.514371, -122.940361, NA), 'rock pile'=(39.522359, -122.938097, NA), 'Turn-in-the-road'=(39.522167, -122.935707, NA), 'propane tank'=(39.521859, -122.936935, NA)
 LZGPS: 'lake/main'=(39.442038, -122.946644, 1800), 'airstrip/bailout'=(39.452802, -122.953110, 1800)
 Requirements: Unregulated (H3 recommended, experienced H2 w/ instructor)
@@ -282,6 +307,7 @@ Tags: Mendocino
 
 Name: Indian Valley
 State: CA
+Country: USA
 LaunchGPS: 'Burn LP'=(40.194644, -120.923071, 6200), 'Mt. Hough'=(40.045490, -120.886023, 7200) 
 LZGPS: 'Tweeten Bailout'=(40.169673, -120.934279, 3900), 'Snow White LZ'=(40.143825, -120.895198, 3500)
 Requirements: Unregulated. H3 (Burn LP), H2 w/ instructor (Hough) recommended.
@@ -290,6 +316,7 @@ Notes: Burn LP is a long glide out to landable fields and is a brushy flat slope
 
 Name: Lake McClure
 State: CA
+Country: USA
 LaunchGPS: (37.711403, -120.233885, NA)
 LZGPS: (37.704583, -120.244940, NA)
 Requirements: H3 (H2 w/ instructor)
@@ -299,6 +326,7 @@ SeeAlso: <http://www.mlsr.net/>
 
 Name: Sugar Hill
 State: CA
+Country: USA
 LaunchGPS: (41.806521, -120.328989, 7200)
 LZGPS: 'bailout'=(41.815931, -120.354752), 'mid-gap bailout'=(41.872721, -120.325768), 'Hunter\'s hot springs'=(42.220613, -120.366709) 
 Requirements: Unregulated.  H3, H2 w/ instructor recommended.
@@ -309,6 +337,7 @@ Tags: Lakeview
 
 Name: Sweet and Low
 State: CA
+Country: USA
 LaunchGPS: (41.828500, -120.346483, 5650)
 LZGPS: 'bailout'=(41.815931, -120.354752), 'mid-gap bailout'=(41.872721, -120.325768), 'Hunter\'s hot springs'=(42.220613, -120.366709) 
 Requirements: Unregulated.  H3, H2 w/ instructor recommended.
@@ -319,6 +348,7 @@ Tags: Lakeview
 
 Name: Black Cap
 State: OR
+Country: USA
 LaunchGPS: (42.204264, -120.330122, 6250)
 LZGPS: 'Hunter\'s hot springs'=(42.220613, -120.366709) 
 Requirements: Unregulated.
@@ -329,6 +359,7 @@ Tags: Lakeview
 
 Name: Lee Vining
 State: CA
+Country: USA
 LaunchGPS: (37.975, -119.146, NA)
 Requirements: Unregulated. H3, H2 w/ instructor recommended
 SeeAlso: [Lee Vining](https://www.monolake.org/today/live)
@@ -338,6 +369,7 @@ Tags: SierraNevada, SonoraPass-Mono-Mammoth
 
 Name: Marina State Beach, Monterey Bay
 State: CA
+Country: USA
 LaunchGPS: 'Reservation Road'=(36.699300, -121.809012, 20), 'Lake Court Dune'=(36.683519, -121.811399, 100)
 Requirements: H3/P3, H2 w/ instructor
 WindDirections: WSW, W, WNW
@@ -349,6 +381,7 @@ Tags: BayArea
 
 Name: Marshall Peak / Crestline, San Bernardino, Los Angeles
 State: CA
+Country: USA
 LaunchGPS: "750"=(34.199800, -117.317000, 2480), Marshall=(34.210000, -117.302900, 4200), Crestline=(34.236000, -117.313000, 5300)
 LZGPS: (34.193400, -117.323400, 1700)
 Requirements: H3/P3, H2/P2 w/ local instructor or signoff
@@ -361,6 +394,7 @@ Tags: SoCal
 
 Name: Mattole
 State: CA
+Country: USA
 LaunchGPS: (NA, NA, NA)
 Requirements: Unregulated
 SeeAlso: [Penguin's PG info](http://www.humboldt.net/~penguin/mattole.htm)
@@ -368,6 +402,7 @@ SeeAlso: [Penguin's PG info](http://www.humboldt.net/~penguin/mattole.htm)
 
 Name: Mazourka
 State: CA
+Country: USA
 LaunchGPS: 'north'=(36.976681, -118.122839, 9300), 'southwest'=(36.969572, -118.124030, 9200), 'south'=(36.969704, -118.122031, 9200), 'southeast'=(36.973002, -118.116780, 9300)
 LZGPS: 'badger flat bailout'=(36.970321, -118.098244, 8700)
 Requirements: Unregulated. H4/H3 recommended.
@@ -378,6 +413,7 @@ Tags: OwensValley
 
 Name: McClellan
 State: NV
+Country: USA
 LaunchGPS: 'main'=(39.27160031783707, -119.7125244140625, 7200)
 LZGPS: (NA, NA, 5050)
 Requirements: Unregulated
@@ -388,6 +424,7 @@ Tags: LakeTahoe-RenoArea
 
 Name: McGee/Magee
 State: CA
+Country: USA
 LaunchGPS: 'lower'=(37.589312, -118.817501, 9100), 'upper'=(NA, NA, NA)
 LZGPS: 'Main'=(37.600987, -118.798404, 6800)
 Requirements: Unregulated.  H3, H2 w/ instructor recommended.
@@ -398,6 +435,7 @@ Tags: SierraNevada, SonoraPass-Mono-Mammoth
 
 Name: Mission Ridge
 State: CA
+Country: USA
 LaunchGPS: (37.517534, -121.89175, 1900)
 LZGPS: (37.5065537,-121.9050622, 500)
 Requirements: H4/P4, H3/P3 with required skills and signoff
@@ -410,6 +448,7 @@ Tags: BayArea
 
 Name: Mount Diablo
 State: CA
+Country: USA
 LaunchGPS: 'south-west'=(37.877870, -121.934436, NA), 'west'=(37.879985, -121.919794, NA), 'north'=(37.882018, -121.919003, NA)
 LZGPS: '1000ft LZ'=(37.875580, -121.964653), 'Machedo Ranch'=(37.863056, -121.977188), 'Mitchell Canyon'=(37.923267, -121.941352)
 Requirements: H4
@@ -420,6 +459,7 @@ Tags: BayArea
 
 Name: Whaleback
 State: CA
+Country: USA
 LaunchGPS: (41.535304, -122.152666, 7450)
 Requirements: H3 (H2 w/ instructor under appropriate conditions)
 OfficialURL: [Rogue Valley Hang Gliding & Paragliding Association (RVHPA)](https://rvhpa.org/site-guide/whaleback/)
@@ -429,6 +469,7 @@ Notes: The new launch is unsafe for launching a hang glider.
 Name: Mount Tamalpais
 Nickname: Mt Tam
 State: CA
+Country: USA
 LaunchGPS: A=(37.907607, -122.619097, 2050), B=(37.911167, -122.624422, 1950), C=(37.920857, -122.632657, 2500)
 LZGPS: 'public beach'=(37.902664, -122.653185, 0)
 Requirements: H3/P3 with MCHGA sticker. H2 w/ club-approved instructor. Sign-in at Pantoll.
@@ -446,6 +487,7 @@ Tags: BayArea
 Name: The Dumps
 Nickname: Mussel Rock
 State: CA
+Country: USA
 LaunchGPS: (37.6721641,-122.4939425, 100)
 LZGPS: (37.671116, -122.494646, 50)
 Requirements: P2-P3 (non-restricted)
@@ -462,6 +504,7 @@ Tags: BayArea
 
 Name: Paiute/Piute Mountain
 State: CA
+Country: USA
 LaunchGPS: 'upper'=(37.531365, -118.279341, 9600), 'lower'=(37.521500, -118.295000, 8100)
 LZGPS: (37.511111, -118.349722, 4300)
 Requirements: Unregulated. H3 recommended
@@ -472,6 +515,7 @@ Tags: OwensValley
 
 Name: Palomino
 State: NV
+Country: USA
 LaunchGPS: 'upper'=(39.830327, -119.623766, 5600), 'lower'=(39.825417, -119.626737, 5100)
 LZGPS: (39.817134, -119.636266, 4300)
 Requirements: Unregulated. H3, H2 w/ instructor recommended.
@@ -482,6 +526,7 @@ Tags: LakeTahoe-RenoArea
 
 Name: Peavine Mt
 State: NV
+Country: USA
 LaunchGPS: 'bowl'=(39.596083, -119.935976), 'tower'=(39.589559, -119.927833)
 Requirements: Unregulated.  H3 recommended.
 Notes: 
@@ -491,6 +536,7 @@ Tags: LakeTahoe-RenoArea
 
 Name: Petersen Mountain / Rainbow Ridge
 State: NV
+Country: USA
 LaunchGPS: 'lower'=(39.694318, -119.983945, 5600), 'middle'=(39.702865, -119.986533, 5900), 'upper'=(39.711698, -119.983565, 6700)
 LZGPS: 'City park LZ'=(39.691083, -119.964903, 5100)
 Requirements: Unregulated. H3, H2 w/ instructor recommended.
@@ -500,6 +546,7 @@ Tags: LakeTahoe-RenoArea
 
 Name: Pine Mountain
 State: OR
+Country: USA
 LaunchGPS: 'Observatory LP'=(43.790775, -120.946723, 6300), 'Antelope LP'=(43.809152, -120.881803, 6200), 'West LP'=(43.819690, -120.932574, 6300)
 LZGPS: 'Airstrip LZ'=(43.876175, -120.916427, 4300), 'Rock L LZ'=(43.837114, -120.930372, 4900), 'Flying Farm LZ'=(43.844892, -120.944951, 4500), 'Wright LZ'=(43.844862, -120.936396, 4500)
 Requirements: Unregulated. H3, H2 w/ instructor recommended.
@@ -508,6 +555,7 @@ Notes:
 
 Name: Potato Hill
 State: CA
+Country: USA
 LaunchGPS: (39.341, -122.685, 3400)
 LZGPS: 'Fouts Spring LZ'=(39.352225, -122.660492, 1700), 'HG bailout LZ'=(39.349188, -122.661181, 1700), 'PG LZ'=(39.350, -122.662, 1700)
 Requirements: Unregulated. H3/P3, H2/P2 w/ instructor recommended.
@@ -521,6 +569,7 @@ Tags: Mendocino
 
 Name: Elk Creek
 State: CA
+Country: USA
 LaunchGPS: '1500ft LP'=(39.560793, -122.630933, 2650), '3000ft LP'=(39.547897, -122.654555, 4400)
 LZGPS: 'Butler LZ'=(39.585153, -122.584564, 1050) 
 Requirements: Unregulated. 
@@ -533,6 +582,7 @@ Tags: Mendocino
 
 Name: Sand City, Monterey Bay
 State: CA
+Country: USA
 LaunchGPS: (36.624753, -121.845234, 30)
 Requirements: unregulated
 WindDirections: WSW, W, WNW
@@ -544,6 +594,7 @@ Tags: BayArea
 
 Name: Slide Mountain
 State: NV
+Country: USA
 LaunchGPS: (39.319914, -119.867355, 8200)
 LZGPS: (39.308908, -119.822940, 5100)
 Requirements: Unregulated. H3, H2 w/ instructor recommended.
@@ -555,6 +606,7 @@ Tags: SierraNevada, LakeTahoe-RenoArea
 
 Name: Spooner
 State: NV
+Country: USA
 LaunchGPS: (39.054307, -119.872620)
 LZGPS: 
 Requirements: Unregulated. H3 recommended.
@@ -565,6 +617,7 @@ Tags: SierraNevada, LakeTahoe-RenoArea
 
 Name: Sylmar, Los Angeles
 State: CA
+Country: USA
 LaunchGPS: 'Kagel Mtn'=(34.333230, -118.384430, 3500), 'Towers'=(34.342452, -118.406573, 3600)
 LZGPS: 'Main LZ'=(34.317404, -118.406591, 1400)
 Requirements: H3
@@ -575,6 +628,7 @@ Tags: SoCal
 
 Name: Sweetwater
 State: CA
+Country: USA
 LaunchGPS: (38.381987, -119.379736)
 LZGPS: 'LZ1 Sage Field'=(38.367205, -119.424847, 7300), 'LZ2 Grass Field'=(38.349454, -119.388886, 7400)
 Requirements: Unregulated.  H3 recommended.  H2 w/instructor under appropriate conditions late day.
@@ -585,6 +639,7 @@ Tags: SonoraPass-Mono-Mammoth
 
 Name: St Helena
 State: CA
+Country: USA
 LaunchGPS: (38.667481, -122.627897, 4000)
 LZGPS: (38.629329, -122.675306)
 Requirements: H4/P4, H3/P3 if sponsored by Sonoma Wings + member of Sonoma Wings.
@@ -594,6 +649,7 @@ Tags: BayArea
 
 Name: St Johns
 State: CA
+Country: USA
 LaunchGPS: 'south'=(39.42422, -122.689222, 6300), 'west'=(39.432691, -122.693303, 6900), 'east'=(39.428428, -122.691053, 6400)
 LZGPS: 'Visitor\'s Center bailout'=(39.372167, -122.623415, 1500), 'Fouts Springs LZ'=(39.352225, -122.660492, 1700)
 Requirements: Unregulated. H4, experienced H3 recommended.
@@ -605,6 +661,7 @@ Tags: Mendocino
 
 Name: Tollhouse
 State: CA
+Country: USA
 LaunchGPS: (37.014900, -119.373313, 4100)
 LZGPS: (37.010728, -119.401315, 1900)
 Requirements: H3/P3 (H2/P2 w/ instructor under appropriate conditions)
@@ -616,6 +673,7 @@ SeeAlso: [FlyZephyr](http://www.flyzephyr.com/tollhouse.html)
 
 Name: Torrey Pines Gliderport, La Jolla, San Diego
 State: CA
+Country: USA
 LaunchGPS: (32.890100, -117.251000, 300)
 Requirements: H4/P3 (50 hours air time)
 OfficialURL: https://www.flytorrey.com/
@@ -626,18 +684,9 @@ SeeAlso:
 Tags: SoCal
 
 
-Name: Valle de Bravo
-State: State of Mexico, Mexico
-LaunchGPS: 'El Penon'=(19.061704, -100.090468, 7700), 'La Torre'=(19.184436, -100.113890, 7200)
-LZGPS: 'Piano LZ/Main'=(19.042247, -100.104522, 5800), 'Penitas'=(19.093295, -100.066730, 7200), 'Cerro Pelon'=(19.036102, -100.133785, 5600), 'Airstrip'=(19.146515, -100.076430, 7200), 'Casas Viejas'=(19.154340, -100.103797, 6800), 'Lakeside LZ'=(19.183228, -100.127772, 5900)
-Requirements: Unregulated.  H3/P3, H2/P2 w/ instructor recommended
-Notes: We typically fly Jan/Feb, gliders rented through Jeff at Fly Mexico
-SeeAlso: [Fly Mexico](https://www.flymexico.com/)
-Tags: Mexico
-
-
 Name: Wolf
 State: CA
+Country: USA
 LaunchGPS: (38.338085, -119.572881, 9200)
 LZGPS: (38.350686, -119.527393, 6750)
 Requirements: Unregulated.  Experienced H3/H4 recommended.
@@ -648,6 +697,7 @@ Tags: SierraNevada, SonoraPass-Mono-Mammoth
 
 Name: Yosemite / Glacier Point
 State: CA
+Country: USA
 LaunchGPS: 'Glacier Point'=(37.729047,-119.572754, 7200)
 LZGPS: 'Leidig Meadow'=(37.737710, -119.603902, 3900)
 Requirements: H4, permit
@@ -661,6 +711,7 @@ Name: Elings Flight Park, Santa Barbara
 LaunchGPS: 'top'=(34.409000, -119.735000, 350)
 LZGPS: 'bottom'=(34.40650, -119.73706, 150)
 State: CA
+Country: USA
 OfficialURL: [Santa Barbara Soaring Association](http://sbsa.info/site-guidelines/#elings)
 Requirements: H3/P3. H2/P2 with instructor supervision. Paid site fees (!= SBSA fees). Flying activities, including ground handling, are permitted only when at least one instructor from any of the local flight schools is present!
 Tags: SoCal
@@ -669,6 +720,7 @@ Tags: SoCal
 Name: EJ, Santa Barbara
 LaunchGPS: 'upper EJ'=(34.494434, -119.702987, 3800), 'EJ bowl'=(34.4924, -119.702, 3400)
 State: CA
+Country: USA
 Requirements: H3/P3
 OfficialURL: [Santa Barbara Soaring Association](http://sbsa.info/site-guidelines/)
 ParaglidingEarthSite: 14122
@@ -678,6 +730,7 @@ Tags: SoCal
 Name: Skyport, Santa Barbara
 LaunchGPS: (34.480942, -119.684751, 2900)
 State: CA
+Country: USA
 Requirements: H3/P3
 OfficialURL: [Santa Barbara Soaring Association](http://sbsa.info/site-guidelines/)
 ParaglidingEarthSite: 22332
@@ -687,6 +740,7 @@ Tags: SoCal
 Name: Bates Bluff, Carpinteria
 LaunchGPS: 'top'=(34.381738, -119.484446, 150)
 State: CA
+Country: USA
 OfficialURL: [Santa Barbara Soaring Association](http://sbsa.info/site-guidelines/)
 Notes: Paragliding only.
 Tags: SoCal
@@ -695,6 +749,7 @@ Tags: SoCal
 Name: More Mesa, Santa Barbara
 LaunchGPS: (34.417858, -119.789772, 100)
 State: CA
+Country: USA
 OfficialURL: [Santa Barbara Soaring Association](http://sbsa.info/site-guidelines/#moremesa)
 Requirements: H2/P2 (Before flying More Mesa, all pilots must contact a Local Site Guide and ask the guide to call the SBA Tower for permission.)
 Notes: Paragliding only.
@@ -705,6 +760,7 @@ Name: Horse Canyon, San Diego
 LaunchGPS: (32.774686, -116.476652, 4400)
 LZGPS: (32.760514, -116.481065, 3300)
 State: CA
+Country: USA
 OfficialURL: [SDHGPA](https://www.sdhgpa.com/horse.html)
 Requirements: H2/P2
 WeatherLive: https://holfuy.com/en/weather/581, https://www.sdhgpa.com/weather-stations.html
@@ -714,6 +770,7 @@ Tags: SoCal
 
 Name: Stoneman, Pittsburg
 State: CA
+Country: USA
 LaunchGPS: 'East & North'=(38.004762, -121.920061, 400), 'Low launch & top landing'=(38.005637, -121.918625, 330), 'North Ridge'=(37.9958116, -121.9191275, 750), 'Upper East'=(38.006176, -121.927513, 475), 'West Bowl'=(38.004486, -121.920524, 400)
 LZGPS: 'Low launch & top landing'=(38.005637, -121.918625, 330), 'LZ1'=(38.006422, -121.915527, 180), 'LZ'=(38.004021, -121.922992, 300)
 Requirements: Unregulated
@@ -728,9 +785,21 @@ Tags: BayArea
 
 
 
+Name: Valle de Bravo
+State: State of Mexico, Mexico
+Country: Mexico
+LaunchGPS: 'El Penon'=(19.061704, -100.090468, 7700), 'La Torre'=(19.184436, -100.113890, 7200)
+LZGPS: 'Piano LZ/Main'=(19.042247, -100.104522, 5800), 'Penitas'=(19.093295, -100.066730, 7200), 'Cerro Pelon'=(19.036102, -100.133785, 5600), 'Airstrip'=(19.146515, -100.076430, 7200), 'Casas Viejas'=(19.154340, -100.103797, 6800), 'Lakeside LZ'=(19.183228, -100.127772, 5900)
+Requirements: Unregulated.  H3/P3, H2/P2 w/ instructor recommended
+Notes: We typically fly Jan/Feb, gliders rented through Jeff at Fly Mexico
+SeeAlso: [Fly Mexico](https://www.flymexico.com/)
+Tags: Mexico
+
+
 
 Name: Kåseberg
-State: Skåne, Sweden
+State: Skåne
+Country: Sweden
 LaunchGPS: 'Skolbacken'=(55.414489, 13.994585, 30), 'Hammar'=(55.403359, 14.012695, 0), 'Stigs Backe'=(55.392141, 14.033844, 0), 'Alestenar'=(55.383276, 14.052415, 0), 'Kåseberga S'=(55.385700, 14.078761, 0)
 LZGPS: 
 Requirements: 
