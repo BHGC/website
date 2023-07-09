@@ -837,3 +837,17 @@ WeatherLive: [Höganäs](https://holfuy.com/en/weather/128)
 SeeAlso: [DMI wind forecast](https://www.dmi.dk/vind/), [FCOO wind forecast](https://app.fcoo.dk/ifm-maps/#domain=denmark&zoom=9.25&lat=56.117&lon=12.629&layer=fcoo%20standard&overlays=Short%20range%20forecasts.wind%252CShort%20range%20forecasts.windspeed&level=0), [SMHI forecast](https://www.smhi.se/vader/q/Torekov/B%C3%A5stad/2668244), [YR forecast](https://www.yr.no/nb/v%C3%A6rvarsel/daglig-tabell/2-2668244/Sverige/Sk%C3%A5ne/B%C3%A5stads%20Kommun/Torekov)
 OfficialURL: [Club Parapente Syd](https://www.cps.to/)
 Tags: Sweden
+
+
+
+Name: Larödbaden
+State: Skåne
+Country: Sweden
+LaunchGPS: (56.090806, 12.648000, 60)
+LZGPS: 
+Requirements:
+Notes: May work when the ViVa wind direction is SV (222 degrees).
+WeatherLive: [ViVa Station 45](http://vivadisplay.sjofartsverket.se/#/station/45)
+SeeAlso: [DMI wind forecast](https://www.dmi.dk/vind/), [FCOO wind forecast](https://app.fcoo.dk/ifm-maps/#domain=denmark&zoom=9.25&lat=56.117&lon=12.629&layer=fcoo%20standard&overlays=Short%20range%20forecasts.wind%252CShort%20range%20forecasts.windspeed&level=0), [SMHI forecast](https://www.smhi.se/vader/q/Hittarp/Helsingborg/2706324), [YR forecast](https://www.yr.no/nb/v%C3%A6rvarsel/daglig-tabell/2-2706324/Sverige/Sk%C3%A5ne/Helsingborg/Hittarp)
+OfficialURL: [Club Parapente Syd](https://www.cps.to/)
+Tags: Sweden
