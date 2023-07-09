@@ -1,6 +1,6 @@
 <%
 country <- "USA"
-tag <- c("SonoraPass-Mono-Mammoth" = "Sonora Pass-Mono-Mammoth"
+tag <- c("SonoraPass-Mono-Mammoth" = "Sonora Pass-Mono-Mammoth")
 %>
 # Flying Sites - <%= tag %>
 

@@ -4,7 +4,7 @@
 <%
 source("R/bhgc_sites.R")
 tags <- names(tag)
-sites <- read_sites(pageSource = pageSource, tags = tags)
+sites <- read_sites(pageSource = pageSource, country = country, tags = tags)
 R.utils::cstr(sites)
 
 %>

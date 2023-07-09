@@ -1,5 +1,5 @@
 <%
-country <- "Sweden"
+country <- "Mexico"
 tag <- country
 names(tag) <- country
 %>

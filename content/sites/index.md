@@ -1,4 +1,7 @@
-# Flying Sites - All
+<%
+country <- "USA"
+%>
+# Flying Sites - <%= country %>
 
 See also:
 

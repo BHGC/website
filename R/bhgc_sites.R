@@ -344,7 +344,7 @@ webcams.bhgc_site <- function(site, ...) {
 
 
 #' @importFrom R.utils isUrl
-read_sites <- function(pathname = "content/sites/sites.dcf", pageSource = ".", tags = NULL) {
+read_sites <- function(pathname = "content/sites/sites.dcf", pageSource = ".", country = NULL, tags = NULL) {
   isUrl <- R.utils::isUrl
   if (isUrl(pageSource)) {
     url <- file.path(pageSource, pathname)
@@ -385,6 +385,13 @@ read_sites <- function(pathname = "content/sites/sites.dcf", pageSource = ".", t
     structure(site, class = "bhgc_site")
   })
   names(sites) <- rownames(data)
+
+  if (!is.null(country)) {
+    keep <- vapply(sites, FUN = function(site) {
+      all(country %in% site$Country)
+    }, FUN.VALUE = FALSE)
+    sites <- sites[keep]
+  }
 
   if (!is.null(tags)) {
     keep <- vapply(sites, FUN = function(site) {
