@@ -876,3 +876,16 @@ Requirements:
 SeeAlso: [DMI wind forecast](https://www.dmi.dk/vind/), [SMHI forecast](https://www.smhi.se/vader/q/2727132), [YR forecast](https://www.yr.no/nb/v%C3%A6rvarsel/daglig-tabell/2-2727132)
 OfficialURL: [Club Parapente Syd](https://www.cps.to/)
 Tags: Sweden
+
+
+
+Name: Skäret
+State: Skåne
+Country: Sweden
+LaunchGPS: (56.261472, 12.619611, 60), (56.261278, 12.622545, 45)
+LZGPS: (56.261509, 12.622834, 0), (56.260788, 12.630382, 0)
+WeatherLive: [Skäret](https://holfuy.com/en/weather/215)
+Requirements:
+SeeAlso: [DMI wind forecast](https://www.dmi.dk/vind/), [SMHI forecast](https://www.smhi.se/vader/q/2678144), [YR forecast](https://www.yr.no/nb/v%C3%A6rvarsel/daglig-tabell/2-2678144)
+OfficialURL: [Club Parapente Syd](https://www.cps.to/)
+Tags: Sweden
