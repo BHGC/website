@@ -889,3 +889,16 @@ Requirements:
 SeeAlso: [DMI wind forecast](https://www.dmi.dk/vind/), [SMHI forecast](https://www.smhi.se/vader/q/2678144), [YR forecast](https://www.yr.no/nb/v%C3%A6rvarsel/daglig-tabell/2-2678144)
 OfficialURL: [Club Parapente Syd](https://www.cps.to/)
 Tags: Sweden
+
+
+
+Name: Mölle/Kullen
+State: Skåne
+Country: Sweden
+LaunchGPS: (56.292333, 12.469000, 120), (56.292100, 12.485858, 300)
+LZGPS: (56.289433, 12.484943, 0)
+WeatherLive: [Mölle/Kullens Fyr](https://holfuy.com/en/weather/597)
+Requirements:
+SeeAlso: [DMI wind forecast](https://www.dmi.dk/vind/), [SMHI forecast](https://www.smhi.se/vader/q/6690782), [YR forecast](https://www.yr.no/nb/v%C3%A6rvarsel/daglig-tabell/2-6690782)
+OfficialURL: [Club Parapente Syd](https://www.cps.to/)
+Tags: Sweden
