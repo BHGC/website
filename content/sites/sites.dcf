@@ -908,7 +908,7 @@ Tags: Sweden
 Name: Ven
 State: Skåne
 Country: Sweden
-LaunchGPS: SV=(55.896389, 12.695917, 30), "S Fyren"=(55.891336, 12.710069, 60), N=(55.920806, 12.678553, 30)
+LaunchGPS: "SO Fyren"=(55.891336, 12.710069, 60), "V"=(55.915658, 12.667677, 20), "N"=(55.920806, 12.678553, 30)
 LZGPS: 
 WeatherLive: 
 Requirements:
