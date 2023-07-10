@@ -93,9 +93,20 @@ windy_weather_url <- function(gps, zoom=11L) {
   url
 }
 
-weather_url_md <- function(gps, tags = NULL, ...) {
+fcoo_wind_url <- function(gps, zoom = 9.0, level = 0L, country = NULL, ...) {
+  lat <- gps[1]
+  long <- gps[2]
+  if (is.na(lat) || is.na(long)) return("")
+  url <- sprintf("https://app.fcoo.dk/ifm-maps/#domain=denmark&zoom=%.2f&lat=%.3f&lon=%.3f&layer=fcoo%%20standard&overlays=Short%%20range%%20forecasts.wind%%252CShort%%20range%%20forecasts.windspeed&level=%.0f", zoom, lat, long, level = level)
+  names(url) <- "FCOO wind"
+  url
+}
+
+weather_url_md <- function(gps, country = NULL, ...) {
   url <- NULL
-  if (!any(c("mexico", "sweden") %in% tolower(tags))) {
+  if ("sweden" %in% tolower(country)) {
+    url <- c(url, fcoo_wind_url(gps = gps, ...))
+  } else if (!any(c("mexico", "sweden") %in% tolower(country))) {
     url <- c(url, noaa_weather_url(gps = gps, ...))
   }
   url <- c(url, windy_weather_url(gps = gps, ...))
