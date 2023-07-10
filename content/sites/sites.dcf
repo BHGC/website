@@ -797,7 +797,7 @@ Tags: Mexico
 
 
 
-Name: Kåseberg
+Name: Kåseberga
 State: Skåne
 Country: Sweden
 LaunchGPS: 'Skolbacken'=(55.414489, 13.994585, 90), 'Hammar'=(55.403359, 14.012695, 120), 'Stigs Backe'=(55.392141, 14.033844, 30), 'Alestenar'=(55.383276, 14.052415, 75), 'Kåseberga S'=(55.385700, 14.078761, 60)
@@ -908,7 +908,7 @@ Tags: Sweden
 Name: Ven
 State: Skåne
 Country: Sweden
-LaunchGPS: SV=(55.896389, 12.695917, 30), "S (Fyren)"=(55.891336, 12.710069, 60), N=(55.920806, 12.678553, 30)
+LaunchGPS: SV=(55.896389, 12.695917, 30), "S Fyren"=(55.891336, 12.710069, 60), N=(55.920806, 12.678553, 30)
 LZGPS: 
 WeatherLive: 
 Requirements:
