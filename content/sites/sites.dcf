@@ -807,7 +807,7 @@ WeatherLive: [Hammar](https://holfuy.com/en/weather/214), [Kåseberga S](https:/
 Webcams: 'Hammar'="https://holfuy.com/en/weather/214"
 Notes: You can basically land everywhere along the ridges, e.g. top land or on the beach. The 'Stigs Backe' ("Stig's Hill") launch is beginner friendly and easier to launch in stronger winds since you can launch below the ridge. 'Skolbacken' ("The School Hill") is a good open when it's very windy.
 SeeAlso: [DMI wind forecast](https://www.dmi.dk/vind/), [SMHI forecast](https://www.smhi.se/vader/q/2701344), [YR forecast](https://www.yr.no/nb/v%C3%A6rvarsel/graf/2-2708172)
-OfficialURL: [Club Parapente Syd](https://www.cps.to/)
+OfficialURL: [CPS Hammar](https://www.cps.to/flygstallen/sv-hammar/), [CPS Alestenar](https://www.cps.to/flygstallen/sv-alestenar/)
 Tags: Sweden
 
 
@@ -822,7 +822,7 @@ WeatherLive: [Hovs Hallar](https://holfuy.com/en/weather/127)
 Webcams: 'Parking lot'="https://www.youtube.com/watch?v=rNNWDOJIVRU"
 Notes: 
 SeeAlso: [DMI wind forecast](https://www.dmi.dk/vind/), [SMHI forecast](https://www.smhi.se/vader/q/2687731), [YR forecast](https://www.yr.no/nb/v%C3%A6rvarsel/daglig-tabell/2-2706003), [RASP thermals](https://rasp.skyltdirect.se/scandinavia/?conf=sesouth&wind=sw), [RASP sounding](https://rasp.skyltdirect.se/scandinavia/showmap.php?fn=sounding5.curr)
-OfficialURL: [Club Parapente Syd](https://www.cps.to/)
+OfficialURL: [CPS](https://www.cps.to/flygstallen/n-hovshallar/)
 Tags: Sweden
 
 
@@ -835,7 +835,7 @@ LZGPS:
 Requirements: 
 WeatherLive: [Höganäs](https://holfuy.com/en/weather/128)
 SeeAlso: [DMI wind forecast](https://www.dmi.dk/vind/), [SMHI forecast](https://www.smhi.se/vader/q/2668244), [YR forecast](https://www.yr.no/nb/v%C3%A6rvarsel/daglig-tabell/2-2668244)
-OfficialURL: [Club Parapente Syd](https://www.cps.to/)
+OfficialURL: [CPS](https://www.cps.to/flygstallen/vnv-hoganas/)
 Tags: Sweden
 
 
@@ -849,7 +849,7 @@ Requirements:
 Notes: May work when the ViVa wind direction is SV (222 degrees).
 WeatherLive: [ViVa Station 45](http://vivadisplay.sjofartsverket.se/#/station/45)
 SeeAlso: [DMI wind forecast](https://www.dmi.dk/vind/), [SMHI forecast](https://www.smhi.se/vader/q/2706324), [YR forecast](https://www.yr.no/nb/v%C3%A6rvarsel/daglig-tabell/2-2706324)
-OfficialURL: [Club Parapente Syd](https://www.cps.to/)
+OfficialURL: [CPS](https://www.cps.to/flygstallen/sv-larod/)
 Tags: Sweden
 
 
@@ -861,7 +861,7 @@ LZGPS:
 WeatherLive: [Ravlunda](https://holfuy.com/en/weather/126)
 Requirements:
 SeeAlso: [DMI wind forecast](https://www.dmi.dk/vind/), [SMHI forecast](https://www.smhi.se/vader/q/2682907), [YR forecast](https://www.yr.no/nb/v%C3%A6rvarsel/daglig-tabell/2-2682907)
-OfficialURL: [Club Parapente Syd](https://www.cps.to/)
+OfficialURL: [CPS](https://www.cps.to/)
 Tags: Sweden
 
 
@@ -874,7 +874,7 @@ LZGPS:
 WeatherLive: [Ålabodarna](https://holfuy.com/en/weather/216)
 Requirements:
 SeeAlso: [DMI wind forecast](https://www.dmi.dk/vind/), [SMHI forecast](https://www.smhi.se/vader/q/2727132), [YR forecast](https://www.yr.no/nb/v%C3%A6rvarsel/daglig-tabell/2-2727132)
-OfficialURL: [Club Parapente Syd](https://www.cps.to/)
+OfficialURL: [CPS](https://www.cps.to/flygstallen/v-sv-alabodarna/)
 Tags: Sweden
 
 
@@ -887,7 +887,7 @@ LZGPS: "Hamnen"=(56.263229, 12.616217, 0), (56.261509, 12.622834, 0), (56.260788
 WeatherLive: [Skäret](https://holfuy.com/en/weather/215)
 Requirements:
 SeeAlso: [DMI wind forecast](https://www.dmi.dk/vind/), [SMHI forecast](https://www.smhi.se/vader/q/2678144), [YR forecast](https://www.yr.no/nb/v%C3%A6rvarsel/daglig-tabell/2-2678144)
-OfficialURL: [Club Parapente Syd](https://www.cps.to/)
+OfficialURL: [CPS](https://www.cps.to/)
 Tags: Sweden
 
 
@@ -895,10 +895,10 @@ Tags: Sweden
 Name: Mölle/Kullen
 State: Skåne
 Country: Sweden
-LaunchGPS: (56.292333, 12.469000, 120), (56.292100, 12.485858, 300)
+LaunchGPS: (56.292333, 12.469000, 120), "Barakullen"=(56.292100, 12.485858, 300)
 LZGPS: (56.289433, 12.484943, 0)
 WeatherLive: [Mölle/Kullens Fyr](https://holfuy.com/en/weather/597)
 Requirements:
 SeeAlso: [DMI wind forecast](https://www.dmi.dk/vind/), [SMHI forecast](https://www.smhi.se/vader/q/6690782), [YR forecast](https://www.yr.no/nb/v%C3%A6rvarsel/daglig-tabell/2-6690782)
-OfficialURL: [Club Parapente Syd](https://www.cps.to/)
+OfficialURL: [CPS](https://www.cps.to/flygstallen/172-2/)
 Tags: Sweden
