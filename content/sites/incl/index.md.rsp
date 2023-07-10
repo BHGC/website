@@ -23,7 +23,7 @@ R.utils::cstr(sites)
 
 * Launch: <%= launch_map(site) %>
 * LZ: <%= lz_map(site) %>
-* Weather at launch: <%= weather(site, country = country) %>
+* Weather at launch: <%= weather(site) %>
 * Live weather: <%= live_weather(site) %>
 * Webcams: <%= webcams(site) %>
 * Soundings: <%= soundings(site) %>

@@ -119,7 +119,7 @@ weather <- function(...) UseMethod("weather")
 weather.bhgc_site <- function(site, ...) {
   gps <- site$LaunchGPS
   gps <- gps[[1]]
-  gps_md(gps = gps, url_md = weather_url_md, ...)
+  gps_md(gps = gps, url_md = weather_url_md, country = site$Country, ...)
 }
 
 windy_weather <- function(gps, ...) {
