@@ -954,3 +954,16 @@ Requirements:
 SeeAlso: [DMI wind forecast](https://www.dmi.dk/vind/), [SMHI forecast](https://www.smhi.se/vader/q/3331452), [YR forecast](https://www.yr.no/nb/v%C3%A6rvarsel/daglig-tabell/2-3331452)
 OfficialURL: [CPS](https://www.cps.to/flygstallen/vsv-rustningshamn/)
 Tags: Sweden
+
+
+
+Name: Lernacken
+State: Skåne
+Country: Sweden
+LaunchGPS: V=(55.563629, 12.902910, 60)
+LZGPS: 
+WeatherLive: 
+Requirements:
+SeeAlso: [DMI wind forecast](https://www.dmi.dk/vind/), [SMHI forecast](https://www.smhi.se/vader/q/2718759), [YR forecast](https://www.yr.no/nb/v%C3%A6rvarsel/daglig-tabell/2-2718759)
+OfficialURL: [CPS](https://www.cps.to/flygstallen/s-lernacken/)
+Tags: Sweden
