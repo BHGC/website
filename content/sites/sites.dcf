@@ -952,4 +952,5 @@ LZGPS: Parkeringen=(55.933862, 12.786981, 0)
 WeatherLive: 
 Requirements:
 SeeAlso: [DMI wind forecast](https://www.dmi.dk/vind/), [SMHI forecast](https://www.smhi.se/vader/q/3331452), [YR forecast](https://www.yr.no/nb/v%C3%A6rvarsel/daglig-tabell/2-3331452)
+OfficialURL: [CPS](https://www.cps.to/flygstallen/vsv-rustningshamn/)
 Tags: Sweden
