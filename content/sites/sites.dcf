@@ -915,3 +915,16 @@ Requirements:
 SeeAlso: [DMI wind forecast](https://www.dmi.dk/vind/), [SMHI forecast](https://www.smhi.se/vader/q/2663383), [YR forecast](https://www.yr.no/nb/v%C3%A6rvarsel/daglig-tabell/2-2663383)
 OfficialURL: [CPS V](https://www.cps.to/flygstallen/v-ven/), [CPS SV](https://www.cps.to/flygstallen/sv-ven/), [CPS SO](https://www.cps.to/flygstallen/so-ven/), [CPS N](https://www.cps.to/flygstallen/n-ven/)
 Tags: Sweden
+
+
+
+
+Name: Båstad
+State: Skåne
+Country: Sweden
+LaunchGPS: (56.438581, 12.809176, 270)
+LZGPS: (56.441030, 12.817163, 40)
+WeatherLive: 
+Requirements:
+SeeAlso: [DMI wind forecast](https://www.dmi.dk/vind/), [SMHI forecast](https://www.smhi.se/vader/q/2723287), [YR forecast](https://www.yr.no/nb/v%C3%A6rvarsel/daglig-tabell/2-2723287)
+Tags: Sweden
