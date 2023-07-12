@@ -940,3 +940,16 @@ WeatherLive:
 Requirements:
 SeeAlso: [DMI wind forecast](https://www.dmi.dk/vind/), [SMHI forecast](https://www.smhi.se/vader/q/2725901), [YR forecast](https://www.yr.no/nb/v%C3%A6rvarsel/daglig-tabell/2-2725901)
 Tags: Sweden
+
+
+
+
+Name: Rustningshamn, Sundvik
+State: Skåne
+Country: Sweden
+LaunchGPS: V=(55.928178, 12.792811, 75)
+LZGPS: Parkeringen=(55.933862, 12.786981, 0)
+WeatherLive: 
+Requirements:
+SeeAlso: [DMI wind forecast](https://www.dmi.dk/vind/), [SMHI forecast](https://www.smhi.se/vader/q/3331452), [YR forecast](https://www.yr.no/nb/v%C3%A6rvarsel/daglig-tabell/2-3331452)
+Tags: Sweden
