@@ -928,3 +928,15 @@ WeatherLive:
 Requirements:
 SeeAlso: [DMI wind forecast](https://www.dmi.dk/vind/), [SMHI forecast](https://www.smhi.se/vader/q/2723287), [YR forecast](https://www.yr.no/nb/v%C3%A6rvarsel/daglig-tabell/2-2723287)
 Tags: Sweden
+
+
+
+Name: Klitterhus, Ängelholm
+State: Skåne
+Country: Sweden
+LaunchGPS: (56.261264, 12.834151, 10)
+LZGPS: 
+WeatherLive: 
+Requirements:
+SeeAlso: [DMI wind forecast](https://www.dmi.dk/vind/), [SMHI forecast](https://www.smhi.se/vader/q/2725901), [YR forecast](https://www.yr.no/nb/v%C3%A6rvarsel/daglig-tabell/2-2725901)
+Tags: Sweden
