@@ -803,8 +803,8 @@ Country: Sweden
 LaunchGPS: 'Skolbacken'=(55.414489, 13.994585, 90), 'Hammar'=(55.403359, 14.012695, 120), 'Stigs Backe'=(55.392141, 14.033844, 30), 'Alestenar'=(55.383276, 14.052415, 75), 'Kåseberga S'=(55.385700, 14.078761, 60)
 LZGPS: 
 Requirements: 
-WeatherLive: [Hammar](https://holfuy.com/en/weather/214), [Kåseberga S](https://holfuy.com/en/weather/155)
-Webcams: 'Hammar'="https://holfuy.com/en/weather/214"
+WeatherLive: [Hammar/Stigs Backe](https://holfuy.com/en/weather/214), [Kåseberga S](https://holfuy.com/en/weather/155)
+Webcams: 'Hammar/Stigs Backe'="https://holfuy.com/en/camera/214"
 Notes: You can basically land everywhere along the ridges, e.g. top land or on the beach. The 'Stigs Backe' ("Stig's Hill") launch is beginner friendly and easier to launch in stronger winds since you can launch below the ridge. 'Skolbacken' ("The School Hill") is a good open when it's very windy.
 SeeAlso: [DMI wind forecast](https://www.dmi.dk/vind/), [SMHI forecast](https://www.smhi.se/vader/q/2701344), [YR forecast](https://www.yr.no/nb/v%C3%A6rvarsel/graf/2-2708172)
 OfficialURL: [CPS Hammar](https://www.cps.to/flygstallen/sv-hammar/), [CPS Alestenar](https://www.cps.to/flygstallen/sv-alestenar/)
