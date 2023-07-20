@@ -106,7 +106,7 @@ weather_url_md <- function(gps, country = NULL, ...) {
   url <- NULL
   if ("sweden" %in% tolower(country)) {
     url <- c(url, fcoo_wind_url(gps = gps, ...))
-  } else if (!any(c("mexico", "sweden") %in% tolower(country))) {
+  } else if ("usa" %in% tolower(country)) {
     url <- c(url, noaa_weather_url(gps = gps, ...))
   }
   url <- c(url, windy_weather_url(gps = gps, ...))

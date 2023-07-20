@@ -967,3 +967,19 @@ Requirements:
 SeeAlso: [DMI wind forecast](https://www.dmi.dk/vind/), [SMHI forecast](https://www.smhi.se/vader/q/2718759), [YR forecast](https://www.yr.no/nb/v%C3%A6rvarsel/daglig-tabell/2-2718759)
 OfficialURL: [CPS](https://www.cps.to/flygstallen/s-lernacken/)
 Tags: Sweden
+
+
+
+
+Name: Kandel, Freiburg
+State: Südschwarzwald
+Country: Germany
+LaunchGPS: 'Kandel Syd'=(48.05863, 8.01588, 3900), 'Kandel West'=(48.06529, 8.01542, 3900)
+LZGPS: 'Heimeck'=(48.09647300000003, 7.986975000, 1200), 'Glottertal'=(48.045767, 7.972429, 1200), 'Camping-Elztalblick'=(48.102559, 7.991132, 1150)
+WeatherLive: [Kandel Sud](https://holfuy.com/de/weather/423), [Kandel West](https://holfuy.com/de/weather/489)
+Webcams: 'multiple'="https://www.dgfc-suedschwarzwald.de/meteo/webcams/"
+Requirements: IPPI-5
+Notes: 5 EUR/day, [Guest Check-in](https://dgfc-suedschwarzwald.clubdesk.com/gaestestartliste)
+SeeAlso: [Meteoblue](https://www.meteoblue.com/de/wetter/woche/kandel_deutschland_2893245?day=2), [DTN](https://wetterstationen.meteomedia.de/station=109080&wahl=vorhersage), [Facebook Group](https://www.facebook.com/groups/degefze)
+OfficialURL: [DGFC Südschwarzwald](https://www.dgfc-suedschwarzwald.de/home/)
+Tags: Germany
