@@ -972,14 +972,241 @@ Tags: Sweden
 
 
 Name: Kandel, Freiburg
-State: Südschwarzwald
+State: Südschwarzwald, Black Forest
 Country: Germany
 LaunchGPS: 'Kandel Syd'=(48.05863, 8.01588, 3900), 'Kandel West'=(48.06529, 8.01542, 3900)
-LZGPS: 'Heimeck'=(48.09647300000003, 7.986975000, 1200), 'Glottertal'=(48.045767, 7.972429, 1200), 'Camping-Elztalblick'=(48.102559, 7.991132, 1150)
+LZGPS: 'Glottertal'=(48.045767, 7.972429, 1200), 'Heimeck'=(48.09647300000003, 7.986975000, 1200), 'Camping-Elztalblick'=(48.102559, 7.991132, 1150)
 WeatherLive: [Kandel Sud](https://holfuy.com/de/weather/423), [Kandel West](https://holfuy.com/de/weather/489)
 Webcams: 'multiple'="https://www.dgfc-suedschwarzwald.de/meteo/webcams/"
 Requirements: IPPI-5
-Notes: 5 EUR/day, [Guest Check-in](https://dgfc-suedschwarzwald.clubdesk.com/gaestestartliste)
+Notes: 5 EUR/day, [Guest Check-in](https://dgfc-suedschwarzwald.clubdesk.com/gaestestartliste), 2023-07-21: Tandem pilots landed at Gottertal.
 SeeAlso: [Meteoblue](https://www.meteoblue.com/de/wetter/woche/kandel_deutschland_2893245?day=2), [DTN](https://wetterstationen.meteomedia.de/station=109080&wahl=vorhersage), [Facebook Group](https://www.facebook.com/groups/degefze)
 OfficialURL: [DGFC Südschwarzwald](https://www.dgfc-suedschwarzwald.de/home/)
+Tags: Germany
+
+
+
+Name: Oberstdorf
+State: 
+Country: Germany
+LaunchGPS: 'NA'=(47.2845783, 9.64884, 0)
+LZGPS: 
+WeatherLive: 
+Webcams: 
+Requirements: 
+Notes: 
+SeeAlso: 
+OfficialURL:
+Tags: Germany
+
+
+Name: Nebelhorn
+State: 
+Country: Germany
+LaunchGPS: 'NA'=(47.4218351, 10.3319404, 0)
+LZGPS: 
+WeatherLive: 
+Webcams: 
+Requirements: 
+Notes: 
+SeeAlso: 
+OfficialURL:
+Tags: Germany
+
+
+
+Name: Hörnerbahn
+State: 
+Country: Germany
+LaunchGPS: 'NA'=(47.4629953, 10.225159, 0)
+LZGPS: 
+WeatherLive: 
+Webcams: 
+Requirements: 
+Notes: 
+SeeAlso: 
+OfficialURL:
+Tags: Germany
+
+
+
+Name: Saint-Hilaire-du-Touvet
+State: 
+Country: Germany
+LaunchGPS: 'NA'=(45.268218, 5.8412771, 0)
+LZGPS: 
+WeatherLive: 
+Webcams: 
+Requirements: 
+Notes: 
+SeeAlso: 
+OfficialURL: 
+Tags: Germany
+
+
+
+Name: Annecy
+State: 
+Country: Germany
+LaunchGPS: 'NA'=(45.8898726, 6.0873035, 0)
+LZGPS: 
+WeatherLive: 
+Webcams: 
+Requirements: 
+Notes: 
+SeeAlso: 
+OfficialURL:
+Tags: Germany
+
+
+
+
+Name: Passy
+State: 
+Country: Germany
+LaunchGPS: 'NA'=(45.957482,6.4388711, 0)
+LZGPS: 
+WeatherLive: 
+Webcams: 
+Requirements: 
+Notes: 
+SeeAlso: 
+OfficialURL:
+Tags: Germany
+
+
+
+
+Name: Kössen
+State: 
+Country: Germany
+LaunchGPS: 'NA'=(47.6686797, 12.393844, 0)
+LZGPS: 
+WeatherLive: 
+Webcams: 
+Requirements: 
+Notes: 
+SeeAlso: 
+OfficialURL:
+Tags: Germany
+
+
+
+Name: Zell am Zee
+State: 
+Country: Germany
+LaunchGPS: 'Smittenhöhe'=(47.3262919,12.7673421, 0)
+LZGPS: 
+WeatherLive: 
+Webcams: 
+Requirements: 
+Notes: 
+SeeAlso: 
+OfficialURL:
+Tags: Germany
+
+
+
+Name: Greifenburg
+State: 
+Country: Germany
+LaunchGPS: 'NA'=(46.7641004, 13.093334, 0)
+LZGPS: 
+WeatherLive: 
+Webcams: 
+Requirements: 
+Notes: 
+SeeAlso: 
+OfficialURL:
+Tags: Germany
+
+
+
+
+Name: Kampenwand
+State: 
+Country: Germany
+LaunchGPS: 'NA'=(47.75611, 12.3563672, 0)
+LZGPS: 
+WeatherLive: 
+Webcams: 
+Requirements: 
+Notes: 
+SeeAlso: 
+OfficialURL:
+Tags: Germany
+
+
+
+Name: Hochries
+State: 
+Country: Germany
+LaunchGPS: 'NA'=(47.7502768, 12.2369225, 0)
+LZGPS: 
+WeatherLive: 
+Webcams: 
+Requirements: 
+Notes: 
+SeeAlso: 
+OfficialURL:
+Tags: Germany
+
+
+
+Name: Wallberg
+State: 
+Country: Germany
+LaunchGPS: 'NA'=(47.665875, 11.7867127, 0)
+LZGPS: 
+WeatherLive: 
+Webcams: 
+Requirements: 
+Notes: 
+SeeAlso: 
+OfficialURL:
+Tags: Germany
+
+
+
+Name: Kreuzjoch, Stubai
+State: 
+Country: Germany
+LaunchGPS: 'NA'=(47.249999, 11.973033, 0)
+LZGPS: 
+WeatherLive: 
+Webcams: 
+Requirements: 
+Notes: 
+SeeAlso: 
+OfficialURL:
+Tags: Germany
+
+
+
+Name: Elfer, Stubai
+State: 
+Country: Germany
+LaunchGPS: 'Elferspitze'=(47.0754551,11.3174189, 0)
+LZGPS: 
+WeatherLive: 
+Webcams: 
+Requirements: 
+Notes: 
+SeeAlso: 
+OfficialURL:
+Tags: Germany
+
+
+
+Name: Garmisch-Partenkirchen
+State: 
+Country: Germany
+LaunchGPS: 'Elferspitze'=(47.4710288, 10.881411, 0)
+LZGPS: 
+WeatherLive: 
+Webcams: 
+Requirements: 
+Notes: 
+SeeAlso: 
+OfficialURL:
 Tags: Germany
