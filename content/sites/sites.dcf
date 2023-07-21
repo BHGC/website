@@ -980,7 +980,7 @@ WeatherLive: [Kandel Sud](https://holfuy.com/de/weather/423), [Kandel West](http
 Webcams: 'multiple'="https://www.dgfc-suedschwarzwald.de/meteo/webcams/"
 Requirements: IPPI-5
 Notes: 5 EUR/day, [Guest Check-in](https://dgfc-suedschwarzwald.clubdesk.com/gaestestartliste), 2023-07-21: Tandem pilots landed at Gottertal.
-SeeAlso: [Meteoblue](https://www.meteoblue.com/de/wetter/woche/kandel_deutschland_2893245?day=2), [DTN](https://wetterstationen.meteomedia.de/station=109080&wahl=vorhersage), [Facebook Group](https://www.facebook.com/groups/degefze)
+SeeAlso: [Meteoblue](https://www.meteoblue.com/en/weather/week/2893245), [DTN](https://wetterstationen.meteomedia.de/station=109080&wahl=vorhersage), [Facebook Group](https://www.facebook.com/groups/degefze)
 OfficialURL: [DGFC Südschwarzwald](https://www.dgfc-suedschwarzwald.de/home/)
 Tags: Germany
 
@@ -1030,7 +1030,7 @@ Tags: Germany
 
 
 
-Name: Saint-Hilaire-du-Touvet
+Name: Saint-Hilaire-du-Touvet, France
 State: 
 Country: Germany
 LaunchGPS: 'NA'=(45.268218, 5.8412771, 0)
@@ -1038,14 +1038,14 @@ LZGPS:
 WeatherLive: 
 Webcams: 
 Requirements: 
-Notes: 
+Notes: [Meteoblue](https://www.meteoblue.com/en/weather/week/2979574)
 SeeAlso: 
 OfficialURL: 
 Tags: Germany
 
 
 
-Name: Annecy
+Name: Annecy, France
 State: 
 Country: Germany
 LaunchGPS: 'NA'=(45.8898726, 6.0873035, 0)
@@ -1053,7 +1053,7 @@ LZGPS:
 WeatherLive: 
 Webcams: 
 Requirements: 
-Notes: 
+Notes: [Meteoblue](https://www.meteoblue.com/en/weather/week/3037543)
 SeeAlso: 
 OfficialURL:
 Tags: Germany
@@ -1061,15 +1061,15 @@ Tags: Germany
 
 
 
-Name: Passy
+Name: Passy, France
 State: 
 Country: Germany
-LaunchGPS: 'NA'=(45.957482,6.4388711, 0)
-LZGPS: 
+LaunchGPS: 'NA'=(45.957482, 6.4388711, 0)
+LZGPS: (45.9280549, 6.7246991, 1800)
 WeatherLive: 
 Webcams: 
 Requirements: 
-Notes: 
+Notes: [meteoblue](https://www.meteoblue.com/en/weather/week/2988393)
 SeeAlso: 
 OfficialURL:
 Tags: Germany
@@ -1077,7 +1077,7 @@ Tags: Germany
 
 
 
-Name: Kössen
+Name: Kössen, Austria
 State: 
 Country: Germany
 LaunchGPS: 'NA'=(47.6686797, 12.393844, 0)
@@ -1092,7 +1092,7 @@ Tags: Germany
 
 
 
-Name: Zell am Zee
+Name: Zell am Zee, Austria
 State: 
 Country: Germany
 LaunchGPS: 'Smittenhöhe'=(47.3262919,12.7673421, 0)
@@ -1107,7 +1107,7 @@ Tags: Germany
 
 
 
-Name: Greifenburg
+Name: Greifenburg, Austria
 State: 
 Country: Germany
 LaunchGPS: 'NA'=(46.7641004, 13.093334, 0)
@@ -1198,7 +1198,7 @@ Tags: Germany
 
 
 
-Name: Garmisch-Partenkirchen
+Name: Garmisch-Partenkirchen, Germany
 State: 
 Country: Germany
 LaunchGPS: 'Elferspitze'=(47.4710288, 10.881411, 0)
@@ -1210,3 +1210,22 @@ Notes:
 SeeAlso: 
 OfficialURL:
 Tags: Germany
+
+
+
+
+Name: Lago Maggiore, Italy
+State: 
+Country: Germany
+LaunchGPS: 'NA'=(45.9497052,8.049482, 0)
+LZGPS: 
+WeatherLive: 
+Webcams: 
+Requirements: 
+Notes: 
+SeeAlso: 
+OfficialURL:
+Tags: Germany
+
+
+

@@ -42,6 +42,10 @@ all: sites build
 build:
 	$(R_SCRIPT) "R/build"
 
+europe:
+	touch content/sites/germany/index.md
+	make build
+
 sites: html/sites/index.html
 
 html/sites/index.html: content/sites/sites.dcf content/sites/index.md content/sites/*/index.md content/sites/incl/index.md.rsp R/bhgc_sites.R
