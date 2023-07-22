@@ -16,7 +16,7 @@ See also:
 * [Flying Sites - Southern California](<%=pathToRoot%>sites/socal/index.html)
 * [Flying Sites - Mexico](<%=pathToRoot%>sites/mexico/index.html)
 * [Flying Sites - Sweden](<%=pathToRoot%>sites/sweden/index.html)
-* [Flying Sites - Germany](<%=pathToRoot%>sites/germany/index.html)
+* [Flying Sites - The Alps](<%=pathToRoot%>sites/alps/index.html)
 
 
 <%-- ALERT (CALL FOR HELP) --%>
