@@ -1,8 +1,8 @@
 <%
-country <- "Germany"
-tag <- country
-names(tag) <- country
+country <- NULL
+tag <- "Alps"
+names(tag) <- "Alps"
 %>
-# Flying Sites - <%= tag %>, France, Switzerland, Austria
+# Flying Sites - <%= tag %>
 
 <%@include file="content/sites/incl/index.md.rsp"%>

@@ -982,7 +982,7 @@ Requirements: IPPI-5
 Notes: 5 EUR/day, [Guest Check-in](https://dgfc-suedschwarzwald.clubdesk.com/gaestestartliste), 2023-07-21: Tandem pilots landed at Gottertal.
 SeeAlso: [Meteoblue](https://www.meteoblue.com/en/weather/week/2893245), [DTN](https://wetterstationen.meteomedia.de/station=109080&wahl=vorhersage), [Facebook Group](https://www.facebook.com/groups/degefze)
 OfficialURL: [DGFC Südschwarzwald](https://www.dgfc-suedschwarzwald.de/home/)
-Tags: Germany
+Tags: Alps
 
 
 
@@ -997,7 +997,7 @@ Requirements:
 Notes: 
 SeeAlso: 
 OfficialURL:
-Tags: Germany
+Tags: Alps
 
 
 Name: Nebelhorn
@@ -1011,7 +1011,7 @@ Requirements:
 Notes: 
 SeeAlso: 
 OfficialURL:
-Tags: Germany
+Tags: Alps
 
 
 
@@ -1026,7 +1026,7 @@ Requirements:
 Notes: 
 SeeAlso: 
 OfficialURL:
-Tags: Germany
+Tags: Alps
 
 
 
@@ -1041,7 +1041,7 @@ Requirements:
 Notes: [Meteoblue](https://www.meteoblue.com/en/weather/week/2979574)
 SeeAlso: 
 OfficialURL: 
-Tags: Germany
+Tags: Alps
 
 
 
@@ -1056,7 +1056,7 @@ Requirements:
 Notes: [Meteoblue](https://www.meteoblue.com/en/weather/week/3037543)
 SeeAlso: 
 OfficialURL:
-Tags: Germany
+Tags: Alps
 
 
 
@@ -1069,26 +1069,27 @@ LZGPS: (45.9280549, 6.7246991, 1800)
 WeatherLive: 
 Webcams: 
 Requirements: 
-Notes: [meteoblue](https://www.meteoblue.com/en/weather/week/2988393)
+Notes: [Meteoblue](https://www.meteoblue.com/en/weather/week/2988393)
 SeeAlso: 
 OfficialURL:
-Tags: Germany
-
+Tags: Alps
 
 
 
 Name: Kössen, Austria
 State: 
-Country: Germany
-LaunchGPS: 'NA'=(47.6686797, 12.393844, 0)
-LZGPS: 
+Country: Austria
+LaunchGPS: 'Unterberghorn #2'=(47.6317738699439, 12.431759551187062, 4500)
+LZGPS: 'next to lift'=(47.65344964330961, 12.422582116322344, 1800), 'Flight Bar'=(47.65658119940837, 12.420321245484233, 1800)
 WeatherLive: 
-Webcams: 
-Requirements: 
-Notes: 
-SeeAlso: 
+Webcams: 'Unterberghorn'="https://webtv.feratel.com/webtv/?cam=5610", 'launch peak'="https://webtv.feratel.com/webtv/?cam=5613", 'LZ'="https://webtv.feratel.com/webtv/?cam=5611"
+ParaglidingEarthSite: 22503
+ParaglidingMap: 166087
+Requirements:
+Notes: Lift tickets are sold at the Flight Bar, but you can only get [the cheapter multi-day tickets from the ticket office](https://skisport.com/Hochkoessen/en/Tickets-and-Passes/Summer-Lift-Tickets). A five-ride, multi-year clip card costs the same as a three-day ticket, but you can then refill for 5 EUR/ride. Paraglider pilots ride down for free with the lift if they don't feel safe to fly.
+SeeAlso: [ParaglidingMap](https://www.paraglidingmap.com/app/site/166087) 
 OfficialURL:
-Tags: Germany
+Tags: Alps
 
 
 
@@ -1103,7 +1104,7 @@ Requirements:
 Notes: 
 SeeAlso: 
 OfficialURL:
-Tags: Germany
+Tags: Alps
 
 
 
@@ -1118,7 +1119,7 @@ Requirements:
 Notes: 
 SeeAlso: 
 OfficialURL:
-Tags: Germany
+Tags: Alps
 
 
 
@@ -1134,7 +1135,7 @@ Requirements:
 Notes: 
 SeeAlso: 
 OfficialURL:
-Tags: Germany
+Tags: Alps
 
 
 
@@ -1149,7 +1150,7 @@ Requirements:
 Notes: 
 SeeAlso: 
 OfficialURL:
-Tags: Germany
+Tags: Alps
 
 
 
@@ -1164,7 +1165,7 @@ Requirements:
 Notes: 
 SeeAlso: 
 OfficialURL:
-Tags: Germany
+Tags: Alps
 
 
 
@@ -1179,7 +1180,7 @@ Requirements:
 Notes: 
 SeeAlso: 
 OfficialURL:
-Tags: Germany
+Tags: Alps
 
 
 
@@ -1194,7 +1195,7 @@ Requirements:
 Notes: 
 SeeAlso: 
 OfficialURL:
-Tags: Germany
+Tags: Alps
 
 
 
@@ -1206,10 +1207,10 @@ LZGPS:
 WeatherLive: 
 Webcams: 
 Requirements: 
-Notes: 
+Notes: [meteoblue](https://www.meteoblue.com/en/weather/week/2922530)
 SeeAlso: 
 OfficialURL:
-Tags: Germany
+Tags: Alps
 
 
 
@@ -1225,7 +1226,19 @@ Requirements:
 Notes: 
 SeeAlso: 
 OfficialURL:
-Tags: Germany
+Tags: Alps
 
 
 
+Name: Fiesch, Switzerland
+State: 
+Country: Germany
+LaunchGPS: 'NA'=(46.4109111, 8.0948466, 0)
+LZGPS: 
+WeatherLive: 
+Webcams: 
+Requirements: 
+Notes: [Meteoblue](https://www.meteoblue.com/en/weather/week/2660781)
+SeeAlso: 
+OfficialURL:
+Tags: Alps
