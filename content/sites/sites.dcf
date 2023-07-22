@@ -1142,14 +1142,14 @@ Tags: Alps
 Name: Hochries
 State: 
 Country: Germany
-LaunchGPS: 'NA'=(47.7502768, 12.2369225, 0)
-LZGPS: 
+LaunchGPS: 'NA'=(47.74719957811533, 12.248415253148805, 4700)
+LZGPS: 'NA'=(47.77064514,12.2310452, 2000)
 WeatherLive: 
 Webcams: 
 Requirements: 
-Notes: 
+Notes: [Lift tickets](https://www.hochriesbahn.de/preise-oeffnungszeiten)
 SeeAlso: 
-OfficialURL:
+OfficialURL: https://www.gsc-hochries.de/
 Tags: Alps
 
 
