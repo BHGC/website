@@ -1093,11 +1093,12 @@ Tags: Alps
 
 
 
-Name: Zell am Zee, Austria
+Name: Zell am See
 State: 
-Country: Germany
-LaunchGPS: 'Smittenhöhe'=(47.3262919,12.7673421, 0)
-LZGPS: 
+Country: Austria
+LaunchGPS: 'Smittenhöhe'=(47.3302729885926, 12.735570850628456, 5700)
+LZGPS: (47.2874, 12.7461, 2300)
+ParaglidingEarthSite: 13304
 WeatherLive: 
 Webcams: 
 Requirements: 
