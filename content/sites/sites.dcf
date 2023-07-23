@@ -1045,11 +1045,11 @@ Tags: Alps
 
 
 
-Name: Annecy, France
+Name: Annecy
 State: 
-Country: Germany
+Country: France
 LaunchGPS: 'NA'=(45.8898726, 6.0873035, 0)
-LZGPS: 
+LZGPS: 'Airstrip'=(45.7816276, 6.2226223, 1400)
 WeatherLive: 
 Webcams: 
 Requirements: 
