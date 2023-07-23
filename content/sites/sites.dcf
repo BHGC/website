@@ -1080,13 +1080,13 @@ Name: Kössen, Austria
 State: 
 Country: Austria
 LaunchGPS: 'Unterberghorn #2'=(47.6317738699439, 12.431759551187062, 4500)
-LZGPS: 'next to lift'=(47.65344964330961, 12.422582116322344, 1800), 'Flight Bar'=(47.65658119940837, 12.420321245484233, 1800)
+LZGPS: 'next to lift'=(47.65344964330961, 12.422582116322344, 1800), 'Flight Bar (fee)'=(47.65658119940837, 12.420321245484233, 1800)
 WeatherLive: 
 Webcams: 'Unterberghorn'="https://webtv.feratel.com/webtv/?cam=5610", 'launch peak'="https://webtv.feratel.com/webtv/?cam=5613", 'LZ'="https://webtv.feratel.com/webtv/?cam=5611"
 ParaglidingEarthSite: 22503
 ParaglidingMap: 166087
 Requirements:
-Notes: Lift tickets are sold at the Flight Bar, but you can only get [the cheapter multi-day tickets from the ticket office](https://skisport.com/Hochkoessen/en/Tickets-and-Passes/Summer-Lift-Tickets). A five-ride, multi-year clip card costs the same as a three-day ticket, but you can then refill for 5 EUR/ride. Paraglider pilots ride down for free with the lift if they don't feel safe to fly.
+Notes: [Lift tickets](https://skisport.com/Hochkoessen/en/Tickets-and-Passes/Summer-Lift-Tickets) are bought next to the lift. A five-ride clip card costs the same as a three-day ticket, but you can refill it for 5 EUR per ride, it is valid for many years, and multiple people can go up together on one card. Paraglider pilots ride down for free with the lift, if they don't feel safe to fly. One trip and one-day tickets are also sold at the Flight Bar.  The Flight Bar LZ has a landing fee (unless you buy their lift tickets or have their AXA insurance).
 SeeAlso: [ParaglidingMap](https://www.paraglidingmap.com/app/site/166087) 
 OfficialURL:
 Tags: Alps
