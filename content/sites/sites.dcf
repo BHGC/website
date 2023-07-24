@@ -1038,7 +1038,7 @@ LZGPS:
 WeatherLive: 
 Webcams: 
 Requirements: 
-Notes: [Meteoblue](https://www.meteoblue.com/en/weather/week/2979574)
+Notes: [Meteoblue](https://www.meteoblue.com/en/weather/week/saint-hilaire_france_2979574)
 SeeAlso: 
 OfficialURL: 
 Tags: Alps
@@ -1049,11 +1049,11 @@ Name: Annecy
 State: 
 Country: France
 LaunchGPS: 'NA'=(45.8898726, 6.0873035, 0)
-LZGPS: 'Airstrip'=(45.7816276, 6.2226223, 1400)
+LZGPS: 'Doussard Airstrip'=(45.7816276, 6.2226223, 1400)
 WeatherLive: 
 Webcams: 
 Requirements: 
-Notes: [Meteoblue](https://www.meteoblue.com/en/weather/week/3037543)
+Notes: [Meteoblue](https://www.meteoblue.com/en/weather/week/annecy_france_3037543)
 SeeAlso: 
 OfficialURL:
 Tags: Alps
@@ -1069,7 +1069,7 @@ LZGPS: (45.9280549, 6.7246991, 1800)
 WeatherLive: 
 Webcams: 
 Requirements: 
-Notes: [Meteoblue](https://www.meteoblue.com/en/weather/week/2988393)
+Notes: [Meteoblue](https://www.meteoblue.com/en/weather/week/passy_france_2988393)
 SeeAlso: 
 OfficialURL:
 Tags: Alps
