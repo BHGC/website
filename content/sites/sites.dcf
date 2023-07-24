@@ -1048,8 +1048,8 @@ Tags: Alps
 Name: Annecy
 State: 
 Country: France
-LaunchGPS: 'NA'=(45.8898726, 6.0873035, 0)
-LZGPS: 'Doussard Airstrip'=(45.7816276, 6.2226223, 1400)
+LaunchGPS: 'Montmin'=(45.81423937437718, 6.247055436575159, 4150), 'Planfait'=(45.85326473522576, 6.223036381063186, 3935)
+LZGPS: 'Doussard Airstrip'=(45.7816276, 6.2226223, 1500), 'Perroix'=(45.84722273114248, 6.214591610193057, 1810)
 WeatherLive: 
 Webcams: 
 Requirements: 
