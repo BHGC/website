@@ -1033,12 +1033,12 @@ Tags: Alps
 Name: Saint-Hilaire-du-Touvet, France
 State: 
 Country: Germany
-LaunchGPS: 'NA'=(45.268218, 5.8412771, 0)
-LZGPS: 
+LaunchGPS: 'South'=(45.31029367025923, 5.890881269711732, 3100), 'East'=(45.30833051301794, 5.8883360852252915, 3050), 'North'=(45.306745781224464, 5.8879046927814, 3000)
+LZGPS: (45.3023381, 5.9063483, 750)
 WeatherLive: 
 Webcams: 
 Requirements: 
-Notes: [Meteoblue](https://www.meteoblue.com/en/weather/week/saint-hilaire_france_2979574)
+Notes: [Meteoblue](https://www.meteoblue.com/en/weather/week/saint-hilaire_france_2979574). There are special 25-minute buses going once an hour (at HH:30) from the LZ to launch (1 EUR/person) during June-August. The funicular railway is no longer available (broke down 2022 and will take years to fix). There are coffee shops and paragliding stores near the LZ. There are paragliding stores near launch too.
 SeeAlso: 
 OfficialURL: 
 Tags: Alps
@@ -1053,7 +1053,7 @@ LZGPS: 'Doussard Airstrip'=(45.7816276, 6.2226223, 1500), 'Perroix'=(45.84722273
 WeatherLive: 
 Webcams: 
 Requirements: 
-Notes: [Meteoblue](https://www.meteoblue.com/en/weather/week/annecy_france_3037543)
+Notes: [Meteoblue](https://www.meteoblue.com/en/weather/week/annecy_france_3037543), There are eight-person shuttles from the Doussard LZ to the Montmin launch going a few times per hour (7 EUR/person). It is also possible to park below the Montmin launch and hike up 5-10 minutes to launch. Parking costs both at the LZ and at launch. You can use the PayByPhone app for parking.
 SeeAlso: 
 OfficialURL:
 Tags: Alps
