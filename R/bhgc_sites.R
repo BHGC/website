@@ -220,6 +220,25 @@ spotair_url_md <- function(gps, digits = 5L, zoom = 14, ...) {
 }
 
 
+#  Source: https://paraglidable.com
+paraglidable_url_md <- function(gps, digits = 5L, zoom = 14, country = NULL, ...) {
+  if (!is.null(country)) {
+    ## Paraglidable is only available in Europe and North Africa.
+    if ("usa" %in% tolower(country)) {
+      return(character(0L))
+    }
+  }
+  
+  lat <- round(gps[1], digits = digits)
+  long <- round(gps[2], digits = digits)
+  if (is.na(lat) || is.na(long)) return("")
+  url <- sprintf("https://paraglidable.com/?lat=%s&lon=%s&zoom=%s", lat, long, zoom)
+  md <- sprintf("[Paraglidable](%s)", url)
+  md
+}
+
+    
+    
 launch_map <- function(...) UseMethod("launch_map")
 
 launch_map.bhgc_site <- function(site, ...) {
@@ -333,7 +352,11 @@ see_also.bhgc_site <- function(site, ...) {
     
     # SpotAir (https://spotair.mobi)
     seealso <- c(seealso, spotair_url_md(first_launch))
-    
+
+    # Paraglibable (https://paraglidable.com/)
+    seealso <- c(seealso, paraglidable_url_md(first_launch, country = site$Country
+))
+
     # Thermal Map (https://thermal.kk7.ch)
     seealso <- c(seealso, kk7_url_md(first_launch))
 
