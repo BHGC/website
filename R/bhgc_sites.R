@@ -109,6 +109,7 @@ weather_url_md <- function(gps, country = NULL, ...) {
   } else if ("usa" %in% tolower(country)) {
     url <- c(url, noaa_weather_url(gps = gps, ...))
   }
+  
   url <- c(url, windy_weather_url(gps = gps, ...))
   md <- sprintf("[%s](%s)", names(url), url)
   paste(md, collapse = ",\n")
@@ -205,6 +206,16 @@ kk7_url_md <- function(gps, digits = 5L, zoom = 14, ...) {
   if (is.na(lat) || is.na(long)) return("")
   url <- sprintf("https://thermal.kk7.ch/#%s,%s,%sz", lat, long, zoom)
   md <- sprintf("[Thermal Map](%s)", url)
+  md
+}
+
+#  Source: https://thermal.kk7.ch
+spotair_url_md <- function(gps, digits = 5L, zoom = 14, ...) {
+  lat <- round(gps[1], digits = digits)
+  long <- round(gps[2], digits = digits)
+  if (is.na(lat) || is.na(long)) return("")
+  url <- sprintf("https://www.spotair.mobi/?lat=%s&lng=%s&zoom=%s", lat, long, zoom)
+  md <- sprintf("[SpotAir](%s)", url)
   md
 }
 
@@ -318,8 +329,13 @@ see_also.bhgc_site <- function(site, ...) {
 
     seealso <- sprintf("[%s](%s)", names(seealso), unlist(seealso))
 
+    first_launch <- LaunchGPS[[1]][[1]]
+    
+    # SpotAir (https://spotair.mobi)
+    seealso <- c(seealso, spotair_url_md(first_launch))
+    
     # Thermal Map (https://thermal.kk7.ch)
-    seealso <- c(seealso, kk7_url_md(LaunchGPS[[1]][[1]]))
+    seealso <- c(seealso, kk7_url_md(first_launch))
 
     # "See also" text
     if (nzchar(SeeAlso)) {
