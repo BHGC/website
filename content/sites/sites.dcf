@@ -875,6 +875,7 @@ WeatherLive: [Ålabodarna](https://holfuy.com/en/weather/216)
 Requirements:
 SeeAlso: [DMI wind forecast](https://www.dmi.dk/vind/), [SMHI forecast](https://www.smhi.se/vader/q/2727132), [YR forecast](https://www.yr.no/nb/v%C3%A6rvarsel/daglig-tabell/2-2727132)
 OfficialURL: [CPS](https://www.cps.to/flygstallen/v-sv-alabodarna/)
+Notes: The true wind is about 2 m/s greater than what the 'Ålabodarna' wind meter reports (per group message on 2023-08-04).
 Tags: Sweden
 
 
