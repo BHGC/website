@@ -1031,9 +1031,9 @@ Tags: Alps
 
 
 
-Name: Saint-Hilaire-du-Touvet, France
+Name: Saint-Hilaire-du-Touvet
 State: 
-Country: Germany
+Country: France
 LaunchGPS: 'South'=(45.31029367025923, 5.890881269711732, 3100), 'East'=(45.30833051301794, 5.8883360852252915, 3050), 'North'=(45.306745781224464, 5.8879046927814, 3000)
 LZGPS: (45.3023381, 5.9063483, 750)
 WeatherLive: 
@@ -1062,9 +1062,9 @@ Tags: Alps
 
 
 
-Name: Passy, France
+Name: Passy
 State: 
-Country: Germany
+Country: France
 LaunchGPS: 'NA'=(45.957482, 6.4388711, 0)
 LZGPS: (45.9280549, 6.7246991, 1800)
 WeatherLive: 
@@ -1077,7 +1077,7 @@ Tags: Alps
 
 
 
-Name: Kössen, Austria
+Name: Kössen
 State: 
 Country: Austria
 LaunchGPS: 'Unterberghorn N'=(47.6317738699439, 12.431759551187062, 4500), 'Unterberghorn W'=(47.631122892304866, 12.430892347135055, 4500), 'Top W'=(47.62454047333089, 12.43588768463127, 5500), 'Top N'=(47.625991521327684, 12.436154649375789, 5400)
@@ -1125,9 +1125,9 @@ Tags: Alps
 
 
 
-Name: Greifenburg, Austria
+Name: Greifenburg
 State: 
-Country: Germany
+Country: Austria
 LaunchGPS: 'NA'=(46.7641004, 13.093334, 0)
 LZGPS: 
 WeatherLive: 
@@ -1216,7 +1216,7 @@ Tags: Alps
 
 
 
-Name: Garmisch-Partenkirchen, Germany
+Name: Garmisch-Partenkirchen
 State: 
 Country: Germany
 LaunchGPS: 'Elferspitze'=(47.4710288, 10.881411, 0)
@@ -1232,9 +1232,9 @@ Tags: Alps
 
 
 
-Name: Lago Maggiore, Italy
+Name: Lago Maggiore
 State: 
-Country: Germany
+Country: Italy
 LaunchGPS: 'NA'=(45.9497052,8.049482, 0)
 LZGPS: 
 WeatherLive: 
@@ -1247,9 +1247,9 @@ Tags: Alps
 
 
 
-Name: Fiesch, Switzerland
+Name: Fiesch
 State: 
-Country: Germany
+Country: Switzerland
 LaunchGPS: 'NA'=(46.4109111, 8.0948466, 0)
 LZGPS: 
 WeatherLive: 
