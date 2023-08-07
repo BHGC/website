@@ -312,7 +312,7 @@ LaunchGPS: 'Burn LP'=(40.194644, -120.923071, 6200), 'Mt. Hough'=(40.045490, -12
 LZGPS: 'Tweeten Bailout'=(40.169673, -120.934279, 3900), 'Snow White LZ'=(40.143825, -120.895198, 3500)
 Requirements: Unregulated. H3 (Burn LP), H2 w/ instructor (Hough) recommended.
 Notes: Burn LP is a long glide out to landable fields and is a brushy flat slope.  Tweeten bailout is rotory and turbulent; landing is currently prohibited. 
-
+SeeAlso: 
 
 Name: Lake McClure
 State: CA
@@ -530,7 +530,7 @@ Country: USA
 LaunchGPS: 'bowl'=(39.596083, -119.935976), 'tower'=(39.589559, -119.927833)
 Requirements: Unregulated.  H3 recommended.
 Notes: 
-SeeAlso: 
+SeeAlso: https://paraglidingweatherreno.com/
 Tags: LakeTahoe-RenoArea
 
 
@@ -600,7 +600,7 @@ LZGPS: (39.308908, -119.822940, 5100)
 Requirements: Unregulated. H3, H2 w/ instructor recommended.
 WindDirections: E, SE
 Notes: good first mountain.  Beware wind over the back.
-SeeAlso: [HangGliding.org](https://www.hanggliding.org/wiki/Slide_Mountain), [FlyZephyr](http://www.flyzephyr.com/slide-mountain.html)
+SeeAlso: https://paraglidingweatherreno.com/, [HangGliding.org](https://www.hanggliding.org/wiki/Slide_Mountain), [FlyZephyr](http://www.flyzephyr.com/slide-mountain.html)
 Tags: SierraNevada, LakeTahoe-RenoArea
 
 
