@@ -16,6 +16,7 @@ R.utils::cstr(sites)
   label <- Name
   if (nzchar(Nickname)) label <- sprintf("%s (%s)", label, Nickname)
   if (nzchar(State)) label <- sprintf("%s, %s", label, State)
+  if (nzchar(Country)) label <- sprintf("%s, %s", label, Country)
   header_id <- sprintf("site_%s", tolower(label))
   header_id <- gsub("[^[:alnum:]_]+", "-", header_id)
 %>
