@@ -640,7 +640,7 @@ Tags: SonoraPass-Mono-Mammoth
 Name: St Helena
 State: CA
 Country: USA
-LaunchGPS: (38.667481, -122.627897, 4000)
+LaunchGPS: 'top'=(38.667481, -122.627897, 4100), 'Middle spine [KBBF-FM Santa Rosa]'=(38.6573848, -122.6191891, 3600), 'fire launch'=(38.6578202, -122.6266677, 3400)
 LZGPS: (38.629329, -122.675306)
 Requirements: H4/P4, H3/P3 if sponsored by Sonoma Wings + member of Sonoma Wings.
 SeeAlso: [Sonoma Wings](http://sonomawings.com/site-guides/st-helena/)
