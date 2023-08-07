@@ -1274,3 +1274,18 @@ Notes:
 SeeAlso: 
 OfficialURL:
 Tags: Alps
+
+
+
+Name: Tolmin
+State: 
+Country: Slovenia
+LaunchGPS: 'Kobola'=(46.181295340868324, 13.779406161507437, 3500)
+LZGPS: 'bailout'=(46.179274299719985, 13.746068461804413, 600), 'Tolmin'=(46.18453351385695, 13.722356318272189, 500), 'Camp Gabrje 1'=(46.19791771319283, 13.696607243911052, 500), 'Camp Gabrje 2'=(46.19677438955382, 13.699062941250014, 500)
+WeatherLive: http://skytech.si/
+Webcams: 
+Requirements: 
+Notes: Shuttles leave from Camp Gabrje.
+SeeAlso: 
+OfficialURL:
+Tags: Alps
