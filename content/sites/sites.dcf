@@ -896,7 +896,7 @@ Tags: Sweden
 Name: Mölle/Kullen
 State: Skåne
 Country: Sweden
-LaunchGPS: (56.292333, 12.469000, 120), "Barakullen"=(56.292100, 12.485858, 300)
+LaunchGPS: "Fyren"=(56.30054258759877, 12.45182851799317, 150), "Syd"=(56.292333, 12.469000, 120), "Barakullen"=(56.292100, 12.485858, 300)
 LZGPS: (56.289433, 12.484943, 0)
 WeatherLive: [Mölle/Kullens Fyr](https://holfuy.com/en/weather/597)
 Requirements:
