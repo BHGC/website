@@ -5,8 +5,13 @@ also some information about how the club once a year teaches new pilots how to f
 <%------------------------------------------------------------------------
 Signup Panel:
 In order to edit the signup panel / button that appears on the front
-page, you need to edit the following HTML file:
+page, you need to edit the following HTML files:
 
 https://github.com/BHGC/website/blob/master/templates/signup_button.html
+
+and
+
+https://github.com/BHGC/website/blob/master/templates/index.html.rsp
+
 ------------------------------------------------------------------------%>
 
