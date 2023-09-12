@@ -1,20 +1,20 @@
 # Join the club <span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
 
 <%
-phase <- c("open", "closing", "closed")[3]
+phase <- c("open", "closing", "closed")[1]
 %>
 <% if (phase == "open") { %>
 
-If you want to **learn to hang glide this academic year (2022/2023)**, below is how to join the club:
+If you want to **learn to hang glide this academic year (2023/2024)**, below is how to join the club:
 
-* Mon Sept 19 @  12-3pm: Chat with active hangliding students and pilots. Meet us at Sproul Plaza / Sather Gate on UC Berkeley campus (south side). Look for the hang glider.
-* Wed Sept 21 @  12-3pm: Chat with active hangliding students and pilots. Meet us at Sproul Plaza / Sather Gate on UC Berkeley campus (south side). Look for the hang glider.
-* **Wed Sept 21 @ 7:00pm**, Room 100, Genetics & Plant Biology Building, UC Berkeley: **SIGNUP MEETING.**
+* Tue Sept 19 (preliminary; time and location to follow): Chat with active hangliding students and pilots. Meet us on UC Berkeley campus. Look for the hang glider.
+* Wed Sept 20 (preliminary; time and location to follow): Chat with active hangliding students and pilots. Meet us on UC Berkeley campus. Look for the hang glider.
+* **Wed Sept 20 @ 8:00pm**, Room 100, Genetics & Plant Biology Building, UC Berkeley: **SIGNUP MEETING.**
     
   Come to our introduction, talk to pilots and flying students, watch some flying videos, get all your questions answered and sign up.  **You have to sign up in person and at this event.**  Due to popularity it is likely there is a lottery, but you'll know when you walk home. **DON'T MISS IT!**
 
 <small>
-<em>Last updated: September 9, 2021 @ 2:45pm</em>
+<em>Last updated: September 11, 2023 @ 17:15pm</em>
 </small>
 <% } else if (phase == "closing") { %>
 
