@@ -7,8 +7,8 @@ phase <- c("open", "closing", "closed")[1]
 
 If you want to **learn to hang glide this academic year (2023/2024)**, below is how to join the club:
 
-* Tue Sept 19 @ 12-3pm (prelim.): Chat with active hangliding students and pilots. Meet us at Sproul Plaza / Sather Gate on UC Berkeley campus (south side). Look for the hang glider.
-* Wed Sept 20 @ 12-3pm (prelim.): Chat with active hangliding students and pilots. Meet us at Sproul Plaza / Sather Gate on UC Berkeley campus (south side). Look for the hang glider.
+* Tue Sept 19 @ 12-3pm: Chat with active hangliding students and pilots. Meet us at Sproul Plaza / Sather Gate on UC Berkeley campus (south side). Look for the hang glider.
+* Wed Sept 20 @ 12-3pm: Chat with active hangliding students and pilots. Meet us at Sproul Plaza / Sather Gate on UC Berkeley campus (south side). Look for the hang glider.
 * **Wed Sept 20 @ 8:00pm**, Room 100, Genetics & Plant Biology Building, UC Berkeley: **SIGNUP MEETING.**
     
   Come to our introduction, talk to pilots and flying students, watch some flying videos, get all your questions answered and sign up.  **You have to sign up in person and at this event.**  Due to popularity it is likely there is a lottery, but you'll know when you walk home. **DON'T MISS IT!**
@@ -20,7 +20,7 @@ If you want to **learn to hang glide this academic year (2023/2024)**, below is 
 
 **Mandatory** for students who get in:
 
-* **Wed October 3, 10, ... @ 7:00-8:00pm**: 50 Barrows Hall, UC Berkeley, Weekly Ground School (theory)
+* **Wed September 27, October 4, ... @ 8:00-9:00pm**: 105 Dwinelle Hall, UC Berkeley, Weekly Ground School (theory)
 
 * **Sat-Sun October 6-7 & 13-14 & 20-21 (early am-mid pm)**: The first three training weekends (all weather dependent)
 
@@ -45,7 +45,7 @@ To get in from this waitlist, make sure to attend the ground school
 
 <% } else if (phase == "closed") { %>
 
-## Next chance to join the club is fall 2023, details TBD
+## Next chance to join the club is fall 2024, details TBD
 
 Signup happens once a year, typically in early September (after the Labor Day weekend), and only in person.  
 
@@ -54,7 +54,7 @@ lesson set was an exception). See also the [About] page.
 
 
 <small>
-<em>Last updated: December 12, 2022</em>
+<em>Last updated: September 27, 2023</em>
 </small>
 <% } %>
 
