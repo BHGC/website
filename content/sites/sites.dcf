@@ -727,23 +727,13 @@ Requirements: H3/P3. H2/P2 with instructor supervision. Paid site fees (!= SBSA 
 Tags: SoCal
 
 
-Name: EJ, Santa Barbara
-LaunchGPS: 'upper EJ'=(34.494434, -119.702987, 3800), 'EJ bowl'=(34.4924, -119.702, 3400)
+Name: EJ / Skyport, Santa Barbara
+LaunchGPS: 'upper EJ'=(34.494434, -119.702987, 3800), 'EJ bowl'=(34.4924, -119.702, 3400), 'Skyport'=(34.480942, -119.684751, 2900)
 State: CA
 Country: USA
 Requirements: H3/P3
 OfficialURL: [Santa Barbara Soaring Association](http://sbsa.info/site-guidelines/)
-ParaglidingEarthSite: 14122
-Tags: SoCal
-
-
-Name: Skyport, Santa Barbara
-LaunchGPS: (34.480942, -119.684751, 2900)
-State: CA
-Country: USA
-Requirements: H3/P3
-OfficialURL: [Santa Barbara Soaring Association](http://sbsa.info/site-guidelines/)
-ParaglidingEarthSite: 22332
+ParaglidingEarthSite: 14122, 22332
 Tags: SoCal
 
 
