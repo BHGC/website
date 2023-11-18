@@ -28,6 +28,11 @@ jobs:
 
       - uses: r-lib/actions/setup-r-dependencies@v2
 
+      - name: Install bhgc.website
+        run: |
+          install.packages(".", repos = NULL)
+        shell: Rscript {0}
+
       - name: Session info
         run: |
           options(width = 100)
@@ -36,7 +41,7 @@ jobs:
           sessioninfo::session_info(pkgs, include_base = TRUE)
         shell: Rscript {0}
 
-      - name: Build webiste
+      - name: Build website
         run: |
           bhgc.website::build()
         shell: Rscript {0}
