@@ -1,0 +1,1291 @@
+Name: Alabama Hills
+State: CA
+Country: USA
+LaunchGPS: 'North Launch'=(36.661762, -118.129119, 5200)
+LZGPS: 
+Requirements: Unregulated.  
+WindDirections: NW, N
+Notes: "There may well be places to get other wind directions nearby. Once you launch, ridge soar until a thermal comes through, then get up and fly south"
+Tags: OwensValley
+
+
+Name: Big Sur
+State: CA
+Country: USA
+LaunchGPS: 'Wild Cattle Launch'=(35.971299, -121.453027, 3200)
+LZGPS: (35.932435, -121.469551, 100)
+Requirements: Unregulated. H3, H2 w/ instructor recommended
+Webcams: '40-min north'="https://www.nepenthe.com/live-weather-cam/"
+SiteSticker: 
+OfficialURL: 
+ParaglidingEarthSite: 7006
+Notes:
+SeeAlso: Road conditions: Los Padres National Forest [805-968-6640](tel:+1-805-968-6640), [Airtime of San Francisco](http://www.paragliding-lessons.com/big-sur-flying-site/)
+
+
+Name: Black Eagle
+State: CA
+Country: USA
+LaunchGPS: (36.818344, -118.042978, 7000)
+LZGPS: 'bailout LZ'=(36.817322, -118.094236, 4100)
+Requirements: Unregulated. H4, Experienced H3 recommended.
+WindDirections: W, SW
+Notes: 
+Tags: OwensValley
+
+
+Name: Blue Rock
+Nickname: Vallejo
+State: CA
+Country: USA
+LaunchGPS: 'mid/poison oak'=(38.136409, -122.195852, 550), 'north'=(38.138440, -122.195634, 650), 'top'=(38.1379, -122.195, 720)
+LZGPS: 'main'=(38.137530, -122.196601, 480), 'park'=(38.133760, -122.202644, 270)
+Requirements: Unregulated. Not really for HG. P3 is recommended.
+SiteSticker: 
+OfficialURL: https://www.sportparagliding.com/blue-rock-vallejo-ca-paragliding
+ParaglidingEarthSite: 11342
+WindAlertSite: 'Davis Point'=100723
+WeatherUndergroundStationID: KCAVALLE53
+Webcams: 'Channing West'="https://www.youtube.com/watch?v=JFkxBYPwkfY"
+SeeAlso: [Davis Point Seawind Dr](https://tempestwx.com/station/103812/), [Joel McMinn's site guide](https://docs.google.com/document/d/1AHpmCNsV1g1ad4QwXFbuvCvJKOXeBIqpS4JXx1pAJQc/preview), [FlyZephyr](http://www.flyzephyr.com/blue-rock-vallejo.html)
+Notes: The wind direction of the KCAVALLE53 weather station is _not_ reliable. The wind speed is only reliable in approx. WSW-WNW wind (per 2020-01-05)
+Tags: BayArea
+
+
+Name: Burney Mountain
+State: CA
+Country: USA
+LaunchGPS: (40.806667, -121.627500, 7900)
+LZGPS: (40.777267, -121.610649, 4700)
+Requirements: Unregulated. H3, H2 w/ instructor recommended.
+Notes: typically blows out early, usually launched in the morning.  LZ has gotten smaller due to tree growth.
+
+
+Name: Cerro Gordo
+State: CA
+Country: USA
+LaunchGPS: 'lower'=(36.545289, -117.810623, 8300), 'upper [no access as of June 2019]'=(36.549860, -117.802731)
+LZGPS:
+Requirements: Unregulated. H4, Experienced H3 recommended.
+Notes: First 100 mile flight on a hang glider was flown from Cerro Gordo. Road from Cerro Gordo town to lower LP is a rough 4WD road. Road to peak locked off. Long glide.
+Tags: OwensValley
+
+
+Name: Channing East
+State: CA
+Country: USA
+LaunchGPS: 'east'=(38.1015, -122.1810, 660)
+Requirements: Unregulated. PG only.
+WindDirections: E
+WindAlertSite: 'Port Chicago'=518, Cordelia=3961
+WeatherUndergroundStationID: KCABENIC45, KCABENIC65
+Webcams: 'Channing West'="https://www.youtube.com/watch?v=JFkxBYPwkfY"
+Notes:
+SeeAlso: [Joel McMinn's site guide](https://docs.google.com/document/d/1Sg6VPZQvqNYOgn_IUdEvUQNTU-Z1QUa5I4q522cc5dc/preview)
+Tags: BayArea
+
+
+Name: Copper Mountain
+State: CA
+Country: USA
+LaunchGPS: 'E Launch'=(38.048889, -119.195437, 9200), 'SE Launch/KM Launch'=(38.042352, -119.190552, 9000)
+LZGPS: 'Barn LZ'=(38.069492,-119.159581, 6900), 'Power Plant Bailout'=(38.045164, -119.174000, 7000), 'Green Field LZ'=(38.060562, -119.161887, 6800)
+Requirements: Unregulated.  H3, H2 w/ instructor recommended
+SeeAlso: 
+ParaglidingEarthSite: 15072
+Notes: E launch is a shallow launch at high altitude, SE launch is steep launch with extremely limited setup area. Watch out for rotors from behind.
+Tags: SierraNevada, SonoraPass-Mono-Mammoth
+
+
+Name: Duck Hill
+State: NV
+Country: USA
+LaunchGPS: (39.224621, -119.779331, 5900)
+LZGPS: (39.227031, -119.793271, 5100)
+Requirements: Unregulated.  H3, H2 w/ instructor recommended
+Notes: 
+Tags: LakeTahoe-RenoArea
+
+
+Name: Dunlap
+State: CA
+Country: USA
+LaunchGPS: 'ramp'=(36.764134, -119.097631, 4600)
+LZGPS: (36.736126, -119.104683, 2000)
+Requirements: H3/P3, H2/P2 w/ instructor
+SiteSticker: yes (private launch/LZ)
+OfficialURL: [Dunlap Flying Club](https://www.facebook.com/DuPHaSS/)
+ParaglidingEarthSite: 7007
+SeeAlso: [FlyZephyr](http://www.flyzephyr.com/dunlap.html)
+Notes: A good first mountain site. (After being closed since 2017-11-30, Dunlap was reopened on 2018-09-28 by its new owner Tim Fleming.)
+
+
+Name: Drake's Beach, Point Reyes
+State: CA
+Country: USA
+LaunchGPS: 'cliff launch'=(38.0268347,-122.9626807, 70)
+LZGPS: 'beach'=(38.0274627,-122.9621008, 0)
+Requirements: H3/P3 + permit
+SiteSticker: Permit is valid for one year. Available from Dispatcher's Office at [Point Reyes Station, 1 Bear Valley Rd, CA 94956](https://www.google.com/maps/place/Administrative+Offices/@38.0439546,-122.7990009,18z). Proof of USHPA rating is required. If no one is at the Dispatcher's Office, check with the Visitors Center. Please call in advance to make sure a ranger is available to hand it out [415-464-5100](tel:+1-415-464-5100). For weekend flying, they prefer if you call ahead on a business day.
+OfficialURL: 
+ParaglidingEarthSite: 
+Notes: This is cliff launch site with landing on the beach.
+SeeAlso: https://www.nps.gov/pore/planyourvisit/weather.htm
+WeatherLive: [Fog Today](https://fog.today/)
+Tags: BayArea
+
+
+Name: Ed Levin
+Nickname: Sled Heaven
+State: CA
+Country: USA
+LaunchGPS: '300ft'=(37.461130, -121.864641, 700), '600ft'=(37.461324, -121.859979, 1000), 'top/1750ft'=(37.475389, -121.861305, 2150)
+LZGPS: (37.458137, -121.867135, 400)
+Requirements: H0-H3, P0-P3
+SiteSticker: [WOR]
+OfficialURL: [Wings of Rogallo](https://wingsofrogallo.org/ed-levin/)
+WindTalker: +1-408-946-9516
+WeatherLive: [Mission Soaring Live Weather](http://windslammer.wingsofrogallo.org/WindSlammer/), [Benlo.com](http://www.benlo.com/pg/edlevin.html)
+Webcams: '1750'="https://www.youtube.com/channel/UCNLH3taW6_MpeSymek4acZg"
+Soundings: OAK
+SeeAlso: Road conditions: [Santa Clara County Parks](https://www.sccgov.org/sites/parks/Pages/Closures.aspx), [408-355-2200](tel:+1-408-355-2200) (menu 4 menu 6)
+Notes: _Emergency_ frequency: 147.495 MHz (same as The Dumps)
+Tags: BayArea
+
+
+Name: Elk Mountain
+State: CA
+Country: USA
+LaunchGPS: 'south'=(39.277, -122.941, 4000), 'north'= (39.276414, -122.943531, 4000)
+LZGPS: 'main'=(39.251339, -122.950443, 1500), 'alternate'=(39.248226, -122.950779, 1500)
+Requirements: Unregulated. H3, H2 w/ instructor recommended
+WindDirections: 'southLaunch'=SSW, 'northLaunch'=NW
+SeeAlso: [Sonoma Wings](http://sonomawings.com/site-guides/elk-mountain/), [FlyZephyr](http://www.flyzephyr.com/elk-mountain.html)
+ParaglidingEarthSite: 6695
+Notes: 4x4 required for launch road.  Beware the power line in the alternate LZ
+Tags: Mendocino
+
+
+Name: Flynn's
+State: CA
+Country: USA
+LaunchGPS: (37.388394, -118.295029, 5600)
+LZGPS: (37.387053, -118.317233, 4100)
+Requirements: Unregulated. H3, H2 w/ instructor recommended.
+WindDirections: W, SW, WNW
+Notes: 
+Tags: OwensValley
+
+
+Name: Fort Funston
+State: CA
+Country: USA
+LaunchGPS: (37.7139, -122.503, NA)
+LZGPS: main=(37.7139, -122.503, NA), beach=(NA, NA, NA)
+Requirements: H3
+OfficialURL: [FlyFunston.org](http://flyfunston.org)
+Webcams: 'Fort Funston'="https://www.youtube.com/watch?v=ai0WuaWyt4E", 'Clubhouse & Ropes Bldg'="https://flyfunston.org/webcams-only/"
+SeeAlso: [Web cam & winds](https://flyfunston.org/dashboard/)
+WindTalker: +1-415-333-0100
+Soundings: OAK
+ParaglidingEarthSite: 9302
+WeatherUndergroundStationID: KCASANFR69
+WeatherLive: [Fog Today](https://fog.today/)
+Notes: No paragliding
+Tags: BayArea
+
+Name: Garlock
+State: CA
+Country: USA
+LaunchGPS: 'upper'=(35.418972, -117.850556, NA), 'lower'=(NA, NA, NA)
+LZGPS: (35.375544, -117.853661)
+Requirements: Unregulated. H3, H2 w/ instructor recommended
+WindDirections: SW, S, SE
+Notes: Watch for dust devils on launch/during landing
+
+
+Name: Gateway
+State: CA
+Country: USA
+LaunchGPS: 'kiting/sledders'=(38.0908909, -122.1696237, 500)
+Requirements: Unregulated. PG only. Useful for kiting, sledders, and proximity flying.
+WindDirections: ESE
+WeatherUndergroundStationID: KCABENIC45
+Notes: Watch out for ventury effects near the left and right sides of the hill - it is easy to be blown back.
+Tags: BayArea
+
+
+Name: Glass Mountain
+State: CA
+Country: USA
+LaunchGPS: (37.705268, -118.671287, 8500)
+LZGPS: 'Bailout'=(37.705263, -118.691663, 7200), 'Campground LZ'=(37.693376, -118.758021, 6800)
+Requirements: Unregulated. H3, experienced H2 w/ instructor recommended
+WindDirections: W, SW
+Notes:
+Tags: SonoraPass-Mono-Mammoth
+
+
+Name: Goat Rock
+State: CA
+Country: USA
+LaunchGPS: (38.441835,-123.124977, NA)
+LZGPS: 
+Requirements: H3, H2 w/ instructor
+WindDirections: W, NW
+SeeAlso: [Sonoma Wings](http://sonomawings.com/site-guides/goat-rock/)
+Notes: Small ridge, can only handle about 2 gliders at once.  Setup area gets rotor in strong winds.  Beware rotor from Goat Rock when flying to the ridge south of launch.
+Tags: BayArea
+
+
+Name: Gunter / Gunther
+State: CA
+Country: USA
+LaunchGPS: (37.468200, -118.263088, NA)
+LZGPS: (37.420725, -118.334444, NA)
+Requirements: Unregulated. Experienced H3 recommended
+Notes: Better road than Paiute. Shallow launch, long glide to LZ, often blows out.
+Tags: OwensValley
+
+
+Name: Herd Peak
+State: CA
+Country: USA
+LaunchGPS: (41.613726, -122.228232, 5680)
+LZGPS: (41.584861, -122.250697, 3550)
+Requirements: H3/P3. H2/P2 w/ instructor or mentor sign off.  Site intro required for all pilots.
+OfficialURL: [Rogue Valley Hang Gliding & Paragliding Association](https://rvhpa.org/site-guide/herdpeak/)
+SeeAlso: [The Oz Report](https://ozreport.com/1328031387)
+
+
+Name: Hat Creek Rim
+State: CA
+Country: USA
+LaunchGPS: (40.843055, -121.427468, 4500)
+LZGPS: '#1/bailout'=(40.838544, -121.438413, 3484), '#2/main'=(40.840963, -121.449369, 3576)
+Requirements: H3, H2 w/ mentor
+ParaglidingEarthSite: 7005
+Notes: A good first mountain site.
+SeeAlso: [FlyZephyr](http://www.flyzephyr.com/hat-creek-rim.html)
+Tags: Lakeview
+
+
+Name: Walt's Point/Horseshoe Meadows
+State: CA
+Country: USA
+LaunchGPS: (36.472700, -118.114950, NA)
+LZGPS: 'Postage-stamp bailout'=(36.529957, -118.106944), 'GreenFields LZ'=(36.547793, -118.078085), 'Diaz LZ'=(36.556944, -118.054357)
+Requirements: H4,experienced H3 recommended
+SeeAlso: [KariCastle](http://karicastle.com/owens-valley/)
+Notes: The only Owen's Valley launch in the sierras.  Paved road.
+ParaglidingEarthSite: 7387
+Tags: OwensValley, SierraNevada
+
+
+Name: Hotsprings Mountain
+State: NV
+Country: USA
+LaunchGPS: 'LP1'=(39.078628, -119.732742), 'LP2'=(39.065661, -119.730750)
+LZGPS: (39.080460, -119.743185)
+Requirements: Unregulated. H3, H2 w/ instructor recommended
+WindDirections: SW, W, NW
+Notes:
+Tags: LakeTahoe-RenoArea
+
+
+Name: Hull Mountain
+State: CA
+Country: USA
+LaunchGPS: 'Timberline/main'=(39.509387, -122.937847, 5800), 'lower'=(39.514371, -122.940361, NA), 'rock pile'=(39.522359, -122.938097, NA), 'Turn-in-the-road'=(39.522167, -122.935707, NA), 'propane tank'=(39.521859, -122.936935, NA)
+LZGPS: 'lake/main'=(39.442038, -122.946644, 1800), 'airstrip/bailout'=(39.452802, -122.953110, 1800)
+Requirements: Unregulated (H3 recommended, experienced H2 w/ instructor)
+WindDirections: SE, S, SW
+Notes: Long glide from launch to LZ.  Not appropriate without mountain experience.
+SeeAlso: [Sonoma Wings](http://sonomawings.com/site-guides/hull-mountain/)
+Tags: Mendocino
+
+
+Name: Indian Valley
+State: CA
+Country: USA
+LaunchGPS: 'Burn LP'=(40.194644, -120.923071, 6200), 'Mt. Hough'=(40.045490, -120.886023, 7200) 
+LZGPS: 'Tweeten Bailout'=(40.169673, -120.934279, 3900), 'Snow White LZ'=(40.143825, -120.895198, 3500)
+Requirements: Unregulated. H3 (Burn LP), H2 w/ instructor (Hough) recommended.
+Notes: Burn LP is a long glide out to landable fields and is a brushy flat slope.  Tweeten bailout is rotory and turbulent; landing is currently prohibited. 
+SeeAlso: 
+
+Name: Lake McClure
+State: CA
+Country: USA
+LaunchGPS: (37.711403, -120.233885, NA)
+LZGPS: (37.704583, -120.244940, NA)
+Requirements: H3 (H2 w/ instructor)
+Notes: Don't miss the LZ. Watch the venturi effect. Get a site intro.
+SeeAlso: https://mlsralakemcclure.wixsite.com/lakemcclurehg/site-guide
+
+
+Name: Sugar Hill
+State: CA
+Country: USA
+LaunchGPS: (41.806521, -120.328989, 7200)
+LZGPS: 'bailout'=(41.815931, -120.354752), 'mid-gap bailout'=(41.872721, -120.325768), 'Hunter\'s hot springs'=(42.220613, -120.366709) 
+Requirements: Unregulated.  H3, H2 w/ instructor recommended.
+Notes: XC site.  Beware hostile landowners if you have to land in the bailout.
+SeeAlso: 
+Tags: Lakeview
+
+
+Name: Sweet and Low
+State: CA
+Country: USA
+LaunchGPS: (41.828500, -120.346483, 5650)
+LZGPS: 'bailout'=(41.815931, -120.354752), 'mid-gap bailout'=(41.872721, -120.325768), 'Hunter\'s hot springs'=(42.220613, -120.366709) 
+Requirements: Unregulated.  H3, H2 w/ instructor recommended.
+Notes: 4x4 required.  XC site.  Ridge soar until you catch a thermal, bench up Sugar Hill and go over the back. Beware hostile landowners if you have to land in the bailout.
+SeeAlso: 
+Tags: Lakeview
+
+
+Name: Black Cap
+State: OR
+Country: USA
+LaunchGPS: (42.204264, -120.330122, 6250)
+LZGPS: 'Hunter\'s hot springs'=(42.220613, -120.366709) 
+Requirements: Unregulated.
+Notes: Flat slope launch
+SeeAlso: 
+Tags: Lakeview
+
+
+Name: Lee Vining
+State: CA
+Country: USA
+LaunchGPS: (37.975, -119.146, NA)
+Requirements: Unregulated. H3, H2 w/ instructor recommended
+SeeAlso: [Lee Vining](https://www.monolake.org/today/live)
+ParaglidingEarthSite: 13125
+Tags: SierraNevada, SonoraPass-Mono-Mammoth
+
+
+Name: Marina State Beach, Monterey Bay
+State: CA
+Country: USA
+LaunchGPS: 'Reservation Road'=(36.699300, -121.809012, 20), 'Lake Court Dune'=(36.683519, -121.811399, 100)
+Requirements: H3/P3, H2 w/ instructor
+WindDirections: WSW, W, WNW
+Webcams: 'Downtown Monterey'="https://hdontap.com/index.php/video/stream/port-of-monterey"
+WeatherUndergroundStationID: KCASEASI29, KCASEASI10
+SeeAlso: [Coastal Condors](https://www.coastalcondors.org)
+Tags: BayArea
+
+
+Name: Marshall Peak / Crestline, San Bernardino, Los Angeles
+State: CA
+Country: USA
+LaunchGPS: "750"=(34.199800, -117.317000, 2480), Marshall=(34.210000, -117.302900, 4200), Crestline=(34.236000, -117.313000, 5300)
+LZGPS: (34.193400, -117.323400, 1700)
+Requirements: H3/P3, H2/P2 w/ local instructor or signoff
+ParaglidingEarthSite: 6627
+Webcams: 'Overview Page'="https://crestlinesoaring.org/webcams/", 'Crestline (360)'="http://162.218.153.210:8190/viewer/live/index.html?lang=en"
+Notes: 
+SeeAlso: [Crestline Soaring Society](http://www.crestlinesoaring.org/), [Rides to launch](http://flytandem.com/shuttle.htm)
+Tags: SoCal
+
+
+Name: Mattole
+State: CA
+Country: USA
+LaunchGPS: (NA, NA, NA)
+Requirements: Unregulated
+SeeAlso: [Penguin's PG info](http://www.humboldt.net/~penguin/mattole.htm)
+
+
+Name: Mazourka
+State: CA
+Country: USA
+LaunchGPS: 'north'=(36.976681, -118.122839, 9300), 'southwest'=(36.969572, -118.124030, 9200), 'south'=(36.969704, -118.122031, 9200), 'southeast'=(36.973002, -118.116780, 9300)
+LZGPS: 'badger flat bailout'=(36.970321, -118.098244, 8700)
+Requirements: Unregulated. H4/H3 recommended.
+WindDirections: N, NW, SW, S, SE
+Notes: Long drive. Shallow launches. Can handle strong N and S winds better than other Ownen's Valley launches.
+Tags: OwensValley
+
+
+Name: McClellan
+State: NV
+Country: USA
+LaunchGPS: 'main'=(39.27160031783707, -119.7125244140625, 7200)
+LZGPS: (NA, NA, 5050)
+Requirements: Unregulated
+Notes: Very easy in the right conditions, and can be scary in the wrong conditions.
+SeeAlso: [HangGliding.org](https://www.hanggliding.org/wiki/McClellan)
+Tags: LakeTahoe-RenoArea
+
+
+Name: McGee/Magee
+State: CA
+Country: USA
+LaunchGPS: 'lower'=(37.589312, -118.817501, 9100), 'upper'=(NA, NA, NA)
+LZGPS: 'Main'=(37.600987, -118.798404, 6800)
+Requirements: Unregulated.  H3, H2 w/ instructor recommended.
+WindDirections: NE, E, SE.
+Notes: 4x4 required.  Road to upper McGee is rugged, narrow, and rocky.
+Tags: SierraNevada, SonoraPass-Mono-Mammoth
+
+
+Name: Mission Ridge
+State: CA
+Country: USA
+LaunchGPS: (37.517534, -121.89175, 1900)
+LZGPS: (37.5065537,-121.9050622, 500)
+Requirements: H4/P4, H3/P3 with required skills and signoff
+Soundings: OAK
+Notes: [daily sign-in](https://wingsofrogallo.org/mission-ridge-electronic-sign-in/)
+OfficialURL: [Wings of Rogallo](https://wingsofrogallo.org/mission-ridge/)
+Webcams: 'Mission Peak NW'="http://www.alertwildfire.org/northcoast/index.html?camera=Axis-Mission1", 'Mission Peak SE'="http://www.alertwildfire.org/northcoast/index.html?camera=Axis-Mission2", 'WoR cam'="http://missioncam.wingsofrogallo.org/view/view.shtml?id=1035&imagepath=%2Fmjpg%2Fvideo.mjpg&size=1&streamprofile=MJPEG_800x450_60comp_1fps"
+Tags: BayArea
+
+
+Name: Mount Diablo
+State: CA
+Country: USA
+LaunchGPS: 'south-west'=(37.877870, -121.934436, NA), 'west'=(37.879985, -121.919794, NA), 'north'=(37.882018, -121.919003, NA)
+LZGPS: '1000ft LZ'=(37.875580, -121.964653), 'Machedo Ranch'=(37.863056, -121.977188), 'Mitchell Canyon'=(37.923267, -121.941352)
+Requirements: H4
+Soundings: OAK
+SeeAlso: [Wings of Rogallo](https://wingsofrogallo.org/mt-diablo/)
+Tags: BayArea
+
+
+Name: Whaleback
+State: CA
+Country: USA
+LaunchGPS: (41.535304, -122.152666, 7450)
+Requirements: H3 (H2 w/ instructor under appropriate conditions)
+OfficialURL: [Rogue Valley Hang Gliding & Paragliding Association (RVHPA)](https://rvhpa.org/site-guide/whaleback/)
+Notes: The new launch is unsafe for launching a hang glider.
+
+
+Name: Mount Tamalpais
+Nickname: Mt Tam
+State: CA
+Country: USA
+LaunchGPS: A=(37.907607, -122.619097, 2050), B=(37.911167, -122.624422, 1950), C=(37.920857, -122.632657, 2500)
+LZGPS: 'public beach'=(37.902664, -122.653185, 0)
+Requirements: H3/P3 with MCHGA sticker. H2 w/ club-approved instructor. Sign-in at Pantoll.
+SiteSticker: [MCHGA](http://www.mchga.org/)
+OfficialURL: [Marin County Hang Gliding Association (MCHGA)](http://www.mchga.org/site.shtml)
+WindTalker: Mt. Tamalpais=+1-415-381-9463
+WeatherUndergroundStationID: KCASTINS13, KCASTINS20
+Soundings: OAK
+SeeAlso: [BHGC's Tam page](https://bhgc.org/sites/tam/index.html)
+Webcams: 'Alert CA'="https://alertca.live/cam-console/1843", 'Bolinas'="http://www.alertwildfire.org/northcoast/index.html?camera=Axis-Bolinas", 'Muir Beach'="http://www.alertwildfire.org/northcoast/index.html?camera=Axis-MuirBeach", 'Mt. Tamalpais West'="http://www.alertwildfire.org/northcoast/index.html?camera=Axis-TamWest"
+WeatherLive: [Middle Peak Wind](https://www.weather.gov/wrh/timeseries?site=MDEC1), [SF Buoy](https://www.ndbc.noaa.gov/station_page.php?station=46026), [Bodega Buoy](https://www.ndbc.noaa.gov/station_page.php?station=46013), [Fog Today](https://fog.today/), [tide](https://tidesandcurrents.noaa.gov/waterlevels.html?id=9415020&units=standard&timezone=LST/LDT&datum=MSL&interval=6&action=)
+Tags: BayArea
+
+
+Name: The Dumps
+Nickname: Mussel Rock
+State: CA
+Country: USA
+LaunchGPS: (37.6721641,-122.4939425, 100)
+LZGPS: (37.671116, -122.494646, 50)
+Requirements: P2-P3 (non-restricted)
+Soundings: OAK
+ParaglidingEarthSite: 15523
+WindAlertSite: 'Mussel Rock Park'=169580
+WeatherUndergroundStationID: KCADALYC37, KCADALYC1, KCAPACIF205
+Webcams: 'Mussle Rock Park'="https://www.youtube.com/watch?v=vZEINdmawdc", 'Cheetah'="https://www.youtube.com/watch?v=L6e1EEA-dQI"
+Notes: Paragliding only. _Emergency_ frequency: 147.495 MHz (as of June 2020; same as Ed Levin)
+SeeAlso: https://musselrock.app/
+WeatherLive: [Fog Today](https://fog.today/)
+Tags: BayArea
+
+
+Name: Paiute/Piute Mountain
+State: CA
+Country: USA
+LaunchGPS: 'upper'=(37.531365, -118.279341, 9600), 'lower'=(37.521500, -118.295000, 8100)
+LZGPS: (37.511111, -118.349722, 4300)
+Requirements: Unregulated. H3 recommended
+WindDirections: W, NW, SW
+Notes: 4x4 recommended. Watch for sharp rocks, road regularly eats tires.
+Tags: OwensValley
+
+
+Name: Palomino
+State: NV
+Country: USA
+LaunchGPS: 'upper'=(39.830327, -119.623766, 5600), 'lower'=(39.825417, -119.626737, 5100)
+LZGPS: (39.817134, -119.636266, 4300)
+Requirements: Unregulated. H3, H2 w/ instructor recommended.
+WindDirections: W, SW, NW
+Notes: Shallow launch, often high winds.
+Tags: LakeTahoe-RenoArea
+
+
+Name: Peavine Mt
+State: NV
+Country: USA
+LaunchGPS: 'bowl'=(39.596083, -119.935976), 'tower'=(39.589559, -119.927833)
+Requirements: Unregulated.  H3 recommended.
+Notes: 
+SeeAlso: https://paraglidingweatherreno.com/
+Tags: LakeTahoe-RenoArea
+
+
+Name: Petersen Mountain / Rainbow Ridge
+State: NV
+Country: USA
+LaunchGPS: 'lower'=(39.694318, -119.983945, 5600), 'middle'=(39.702865, -119.986533, 5900), 'upper'=(39.711698, -119.983565, 6700)
+LZGPS: 'City park LZ'=(39.691083, -119.964903, 5100)
+Requirements: Unregulated. H3, H2 w/ instructor recommended.
+SeeAlso: <%-- BROKEN: [Nevada Wings](http://www.nvwings.com/site_guide.html) --%>
+Tags: LakeTahoe-RenoArea
+
+
+Name: Pine Mountain
+State: OR
+Country: USA
+LaunchGPS: 'Observatory LP'=(43.790775, -120.946723, 6300), 'Antelope LP'=(43.809152, -120.881803, 6200), 'West LP'=(43.819690, -120.932574, 6300)
+LZGPS: 'Airstrip LZ'=(43.876175, -120.916427, 4300), 'Rock L LZ'=(43.837114, -120.930372, 4900), 'Flying Farm LZ'=(43.844892, -120.944951, 4500), 'Wright LZ'=(43.844862, -120.936396, 4500)
+Requirements: Unregulated. H3, H2 w/ instructor recommended.
+Notes:
+
+
+Name: Potato Hill
+State: CA
+Country: USA
+LaunchGPS: (39.341, -122.685, 3400)
+LZGPS: 'Fouts Spring LZ'=(39.352225, -122.660492, 1700), 'HG bailout LZ'=(39.349188, -122.661181, 1700), 'PG LZ'=(39.350, -122.662, 1700)
+Requirements: Unregulated. H3/P3, H2/P2 w/ instructor recommended.
+SiteSticker: 
+OfficialURL: 
+ParaglidingEarthSite: 6694
+Notes: Mostly a PG site
+SeeAlso: [FlyZephyr](http://www.flyzephyr.com/potato-hill.html)
+Tags: Mendocino
+
+
+Name: Elk Creek
+State: CA
+Country: USA
+LaunchGPS: '1500ft LP'=(39.560793, -122.630933, 2650), '3000ft LP'=(39.547897, -122.654555, 4400)
+LZGPS: 'Butler LZ'=(39.585153, -122.584564, 1050) 
+Requirements: Unregulated. 
+SiteSticker: 
+OfficialURL: 
+Notes: 
+SeeAlso: 
+Tags: Mendocino
+
+
+Name: Sand City, Monterey Bay
+State: CA
+Country: USA
+LaunchGPS: (36.624753, -121.845234, 30)
+Requirements: unregulated
+WindDirections: WSW, W, WNW
+Webcams: 'Downtown Monterey'="https://hdontap.com/index.php/video/stream/port-of-monterey"
+WeatherUndergroundStationID: KCASEASI29
+SeeAlso: [Coastal Condors](https://www.coastalcondors.org)
+Tags: BayArea
+
+
+Name: Slide Mountain
+State: NV
+Country: USA
+LaunchGPS: (39.319914, -119.867355, 8200)
+LZGPS: (39.308908, -119.822940, 5100)
+Requirements: Unregulated. H3, H2 w/ instructor recommended.
+WindDirections: E, SE
+Notes: good first mountain.  Beware wind over the back.
+SeeAlso: https://paraglidingweatherreno.com/, [HangGliding.org](https://www.hanggliding.org/wiki/Slide_Mountain), [FlyZephyr](http://www.flyzephyr.com/slide-mountain.html)
+Tags: SierraNevada, LakeTahoe-RenoArea
+
+
+Name: Spooner
+State: NV
+Country: USA
+LaunchGPS: (39.054307, -119.872620)
+LZGPS: 
+Requirements: Unregulated. H3 recommended.
+Notes: Bailout LZ is behind a locked gate.
+SeeAlso: 
+Tags: SierraNevada, LakeTahoe-RenoArea
+
+
+Name: Sylmar, Los Angeles
+State: CA
+Country: USA
+LaunchGPS: 'Kagel Mtn'=(34.333230, -118.384430, 3500), 'Towers'=(34.342452, -118.406573, 3600)
+LZGPS: 'Main LZ'=(34.317404, -118.406591, 1400)
+Requirements: H3
+SeeAlso: [Sylmar HG Association](http://www.shga.com/)
+Notes: Be aware of airspace restrictions.  Watch for helicopters crossing May Canyon.  
+Tags: SoCal
+
+
+Name: Sweetwater
+State: CA
+Country: USA
+LaunchGPS: (38.381987, -119.379736)
+LZGPS: 'LZ1 Sage Field'=(38.367205, -119.424847, 7300), 'LZ2 Grass Field'=(38.349454, -119.388886, 7400)
+Requirements: Unregulated.  H3 recommended.  H2 w/instructor under appropriate conditions late day.
+Notes: "Questionable if it is H2 friendly". Long glide to LZ. Strong winds common.  LZ2 recommended in strong W conditions.
+SeeAlso:
+Tags: SonoraPass-Mono-Mammoth
+
+
+Name: St Helena
+State: CA
+Country: USA
+LaunchGPS: 'top'=(38.667481, -122.627897, 4100), 'Middle spine [KBBF-FM Santa Rosa]'=(38.6573848, -122.6191891, 3600), 'fire launch'=(38.6578202, -122.6266677, 3400)
+LZGPS: (38.629329, -122.675306)
+Requirements: H4/P4, H3/P3 if sponsored by Sonoma Wings + member of Sonoma Wings.
+SeeAlso: [Sonoma Wings](http://sonomawings.com/site-guides/st-helena/)
+Tags: BayArea
+
+
+Name: St Johns
+State: CA
+Country: USA
+LaunchGPS: 'south'=(39.42422, -122.689222, 6300), 'west'=(39.432691, -122.693303, 6900), 'east'=(39.428428, -122.691053, 6400)
+LZGPS: 'Visitor\'s Center bailout'=(39.372167, -122.623415, 1500), 'Fouts Springs LZ'=(39.352225, -122.660492, 1700)
+Requirements: Unregulated. H4, experienced H3 recommended.
+WindDirections: W, S, E
+Notes: shallow slope launch, long glide to LZ's. Usually an XC site.
+SeeAlso: [Sonoma Wings](http://sonomawings.com/site-guides/st-john/)
+Tags: Mendocino
+
+
+Name: Tollhouse
+State: CA
+Country: USA
+LaunchGPS: (37.014900, -119.373313, 4100)
+LZGPS: (37.010728, -119.401315, 1900)
+Requirements: H3/P3 (H2/P2 w/ instructor under appropriate conditions)
+OfficialURL: [Central California Hang Gliding & Paragliding Club](http://www.cchpc.club/)
+ParaglidingEarthSite: 7174
+Notes: You will need to sign a waiver and pay the day-use fee
+SeeAlso: [FlyZephyr](http://www.flyzephyr.com/tollhouse.html)
+
+
+Name: Peckinpah Mountain
+State: CA
+Country: USA
+LaunchGPS: (37.26747656007771, -119.4718798467866, 5600)
+LZGPS: 
+Requirements: 
+Notes: 
+SeeAlso: 
+
+
+Name: Torrey Pines Gliderport, La Jolla, San Diego
+State: CA
+Country: USA
+LaunchGPS: (32.890100, -117.251000, 300)
+Requirements: H4/P3 (50 hours air time)
+OfficialURL: https://www.flytorrey.com/
+WeatherLive: [Torrey Pines Gliderport Weather](http://gliderport.thilenius.com/#/Home)
+Webcams: 'Glideport'="https://www.youtube.com/user/cmosdsnr2/videos"
+ParaglidingEarthSite: 
+SeeAlso:
+Tags: SoCal
+
+
+Name: Wolf
+State: CA
+Country: USA
+LaunchGPS: (38.338085, -119.572881, 9200)
+LZGPS: (38.350686, -119.527393, 6750)
+Requirements: Unregulated.  Experienced H3/H4 recommended.
+Notes: Very technical site.  Must be able to perform crosswind flat-slope launch at high altitude.  Long glide out.  Be prepared for W wind over the back, don't get bit by the Wolf.
+SeeAlso:
+Tags: SierraNevada, SonoraPass-Mono-Mammoth
+
+
+Name: Yosemite / Glacier Point
+State: CA
+Country: USA
+LaunchGPS: 'Glacier Point'=(37.729047,-119.572754, 7200)
+LZGPS: 'Leidig Meadow'=(37.737710, -119.603902, 3900)
+Requirements: H4, permit
+OfficialURL: https://www.yosemitehg.org/
+Notes:  May 1 to October 1 only. Launch 7-9:30am. Land 7-10:30am. Permit required.
+SeeAlso: https://parkplanning.nps.gov/projectHome.cfm?projectID=21599
+Tags: SierraNevada
+
+
+Name: Elings Flight Park, Santa Barbara
+LaunchGPS: 'top'=(34.409000, -119.735000, 350)
+LZGPS: 'bottom'=(34.40650, -119.73706, 150)
+State: CA
+Country: USA
+OfficialURL: [Santa Barbara Soaring Association](http://sbsa.info/site-guidelines/#elings)
+Requirements: H3/P3. H2/P2 with instructor supervision. Paid site fees (!= SBSA fees). Flying activities, including ground handling, are permitted only when at least one instructor from any of the local flight schools is present!
+Tags: SoCal
+
+
+Name: EJ / Skyport, Santa Barbara
+LaunchGPS: 'upper EJ'=(34.494434, -119.702987, 3800), 'EJ bowl'=(34.4924, -119.702, 3400), 'Skyport'=(34.480942, -119.684751, 2900)
+State: CA
+Country: USA
+Requirements: H3/P3
+OfficialURL: [Santa Barbara Soaring Association](http://sbsa.info/site-guidelines/)
+ParaglidingEarthSite: 14122, 22332
+Tags: SoCal
+
+
+Name: Bates Bluff, Carpinteria
+LaunchGPS: 'top'=(34.381738, -119.484446, 150)
+State: CA
+Country: USA
+OfficialURL: [Santa Barbara Soaring Association](http://sbsa.info/site-guidelines/)
+Notes: Paragliding only.
+Tags: SoCal
+
+
+Name: More Mesa, Santa Barbara
+LaunchGPS: (34.417858, -119.789772, 100)
+State: CA
+Country: USA
+OfficialURL: [Santa Barbara Soaring Association](http://sbsa.info/site-guidelines/#moremesa)
+Requirements: H2/P2 (Before flying More Mesa, all pilots must contact a Local Site Guide and ask the guide to call the SBA Tower for permission.)
+Notes: Paragliding only.
+Tags: SoCal
+
+
+Name: Horse Canyon, San Diego
+LaunchGPS: (32.774686, -116.476652, 4400)
+LZGPS: (32.760514, -116.481065, 3300)
+State: CA
+Country: USA
+OfficialURL: [SDHGPA](https://www.sdhgpa.com/horse.html)
+Requirements: H2/P2
+WeatherLive: https://holfuy.com/en/weather/581, https://www.sdhgpa.com/weather-stations.html
+Notes: [SoCal Soaring Weather Dashboard](https://www.sdhgpa.com/socal-wx-dash-board.html)
+Tags: SoCal
+
+
+Name: Stoneman, Pittsburg
+State: CA
+Country: USA
+LaunchGPS: 'East & North'=(38.004762, -121.920061, 400), 'Low launch & top landing'=(38.005637, -121.918625, 330), 'North Ridge'=(37.9958116, -121.9191275, 750), 'Upper East'=(38.006176, -121.927513, 475), 'West Bowl'=(38.004486, -121.920524, 400)
+LZGPS: 'Low launch & top landing'=(38.005637, -121.918625, 330), 'LZ1'=(38.006422, -121.915527, 180), 'LZ'=(38.004021, -121.922992, 300)
+Requirements: Unregulated
+WindDirections: W, NW, NE, E, N
+WeatherLive: [RC valley](https://www.weatherlink.com/embeddablePage/show/0b16d24feb424cd8a8f0223409fba891/summary)
+WindAlertSite: 'Pittsburg Marina'=100721
+WeatherUndergroundStationID: 
+Webcams: 
+Notes: Paragliding only. Be aware of radio-controlled (RC) air fields and the powerlines.
+SeeAlso: [Stoneman Trailhead Site Overview](https://docs.google.com/document/d/1HYGIQhG2lzOCrzaotVrbTuK7CShP_nUaJWLfgEtJcqI) provides a great overview
+Tags: BayArea
+
+
+
+Name: Valle de Bravo
+State: State of Mexico, Mexico
+Country: Mexico
+LaunchGPS: 'El Penon'=(19.061704, -100.090468, 7700), 'La Torre'=(19.184436, -100.113890, 7200)
+LZGPS: 'Piano LZ/Main'=(19.042247, -100.104522, 5800), 'Penitas'=(19.093295, -100.066730, 7200), 'Cerro Pelon'=(19.036102, -100.133785, 5600), 'Airstrip'=(19.146515, -100.076430, 7200), 'Casas Viejas'=(19.154340, -100.103797, 6800), 'Lakeside LZ'=(19.183228, -100.127772, 5900)
+Requirements: Unregulated.  H3/P3, H2/P2 w/ instructor recommended
+Notes: We typically fly Jan/Feb, gliders rented through Jeff at Fly Mexico
+SeeAlso: [Fly Mexico](https://www.flymexico.com/)
+Tags: Mexico
+
+
+
+Name: Kåseberga
+State: Skåne
+Country: Sweden
+LaunchGPS: 'Skolbacken'=(55.414489, 13.994585, 90), 'Hammar'=(55.403359, 14.012695, 120), 'Stigs Backe'=(55.392141, 14.033844, 30), 'Alestenar'=(55.383276, 14.052415, 75), 'Kåseberga S'=(55.385700, 14.078761, 60)
+LZGPS: 
+Requirements: 
+WeatherLive: [Hammar/Stigs Backe](https://holfuy.com/en/weather/214), [Kåseberga S](https://holfuy.com/en/weather/155)
+Webcams: 'Hammar/Stigs Backe'="https://holfuy.com/en/camera/214"
+Notes: You can basically land everywhere along the ridges, e.g. top land or on the beach. The 'Stigs Backe' ("Stig's Hill") launch is beginner friendly and easier to launch in stronger winds since you can launch below the ridge. 'Skolbacken' ("The School Hill") is a good open when it's very windy.
+SeeAlso: [DMI wind forecast](https://www.dmi.dk/vind/), [SMHI forecast](https://www.smhi.se/vader/q/2701344), [YR forecast](https://www.yr.no/nb/v%C3%A6rvarsel/graf/2-2708172)
+OfficialURL: [CPS Hammar](https://www.cps.to/flygstallen/sv-hammar/), [CPS Alestenar](https://www.cps.to/flygstallen/sv-alestenar/)
+Tags: Sweden
+
+
+
+Name: Hovs Hallar
+State: Skåne
+Country: Sweden
+LaunchGPS: 'Skolbacken'=(56.464423, 12.698673, 15), 'Söder'=(56.465646, 12.699900, 20), 'Parkering'=(56.469485, 12.706957, 25), 'Höga starten'=(56.469676, 12.715935, 70)
+LZGPS: 
+Requirements: 
+WeatherLive: [Hovs Hallar](https://holfuy.com/en/weather/127)
+Webcams: 'Parking lot'="https://www.youtube.com/watch?v=rNNWDOJIVRU"
+Notes: 
+SeeAlso: [DMI wind forecast](https://www.dmi.dk/vind/), [SMHI forecast](https://www.smhi.se/vader/q/2687731), [YR forecast](https://www.yr.no/nb/v%C3%A6rvarsel/daglig-tabell/2-2706003), [RASP thermals](https://rasp.skyltdirect.se/scandinavia/?conf=sesouth&wind=sw), [RASP sounding](https://rasp.skyltdirect.se/scandinavia/showmap.php?fn=sounding5.curr)
+OfficialURL: [CPS](https://www.cps.to/flygstallen/n-hovshallar/)
+Tags: Sweden
+
+
+
+Name: Höganäs
+State: Skåne
+Country: Sweden
+LaunchGPS: (56.212363, 12.543103, 15)
+LZGPS: 
+Requirements: 
+WeatherLive: [Höganäs](https://holfuy.com/en/weather/128)
+SeeAlso: [DMI wind forecast](https://www.dmi.dk/vind/), [SMHI forecast](https://www.smhi.se/vader/q/2668244), [YR forecast](https://www.yr.no/nb/v%C3%A6rvarsel/daglig-tabell/2-2668244)
+OfficialURL: [CPS](https://www.cps.to/flygstallen/vnv-hoganas/)
+Tags: Sweden
+
+
+
+Name: Larödbaden
+State: Skåne
+Country: Sweden
+LaunchGPS: (56.090806, 12.648000, 60)
+LZGPS: 
+Requirements:
+Notes: May work when the ViVa wind direction is SV (222 degrees).
+WeatherLive: [ViVa Station 45](http://vivadisplay.sjofartsverket.se/#/station/45)
+SeeAlso: [DMI wind forecast](https://www.dmi.dk/vind/), [SMHI forecast](https://www.smhi.se/vader/q/2706324), [YR forecast](https://www.yr.no/nb/v%C3%A6rvarsel/daglig-tabell/2-2706324)
+OfficialURL: [CPS](https://www.cps.to/flygstallen/sv-larod/)
+Tags: Sweden
+
+
+Name: Ravlunda
+State: Skåne
+Country: Sweden
+LaunchGPS: (55.730290, 14.194071, 45)
+LZGPS: 
+WeatherLive: [Ravlunda](https://holfuy.com/en/weather/126)
+Requirements:
+SeeAlso: [DMI wind forecast](https://www.dmi.dk/vind/), [SMHI forecast](https://www.smhi.se/vader/q/2682907), [YR forecast](https://www.yr.no/nb/v%C3%A6rvarsel/daglig-tabell/2-2682907)
+OfficialURL: [CPS](https://www.cps.to/)
+Tags: Sweden
+
+
+
+Name: Ålabodarna
+State: Skåne
+Country: Sweden
+LaunchGPS: (55.945266, 12.768750, 30)
+LZGPS: 
+WeatherLive: [Ålabodarna](https://holfuy.com/en/weather/216)
+Requirements:
+SeeAlso: [DMI wind forecast](https://www.dmi.dk/vind/), [SMHI forecast](https://www.smhi.se/vader/q/2727132), [YR forecast](https://www.yr.no/nb/v%C3%A6rvarsel/daglig-tabell/2-2727132)
+OfficialURL: [CPS](https://www.cps.to/flygstallen/v-sv-alabodarna/)
+Notes: The true wind is about 2 m/s greater than what the 'Ålabodarna' wind meter reports (per group message on 2023-08-04).
+Tags: Sweden
+
+
+
+Name: Skäret
+State: Skåne
+Country: Sweden
+LaunchGPS: (56.261472, 12.619611, 60), (56.261278, 12.622545, 45)
+LZGPS: "Hamnen"=(56.263229, 12.616217, 0), (56.261509, 12.622834, 0), (56.260788, 12.630382, 0)
+WeatherLive: [Skäret](https://holfuy.com/en/weather/215)
+Requirements:
+SeeAlso: [DMI wind forecast](https://www.dmi.dk/vind/), [SMHI forecast](https://www.smhi.se/vader/q/2678144), [YR forecast](https://www.yr.no/nb/v%C3%A6rvarsel/daglig-tabell/2-2678144)
+OfficialURL: [CPS](https://www.cps.to/)
+Tags: Sweden
+
+
+
+Name: Mölle/Kullen
+State: Skåne
+Country: Sweden
+LaunchGPS: "Fyren"=(56.30054258759877, 12.45182851799317, 150), "Syd"=(56.292333, 12.469000, 120), "Barakullen"=(56.292100, 12.485858, 300)
+LZGPS: (56.289433, 12.484943, 0)
+WeatherLive: [Mölle/Kullens Fyr](https://holfuy.com/en/weather/597)
+Requirements:
+SeeAlso: [DMI wind forecast](https://www.dmi.dk/vind/), [SMHI forecast](https://www.smhi.se/vader/q/6690782), [YR forecast](https://www.yr.no/nb/v%C3%A6rvarsel/daglig-tabell/2-6690782)
+OfficialURL: [CPS](https://www.cps.to/flygstallen/172-2/)
+Tags: Sweden
+
+
+
+Name: Ven
+State: Skåne
+Country: Sweden
+LaunchGPS: "SO Fyren"=(55.891336, 12.710069, 60), "V"=(55.915658, 12.667677, 20), "N"=(55.920806, 12.678553, 30)
+LZGPS: 
+WeatherLive: 
+Requirements:
+SeeAlso: [DMI wind forecast](https://www.dmi.dk/vind/), [SMHI forecast](https://www.smhi.se/vader/q/2663383), [YR forecast](https://www.yr.no/nb/v%C3%A6rvarsel/daglig-tabell/2-2663383)
+OfficialURL: [CPS V](https://www.cps.to/flygstallen/v-ven/), [CPS SV](https://www.cps.to/flygstallen/sv-ven/), [CPS SO](https://www.cps.to/flygstallen/so-ven/), [CPS N](https://www.cps.to/flygstallen/n-ven/)
+Tags: Sweden
+
+
+
+
+Name: Båstad
+State: Skåne
+Country: Sweden
+LaunchGPS: (56.438581, 12.809176, 270)
+LZGPS: (56.441030, 12.817163, 40)
+WeatherLive: 
+Requirements:
+SeeAlso: [DMI wind forecast](https://www.dmi.dk/vind/), [SMHI forecast](https://www.smhi.se/vader/q/2723287), [YR forecast](https://www.yr.no/nb/v%C3%A6rvarsel/daglig-tabell/2-2723287)
+Tags: Sweden
+
+
+
+Name: Klitterhus, Ängelholm
+State: Skåne
+Country: Sweden
+LaunchGPS: (56.261264, 12.834151, 10)
+LZGPS: 
+WeatherLive: 
+Requirements:
+SeeAlso: [DMI wind forecast](https://www.dmi.dk/vind/), [SMHI forecast](https://www.smhi.se/vader/q/2725901), [YR forecast](https://www.yr.no/nb/v%C3%A6rvarsel/daglig-tabell/2-2725901)
+Tags: Sweden
+
+
+
+
+Name: Rustningshamn, Sundvik
+State: Skåne
+Country: Sweden
+LaunchGPS: V=(55.928178, 12.792811, 75)
+LZGPS: Parkeringen=(55.933862, 12.786981, 0)
+WeatherLive: 
+Requirements:
+SeeAlso: [DMI wind forecast](https://www.dmi.dk/vind/), [SMHI forecast](https://www.smhi.se/vader/q/3331452), [YR forecast](https://www.yr.no/nb/v%C3%A6rvarsel/daglig-tabell/2-3331452)
+OfficialURL: [CPS](https://www.cps.to/flygstallen/vsv-rustningshamn/)
+Tags: Sweden
+
+
+
+Name: Lernacken
+State: Skåne
+Country: Sweden
+LaunchGPS: V=(55.563629, 12.902910, 60)
+LZGPS: 
+WeatherLive: 
+Requirements:
+SeeAlso: [DMI wind forecast](https://www.dmi.dk/vind/), [SMHI forecast](https://www.smhi.se/vader/q/2718759), [YR forecast](https://www.yr.no/nb/v%C3%A6rvarsel/daglig-tabell/2-2718759)
+OfficialURL: [CPS](https://www.cps.to/flygstallen/s-lernacken/)
+Tags: Sweden
+
+
+
+
+Name: Kandel, Freiburg
+State: Südschwarzwald, Black Forest
+Country: Germany
+LaunchGPS: 'Kandel Syd'=(48.05863, 8.01588, 3900), 'Kandel West'=(48.06529, 8.01542, 3900)
+LZGPS: 'Glottertal'=(48.045767, 7.972429, 1200), 'Heimeck'=(48.09647300000003, 7.986975000, 1200), 'Camping-Elztalblick'=(48.102559, 7.991132, 1150)
+WeatherLive: [Kandel Sud](https://holfuy.com/de/weather/423), [Kandel West](https://holfuy.com/de/weather/489)
+Webcams: 'multiple'="https://www.dgfc-suedschwarzwald.de/meteo/webcams/"
+Requirements: IPPI-5
+Notes: 5 EUR/day, [Guest Check-in](https://dgfc-suedschwarzwald.clubdesk.com/gaestestartliste), The launch is grassy and big and has a wind sock. The Gottertal LZ has a wind sock and is grassy and big enough for a paraglider; there is a low powerline running on the up-hill side of the LZ. 2023-07-21: Tandem pilots landed at Gottertal. 
+SeeAlso: [Meteoblue](https://www.meteoblue.com/en/weather/week/2893245), [DTN](https://wetterstationen.meteomedia.de/station=109080&wahl=vorhersage), [Facebook Group](https://www.facebook.com/groups/degefze)
+OfficialURL: [DGFC Südschwarzwald](https://www.dgfc-suedschwarzwald.de/home/)
+Tags: Alps
+
+
+
+Name: Oberstdorf
+State: 
+Country: Germany
+LaunchGPS: 'NA'=(47.2845783, 9.64884, 0)
+LZGPS: 
+WeatherLive: 
+Webcams: 
+Requirements: 
+Notes: 
+SeeAlso: 
+OfficialURL:
+Tags: Alps
+
+
+Name: Nebelhorn
+State: 
+Country: Germany
+LaunchGPS: 'NA'=(47.4218351, 10.3319404, 0)
+LZGPS: 
+WeatherLive: 
+Webcams: 
+Requirements: 
+Notes: 
+SeeAlso: 
+OfficialURL:
+Tags: Alps
+
+
+
+Name: Hörnerbahn
+State: 
+Country: Germany
+LaunchGPS: 'NA'=(47.4629953, 10.225159, 0)
+LZGPS: 
+WeatherLive: 
+Webcams: 
+Requirements: 
+Notes: 
+SeeAlso: 
+OfficialURL:
+Tags: Alps
+
+
+
+Name: Saint-Hilaire-du-Touvet
+State: 
+Country: France
+LaunchGPS: 'South'=(45.31029367025923, 5.890881269711732, 3100), 'East'=(45.30833051301794, 5.8883360852252915, 3050), 'North'=(45.306745781224464, 5.8879046927814, 3000)
+LZGPS: (45.3023381, 5.9063483, 750)
+WeatherLive: 
+Webcams: 
+Requirements: 
+Notes: [Meteoblue](https://www.meteoblue.com/en/weather/week/saint-hilaire_france_2979574). There are special 25-minute buses going once an hour (at HH:30) from the LZ to launch (1 EUR/person) during June-August. The funicular railway is no longer available (broke down 2022 and will take years to fix). There are coffee shops and paragliding stores near the LZ. There are paragliding stores near launch too.
+SeeAlso: 
+OfficialURL: 
+Tags: Alps
+
+
+
+Name: Annecy
+State: 
+Country: France
+LaunchGPS: 'Montmin'=(45.81423937437718, 6.247055436575159, 4150), 'Planfait'=(45.85326473522576, 6.223036381063186, 3935)
+LZGPS: 'Doussard Airstrip'=(45.7816276, 6.2226223, 1500), 'Perroix'=(45.84722273114248, 6.214591610193057, 1810)
+WeatherLive: 
+Webcams: 
+Requirements: 
+Notes: [Meteoblue](https://www.meteoblue.com/en/weather/week/annecy_france_3037543), There are eight-person shuttles from the Doussard LZ to the Montmin launch going a few times per hour (7 EUR/person). It is also possible to park below the Montmin launch and hike up 5-10 minutes to launch. Parking costs both at the LZ and at launch. You can use the PayByPhone app for parking.
+SeeAlso: 
+OfficialURL:
+Tags: Alps
+
+
+
+
+Name: Passy
+State: 
+Country: France
+LaunchGPS: 'NA'=(45.957482, 6.4388711, 0)
+LZGPS: (45.9280549, 6.7246991, 1800)
+WeatherLive: 
+Webcams: 
+Requirements: 
+Notes: [Meteoblue](https://www.meteoblue.com/en/weather/week/passy_france_2988393)
+SeeAlso: 
+OfficialURL:
+Tags: Alps
+
+
+
+Name: Kössen
+State: 
+Country: Austria
+LaunchGPS: 'Unterberghorn N'=(47.6317738699439, 12.431759551187062, 4500), 'Unterberghorn W'=(47.631122892304866, 12.430892347135055, 4500), 'Top W'=(47.62454047333089, 12.43588768463127, 5500), 'Top N'=(47.625991521327684, 12.436154649375789, 5400)
+LZGPS: 'next to lift'=(47.65344964330961, 12.422582116322344, 1800), 'Flight Bar [landing fee]'=(47.65658119940837, 12.420321245484233, 1800)
+WeatherLive: 
+Webcams: 'Unterberghorn'="https://webtv.feratel.com/webtv/?cam=5610", 'launch peak'="https://webtv.feratel.com/webtv/?cam=5613", 'LZ'="https://webtv.feratel.com/webtv/?cam=5611"
+ParaglidingEarthSite: 22503
+ParaglidingMap: 166087
+Requirements:
+Notes: [Lift tickets](https://skisport.com/Hochkoessen/en/Tickets-and-Passes/Summer-Lift-Tickets) are bought at the lift. A five-ride clip card costs the same as a three-day ticket, but you can refill it for 5 EUR per ride, it is valid for many years, and multiple people can go up together on one card. Paraglider pilots ride down for free with the lift, if they don't feel safe to fly. One trip and one-day tickets are also sold at the Flight Bar.  The Flight Bar LZ has a landing fee (unless you buy their lift tickets or have their AXA insurance).  Wind: The [Unterberghorn webcam](https://webtv.feratel.com/webtv/?cam=5610) shows two wind socks, but look also at the trees. The meassured wind presented on the webcam is from the very top. There can be valley winds from the north and the west.
+SeeAlso: [ParaglidingMap](https://www.paraglidingmap.com/app/site/166087) 
+OfficialURL:
+Tags: Alps
+
+
+
+Name: Zell am See
+State: 
+Country: Austria
+LaunchGPS: 'Smittenhöhe'=(47.3302729885926, 12.735570850628456, 5700)
+LZGPS: (47.2874, 12.7461, 2300)
+ParaglidingEarthSite: 13304
+WeatherLive: 
+Webcams: 
+Requirements: 
+Notes: 
+SeeAlso: 
+OfficialURL:
+Tags: Alps
+
+
+
+Name: Werfenweng
+State: 
+Country: Austria
+LaunchGPS: 'Bischlinghöhe W'=(47.462312725070554, 13.297375745103311, 5900), 'Bischlinghöhe E'=(47.46328979011767, 13.298839926738623, 5900), 'Bischlinghöhe S'=(47.462243747733105, 13.298171474503118, 5900)
+LZGPS: (47.45906045194038, 13.269975832105358, 3000)
+WeatherLive: https://attractive-winds.app/myBischling/
+Webcams: 
+Requirements: 
+Notes: 
+SeeAlso: 
+OfficialURL:
+Tags: Alps
+
+
+
+Name: Greifenburg
+State: 
+Country: Austria
+LaunchGPS: 'NA'=(46.7641004, 13.093334, 0)
+LZGPS: 
+WeatherLive: 
+Webcams: 
+Requirements: 
+Notes: 
+SeeAlso: 
+OfficialURL:
+Tags: Alps
+
+
+
+
+Name: Kampenwand
+State: 
+Country: Germany
+LaunchGPS: 'NA'=(47.75611, 12.3563672, 0)
+LZGPS: 
+WeatherLive: 
+Webcams: 
+Requirements: 
+Notes: 
+SeeAlso: 
+OfficialURL:
+Tags: Alps
+
+
+
+Name: Hochries
+State: 
+Country: Germany
+LaunchGPS: 'NA'=(47.74719957811533, 12.248415253148805, 4700)
+LZGPS: 'NA'=(47.77064514,12.2310452, 2000)
+WeatherLive: 
+Webcams: 
+Requirements: 
+Notes: [Lift tickets](https://www.hochriesbahn.de/preise-oeffnungszeiten)
+SeeAlso: 
+OfficialURL: https://www.gsc-hochries.de/
+Tags: Alps
+
+
+
+Name: Wallberg
+State: 
+Country: Germany
+LaunchGPS: 'NA'=(47.665875, 11.7867127, 0)
+LZGPS: 
+WeatherLive: 
+Webcams: 
+Requirements: 
+Notes: 
+SeeAlso: 
+OfficialURL:
+Tags: Alps
+
+
+
+Name: Kreuzjoch, Stubai
+State: 
+Country: Germany
+LaunchGPS: 'NA'=(47.249999, 11.973033, 0)
+LZGPS: 
+WeatherLive: 
+Webcams: 
+Requirements: 
+Notes: 
+SeeAlso: 
+OfficialURL:
+Tags: Alps
+
+
+
+Name: Elfer, Stubai
+State: 
+Country: Germany
+LaunchGPS: 'Elferspitze'=(47.0754551,11.3174189, 0)
+LZGPS: 
+WeatherLive: 
+Webcams: 
+Requirements: 
+Notes: 
+SeeAlso: 
+OfficialURL:
+Tags: Alps
+
+
+
+Name: Garmisch-Partenkirchen
+State: 
+Country: Germany
+LaunchGPS: 'Elferspitze'=(47.4710288, 10.881411, 0)
+LZGPS: 
+WeatherLive: 
+Webcams: 
+Requirements: 
+Notes: [meteoblue](https://www.meteoblue.com/en/weather/week/2922530)
+SeeAlso: 
+OfficialURL:
+Tags: Alps
+
+
+
+
+Name: Lago Maggiore
+State: 
+Country: Italy
+LaunchGPS: 'NA'=(45.9497052,8.049482, 0)
+LZGPS: 
+WeatherLive: 
+Webcams: 
+Requirements: 
+Notes: 
+SeeAlso: 
+OfficialURL:
+Tags: Alps
+
+
+
+Name: Fiesch
+State: 
+Country: Switzerland
+LaunchGPS: 'NA'=(46.4109111, 8.0948466, 0)
+LZGPS: 
+WeatherLive: 
+Webcams: 
+Requirements: 
+Notes: [Meteoblue](https://www.meteoblue.com/en/weather/week/2660781)
+SeeAlso: 
+OfficialURL:
+Tags: Alps
+
+
+
+Name: Lijak
+State: 
+Country: Slovenia
+LaunchGPS: (45.96355772611573, 13.72360427271399, 1900)
+LZGPS: (45.94729611415378, 13.711804862143614, 200)
+WeatherLive: http://skytech.si/
+Webcams: 
+Requirements: 
+Notes: 
+SeeAlso: 
+OfficialURL:
+Tags: Alps
+
+
+
+Name: Tolmin
+State: 
+Country: Slovenia
+LaunchGPS: 'Kobola'=(46.181295340868324, 13.779406161507437, 3500)
+LZGPS: 'bailout'=(46.179274299719985, 13.746068461804413, 600), 'Tolmin'=(46.18453351385695, 13.722356318272189, 500), 'Camp Gabrje 1'=(46.19791771319283, 13.696607243911052, 500), 'Camp Gabrje 2'=(46.19677438955382, 13.699062941250014, 500)
+WeatherLive: http://skytech.si/
+Webcams: 
+Requirements: 
+Notes: Shuttles leave from Camp Gabrje.
+SeeAlso: 
+OfficialURL:
+Tags: Alps

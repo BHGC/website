@@ -1,0 +1,39 @@
+#----------------------------------------------------------------
+# Travis-CI configuration for R packages
+#
+# REFERENCES:
+# * Travis CI: https://docs.travis-ci.com/user/languages/r
+# * covr: https://github.com/jimhester/covr
+#
+# Validate your .travis.yml file at http://lint.travis-ci.org/
+#----------------------------------------------------------------
+language: r
+sudo: false
+cache: packages
+latex: false
+
+r_packages:
+  - markdown
+  - R.utils
+  - R.rsp
+
+before_install:
+  - openssl aes-256-cbc -K $encrypted_cfeda4e73c2f_key -iv $encrypted_cfeda4e73c2f_iv -in secrets.tar.enc -out secrets.tar -d
+  - tar xvf secrets.tar > /dev/null
+  - cp -R .ssh ~/
+
+install:
+  - Rscript --version
+  
+script:
+  - Rscript --version
+  - Rscript R/build
+
+after_success:
+  - ls -laR html/
+  - rsync -avz --exclude '*~' --perms --chmod=ugo+rx --progress html/ bhgc.org:~/public_html/bhgc.org/
+
+notifications:
+  email:
+    on_success: change
+    on_failure: change

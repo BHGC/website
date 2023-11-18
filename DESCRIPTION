@@ -1,0 +1,24 @@
+Package: bhgc.website
+Version: 0.0.0-9000
+Depends:
+Imports:
+    markdown,
+    R.oo,
+    R.rsp,
+    R.utils,
+    utils
+Title: Tools for the BHGC Website
+Authors@R: c(
+   person(
+     "Henrik", "Bengtsson",
+     role=c("aut", "cre", "cph"),
+     email="henrikb@braju.com"
+   ))
+Description: Tools for BHGC website.
+License: LGPL (>= 2.1)
+LazyLoad: TRUE
+ByteCompile: TRUE
+URL: https://www.bhgc.org, https://github.com/BHGC/website
+BugReports: https://github.com/BHGC/website/issues
+RoxygenNote: 7.2.3
+Roxygen: list(markdown = TRUE)
