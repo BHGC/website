@@ -3,8 +3,6 @@
 #  source('https://bhgc.org/build#BHGC')
 ############################################################################
 
-##local({
-
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 # Debug
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -25,6 +23,7 @@ mprint <- function(...) {
   mout(capture.output(print(...)), appendLF=TRUE)
 }
 
+#' @importFrom utils capture.output str
 mstr <- function(...) {
   mout(capture.output(str(...)), appendLF=TRUE)
 }
@@ -79,9 +78,9 @@ findSourceTraceback <- function(...) {
 } # findSourceTraceback()
 
 
+#' @importFrom R.oo trim
+#' @importFrom utils URLdecode
 findURIs <- function(url=NULL) {
-  trim <- function(x) gsub("(^[ ]|[ ]$)", "", x)
-
   if (is.null(url)) {
     urls <- names(findSourceTraceback())
     pattern <- ".*/build#"
@@ -106,21 +105,11 @@ findURIs <- function(url=NULL) {
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 # Local functions
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-use <- function(...) {
-  isInstalled <- function(pkgs) {
-    unlist(sapply(pkgs, FUN=function(pkg) {
-      nzchar(suppressWarnings(system.file(package=pkg)))
-    }))
-  } # isInstalled()
-
-  if (!isInstalled("R.utils")) install.packages("R.utils")
-  R.utils::use(...)
-} # use()
-
-
+#' @importFrom R.oo throw
+#' @importFrom R.utils hpaste isFile isUrl downloadFile Arguments
+#' @importFrom R.rsp rstring rfile RspFileProduct
+#' @importFrom markdown markdownToHTML
 buildPage <- function(src, path=".", skip=TRUE) {
-  use("R.utils, R.rsp, markdown")
-
   if (is.na(src)) throw("Unknown page source: ", src)
 
   # Prepend path?
@@ -230,9 +219,9 @@ buildPage <- function(src, path=".", skip=TRUE) {
 
 
 
+#' @importFrom R.oo trim
+#' @importFrom R.utils isUrl downloadFile Arguments
 findFiles <- function(path, pattern=NULL, recursive=TRUE) {
-  use("R.utils")
-
   # Download list of files?
   if (isUrl(path)) {
     url <- file.path(path, ".files")
@@ -269,9 +258,8 @@ findAssets <- function(path=".") {
   findFiles(path=file.path(path, "assets"), pattern="[^~]$")
 }
 
+#' @importFrom R.utils mkdirs
 buildAssets <- function(path=".") {
-  use("R.utils, R.rsp, markdown")
-
   # List of assets
   pathnamesA <- file.path("assets", findAssets(path))
 
@@ -294,8 +282,6 @@ buildAssets <- function(path=".") {
 } # buildAssets()
 
 buildPages <- function(srcs=NULL, path=".") {
-  use("R.utils")
-
   # Build assets
   buildAssets(path)
 
@@ -312,19 +298,24 @@ buildPages <- function(srcs=NULL, path=".") {
 } # buildPages()
 
 
-mcat("BHGC.org compiler v1.0 by Henrik Bengtsson\n\n")
-
-uris <- findURIs()
-nuris <- length(uris)
-if (nuris == 0L) {
-  path <- "."
-} else if (nuris == 1L) {
-  path <- sprintf("https://raw.githubusercontent.com/%s/website/master", uris)
-} else {
-  throw("To many URIs: ", hpaste(uris))
+#' Build the BHGC Website
+#'
+#' @importFrom R.oo throw
+#' @export
+build <- function() {
+  mcat("BHGC.org compiler v1.0 by Henrik Bengtsson\n\n")
+  
+  uris <- findURIs()
+  nuris <- length(uris)
+  if (nuris == 0L) {
+    path <- "."
+  } else if (nuris == 1L) {
+    path <- sprintf("https://raw.githubusercontent.com/%s/website/master", uris)
+  } else {
+    throw("To many URIs: ", hpaste(uris))
+  }
+  
+  mprintf("Source: %s\n", path)
+  buildPages(path=path)
 }
 
-mprintf("Source: %s\n", path)
-buildPages(path=path)
-
-##}) # local()

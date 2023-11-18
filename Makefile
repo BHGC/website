@@ -40,7 +40,7 @@ all: sites build
 # Pages
 #=====================================================================
 build:
-	$(R_SCRIPT) "R/build"
+	$(R_SCRIPT) -e "bhgc.website::build()"
 
 europe:
 	touch content/sites/germany/index.md

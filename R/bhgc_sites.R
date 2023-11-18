@@ -123,11 +123,6 @@ weather.bhgc_site <- function(site, ...) {
   gps_md(gps = gps, url_md = weather_url_md, country = site$Country, ...)
 }
 
-windy_weather <- function(gps, ...) {
-  gps <- gps[[1]]
-  gps_md(gps = gps, url_md = windy_weather_url_md, ...)
-}
-
 
 aerochart_url_md <- function(gps, chart = 301, zoom = 3) {
   lat <- gps[1]
