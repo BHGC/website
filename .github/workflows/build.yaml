@@ -33,7 +33,14 @@ jobs:
           install.packages(".", repos = NULL)
         shell: Rscript {0}
 
-      - name: Session info
+      - name: Shell session info
+        run: |
+          ls -al
+          git status
+          git branch -a
+          git log -1
+
+      - name: R session info
         run: |
           options(width = 100)
           capabilities()
@@ -50,7 +57,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          git checkout gh-pages
+          git config --global user.email "bhgc-github-actions-publish@bhgc.org"
+          git config --global user.name "BHGC Website GHA Workflow Runner"
+          git checkout --progress --force -B gh-pages refs/remotes/origin/master
           git add -f html
           git commit -am "bhgc.website::build()"
           git push
