@@ -62,7 +62,7 @@ jobs:
           git checkout --progress --force -B gh-pages refs/remotes/origin/master
           git add -f html
           git commit -am "bhgc.website::build()"
-          git push
+          git push --set-upstream origin gh-pages
 
       - name: Upload build results
         if: failure()
