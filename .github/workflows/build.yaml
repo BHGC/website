@@ -59,11 +59,12 @@ jobs:
         run: |
           git config --global user.email "bhgc-github-actions-publish@bhgc.org"
           git config --global user.name "BHGC Website GHA Workflow Runner"
-          git checkout --progress --force -B gh-pages refs/remotes/origin/master
-          git pull
+          git fetch origin gh-pages
+          git checkout gh-pages
+          git merge origin/gh-pages --allow-unrelated-histories -m "Merge remote-tracking branch 'origin/gh-pages'"
           git add -f html
           git commit -am "bhgc.website::build()"
-          git push --set-upstream origin gh-pages
+          git push origin gh-pages
 
       - name: Upload build results
         if: failure()
