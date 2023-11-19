@@ -64,8 +64,8 @@ jobs:
           git merge origin/gh-pages --allow-unrelated-histories -m "Merge remote-tracking branch 'origin/gh-pages'"
           cp -r html/* .
           git add -f .
-          git commit -am "bhgc.website::build()"
-          git push origin gh-pages
+          git commit -am "bhgc.website::build()" && git push origin gh-pages
+          true
 
       - name: Upload build results
         if: failure()
