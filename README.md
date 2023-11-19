@@ -1,10 +1,11 @@
-[![Build Status](https://travis-ci.org/BHGC/website.svg?branch=master)](https://travis-ci.org/BHGC/website)
+[![build](https://github.com/BHGC/website/actions/workflows/build.yaml/badge.svg)](https://github.com/BHGC/website/actions/workflows/build.yaml)
 
 
 BHGC Website
 ============
 
-This repository contains the framework for building the [BHGC website].  This website is mobile friendly.
+This repository contains the framework for building the [BHGC
+website].  This website is mobile friendly.
 
 
 ### Contribute
@@ -30,8 +31,9 @@ you should be able to at least tweak its info.
 
 Any updates made online / to this repository triggers an automatic
 rebuild of the website and its content.  You can follow the progess
-over at [Travis CI](https://travis-ci.org/BHGC/website/builds).
-You can expect any edits to be live in ~2 minutes.
+over at [GitHub Actions]. You can expect any edits to be live in ~2
+minutes.
 
 
-[BHGC website]: https://bhgc.org/
+[BHGC website]: https://www.bhgc.org/
+[GitHub Actions]: https://github.com/BHGC/website/actions/workflows/build.yaml
