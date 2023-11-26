@@ -62,8 +62,7 @@ jobs:
           git fetch origin gh-pages
           git checkout gh-pages
           git merge origin/gh-pages --allow-unrelated-histories -m "Merge remote-tracking branch 'origin/gh-pages'"
-          rm -rf html/*
-          cp -r html/* .
+          rsync -av html/ .
           git add -f .
           git commit -am "bhgc.website::build()" && git push origin gh-pages
           true
