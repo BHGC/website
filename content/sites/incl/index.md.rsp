@@ -49,11 +49,3 @@ retangular-shaped "forecast areas" place in a grid all over the US.
 The size of these areas is 2.5-by-2.5 km.
 <% } %>
 </div>
-
-
-<%-------------------------------------------------------------------
- REFERENCES
- -------------------------------------------------------------------%>
-[WOR]: https://www.wingsofrogallo.org/
-[Wings of Rogallo (WOR)]: https://www.wingsofrogallo.org/
-[Sonoma Wings]: http://sonomawings.com/site-guides/
