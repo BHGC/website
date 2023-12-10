@@ -308,6 +308,12 @@ live_weather.bhgc_site <- function(site, ...) {
 
     liveweather <- sprintf("[%s](%s)", names(liveweather), unlist(liveweather))
   
+    # Tempest
+    if (nzchar(TempestStationID)) {
+      values <- link_split(TempestStationID, prefix = "T:")
+      liveweather[names(values)] <- sprintf("https://tempestwx.com/station/%s/grid", values)
+    }
+
     # "Live weather" text
     if (nzchar(WeatherLive)) {
       liveweather <- c(WeatherLive, liveweather)
