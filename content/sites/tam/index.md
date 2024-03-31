@@ -10,7 +10,7 @@
 
 ## Winds
 
-* [Modeled](http://www.met.sjsu.edu/cgi-bin/wind/windbin.cgi)
+* [Modeled](http://www.met.sjsu.edu/cgi-bin/wind/windbin.cgi) [no longer working; no data]
 * [Middle Peak Wind](https://www.wrh.noaa.gov/mesowest/getobext.php?sid=MDEC1&table=1&banner=off) [also on Sites page]
 * [RAWS Map](https://www.wrh.noaa.gov/mesowest/mwmap.php?list=1&map=mtr&sort=latitude) [N/A]
 * [SF Buoy](https://www.ndbc.noaa.gov/station_page.php?station=46026) [also on Sites page]
