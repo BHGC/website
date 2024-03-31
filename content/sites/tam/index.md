@@ -21,7 +21,7 @@
 * Next two days of tides [N/A]
 * Wind Talker Numbers: Mt. Tamalpais (415-381-9463) [N/A], Stinson Beach (415-868-1922) [N/A], Fort Funston (415-333-0100) [N/A]
 * [Today's OAK sounding](https://www.topaflyers.com/weather/soundings/oak.png) [also on Sites page]
-* [Stinson Forecast](https://forecast.weather.gov/MapClick.php?lat=37.90086509257004&lon=-122.63763427734375&site=mtr&smap=1&marine=0&unit=0&lg=en)
+* [Stinson Forecast](https://forecast.weather.gov/MapClick.php?lat=37.90086509257004&lon=-122.63763427734375&site=mtr&smap=1&marine=0&unit=0&lg=en) [also on Sites page]
 * [Stinson Weather](http://stinson-beach-cwd.dst.ca.us/weather/Current_Vantage_Pro.htm) [N/A]
 * [Forecast Discussion](https://forecast.weather.gov/product.php?site=NWS&issuedby=MTR&product=AFD&format=txt&version=1&glossary=1)
 
