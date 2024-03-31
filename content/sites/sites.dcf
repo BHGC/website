@@ -493,7 +493,7 @@ LZGPS: (37.671116, -122.494646, 50)
 Requirements: P2-P3 (non-restricted)
 Soundings: OAK
 ParaglidingEarthSite: 15523
-WindAlertSite: 'Mussel Rock'=https://www.windalert.com/spot/49632, 'Mussel Rock Park (down?)'=169580
+WindAlertSite: 'Mussel Rock'=49632, 'Mussel Rock Park (down?)'=169580
 WeatherUndergroundStationID: KCADALYC37, KCADALYC1, KCAPACIF205
 Webcams: 'Mussle Rock Park'="https://www.youtube.com/watch?v=vZEINdmawdc", 'Cheetah'="https://www.youtube.com/watch?v=L6e1EEA-dQI"
 Notes: Paragliding only. _Emergency_ frequency: 147.495 MHz (as of June 2020; same as Ed Levin)
