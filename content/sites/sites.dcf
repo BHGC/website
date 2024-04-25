@@ -502,6 +502,21 @@ WeatherLive: [Fog Today](https://fog.today/)
 Tags: BayArea
 
 
+Name: The Stables
+State: CA
+Country: USA
+LaunchGPS: (37.7018995, -122.4998547, 60)
+LZGPS: (37.7018995, -122.4998547, 60)
+Requirements: P3
+OfficialURL: [Wings of Rogallo](https://wingsofrogallo.org/the-stables/)
+Soundings: OAK
+ParaglidingEarthSite: 15523
+Notes: Paragliding only.
+SeeAlso: https://musselrock.app/
+WeatherLive: [Fog Today](https://fog.today/)
+Tags: BayArea
+
+
 Name: Paiute/Piute Mountain
 State: CA
 Country: USA
