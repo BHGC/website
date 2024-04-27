@@ -25,8 +25,9 @@ R.utils::cstr(sites)
 <%
 alert <- alert(site)
 if (nzchar(alert)) { %>
-* Alert: <%= alert %>
+_ALERT: <%= alert %>_
 <% } %>
+
 * Launch: <%= launch_map(site) %>
 * LZ: <%= lz_map(site) %>
 * Weather at launch: <%= weather(site) %>
