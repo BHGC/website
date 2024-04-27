@@ -496,6 +496,7 @@ ParaglidingEarthSite: 15523
 WindAlertSite: 'Mussel Rock'=49632, 'Mussel Rock Park (down?)'=169580
 WeatherUndergroundStationID: KCADALYC37, KCADALYC1, KCAPACIF205
 Webcams: 'Mussle Rock Park'="https://www.youtube.com/watch?v=vZEINdmawdc", 'Cheetah'="https://www.youtube.com/watch?v=L6e1EEA-dQI"
+Alert: Mussel Rock site is fenced off for a few months starting 2024-04-23, because the city is doing a major cleanup of this old landfill.
 Notes: Paragliding only. _Emergency_ frequency: 147.495 MHz (as of June 2020; same as Ed Levin)
 SeeAlso: https://musselrock.app/
 WeatherLive: [Fog Today](https://fog.today/)

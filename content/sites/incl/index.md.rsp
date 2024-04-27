@@ -22,6 +22,11 @@ R.utils::cstr(sites)
 %>
 <h2 id="<%= header_id %>"><%=label%> <a href="#<%= header_id %>">#</a></h2>
 
+<%
+alert <- alert(site)
+if (nzchar(alert)) { %>
+* Alert: <%= alert %>
+<% } %>
 * Launch: <%= launch_map(site) %>
 * LZ: <%= lz_map(site) %>
 * Weather at launch: <%= weather(site) %>

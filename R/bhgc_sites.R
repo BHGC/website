@@ -377,6 +377,11 @@ notes.bhgc_site <- function(site, ...) {
  rstring(site$Notes)
 } 
 
+alert <- function(...) UseMethod("alert")
+
+alert.bhgc_site <- function(site, ...) {
+ rstring(site$Alert)
+} 
 
 webcams <- function(...) UseMethod("webcams")
 
