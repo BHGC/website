@@ -1310,14 +1310,16 @@ Tags: Alps
 
 
 Name: Grogarnsberget
+Nickname: Grogarn
 State: Gotland
 Country: Sweden
-LaunchGPS: V=(57.443183, 18.889211, 80)
+LaunchGPS: (57.443183, 18.889211, 80)
 LZGPS: 
 WeatherLive: 
 Requirements:
 SeeAlso: [DMI wind forecast](https://www.dmi.dk/vind/), [SMHI forecast](https://www.smhi.se/vader/q/2706511), [YR forecast](https://www.yr.no/nb/v%C3%A6rvarsel/daglig-tabell/2-2706511)
 OfficialURL: [ParaglidingFriendsGotland](https://www.facebook.com/groups/185254131553071)
+Notes: "Cliff launch with alright landing options".
 Tags: Sweden
 
 
@@ -1325,10 +1327,66 @@ Tags: Sweden
 Name: Hallshuk
 State: Gotland
 Country: Sweden
-LaunchGPS: V=(57.923994, 18.748689, 75)
+LaunchGPS: (57.923994, 18.748689, 75)
 LZGPS: 
 WeatherLive: 
 Requirements:
 SeeAlso: [DMI wind forecast](https://www.dmi.dk/vind/), [SMHI forecast](https://www.smhi.se/vader/q/9782478), [YR forecast](https://www.yr.no/nb/v%C3%A6rvarsel/daglig-tabell/2-9782478)
+OfficialURL: [ParaglidingFriendsGotland](https://www.facebook.com/groups/185254131553071)
+Notes: https://www.facebook.com/groups/185254131553071/posts/5465684026843362/?comment_id=5465748573503574
+Tags: Sweden
+
+
+
+Name: Hoburgen
+State: Gotland
+Country: Sweden
+LaunchGPS: (56.9426838, 18.1494867, 50)
+LZGPS:
+WindDirections: W, NW
+WeatherLive: 
+Requirements:
+SeeAlso: [DMI wind forecast](https://www.dmi.dk/vind/), [SMHI forecast](https://www.smhi.se/vader/q/2706076), [YR forecast](https://www.yr.no/nb/v%C3%A6rvarsel/daglig-tabell/2-2706076)
+OfficialURL: [ParaglidingFriendsGotland](https://www.facebook.com/groups/185254131553071)
+Notes: "Great launch and lots of landing options". Best for NW, but W works in one spot.
+Tags: Sweden
+
+
+
+Name: Tofta
+State: Gotland
+Country: Sweden
+LaunchGPS: 'Skjutfält'=(57.5598501, 18.1359739, 50), (57.5326769, 18.10652940, 50)
+LZGPS: 
+WeatherLive: 
+Requirements:
+SeeAlso: [DMI wind forecast](https://www.dmi.dk/vind/), [SMHI forecast](https://www.smhi.se/vader/q/2721480), [YR forecast](https://www.yr.no/nb/v%C3%A6rvarsel/daglig-tabell/2-2721480)
+OfficialURL: [ParaglidingFriendsGotland](https://www.facebook.com/groups/185254131553071)
+Notes: No mobile reception. There's "Blåhäll" too. Top landing preferred. [Military area with zero access during practice](https://www.forsvarsmakten.se/sv/organisation/gotlands-regemente-p-18/p18-skjutfalt-avlysningar/#/area/tofta-skjutfalt)
+Tags: Sweden
+
+
+Name: Häftingsklint
+State: Gotland
+Country: Sweden
+LaunchGPS: (57.8837930, 18.6235683, 50)
+LZGPS: 
+WeatherLive: 
+Requirements:
+SeeAlso: [DMI wind forecast](https://www.dmi.dk/vind/), [SMHI forecast](https://www.smhi.se/vader/q/2703528), [YR forecast](https://www.yr.no/nb/v%C3%A6rvarsel/daglig-tabell/2-2703528)
+OfficialURL: [ParaglidingFriendsGotland](https://www.facebook.com/groups/185254131553071)
+WindDirections: W, NW
+Notes: https://www.facebook.com/groups/185254131553071/permalink/6177572232321201/
+Tags: Sweden
+
+
+Name: Nyhamn/Lummelunda
+State: Gotland
+Country: Sweden
+LaunchGPS: (57.762345, 18.4146428, 50)
+LZGPS: 
+WeatherLive: 
+Requirements:
+SeeAlso: [DMI wind forecast](https://www.dmi.dk/vind/), [SMHI forecast](https://www.smhi.se/vader/q/2687736), [YR forecast](https://www.yr.no/nb/v%C3%A6rvarsel/daglig-tabell/2-2687736)
 OfficialURL: [ParaglidingFriendsGotland](https://www.facebook.com/groups/185254131553071)
 Tags: Sweden
