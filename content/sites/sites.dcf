@@ -1305,3 +1305,30 @@ Notes: Shuttles leave from Camp Gabrje.
 SeeAlso: 
 OfficialURL:
 Tags: Alps
+
+
+
+
+Name: Grogarnsberget
+State: Gotland
+Country: Sweden
+LaunchGPS: V=(57.443183, 18.889211, 80)
+LZGPS: 
+WeatherLive: 
+Requirements:
+SeeAlso: [DMI wind forecast](https://www.dmi.dk/vind/), [SMHI forecast](https://www.smhi.se/vader/q/2706511), [YR forecast](https://www.yr.no/nb/v%C3%A6rvarsel/daglig-tabell/2-2706511)
+OfficialURL: 
+Tags: Sweden
+
+
+
+Name: Hallshuk
+State: Gotland
+Country: Sweden
+LaunchGPS: V=(57.923994, 18.748689, 75)
+LZGPS: 
+WeatherLive: 
+Requirements:
+SeeAlso: [DMI wind forecast](https://www.dmi.dk/vind/), [SMHI forecast](https://www.smhi.se/vader/q/9782478), [YR forecast](https://www.yr.no/nb/v%C3%A6rvarsel/daglig-tabell/2-9782478)
+OfficialURL: 
+Tags: Sweden
