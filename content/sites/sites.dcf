@@ -1006,7 +1006,7 @@ Tags: Alps
 Name: Oberstdorf
 State: 
 Country: Germany
-LaunchGPS: 'NA'=(47.2845783, 9.64884, 0)
+LaunchGPS: (47.2845783, 9.64884, 0)
 LZGPS: 
 WeatherLive: 
 Webcams: 
@@ -1020,7 +1020,7 @@ Tags: Alps
 Name: Nebelhorn
 State: 
 Country: Germany
-LaunchGPS: 'NA'=(47.4218351, 10.3319404, 0)
+LaunchGPS: (47.4218351, 10.3319404, 0)
 LZGPS: 
 WeatherLive: 
 Webcams: 
@@ -1035,7 +1035,7 @@ Tags: Alps
 Name: Hörnerbahn
 State: 
 Country: Germany
-LaunchGPS: 'NA'=(47.4629953, 10.225159, 0)
+LaunchGPS: (47.4629953, 10.225159, 0)
 LZGPS: 
 WeatherLive: 
 Webcams: 
@@ -1081,7 +1081,7 @@ Tags: Alps
 Name: Passy
 State: 
 Country: France
-LaunchGPS: 'NA'=(45.957482, 6.4388711, 0)
+LaunchGPS: (45.957482, 6.4388711, 0)
 LZGPS: (45.9280549, 6.7246991, 1800)
 WeatherLive: 
 Webcams: 
@@ -1144,7 +1144,7 @@ Tags: Alps
 Name: Greifenburg
 State: 
 Country: Austria
-LaunchGPS: 'NA'=(46.7641004, 13.093334, 0)
+LaunchGPS: (46.7641004, 13.093334, 0)
 LZGPS: 
 WeatherLive: 
 Webcams: 
@@ -1174,7 +1174,7 @@ Tags: Alps
 Name: Kampenwand
 State: 
 Country: Germany
-LaunchGPS: 'NA'=(47.75611, 12.3563672, 0)
+LaunchGPS: (47.75611, 12.3563672, 0)
 LZGPS: 
 WeatherLive: 
 Webcams: 
@@ -1189,8 +1189,8 @@ Tags: Alps
 Name: Hochries
 State: 
 Country: Germany
-LaunchGPS: 'NA'=(47.74719957811533, 12.248415253148805, 4700)
-LZGPS: 'NA'=(47.77064514,12.2310452, 2000)
+LaunchGPS: (47.74719957811533, 12.248415253148805, 4700)
+LZGPS: (47.77064514,12.2310452, 2000)
 WeatherLive: 
 Webcams: 
 Requirements: 
@@ -1204,7 +1204,7 @@ Tags: Alps
 Name: Wallberg
 State: 
 Country: Germany
-LaunchGPS: 'NA'=(47.665875, 11.7867127, 0)
+LaunchGPS: (47.665875, 11.7867127, 0)
 LZGPS: 
 WeatherLive: 
 Webcams: 
@@ -1219,7 +1219,7 @@ Tags: Alps
 Name: Kreuzjoch, Stubai
 State: 
 Country: Germany
-LaunchGPS: 'NA'=(47.249999, 11.973033, 0)
+LaunchGPS: (47.249999, 11.973033, 0)
 LZGPS: 
 WeatherLive: 
 Webcams: 
@@ -1265,7 +1265,7 @@ Tags: Alps
 Name: Lago Maggiore
 State: 
 Country: Italy
-LaunchGPS: 'NA'=(45.9497052,8.049482, 0)
+LaunchGPS: (45.9497052,8.049482, 0)
 LZGPS: 
 WeatherLive: 
 Webcams: 
@@ -1280,7 +1280,7 @@ Tags: Alps
 Name: Fiesch
 State: 
 Country: Switzerland
-LaunchGPS: 'NA'=(46.4109111, 8.0948466, 0)
+LaunchGPS: (46.4109111, 8.0948466, 0)
 LZGPS: 
 WeatherLive: 
 Webcams: 
