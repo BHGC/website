@@ -1155,6 +1155,20 @@ OfficialURL:
 Tags: Alps
 
 
+Name: Salzburg
+State: 
+Country: Austria
+LaunchGPS: 'Gaisberg N'=(47.804334, 13.110581, 4100), 'Gaisberg E'=(47.804722, 13.113917, 4100), 'Gaisberg W'=(47.803083, 13.109750, 4100)
+LZGPS: 'Guggenthal [N of launch]'=(47.818722, 13.105000, 2034), 'Aigen [SW of launch]'=(47.781500, 13.090528, 1443)
+WindDirections: W, N, E
+WeatherLive: [Geisberg N FlyForFun](https://flyforfun.at/flugwetter/)
+Webcams: 
+ParaglidingEarthSite: 9046
+ParaglidingMap: 123169
+Requirements:
+Notes: Flyable directions: W-N-E. A (daily) membership is required to fly here. 5-day pass can be bought at the 'Gaisbergwirt'. Bus to/from launch from city center (S of main railway station), bus route 151 Mirabellplatz – Gnigl S-Bahn – Gaisbergspitze. Bus stop next to Guggenthal LZ.
+OfficialURL:
+Tags: Alps
 
 
 Name: Kampenwand
