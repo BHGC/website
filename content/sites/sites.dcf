@@ -46,8 +46,9 @@ OfficialURL: https://www.sportparagliding.com/blue-rock-vallejo-ca-paragliding
 ParaglidingEarthSite: 11342
 WindAlertSite: 'Davis Point'=100723
 WeatherUndergroundStationID: KCAVALLE53
+TempestStationID: 'Davis Point Seawind Dr'=103812
 Webcams: 'Channing West'="https://www.youtube.com/watch?v=JFkxBYPwkfY"
-SeeAlso: [Davis Point Seawind Dr](https://tempestwx.com/station/103812/), [Joel McMinn's site guide](https://docs.google.com/document/d/1AHpmCNsV1g1ad4QwXFbuvCvJKOXeBIqpS4JXx1pAJQc/preview), [FlyZephyr](http://www.flyzephyr.com/blue-rock-vallejo.html)
+SeeAlso: [Joel McMinn's site guide](https://docs.google.com/document/d/1AHpmCNsV1g1ad4QwXFbuvCvJKOXeBIqpS4JXx1pAJQc/preview), [FlyZephyr](http://www.flyzephyr.com/blue-rock-vallejo.html)
 Notes: The wind direction of the KCAVALLE53 weather station is _not_ reliable. The wind speed is only reliable in approx. WSW-WNW wind (per 2020-01-05)
 Tags: BayArea
 
@@ -198,7 +199,7 @@ LaunchGPS: (37.7139, -122.503, NA)
 LZGPS: main=(37.7139, -122.503, NA), beach=(NA, NA, NA)
 Requirements: H3
 OfficialURL: [FlyFunston.org](http://flyfunston.org)
-Webcams: 'Fort Funston'="https://www.youtube.com/watch?v=ai0WuaWyt4E", 'Clubhouse & Ropes Bldg'="https://flyfunston.org/webcams-only/"
+Webcams: 'Fort Funston'="https://www.youtube.com/watch?v=eLt-QEwVnxc", 'Clubhouse & Ropes Bldg'="https://flyfunston.org/webcams-only/"
 SeeAlso: [Web cam & winds](https://flyfunston.org/dashboard/)
 WindTalker: +1-415-333-0100 [N/A]
 Soundings: OAK
@@ -456,7 +457,7 @@ Requirements: H4/P4, H3/P3 with required skills and signoff
 Soundings: OAK
 Notes: [daily sign-in](https://wingsofrogallo.org/mission-ridge-electronic-sign-in/)
 OfficialURL: [Wings of Rogallo](https://wingsofrogallo.org/mission-ridge/)
-Webcams: 'Mission Peak NW'="http://www.alertwildfire.org/northcoast/index.html?camera=Axis-Mission1", 'Mission Peak SE'="http://www.alertwildfire.org/northcoast/index.html?camera=Axis-Mission2", 'WoR cam'="http://missioncam.wingsofrogallo.org/view/view.shtml?id=1035&imagepath=%2Fmjpg%2Fvideo.mjpg&size=1&streamprofile=MJPEG_800x450_60comp_1fps"
+Webcams: 'Mission Peak NW'="http://www.alertwildfire.org/northcoast/index.html?camera=Axis-Mission1", 'Mission Peak SE'="http://www.alertwildfire.org/northcoast/index.html?camera=Axis-Mission2", 'WoR cam'="https://missioncam.wingsofrogallo.org/view/view.shtml"
 WeatherLive: [Ed Levin 1750 Live Weather](http://windslammer.wingsofrogallo.org/WindSlammer/)
 Tags: BayArea
 
@@ -504,17 +505,18 @@ Name: The Dumps
 Nickname: Mussel Rock
 State: CA
 Country: USA
-LaunchGPS: (37.6721641,-122.4939425, 100)
-LZGPS: (37.671116, -122.494646, 50)
+LaunchGPS: (37.672728, -122.493688, 230)
+LZGPS: (37.671116, -122.494646, 117)
 Requirements: P2-P3 (non-restricted)
 Soundings: OAK
 ParaglidingEarthSite: 15523
 WindAlertSite: 'Mussel Rock'=49632, 'Mussel Rock Park (down?)'=169580
 WeatherUndergroundStationID: KCADALYC37, KCADALYC1, KCAPACIF205
+TempestStationID: 'Coyote'=40367
 Webcams: 'Mussle Rock Park'="https://www.youtube.com/watch?v=vZEINdmawdc", 'Cheetah'="https://www.youtube.com/watch?v=L6e1EEA-dQI"
 Alert: Mussel Rock site is fenced off for a few months starting 2024-04-23, because the city is doing a major cleanup of this old landfill.
 Notes: Paragliding only. _Emergency_ frequency: 147.495 MHz (as of June 2020; same as Ed Levin)
-SeeAlso: https://musselrock.app/
+SeeAlso: [Jeff Greenbaum's site guide](https://www.paragliding-lessons.com/mrsg/), https://mr.ethereal.net/, https://musselrock.app/, https://musselrockwx.com/
 WeatherLive: [Fog Today](https://fog.today/)
 Tags: BayArea
 
