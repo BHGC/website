@@ -1116,7 +1116,7 @@ State:
 Country: Austria
 LaunchGPS: 'Unterberghorn N'=(47.6317738699439, 12.431759551187062, 4500), 'Unterberghorn W'=(47.631122892304866, 12.430892347135055, 4500), 'Top W'=(47.62454047333089, 12.43588768463127, 5500), 'Top N'=(47.625991521327684, 12.436154649375789, 5400)
 LZGPS: 'next to lift'=(47.65344964330961, 12.422582116322344, 1800), 'Flight Bar [landing fee]'=(47.65658119940837, 12.420321245484233, 1800)
-WeatherLive: 
+WeatherLive: [Weather at surrounding locations](https://www.zamg.ac.at/cms/de/wetter/wetterwerte-analysen/tirol)
 Webcams: 'Unterberghorn'="https://webtv.feratel.com/webtv/?cam=5610", 'launch peak'="https://webtv.feratel.com/webtv/?cam=5613", 'LZ'="https://webtv.feratel.com/webtv/?cam=5611"
 ParaglidingEarthSite: 22503
 ParaglidingMap: 166087
