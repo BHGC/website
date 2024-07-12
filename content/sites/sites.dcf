@@ -1190,15 +1190,17 @@ Tags: Alps
 Name: Greifenburg
 State: 
 Country: Austria
-LaunchGPS: (46.7641004, 13.093334, 0)
+LaunchGPS: (46.7641004, 13.093334, 5700)
 LZGPS: 
 WeatherLive: 
 Webcams: 
 Requirements: 
-Notes: 
+Notes: [DHV](https://www.dhv.de/db2/details.php?qi=glp_details&item=1305), [Paragling/Hang gliding at Elmberger Alm](https://www.embergeralm.info/paragleiten-drachenfliegen_D.html), [Cross Country Guide to Greifenburg (2014)](https://xcmag.com/travel-guide/guide-to-greifenburg-austria/?v=79cba1185463)
 SeeAlso: 
 OfficialURL:
 Tags: Alps
+
+
 
 
 Name: Salzburg
