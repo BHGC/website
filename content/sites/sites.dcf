@@ -1145,11 +1145,12 @@ Tags: Alps
 
 
 Name: Werfenweng
+Nickname: Bischling
 State: 
 Country: Austria
 LaunchGPS: 'Bischlinghöhe W'=(47.462312725070554, 13.297375745103311, 5900), 'Bischlinghöhe E'=(47.46328979011767, 13.298839926738623, 5900), 'Bischlinghöhe S'=(47.462243747733105, 13.298171474503118, 5900)
 LZGPS: (47.45906045194038, 13.269975832105358, 3000)
-WeatherLive: https://attractive-winds.app/myBischling/
+WeatherLive: [Bischling peak](https://holfuy.com/en/data/1862), [Bischling LZ](https://holfuy.com/en/data/1863), https://attractive-winds.app/myBischling/
 Webcams: 
 Requirements: 
 Notes: 
@@ -1158,6 +1159,18 @@ OfficialURL:
 Tags: Alps
 
 
+Name: Fulseck, Dorfgastain (Gastain Valley)
+Country: Austria
+LaunchGPS: (47.234487, 13.148242, 6000)
+LZGPS: (47.2249, 13.1087, 2700)
+ParaglidingMap: 123183, 123185
+ParaglidingEarthSite: 9028
+WeatherLive: 
+Requirements:
+Notes: Main LZ to gondola is about 15-min walk. The [gondola](https://www.skigastein.com/en/) and lift cables must be overflown with a safety of at least 100m. There are special [PG/HG lift tickets](https://www.skigastein.com/en/tickets-operating-hours/summer-tickets/paragliding-hang-gliding/). [Gondola parking](https://www.google.com/maps/preview?t=h&q=47.2434,13.1087).
+SeeAlso:
+OfficialURL: 
+Tags: Alps
 
 Name: Greifenburg
 State: 
