@@ -1172,6 +1172,21 @@ SeeAlso:
 OfficialURL: 
 Tags: Alps
 
+
+Name: Zwölferhorn
+State: 
+Country: Austria
+LaunchGPS: (47.7458792, 13.348513, 4900)
+LZGPS: (47.7673639, 13.3582778, 2000)
+WeatherLive: [Zwölferhorn StGilgen](https://holfuy.com/en/weather/854)
+Webcams: 
+Requirements: 
+Notes: [DHV](https://www.dhv.de/db2/details.php?qi=glp_details&item=1424), 5 EUR/day
+SeeAlso: 
+OfficialURL: https://www.paragliding-zwoelferhorn.at/
+Tags: Alps
+
+
 Name: Greifenburg
 State: 
 Country: Austria
