@@ -1193,11 +1193,11 @@ Nickname: Emberger Alm
 State: 
 Country: Austria
 LaunchGPS: 'SW Emberger Alm'=(46.7727874, 13.1494648, 5600), 'SO Emberger Alm'=(46.7767, 13.150, 6100)
-LZGPS: "Oberes Drautal Air Camp [power lines!]"=(46.7465931, 13.1918521, 2000)
+LZGPS: "Oberes Drautal Air Camp [power lines!]"=(46.7465931, 13.1918521, 2000), "Greifenburg Pobersach"=(46.7420, 13.2006, NA)
 WeatherLive: 
 Webcams: 
 Requirements: 
-Notes: [DHV](https://www.dhv.de/db2/details.php?qi=glp_details&item=1305), [Paragling/Hang gliding at Elmberger Alm](https://www.embergeralm.info/paragleiten-drachenfliegen_D.html), [Cross Country Guide to Greifenburg (2014)](https://xcmag.com/travel-guide/guide-to-greifenburg-austria/?v=79cba1185463)
+Notes: [Meteo Parapente](https://meteo-parapente.com/#/Ober%C3%B6sterreich/Greifenberg/48.3871,14.4589,11), [DHV](https://www.dhv.de/db2/details.php?qi=glp_details&item=1305), [Paragling/Hang gliding at Elmberger Alm](https://www.embergeralm.info/paragleiten-drachenfliegen_D.html), [Cross Country Guide to Greifenburg (2014)](https://xcmag.com/travel-guide/guide-to-greifenburg-austria/?v=79cba1185463)
 SeeAlso: 
 OfficialURL:
 Tags: Alps, Austria
