@@ -166,7 +166,7 @@ gmap_url_md <- function(gps, digits = 4L, ...) {
   url <- sprintf("https://maps.google.com/maps/preview?t=h&q=%s,%s", lat, long)
   md <- sprintf("[(%s,%s)](%s)", lat, long, url)
   if (!is.na(msl)) {
-    md <- sprintf("%s @ %d' MSL", md, msl);
+    md <- sprintf("%s @ %.fm = %dft MSL", md, 0.3048*msl, msl);
   }
   md
 }
