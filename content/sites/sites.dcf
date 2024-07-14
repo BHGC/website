@@ -1124,7 +1124,8 @@ Requirements:
 Notes: [Lift tickets](https://skisport.com/Hochkoessen/en/Tickets-and-Passes/Summer-Lift-Tickets) are bought at the lift. A five-ride clip card costs the same as a three-day ticket, but you can refill it for 5 EUR per ride, it is valid for many years, and multiple people can go up together on one card. Paraglider pilots ride down for free with the lift, if they don't feel safe to fly. One trip and one-day tickets are also sold at the Flight Bar.  The Flight Bar LZ has a landing fee (unless you buy their lift tickets or have their AXA insurance).  Wind: The [Unterberghorn webcam](https://webtv.feratel.com/webtv/?cam=5610) shows two wind socks, but look also at the trees. The meassured wind presented on the webcam is from the very top. There can be valley winds from the north and the west.
 SeeAlso: [ParaglidingMap](https://www.paraglidingmap.com/app/site/166087) 
 OfficialURL:
-Tags: Alps
+Tags: Alps, Austria
+
 
 
 
@@ -1140,7 +1141,7 @@ Requirements:
 Notes: 
 SeeAlso: 
 OfficialURL:
-Tags: Alps
+Tags: Alps, Austria
 
 
 
@@ -1156,7 +1157,7 @@ Requirements:
 Notes: 
 SeeAlso: 
 OfficialURL:
-Tags: Alps
+Tags: Alps, Austria
 
 
 Name: Fulseck, Dorfgastain (Gastain Valley)
@@ -1170,7 +1171,7 @@ Requirements:
 Notes: Main LZ to gondola is about 15-min walk. The [gondola](https://www.skigastein.com/en/) and lift cables must be overflown with a safety of at least 100m. There are special [PG/HG lift tickets](https://www.skigastein.com/en/tickets-operating-hours/summer-tickets/paragliding-hang-gliding/). [Gondola parking](https://www.google.com/maps/preview?t=h&q=47.2434,13.1087).
 SeeAlso:
 OfficialURL: 
-Tags: Alps
+Tags: Alps, Austria
 
 
 Name: Zwölferhorn
@@ -1184,21 +1185,22 @@ Requirements:
 Notes: [DHV](https://www.dhv.de/db2/details.php?qi=glp_details&item=1424), 5 EUR/day
 SeeAlso: 
 OfficialURL: https://www.paragliding-zwoelferhorn.at/
-Tags: Alps
+Tags: Alps, Austria
 
 
 Name: Greifenburg
+Nickname: Emberger Alm
 State: 
 Country: Austria
-LaunchGPS: (46.7641004, 13.093334, 5700)
-LZGPS: 
+LaunchGPS: 'SW Emberger Alm'=(46.7727874, 13.1494648, 5600), 'SO Emberger Alm'=(46.7767, 13.150, 6100)
+LZGPS: "Oberes Drautal Air Camp [power lines!]"=(46.7465931, 13.1918521, 2000)
 WeatherLive: 
 Webcams: 
 Requirements: 
 Notes: [DHV](https://www.dhv.de/db2/details.php?qi=glp_details&item=1305), [Paragling/Hang gliding at Elmberger Alm](https://www.embergeralm.info/paragleiten-drachenfliegen_D.html), [Cross Country Guide to Greifenburg (2014)](https://xcmag.com/travel-guide/guide-to-greifenburg-austria/?v=79cba1185463)
 SeeAlso: 
 OfficialURL:
-Tags: Alps
+Tags: Alps, Austria
 
 
 
@@ -1216,8 +1218,7 @@ ParaglidingMap: 123169
 Requirements:
 Notes: Flyable directions: W-N-E. A (daily) membership is required to fly here. 5-day pass can be bought at the 'Gaisbergwirt'. [Bus 151](https://www.salzburg-ag.at/bus-bahn/freizeit-tourismus/gaisbergbus.html)/[Bus 151](https://salzburg-verkehr.at/downloads/stadtbus-151-haltestellenfahrplaene-fahrtrichtung-salzburg-mirabellplatz-%E2%87%92-gaisbergspitze/) to/from launch from city center (S of main railway station) every 90 minutes: [Mirabellplatz](https://maps.app.goo.gl/d5Bxk61yNadSru4i9) –> Gnigl S-Bahn –> [Gaisbergspitze](https://maps.app.goo.gl/HoCqc7x5RmtJmmYN8)/[Guggenthal LZ](https://maps.app.goo.gl/kFwcj49JJtK1XZAE6). See [Salzburg Verkehr](https://fahrplan.salzburg-verkehr.at/?language=en_GB&P=TP&SID=A%3D1%40O%3DSalzburg%20Hofwirt%40X%3D13049667%40Y%3D47804778%40U%3D81%40L%3D455000400%40B%3D1%40p%3D1720300402%40i%3DA%C3%97at%3A45%3A50004%40&ZID=A%3D1%40O%3DGaisberg%20%28Salzburg%29%20Gaisbergspitze%40X%3D13111306%40Y%3D47803574%40U%3D81%40L%3D455040700%40B%3D1%40p%3D1720300402%40i%3DA%C3%97at%3A45%3A50407%40&start=yes&widget=1.0.0&) for timetable, router map, and tickets. 2024 departure times: 09.35, 10.20\*, 11.05, 11.50\*, 12.35, 13.20\*, 14.05, 14.50\*, 15.35, 16.20\*, 17.05, 18.35 (\*) Only Saturday-Sunday.
 OfficialURL:
-Tags: Alps
-
+Tags: Alps, Austria
 
 Name: Kampenwand
 State: 
