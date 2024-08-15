@@ -45,7 +45,7 @@ To get in from this waitlist, make sure to attend the ground school
 
 <% } else if (phase == "closed") { %>
 
-## Next chance to join the club is fall 2024, details TBD
+## Next chance to join the club is fall 2025, details TBD
 
 Signup happens once a year, typically in early September (after the Labor Day weekend), and only in person.  
 
