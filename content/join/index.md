@@ -14,7 +14,7 @@ If you want to **learn to hang glide this academic year (2024/2025)**, here are 
   Come to our introduction, talk to pilots and flying students, watch some flying videos, get all your questions answered and sign up.  **You have to sign up in person and at this event.**  Due to popularity it is likely there is a lottery, but you'll know when you walk home. **DON'T MISS IT!**
 
 <small>
-<em>Last updated: August 15, 2024 @ 5:15pm</em>
+<em>Last updated: September 4, 2024 @ 8:25pm</em>
 </small>
 <% } else if (phase == "closing") { %>
 
