@@ -70,7 +70,7 @@ jobs:
 
       - name: Upload build results
         if: failure()
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: ${{ runner.os }}-build-results
           path: check
