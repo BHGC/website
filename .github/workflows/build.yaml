@@ -53,7 +53,8 @@ jobs:
           bhgc.website::build()
         shell: Rscript {0}
 
-      - name: Publish
+      - name: Publish (master branch only)
+        if: github.ref_name == 'master'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -74,4 +75,3 @@ jobs:
         with:
           name: ${{ runner.os }}-build-results
           path: check
-    
