@@ -466,7 +466,7 @@ Name: Mount Diablo
 State: CA
 Country: USA
 LaunchGPS: 'Juniper/south-west'=(37.877870, -121.934436, NA), 'west'=(37.879985, -121.919794, NA), 'The Towers/north'=(37.882018, -121.919003, NA)
-LZGPS: '1000ft LZ'=(37.875580, -121.964653), 'Machedo Ranch'=(37.863056, -121.977188), 'Mitchell Canyon'=(37.923267, -121.941352)
+LZGPS: '1000ft LZ'=(37.875580, -121.964653), 'Machedo Ranch'=(37.863056, -121.977188), 'Mitchell Canyon'=(37.923267, -121.941352), 'Blake's LZ'=(37.922607, -121.995781), 'Lime Ridge LZ'=(37.939301, -122.006049)
 Requirements: H4
 Soundings: OAK
 SeeAlso: [Wings of Rogallo](https://wingsofrogallo.org/mt-diablo/)
