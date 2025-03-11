@@ -465,8 +465,8 @@ Tags: BayArea
 Name: Mount Diablo
 State: CA
 Country: USA
-LaunchGPS: 'Juniper/south-west'=(37.877870, -121.934436, NA), 'west'=(37.879985, -121.919794, NA), 'The Towers/north'=(37.882018, -121.919003, NA)
-LZGPS: '1000ft LZ'=(37.875580, -121.964653), 'Machedo Ranch'=(37.863056, -121.977188), 'Mitchell Canyon'=(37.923267, -121.941352), "Blake's LZ"=(37.922607, -121.995781), 'Lime Ridge LZ'=(37.939301, -122.006049)
+LaunchGPS: 'Juniper/south-west'=(37.877870, -121.934436, 2880), 'west'=(37.879985, -121.919794, NA), 'The Towers/north'=(37.882018, -121.919003, 3600), 'South Launch'=(37.878612, -121.920345, 3575)
+LZGPS: '1000ft LZ'=(37.875580, -121.964653, 1000), 'Machedo Ranch'=(37.863056, -121.977188, 670), 'Mitchell Canyon'=(37.923267, -121.941352, 580), "Blake's LZ"=(37.922607, -121.995781, 400), 'Lime Ridge LZ'=(37.939301, -122.006049, 170), 'Plateau LZ'=(37.925618, -121.937300, 610)
 Requirements: H4
 Soundings: OAK
 Notes: [daily sign-in](https://wingsofrogallo.org/mt-diablo-electronic-sign-in/)
