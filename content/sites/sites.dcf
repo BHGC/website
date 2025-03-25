@@ -160,7 +160,7 @@ Requirements: H0-H3, P0-P3
 SiteSticker: [Wings of Rogallo](https://www.wingsofrogallo.org/)
 OfficialURL: [Wings of Rogallo](https://wingsofrogallo.org/ed-levin/)
 WindTalker: +1-408-946-9516
-WeatherLive: [Ed Levin 1750 Live Weather](http://windslammer.wingsofrogallo.org/WindSlammer/), [Benlo.com](http://www.benlo.com/pg/edlevin.html)
+WeatherLive: [Ed Levin 1750 Live Weather](http://windslammer.wingsofrogallo.org/WindSlammer/), [Benlo.com](http://www.benlo.com/pg/edlevin.html), [Windalert.com](https://windalert.com/spot/529012)
 Webcams: '1750'="https://www.youtube.com/channel/UCNLH3taW6_MpeSymek4acZg"
 Soundings: OAK
 SeeAlso: Road conditions: [Santa Clara County Parks](https://www.sccgov.org/sites/parks/Pages/Closures.aspx), [408-355-2200](tel:+1-408-355-2200) (menu 4 menu 6)
@@ -458,7 +458,7 @@ Soundings: OAK
 Notes: [daily sign-in](https://wingsofrogallo.org/mission-ridge-electronic-sign-in/)
 OfficialURL: [Wings of Rogallo](https://wingsofrogallo.org/mission-ridge/)
 Webcams: 'Mission Peak NW'="http://www.alertwildfire.org/northcoast/index.html?camera=Axis-Mission1", 'Mission Peak SE'="http://www.alertwildfire.org/northcoast/index.html?camera=Axis-Mission2", 'WoR cam'="https://missioncam.wingsofrogallo.org/view/view.shtml"
-WeatherLive: [Ed Levin 1750 Live Weather](http://windslammer.wingsofrogallo.org/WindSlammer/)
+WeatherLive: [Ed Levin 1750 Live Weather](http://windslammer.wingsofrogallo.org/WindSlammer/), [Windalert.com](https://windalert.com/spot/198300)
 Tags: BayArea
 
 
@@ -469,6 +469,7 @@ LaunchGPS: 'Juniper/south-west'=(37.877870, -121.934436, 2880), 'west'=(37.87998
 LZGPS: '1000ft LZ'=(37.875580, -121.964653, 1000), 'Machedo Ranch'=(37.863056, -121.977188, 670), 'Mitchell Canyon'=(37.923267, -121.941352, 580), "Blake's LZ"=(37.922607, -121.995781, 400), 'Lime Ridge LZ'=(37.939301, -122.006049, 170), 'Plateau LZ'=(37.925618, -121.937300, 610)
 Requirements: H4
 Soundings: OAK
+WeatherLive: [Windalert.com](https://windalert.com/spot/619272), [Windalert.com](https://windalert.com/spot/645587)
 Notes: [daily sign-in](https://wingsofrogallo.org/mt-diablo-electronic-sign-in/)
 SeeAlso: [Wings of Rogallo](https://wingsofrogallo.org/mt-diablo/)
 Tags: BayArea
