@@ -1,7 +1,7 @@
 # Join the club <span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
 
 <%
-phase <- c("open", "closing", "closed")[0]
+phase <- c("open", "closing", "closed")[1]
 %>
 <% if (phase == "open") { %>
 
