@@ -7,6 +7,7 @@ phase <- c("open", "closing", "closed")[1]
 
 If you want to **learn to hang glide this academic year (2025/2026)**, here are the dates for our intro events:
 
+* Thurs Sept 11 @ 12-3pm: Chat with active hang gliding students and pilots. Meet us at Sproul Plaza / Sather Gate on UC Berkeley campus (south side). Look for the hang glider.
 * Tues Sept 16 @ 12-3pm: Chat with active hang gliding students and pilots. Meet us at Sproul Plaza / Sather Gate on UC Berkeley campus (south side). Look for the hang glider.
 * Wed Sept 17 @ 12-3pm: Chat with active hang gliding students and pilots. Meet us at Sproul Plaza / Sather Gate on UC Berkeley campus (south side). Look for the hang glider.
 * **Wed Sept 17 @ 8:00pm**, Room TBD, UC Berkeley: **SIGNUP MEETING.**
