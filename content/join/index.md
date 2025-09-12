@@ -10,7 +10,7 @@ If you want to **learn to hang glide this academic year (2025/2026)**, here are 
 * Thurs Sept 11 @ 12-3pm: Chat with active hang gliding students and pilots. Meet us at Sproul Plaza / Sather Gate on UC Berkeley campus (south side). Look for the hang glider.
 * Tues Sept 16 @ 12-3pm: Chat with active hang gliding students and pilots. Meet us at Sproul Plaza / Sather Gate on UC Berkeley campus (south side). Look for the hang glider.
 * Wed Sept 17 @ 12-3pm: Chat with active hang gliding students and pilots. Meet us at Sproul Plaza / Sather Gate on UC Berkeley campus (south side). Look for the hang glider.
-* **Wed Sept 17 @ 8:00pm**, Room TBD, UC Berkeley: **SIGNUP MEETING.**
+* **Wed Sept 17 @ 8:00pm**, Hearst Memorial Mining Building Room 390, UC Berkeley: **SIGNUP MEETING.**
     
   Come to our introduction, talk to pilots and flying students, watch some flying videos, get all your questions answered and sign up.  **You have to sign up in person and at this event.**  Due to popularity it is likely there is a lottery, but you'll know when you walk home. **DON'T MISS IT!**
 
