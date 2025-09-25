@@ -21,7 +21,7 @@ If you want to **learn to hang glide this academic year (2025/2026)**, here are 
 
 **Mandatory** for students who get in:
 
-* **Wed September 24 8-9pm, October 1, ... @ 8:00-9:00pm**: 262 Dwinelle Hall, UC Berkeley, Weekly Ground School (theory)
+* **Wed September 24 8-9pm, October 1 - December 3 (excluding November 26) 7-8pm**: 262 Dwinelle Hall, UC Berkeley, Weekly Ground School (theory)
 
 * **Sat-Sun September 27-28 & October 4-5 & October 11-12 (early am-mid pm)**: The first three training weekends (all weather dependent)
 
