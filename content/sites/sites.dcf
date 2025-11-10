@@ -48,7 +48,7 @@ WindAlertSite: 'Davis Point'=100723
 WeatherUndergroundStationID: KCAVALLE53
 TempestStationID: 'Davis Point Seawind Dr'=103812
 Webcams: 'Channing West'="https://www.youtube.com/watch?v=JFkxBYPwkfY"
-SeeAlso: [Joel McMinn's site guide](https://docs.google.com/document/d/1AHpmCNsV1g1ad4QwXFbuvCvJKOXeBIqpS4JXx1pAJQc/preview), [FlyZephyr](http://www.flyzephyr.com/blue-rock-vallejo.html)
+SeeAlso: [Joel McMinn's site guide](https://docs.google.com/document/d/1AHpmCNsV1g1ad4QwXFbuvCvJKOXeBIqpS4JXx1pAJQc/preview)
 Notes: The wind direction of the KCAVALLE53 weather station is _not_ reliable. The wind speed is only reliable in approx. WSW-WNW wind (per 2020-01-05)
 Tags: BayArea
 
@@ -132,7 +132,6 @@ Requirements: H3/P3, H2/P2 w/ instructor
 SiteSticker: yes (private launch/LZ)
 OfficialURL: [Dunlap Flying Club](https://www.facebook.com/DuPHaSS/)
 ParaglidingEarthSite: 7007
-SeeAlso: [FlyZephyr](http://www.flyzephyr.com/dunlap.html)
 Notes: A good first mountain site. (After being closed since 2017-11-30, Dunlap was reopened on 2018-09-28 by its new owner Tim Fleming.)
 
 
@@ -175,7 +174,7 @@ LaunchGPS: 'south'=(39.277, -122.941, 4000), 'north'= (39.276414, -122.943531, 4
 LZGPS: 'main'=(39.251339, -122.950443, 1500), 'alternate'=(39.248226, -122.950779, 1500)
 Requirements: Unregulated. H3, H2 w/ instructor recommended
 WindDirections: 'southLaunch'=SSW, 'northLaunch'=NW
-SeeAlso: [Sonoma Wings](http://sonomawings.com/site-guides/elk-mountain/), [FlyZephyr](http://www.flyzephyr.com/elk-mountain.html)
+SeeAlso: [Sonoma Wings](http://sonomawings.com/site-guides/elk-mountain/)
 ParaglidingEarthSite: 6695
 Notes: 4x4 required for launch road.  Beware the power line in the alternate LZ
 Tags: Mendocino
@@ -281,7 +280,6 @@ LZGPS: '#1/bailout'=(40.838544, -121.438413, 3484), '#2/main'=(40.840963, -121.4
 Requirements: H3, H2 w/ mentor
 ParaglidingEarthSite: 7005
 Notes: A good first mountain site.
-SeeAlso: [FlyZephyr](http://www.flyzephyr.com/hat-creek-rim.html)
 Tags: Lakeview
 
 
@@ -599,7 +597,6 @@ SiteSticker:
 OfficialURL: 
 ParaglidingEarthSite: 6694
 Notes: Mostly a PG site
-SeeAlso: [FlyZephyr](http://www.flyzephyr.com/potato-hill.html)
 Tags: Mendocino
 
 
@@ -636,7 +633,7 @@ LZGPS: (39.308908, -119.822940, 5100)
 Requirements: Unregulated. H3, H2 w/ instructor recommended.
 WindDirections: E, SE
 Notes: good first mountain.  Beware wind over the back.
-SeeAlso: https://paraglidingweatherreno.com/, [HangGliding.org](https://www.hanggliding.org/wiki/Slide_Mountain), [FlyZephyr](http://www.flyzephyr.com/slide-mountain.html)
+SeeAlso: https://paraglidingweatherreno.com/, [HangGliding.org](https://www.hanggliding.org/wiki/Slide_Mountain)
 Tags: SierraNevada, LakeTahoe-RenoArea
 
 
@@ -704,7 +701,6 @@ Requirements: H3/P3 (H2/P2 w/ instructor under appropriate conditions)
 OfficialURL: [Central California Hang Gliding & Paragliding Club](http://www.cchpc.club/)
 ParaglidingEarthSite: 7174
 Notes: You will need to sign a waiver and pay the day-use fee
-SeeAlso: [FlyZephyr](http://www.flyzephyr.com/tollhouse.html)
 
 
 Name: Peckinpah Mountain
