@@ -490,13 +490,13 @@ LaunchGPS: A=(37.907607, -122.619097, 2050), B=(37.911167, -122.624422, 1950), C
 LZGPS: 'public beach'=(37.902664, -122.653185, 0)
 Requirements: H3/P3 with MCHGA sticker. H2 w/ club-approved instructor.
 SiteSticker: [MCHGA](http://www.mchga.org/)
+Notes: [daily sign-in](http://www.mchga.org/signin/)
 OfficialURL: [Marin County Hang Gliding Association (MCHGA)](http://www.mchga.org/site.shtml)
 WeatherLive: [NWS Forecast Discussion](https://forecast.weather.gov/product.php?site=MTR&issuedby=MTR&product=AFD&format=TXT&version=1&glossary=1)
 WindTalker: Mt. Tamalpais=+1-415-381-9463 [N/A]
 WeatherUndergroundStationID: KCASTINS13, KCASTINS20
 Soundings: OAK
 SeeAlso: [BHGC's Tam page](https://bhgc.org/sites/tam/index.html)
-Notes: [daily sign-in](https://docs.google.com/forms/d/e/1FAIpQLSfDZ74xtYCyk_irlDeCYV8Lk-v48LValAdtvKPJMdY0VLYxcw/viewform)
 Webcams: 'Alert CA'="https://alertca.live/cam-console/1843", 'Bolinas'="http://www.alertwildfire.org/northcoast/index.html?camera=Axis-Bolinas", 'Muir Beach'="http://www.alertwildfire.org/northcoast/index.html?camera=Axis-MuirBeach", 'Mt. Tamalpais West'="http://www.alertwildfire.org/northcoast/index.html?camera=Axis-TamWest"
 WeatherLive: [Middle Peak Wind](https://www.weather.gov/wrh/timeseries?site=MDEC1), [SF Buoy](https://www.ndbc.noaa.gov/station_page.php?station=46026), [Bodega Buoy](https://www.ndbc.noaa.gov/station_page.php?station=46013), [Fog Today](https://fog.today/), [tide](https://tidesandcurrents.noaa.gov/waterlevels.html?id=9415020&units=standard&timezone=LST/LDT&datum=MSL&interval=6&action=)
 Tags: BayArea
