@@ -1,7 +1,7 @@
 # Join the club <span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
 
 <%
-phase <- c("open", "closing", "closed")[2]
+phase <- c("open", "closing", "closed")[3]
 %>
 <% if (phase == "open") { %>
 
@@ -46,22 +46,29 @@ To get in from this waitlist, make sure to attend the ground school
 
 <% } else if (phase == "closed") { %>
 
-## Next chance to join the club is fall 2025, details TBD
+## Next chance to join the club is fall 2026, details TBD
 
-Signup happens once a year, typically in early September (after the Labor Day weekend), and only in person.  
+Signup happens once a year, typically in mid/late September (after the Labor Day weekend), and only in person. Dates will be posted once finalized, typically late Aug.
 
 As a rough guide, see previous years below (note that the Spring 2018
 lesson set was an exception). See also the [About] page.
 
 
 <small>
-<em>Last updated: September 27, 2023</em>
+<em>Last updated: July 20, 2026</em>
 </small>
 <% } %>
 
 
 
 ## Previous years
+
+### Signup dates 2025
+
+* Thurs Sept 11 @ 12-3pm: Chat with active hang gliding students and pilots. Meet us at Sproul Plaza / Sather Gate on UC Berkeley campus (south side). Look for the hang glider.
+* Tues Sept 16 @ 1:30-5pm: Chat with active hang gliding students and pilots. Meet us at Sproul Plaza / Sather Gate on UC Berkeley campus (south side). Look for the hang glider.
+* Wed Sept 17 @ 12-5pm: Chat with active hang gliding students and pilots. Meet us at Sproul Plaza / Sather Gate on UC Berkeley campus (south side). Look for the hang glider.
+* **Wed Sept 17 @ 8:00pm**, Hearst Memorial Mining Building Room 390, UC Berkeley: **SIGNUP MEETING.**
 
 ### Signup dates 2024
 
