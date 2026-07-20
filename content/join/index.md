@@ -1,9 +1,10 @@
 # Join the club <span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
 
-<%
 phase <- c("open", "closing", "closed")[2]
-%>
-<% if (phase == "open") { %>
+
+phase = "open"
+
+if (phase == "open") {
 
 If you want to **learn to hang glide this academic year (2025/2026)**, here are the dates for our intro events:
 
@@ -42,9 +43,8 @@ People on the waitlist has also been informed.
 There is usually some turnover early on.
 To get in from this waitlist, make sure to attend the ground school
 (see [front page]).
---%>
-
-<% } else if (phase == "closed") { %>
+--
+} else if (phase == "closed") {
 
 ## Next chance to join the club is fall 2025, details TBD
 
@@ -57,7 +57,7 @@ lesson set was an exception). See also the [About] page.
 <small>
 <em>Last updated: September 27, 2023</em>
 </small>
-<% } %>
+ }
 
 
 
