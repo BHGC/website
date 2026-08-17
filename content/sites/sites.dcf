@@ -89,7 +89,7 @@ Tags: BayArea
 Name: Copper Mountain
 State: CA
 Country: USA
-LaunchGPS: 'E Launch'=(38.048889, -119.195437, 9200), 'SE Launch/KM Launch'=(38.042352, -119.190552, 9000)
+LaunchGPS: 'Upper E Launch'=(38.048889, -119.195437, 9200), 'SE Launch/KM Launch'=(38.042352, -119.190552, 9000), 'Alt Upper E Launch'=(38.042829259076015, -119.1944960990749, 9400)
 LZGPS: 'Barn LZ'=(38.069492,-119.159581, 6900), 'Power Plant Bailout'=(38.045164, -119.174000, 7000), 'Green Field LZ'=(38.060562, -119.161887, 6800)
 Requirements: Unregulated.  H3, H2 w/ instructor recommended
 SeeAlso: 
