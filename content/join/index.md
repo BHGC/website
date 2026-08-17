@@ -46,7 +46,7 @@ To get in from this waitlist, make sure to attend the ground school
 
 <% } else if (phase == "closed") { %>
 
-## Next chance to join the club is Sept 16, 2026, time/location TBD
+## Next chance to join the club is Wed, Sept 16, 2026, time/location TBD
 
 Signups happen once a year and only in person.
 <%-- Signup happens once a year, typically in mid/late September (after the Labor Day weekend), and only in person. Dates will be posted once finalized, typically late Aug. --%>
