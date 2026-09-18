@@ -28,7 +28,7 @@ If you want to **learn to hang glide this academic year (2026/2027)**, here are 
 ## To the unlucky ones
 
 We thank everyone who came to the signup meeting.
-As of September 17, 2025, we have selected new students using a lottery
+As of September 17, 2026, we have selected new students using a lottery
 system.
 <%-- Students who were selected have already been informed.
 As usual there was some turnover early on and a few people on the waitlist
