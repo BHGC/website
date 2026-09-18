@@ -1,7 +1,7 @@
 # Join the club <span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
 
 <%
-phase <- c("open", "closing", "closed")[1]
+phase <- c("open", "closing", "closed")[2]
 %>
 <% if (phase == "open") { %>
 
@@ -21,9 +21,9 @@ If you want to **learn to hang glide this academic year (2026/2027)**, here are 
 
 **Mandatory** for students who get in:
 
-* **Wed September 24 8-9pm, October 1 - December 3 (excluding November 26) 7-8pm**: 262 Dwinelle Hall, UC Berkeley, Weekly Ground School (theory)
+* **Wed September 23 8-9pm, September 30 - December 2 (excluding November 25) 7-8pm**: 179 Dwinelle Hall, UC Berkeley, Weekly Ground School (theory)
 
-* **Sat-Sun September 27-28 & October 4-5 & October 11-12 (early am-mid pm)**: The first three training weekends (all weather dependent)
+* **Sat-Sun September 26-27 & October 3-4 & October 10-11 (early am-mid pm)**: The first three training weekends (all weather dependent)
 
 ## To the unlucky ones
 
@@ -37,7 +37,7 @@ join from now on. --%>
 
 Those who were not lucky at the lottery had the option to sign up to
 be on the waitlist in case any students drop out.
-People on the waitlist has also been informed.
+
 <%--
 There is usually some turnover early on.
 To get in from this waitlist, make sure to attend the ground school
